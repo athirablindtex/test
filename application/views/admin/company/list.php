@@ -4,97 +4,8 @@
    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
    <style>
-    /* Modal */
-.modal-content {
-    border-radius: 14px;
-    padding: 20px 15px;
-}
 
-/* Section title */
-.section-title {
-    font-size: 13px;
-    font-weight: 600;
-    color: #555;
-    margin: 20px 0 10px;
-    display: flex;
-    align-items: center;
-}
-.section-title::before {
-    content: "";
-    width: 4px;
-    height: 14px;
-    background: #6c5ce7;
-    margin-right: 8px;
-    border-radius: 2px;
-}
 
-/* Input box style */
-.form-group-default {
-    border: 1px solid #e3e6ea !important;
-    border-radius: 10px !important;
-    padding: 8px 12px !important;
-    background: #fff;
-    transition: 0.2s;
-}
-
-.form-group-default:hover {
-    border-color: #6c5ce7 !important;
-}
-
-.form-group-default label {
-    font-size: 11px;
-    color: #888;
-    margin-bottom: 2px;
-}
-
-.form-group-default input,
-.form-group-default select,
-.form-group-default textarea {
-    border: none !important;
-    background: transparent !important;
-    height: 34px;
-    font-size: 13px;
-    padding: 0;
-}
-
-/* Fix textarea */
-textarea.form-control {
-    height: auto !important;
-}
-
-/* Reduce spacing */
-.row > div {
-    margin-bottom: 12px;
-}
-
-/* Logo */
-.img-upload-preview {
-    border: 2px solid #eee;
-    border-radius: 50%;
-    padding: 4px;
-}
-
-/* Custom upload button */
-.custom-upload {
-    display: inline-block;
-    padding: 6px 14px;
-    border-radius: 20px;
-    background: #f1f3f5;
-    font-size: 12px;
-    cursor: pointer;
-    margin-top: 8px;
-}
-
-/* Buttons */
-.modal-footer .btn-primary {
-    background: #6c5ce7;
-    border: none;
-    border-radius: 8px;
-}
-
-.modal-footer .btn-secondary {
-    border-radius: 8px;
-}
    </style>
    <div class="content">
       <div class="page-inner">
@@ -114,153 +25,191 @@ textarea.form-control {
                   </div>
                   <div class="card-body">
                      <!-- Modal -->
-                     <div class="modal fade" id="addRowModal" tabindex="-1" role="dialog" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                           <div class="modal-content">
-                              <div class="modal-header no-bd">
-                                 <h5 class="modal-title">
-                                    <span class="fw-mediumbold">
-                                       New</span>
-                                    <span class="fw-light">
-                                       Company
-                                    </span>
-                                 </h5>
-                                 <button type="button" class="close close-model" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                 </button>
-                              </div>
-                              <div class="modal-body">
-                                 <form action="" method="post" enctype="multipart/form-data" id="fm_form_data" onsubmit="return(validate_form());">
-                                    <div class="row">
+                   <div class="modal fade" id="addRowModal" tabindex="-1">
+   <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
 
-                                       <!-- LOGO -->
-                                       <div class="col-md-12 text-center mb-3">
-                                          <img class="img-upload-preview img-circle" width="90" height="90" id="image-label"
-                                             src="<?= is_file('uploads/users/' . @$res->image) ? base_url() . 'uploads/users/' . @$res->image : base_url() . 'uploads/placeholder/image1.png'; ?>">
+         <!-- HEADER -->
+         <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold">New Company</h5>
+            <button type="button" class="btn-close close-model"></button>
+         </div>
 
-                                          <br>
-                                          <input type="file" id="uploadImg1" name="image" class="mt-2">
-                                       </div>
+         <!-- BODY -->
+         <div class="modal-body pt-2">
+            <form action="" method="post" enctype="multipart/form-data" id="fm_form_data">
 
-                                       <!-- BASIC -->
-                                       <div class="col-md-6">
-                                          <div class="form-group form-group-default">
-                                             <label>Name</label>
-                                             <input type="text" name="name" class="form-control"
-                                                value="<?= @$res->name ?>" required>
-                                          </div>
-                                       </div>
+               <div class="row g-3">
 
-                                       <div class="col-md-6">
-                                          <div class="form-group form-group-default">
-                                             <label>Phone</label>
-                                             <input type="text" name="phone" class="form-control"
-                                                value="<?= @$res->phone ?>" required>
-                                          </div>
-                                       </div>
+                  <!-- LOGO -->
+                  <div class="col-md-12 text-center mb-3">
+                     <div class="position-relative d-inline-block">
+                        <img class="rounded-circle shadow-sm"
+                           width="110" height="110" id="image-label"
+                           style="object-fit:cover; border:3px solid #f1f3f5;"
+                           src="<?= is_file('uploads/users/' . @$res->image) ? base_url().'uploads/users/'.@$res->image : base_url().'uploads/placeholder/image1.png'; ?>">
 
-                                       <!-- EMAIL -->
-                                       <div class="col-md-6">
-                                          <div class="form-group form-group-default">
-                                             <label>Company Email</label>
-                                             <input type="email" name="company_email" class="form-control"
-                                                value="<?= @$res->company_email ?>" required>
-                                          </div>
-                                       </div>
+                        <input type="file" class="d-none" id="uploadImg1" name="image">
 
-                                       <div class="col-md-6">
-                                          <div class="form-group form-group-default">
-                                             <label>Receiving Mail</label>
-                                             <input type="email" name="email" class="form-control"
-                                                value="<?= @$res->email ?>" required>
-                                          </div>
-                                       </div>
-
-                                       <div class="col-md-6">
-                                          <div class="form-group form-group-default">
-                                             <label>Reply Mail</label>
-                                             <input type="email" name="reply_mail" class="form-control"
-                                                value="<?= @$res->reply_mail ?>" required>
-                                          </div>
-                                       </div>
-
-                                       <div class="col-md-6">
-                                          <div class="form-group form-group-default">
-                                             <label>Password</label>
-                                             <input type="password" name="password" class="form-control">
-                                          </div>
-                                       </div>
-
-                                       <!-- ADDRESS -->
-                                       <div class="col-md-12">
-                                          <div class="form-group form-group-default">
-                                             <label>Address</label>
-                                             <textarea name="address" class="form-control"><?= @$res->address ?></textarea>
-                                          </div>
-                                       </div>
-
-                                       <!-- 🌍 LOCATION -->
-                                       <div class="col-md-12">
-                                          <div class="section-title">Location & Finance</div>
-                                       </div>
-
-                                       <div class="col-md-4">
-                                          <div class="form-group form-group-default">
-                                             <label>Country</label>
-                                             <select name="country" id="country" class="form-control">
-                                                <option value="">Select</option>
-                                                <option value="AE">🇦🇪 UAE</option>
-                                                <option value="UK">🇬🇧 UK</option>
-                                             </select>
-                                          </div>
-                                       </div>
-
-                                       <div class="col-md-4">
-                                          <div class="form-group form-group-default">
-                                             <label>Currency</label>
-                                             <input type="text" id="currency" name="currency" class="form-control" readonly>
-                                          </div>
-                                       </div>
-
-                                       <div class="col-md-4">
-                                          <div class="form-group form-group-default">
-                                             <label>VAT (%)</label>
-                                             <input type="number" name="vat_percentage" class="form-control">
-                                          </div>
-                                       </div>
-
-                                       <!-- MARGIN -->
-                                       <div class="col-md-6">
-                                          <div class="form-group form-group-default">
-                                             <label>Margin Type</label>
-                                             <select name="margin_type" class="form-control">
-                                                <?php foreach ($margin_type as $p) { ?>
-                                                   <option value="<?= $p ?>"><?= $p ?></option>
-                                                <?php } ?>
-                                             </select>
-                                          </div>
-                                       </div>
-
-                                       <div class="col-md-6">
-                                          <div class="form-group form-group-default">
-                                             <label>Margin Value</label>
-                                             <input type="number" name="margin_value" class="form-control">
-                                          </div>
-                                       </div>
-
-                                    </div>
-                              </div>
-                              <input type="hidden" name="id" value="<?php echo @$res->$module_id ? $res->$module_id : 0; ?>">
-
-                              <div class="modal-footer no-bd">
-                                 <button type="submit" class="btn btn-primary">Add</button>
-                                 <button type="button" class="btn close-model">Close</button>
-                              </div>
-                           </div>
-                           </form>
-                        </div>
-
+                        <label for="uploadImg1"
+                           class="btn btn-sm btn-light shadow position-absolute"
+                           style="bottom:0; right:0; border-radius:50%;">
+                           <i class="fa fa-pencil"></i>
+                        </label>
                      </div>
+                  </div>
+
+                  <!-- BASIC INFO -->
+                  <div class="col-md-6">
+                     <label class="form-label">Name</label>
+                     <input type="text" class="form-control"
+                        name="name"
+                        value="<?= @$res->name ?? $this->input->post('name'); ?>" required>
+                  </div>
+
+                  <div class="col-md-6">
+                     <label class="form-label">Phone</label>
+                     <input type="text" class="form-control"
+                        name="phone"
+                        value="<?= @$res->phone ?? $this->input->post('phone'); ?>" required>
+                  </div>
+
+                  <!-- EMAILS -->
+                  <div class="col-md-6">
+                     <label class="form-label">Company Email</label>
+                     <input type="email" class="form-control"
+                        name="company_email"
+                        value="<?= @$res->company_email ?? $this->input->post('company_email'); ?>" required>
+                  </div>
+
+                  <div class="col-md-6">
+                     <label class="form-label">Receiving Mail</label>
+                     <input type="email" class="form-control"
+                        name="email"
+                        value="<?= @$res->email ?? $this->input->post('email'); ?>" required>
+                  </div>
+
+                  <div class="col-md-6">
+                     <label class="form-label">Reply Mail</label>
+                     <input type="email" class="form-control"
+                        name="reply_mail"
+                        value="<?= @$res->reply_mail ?? $this->input->post('reply_mail'); ?>" required>
+                  </div>
+
+                  <div class="col-md-6">
+                     <label class="form-label">Password</label>
+                     <input type="password" class="form-control"
+                        name="password"
+                        <?= @$res->id > 0 ? '' : 'required'; ?>>
+                  </div>
+
+                  <!-- ADDRESS -->
+                  <div class="col-md-12">
+                     <label class="form-label">Address</label>
+                     <textarea class="form-control" rows="3"
+                        name="address"><?= @$res->address ?? $this->input->post('address'); ?></textarea>
+                  </div>
+
+                  <!-- SECTION -->
+                  <div class="col-md-12 mt-4">
+                     <h6 class="fw-bold border-start ps-2" style="border-color:#6c63ff;">
+                        Location & Finance
+                     </h6>
+                  </div>
+
+                  <!-- COUNTRY -->
+                  <div class="col-md-4">
+                     <label class="form-label">Country</label>
+                     <select class="form-select" name="country" id="country" required>
+                        <option value="">Select</option>
+                        <option value="AE" <?= (@$res->country == 'AE') ? 'selected' : '' ?>>🇦🇪 UAE</option>
+                        <option value="UK" <?= (@$res->country == 'UK') ? 'selected' : '' ?>>🇬🇧 UK</option>
+                     </select>
+                  </div>
+
+                  <!-- CURRENCY -->
+                  <div class="col-md-4">
+                     <label class="form-label">Currency</label>
+                     <input type="text" class="form-control bg-light"
+                        name="currency" id="currency"
+                        value="<?= @$res->currency ?? '' ?>" readonly>
+                  </div>
+
+                  <!-- VAT -->
+                  <div class="col-md-4">
+                     <label class="form-label">VAT (%)</label>
+                     <input type="number" class="form-control"
+                        name="vat_percentage"
+                        value="<?= @$res->vat_percentage ?? '' ?>">
+                  </div>
+
+                  <!-- MARGIN -->
+                  <div class="col-md-6">
+                     <label class="form-label">Margin Type</label>
+                     <select class="form-select" name="margin_type" required>
+                        <?php foreach ($margin_type as $p) { ?>
+                           <option value="<?= $p ?>" <?= ($p == @$res->margin_type) ? 'selected' : '' ?>>
+                              <?= $p ?>
+                           </option>
+                        <?php } ?>
+                     </select>
+                  </div>
+
+                  <div class="col-md-6">
+                     <label class="form-label">Margin Value</label>
+                     <input type="number" class="form-control"
+                        name="margin_value"
+                        value="<?= @$res->margin_value ?? '' ?>" required>
+                  </div>
+
+                  <!-- PERMISSION -->
+                  <div class="col-md-12 mt-2">
+                     <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox"
+                           name="exchange_margin_permission"
+                           value="1"
+                           <?= @$res->exchange_margin_permission == 1 ? 'checked' : '' ?>>
+                        <label class="form-check-label">
+                           Allow margin exchange
+                        </label>
+                     </div>
+                  </div>
+
+                  <!-- COLORS -->
+                  <div class="col-md-6">
+                     <label class="form-label">Primary Colour</label>
+                     <input type="text" class="form-control"
+                        name="branding_colour_code"
+                        value="<?= @$res->branding_colour_code ?? '' ?>">
+                  </div>
+
+                  <div class="col-md-6">
+                     <label class="form-label">Secondary Colour</label>
+                     <input type="text" class="form-control"
+                        name="branding_colour_code_secondry"
+                        value="<?= @$res->branding_colour_code_secondry ?? '' ?>">
+                  </div>
+
+               </div>
+
+               <input type="hidden" name="id" value="<?= @$res->$module_id ?? 0; ?>">
+
+            </form>
+         </div>
+
+         <!-- FOOTER -->
+         <div class="modal-footer border-0">
+            <button type="submit" form="fm_form_data" class="btn btn-primary px-4">
+               Save
+            </button>
+            <button type="button" class="btn btn-light close-model">
+               Cancel
+            </button>
+         </div>
+
+      </div>
+   </div>
+</div>
                      <?php if (@$tabledata) { ?>
                         <div class="table-responsive">
                            <table id="multi-filter-select" class="display table table-striped table-hover">
