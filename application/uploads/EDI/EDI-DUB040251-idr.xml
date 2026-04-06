@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB040251-idr.xml" CreateDate_="09/02/2026" CreateTime_="09:59:42">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="040251" CustomerReference_="DUB040251-idr" OrderDate_="09/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="2340" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Accounts - 1" WidthDisplay_="2340" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="2340" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Accounts - 2" WidthDisplay_="2340" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="1940" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Accounts - 3" WidthDisplay_="1940" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="1940" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Accounts - 4" WidthDisplay_="1940" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="2010" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="VP SALES - 1" WidthDisplay_="2010" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="2010" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="VP SALES - 2" WidthDisplay_="2010" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="1925" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="CFO - 1" WidthDisplay_="1925" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="1925" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="CFO - 2" WidthDisplay_="1925" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="2730" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="CEO ROOM - 1" WidthDisplay_="2730" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BIC001VV" FabricDescription_="BIC001 (white)" Width_="2730" Drop_="3050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="CEO ROOM - 2" WidthDisplay_="2730" DropDisplay_="3050" CustomerOrderReference_="" OrderID_="DUB040251-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.amer@oceanairtravels.com" DelPhone_="0503836876" DelFirstName_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine1_="OCEAN AIR TRAVELS AND TOURISM LLC" DelLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" CustomerAddressLine2_="OCEAN AIR TRAVELS AND TOURISM LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

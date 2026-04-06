@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2002135-mar.xml" CreateDate_="21/02/2026" CreateTime_="17:38:53">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2002135" CustomerReference_="BLI2002135-mar" OrderDate_="21/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="2800" Drop_="2980" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="2800" DropDisplay_="2980" CustomerOrderReference_="Please dispatch tranking 2pcs" OrderID_="BLI2002135-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="emma.breeding@gmail.com" DelPhone_="0549956250" DelFirstName_="Ms emma breeding " DelLine1_="Ms emma breeding " CustomerAddressLine1_="Ms emma breeding " DelLine2_="Ms emma breeding " CustomerAddressLine2_="Ms emma breeding " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="2270" Drop_="2975" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="2270" DropDisplay_="2975" CustomerOrderReference_="" OrderID_="BLI2002135-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="emma.breeding@gmail.com" DelPhone_="0549956250" DelFirstName_="Ms emma breeding " DelLine1_="Ms emma breeding " CustomerAddressLine1_="Ms emma breeding " DelLine2_="Ms emma breeding " CustomerAddressLine2_="Ms emma breeding " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="2800" Drop_="2970" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="2800" DropDisplay_="2970" CustomerOrderReference_="" OrderID_="BLI2002135-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="emma.breeding@gmail.com" DelPhone_="0549956250" DelFirstName_="Ms emma breeding " DelLine1_="Ms emma breeding " CustomerAddressLine1_="Ms emma breeding " DelLine2_="Ms emma breeding " CustomerAddressLine2_="Ms emma breeding " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="3000" Drop_="2980" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="3000" DropDisplay_="2980" CustomerOrderReference_="" OrderID_="BLI2002135-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="emma.breeding@gmail.com" DelPhone_="0549956250" DelFirstName_="Ms emma breeding " DelLine1_="Ms emma breeding " CustomerAddressLine1_="Ms emma breeding " DelLine2_="Ms emma breeding " CustomerAddressLine2_="Ms emma breeding " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="2800" Drop_="2980" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="2800" DropDisplay_="2980" CustomerOrderReference_="" OrderID_="BLI2002135-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="emma.breeding@gmail.com" DelPhone_="0549956250" DelFirstName_="Ms emma breeding " DelLine1_="Ms emma breeding " CustomerAddressLine1_="Ms emma breeding " DelLine2_="Ms emma breeding " CustomerAddressLine2_="Ms emma breeding " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="3100" Drop_="2985" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guestroom - 1" WidthDisplay_="3100" DropDisplay_="2985" CustomerOrderReference_="" OrderID_="BLI2002135-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="emma.breeding@gmail.com" DelPhone_="0549956250" DelFirstName_="Ms emma breeding " DelLine1_="Ms emma breeding " CustomerAddressLine1_="Ms emma breeding " DelLine2_="Ms emma breeding " CustomerAddressLine2_="Ms emma breeding " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="2800" Drop_="2985" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guestroom - 2" WidthDisplay_="2800" DropDisplay_="2985" CustomerOrderReference_="" OrderID_="BLI2002135-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="emma.breeding@gmail.com" DelPhone_="0549956250" DelFirstName_="Ms emma breeding " DelLine1_="Ms emma breeding " CustomerAddressLine1_="Ms emma breeding " DelLine2_="Ms emma breeding " CustomerAddressLine2_="Ms emma breeding " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

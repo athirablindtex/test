@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB020349-kar.xml" CreateDate_="02/03/2026" CreateTime_="12:42:54">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="020349" CustomerReference_="DUB020349-kar" OrderDate_="02/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="CUB004" FabricDescription_="CUB004 (brown)" Width_="2160" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master room - 1" WidthDisplay_="2160" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="DUB020349-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="mirka.lodge@me.com" DelPhone_="0507645028 " DelFirstName_="Mrs. Mirka Lodge" DelLine1_="Mrs. Mirka Lodge" CustomerAddressLine1_="Mrs. Mirka Lodge" DelLine2_="Mrs. Mirka Lodge" CustomerAddressLine2_="Mrs. Mirka Lodge" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="CUB004" FabricDescription_="CUB004 (brown)" Width_="1100" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master room - 2" WidthDisplay_="1100" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="DUB020349-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="mirka.lodge@me.com" DelPhone_="0507645028 " DelFirstName_="Mrs. Mirka Lodge" DelLine1_="Mrs. Mirka Lodge" CustomerAddressLine1_="Mrs. Mirka Lodge" DelLine2_="Mrs. Mirka Lodge" CustomerAddressLine2_="Mrs. Mirka Lodge" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="CUB004" FabricDescription_="CUB004 (brown)" Width_="2025" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master room - 3" WidthDisplay_="2025" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="DUB020349-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="mirka.lodge@me.com" DelPhone_="0507645028 " DelFirstName_="Mrs. Mirka Lodge" DelLine1_="Mrs. Mirka Lodge" CustomerAddressLine1_="Mrs. Mirka Lodge" DelLine2_="Mrs. Mirka Lodge" CustomerAddressLine2_="Mrs. Mirka Lodge" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="LAC003-B" FabricDescription_="Sheer LAC003" Width_="5280" Drop_="2650" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Sheer - 1" WidthDisplay_="5280" DropDisplay_="2650" CustomerOrderReference_="" OrderID_="DUB020349-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="mirka.lodge@me.com" DelPhone_="0507645028 " DelFirstName_="Mrs. Mirka Lodge" DelLine1_="Mrs. Mirka Lodge" CustomerAddressLine1_="Mrs. Mirka Lodge" DelLine2_="Mrs. Mirka Lodge" CustomerAddressLine2_="Mrs. Mirka Lodge" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="5280" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Sheer - 2" WidthDisplay_="5280" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB020349-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="mirka.lodge@me.com" DelPhone_="0507645028 " DelFirstName_="Mrs. Mirka Lodge" DelLine1_="Mrs. Mirka Lodge" CustomerAddressLine1_="Mrs. Mirka Lodge" DelLine2_="Mrs. Mirka Lodge" CustomerAddressLine2_="Mrs. Mirka Lodge" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Bracket -Double 150mm White" 
+            ChoiceCode_="CCM129" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

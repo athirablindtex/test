@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB300380-idr.xml" CreateDate_="01/04/2026" CreateTime_="10:03:23">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="300380" CustomerReference_="DUB300380-idr" OrderDate_="01/04/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="PEARL" FabricDescription_="Faux - Signature Pearl" Width_="1730" Drop_="2225" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="1730" DropDisplay_="2225" CustomerOrderReference_="" OrderID_="DUB300380-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="marcus-sro@arcor.de" DelPhone_="0501461738" DelFirstName_="Mr. Marcus Schroeter" DelLine1_="Mr. Marcus Schroeter" CustomerAddressLine1_="Mr. Marcus Schroeter" DelLine2_="Mr. Marcus Schroeter" CustomerAddressLine2_="Mr. Marcus Schroeter" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Tape Default" 
+            ChoiceCode_="TAP061" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="No Returns" 
+            ChoiceCode_="W002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="2600" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 2" WidthDisplay_="2600" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB300380-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="marcus-sro@arcor.de" DelPhone_="0501461738" DelFirstName_="Mr. Marcus Schroeter" DelLine1_="Mr. Marcus Schroeter" CustomerAddressLine1_="Mr. Marcus Schroeter" DelLine2_="Mr. Marcus Schroeter" CustomerAddressLine2_="Mr. Marcus Schroeter" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="2700" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 3" WidthDisplay_="2700" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB300380-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="marcus-sro@arcor.de" DelPhone_="0501461738" DelFirstName_="Mr. Marcus Schroeter" DelLine1_="Mr. Marcus Schroeter" CustomerAddressLine1_="Mr. Marcus Schroeter" DelLine2_="Mr. Marcus Schroeter" CustomerAddressLine2_="Mr. Marcus Schroeter" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="2400" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 4" WidthDisplay_="2400" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB300380-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="marcus-sro@arcor.de" DelPhone_="0501461738" DelFirstName_="Mr. Marcus Schroeter" DelLine1_="Mr. Marcus Schroeter" CustomerAddressLine1_="Mr. Marcus Schroeter" DelLine2_="Mr. Marcus Schroeter" CustomerAddressLine2_="Mr. Marcus Schroeter" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

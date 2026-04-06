@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI161295-mar.xml" CreateDate_="16/12/2025" CreateTime_="10:01:13">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="161295" CustomerReference_="BLI161295-mar" OrderDate_="16/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="SER001" FabricDescription_="Sheer SER001" Width_="2200" Drop_="2455" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room1" WidthDisplay_="2200" DropDisplay_="2455" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Easy Fold (Wave)" ChoiceCode_="STY102"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Standard Cream" ChoiceCode_="LIN001"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="2200" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room2" WidthDisplay_="2200" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="SER001" FabricDescription_="Sheer SER001" Width_="2200" Drop_="2455" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room3" WidthDisplay_="2200" DropDisplay_="2455" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Easy Fold (Wave)" ChoiceCode_="STY102"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="2200" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room4" WidthDisplay_="2200" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb Perfect Fit" MetricMeasurement_="0" FabricCode_="LAR002" FabricDescription_="Larissa Ecru" Width_="590" Drop_="790" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="maids room1" WidthDisplay_="590" DropDisplay_="790" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Configuration" Choice_="Tensioned Single Pull Bottom Up" ChoiceCode_="PFITFLOA02"/>
+        <TEDIOptionList_Details OptionName_="Bead Depth" Choice_="20 mm" ChoiceCode_="BD003"/>
+        <TEDIOptionList_Details OptionName_="Perfect Fit Frame" Choice_="White" ChoiceCode_="PFREQ"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CAS003-BO" FabricDescription_="Blackout CAS003" Width_="4520" Drop_="2990" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="master bedroom 1" WidthDisplay_="4520" DropDisplay_="2990" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Easy Fold (Wave)" ChoiceCode_="STY102"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="4520" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="master bedroom 2" WidthDisplay_="4520" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb Perfect Fit" MetricMeasurement_="0" FabricCode_="LAR002" FabricDescription_="Larissa Ecru" Width_="535" Drop_="990" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room1" WidthDisplay_="535" DropDisplay_="990" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Configuration" Choice_="Tensioned Single Pull Bottom Up" ChoiceCode_="PFITFLOA02"/>
+        <TEDIOptionList_Details OptionName_="Bead Depth" Choice_="20 mm" ChoiceCode_="BD003"/>
+        <TEDIOptionList_Details OptionName_="Perfect Fit Frame" Choice_="White" ChoiceCode_="PFREQ"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb Perfect Fit" MetricMeasurement_="0" FabricCode_="LAR002" FabricDescription_="Larissa Ecru" Width_="535" Drop_="990" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room2" WidthDisplay_="535" DropDisplay_="990" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Configuration" Choice_="Tensioned Single Pull Bottom Up" ChoiceCode_="PFITFLOA02"/>
+        <TEDIOptionList_Details OptionName_="Perfect Fit Frame" Choice_="White" ChoiceCode_="PFREQ"/>
+        <TEDIOptionList_Details OptionName_="Bead Depth" Choice_="20 mm" ChoiceCode_="BD003"/>
+        <TEDIOptionList_Details OptionName_="Operation" Choice_="None" ChoiceCode_="SPE232"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CAS003-BO" FabricDescription_="Blackout CAS003" Width_="2840" Drop_="2995" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Guest room 1" WidthDisplay_="2840" DropDisplay_="2995" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Easy Fold (Wave)" ChoiceCode_="STY102"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="2840" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guest room 2" WidthDisplay_="2840" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI161295-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

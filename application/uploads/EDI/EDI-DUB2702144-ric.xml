@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB2702144-ric.xml" CreateDate_="05/03/2026" CreateTime_="11:21:55">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2702144" CustomerReference_="DUB2702144-ric" OrderDate_="05/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ESS006" FabricDescription_="ESS006 (brown)" Width_="2200" Drop_="2600" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master bedroom - 1" WidthDisplay_="2200" DropDisplay_="2600" CustomerOrderReference_="" OrderID_="DUB2702144-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Adrien.a.lebegue@gmail.com" DelPhone_="0543839245" DelFirstName_="Mr. Adrien Lebegue" DelLine1_="Mr. Adrien Lebegue" CustomerAddressLine1_="Mr. Adrien Lebegue" DelLine2_="Mr. Adrien Lebegue" CustomerAddressLine2_="Mr. Adrien Lebegue" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

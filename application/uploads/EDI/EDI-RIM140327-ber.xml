@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM140327-ber.xml" CreateDate_="14/03/2026" CreateTime_="09:17:08">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="140327" CustomerReference_="RIM140327-ber" OrderDate_="14/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA009" FabricDescription_="SHA009 (beige)" Width_="3015" Drop_="2510" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="3015" DropDisplay_="2510" CustomerOrderReference_="" OrderID_="RIM140327-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="Najee_h@hotmail.com" DelPhone_="0503405005" DelFirstName_="Najmeddin Al Hadad" DelLine1_="Najmeddin Al Hadad" CustomerAddressLine1_="Najmeddin Al Hadad" DelLine2_="Najmeddin Al Hadad" CustomerAddressLine2_="Najmeddin Al Hadad" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Large Wirefree 6/24" 
+            ChoiceCode_="DOY012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Home Automation" 
+            Choice_="Blindtex Smart Home Hub DY" 
+            ChoiceCode_="DOY024" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Blindtex DY Remote 1 Channel" 
+            ChoiceCode_="DOY003" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

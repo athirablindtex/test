@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="INN002" CompanyName_="Innov8 Sampling" FileTransfName_=".xml" CreateDate_="01/10/2025" CreateTime_="10:39:14">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="" CustomerReference_="Demo Customer" OrderDate_="01/10/2025" OrderNote_="from Blindex app By Athira Blindtex">
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

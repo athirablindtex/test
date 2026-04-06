@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI1203165-mar.xml" CreateDate_="12/03/2026" CreateTime_="15:39:07">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1203165" CustomerReference_="BLI1203165-mar" OrderDate_="12/03/2026" OrderNote_="Dispatch on monday ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="NOV016" FabricDescription_="NOV016 (brown)" Width_="1180" Drop_="2040" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kids room - 1" WidthDisplay_="1180" DropDisplay_="2040" CustomerOrderReference_="Chain 1900" OrderID_="BLI1203165-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="amylimaimee@hotmail.com" DelPhone_="0502651432" DelFirstName_="Aimee Lim" DelLine1_="Aimee Lim" CustomerAddressLine1_="Aimee Lim" DelLine2_="Aimee Lim" CustomerAddressLine2_="Aimee Lim" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

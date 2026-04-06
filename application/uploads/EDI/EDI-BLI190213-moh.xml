@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI190213-moh.xml" CreateDate_="19/02/2026" CreateTime_="10:30:55">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="190213" CustomerReference_="BLI190213-moh" OrderDate_="19/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROLDS01" BlindTypeDescription_="Roller-Signature Designer" MetricMeasurement_="0" FabricCode_="SD-CHE" FabricDescription_="Translucent" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="2" Location_="Dining Room - 2" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="" OrderID_="BLI190213-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Design Name" Choice_="Bold Luster" ChoiceCode_="SD-093"/>
+        <TEDIOptionList_Details OptionName_="Design Option Number" Choice_="Option 3" ChoiceCode_="OPT3"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="SHU-01-01" BlindTypeDescription_="Shutters Classic" MetricMeasurement_="0" FabricCode_="PV01" FabricDescription_="PVC PV01 True White" Width_="1500" Drop_="1800" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="2" Location_="Living Room - 1" WidthDisplay_="1500" DropDisplay_="1800" CustomerOrderReference_="" OrderID_="BLI190213-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details OptionName_="Frame Type" Choice_="Insert L 50" ChoiceCode_="SHU-FRA06"/>
+        <TEDIOptionList_Details OptionName_="Hinges" Choice_="Off White" ChoiceCode_="SHU-HIN02"/>
+        <TEDIOptionList_Details OptionName_="Installation Style" Choice_="Full Height" ChoiceCode_="SHU-INS01"/>
+        <TEDIOptionList_Details OptionName_="Louver Size" Choice_="63mm" ChoiceCode_="SHU-LOU01"/>
+        <TEDIOptionList_Details OptionName_="Mid Rail Position" Choice_="Deviation is ok" ChoiceCode_="SHU-MID04"/>
+        <TEDIOptionList_Details OptionName_="Mounting Location" Choice_="Outside Recess" ChoiceCode_="SHU-MOU02"/>
+        <TEDIOptionList_Details OptionName_="Number of Frame Sides" Choice_="R" ChoiceCode_="SHU-NFS07"/>
+        <TEDIOptionList_Details OptionName_="Panel Config" Choice_="LL" ChoiceCode_="SHU-PAN04"/>
+        <TEDIOptionList_Details OptionName_="Predrill Frame" Choice_="Side and Front" ChoiceCode_="SHU-PED03"/>
+        <TEDIOptionList_Details OptionName_="Stile Type" Choice_="Flat 50mm Astragal" ChoiceCode_="SHU-STIL02"/>
+        <TEDIOptionList_Details OptionName_="Tilt Type" Choice_="Hidden Tilt" ChoiceCode_="SHU-TILT03"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

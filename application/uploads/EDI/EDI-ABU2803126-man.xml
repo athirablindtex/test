@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="ABU015" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU2803126-man.xml" CreateDate_="30/03/2026" CreateTime_="22:26:36">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2803126" CustomerReference_="ABU2803126-man" OrderDate_="30/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30792" FabricDescription_="Copenhagen Graphite" Width_="2700" Drop_="2900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="2700" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="2700" Drop_="2900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="2700" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Double Brkt: Brushed Nickel" 
+            ChoiceCode_="BRA303" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Spire Brushed Nickel" 
+            ChoiceCode_="FIN404" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30776-B" FabricDescription_="Sheer TRA001" Width_="2700" Drop_="2900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="2700" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="2700" Drop_="2900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="2700" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Spire Brushed Nickel" 
+            ChoiceCode_="FIN404" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30792" FabricDescription_="Copenhagen Graphite" Width_="2700" Drop_="2900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 5" WidthDisplay_="2700" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="2700" Drop_="2900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 6" WidthDisplay_="2700" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Double Brkt: Brushed Nickel" 
+            ChoiceCode_="BRA303" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Spire Brushed Nickel" 
+            ChoiceCode_="FIN404" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30776-B" FabricDescription_="Sheer TRA001" Width_="2700" Drop_="2900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 7" WidthDisplay_="2700" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="2700" Drop_="2900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 8" WidthDisplay_="2700" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Spire Brushed Nickel" 
+            ChoiceCode_="FIN404" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="HON004-2800" FabricDescription_="Honey Leaf" Width_="1950" Drop_="2250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="1950" DropDisplay_="2250" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="White Powder Coated" 
+            ChoiceCode_="EVOWP" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="No" 
+            ChoiceCode_="SPE134" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30808" FabricDescription_="Copenhagen Truffle" Width_="1500" Drop_="2400" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dining Room - 2" WidthDisplay_="1500" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="1500" Drop_="2400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 3" WidthDisplay_="1500" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Single Brkt: Brushed Nickel" 
+            ChoiceCode_="BRA301" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Spire Brushed Nickel" 
+            ChoiceCode_="FIN404" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30808" FabricDescription_="Copenhagen Truffle" Width_="1500" Drop_="2400" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dining Room - 4" WidthDisplay_="1500" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="1500" Drop_="2400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 5" WidthDisplay_="1500" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Single Brkt: Brushed Nickel" 
+            ChoiceCode_="BRA301" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Spire Brushed Nickel" 
+            ChoiceCode_="FIN404" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30711" FabricDescription_="Raffia SeaBlue" Width_="2800" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Daughters Room - 1" WidthDisplay_="2800" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Black" 
+            ChoiceCode_="CCM015" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="2800" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Daughters Room - 2" WidthDisplay_="2800" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Double Brkt: Black Nickel" 
+            ChoiceCode_="BRA303B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Globe Black Nickel" 
+            ChoiceCode_="FIN401B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="16" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="SHE003-B" FabricDescription_="Sheer SHE003" Width_="2800" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Daughters Room - 3" WidthDisplay_="2800" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Black" 
+            ChoiceCode_="CCM015" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="17" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="2800" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Daughters Room - 4" WidthDisplay_="2800" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU2803126-man" IsDirectDeliveryBySupplier_="True" DelEmail_="daniela_deflorio@hotmail.com" DelPhone_="0524098485" DelFirstName_="Daniela" DelLine1_="Daniela" CustomerAddressLine1_="Daniela" DelLine2_="Daniela" CustomerAddressLine2_="Daniela" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Globe Black Nickel" 
+            ChoiceCode_="FIN401B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

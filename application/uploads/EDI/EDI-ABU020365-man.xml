@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU020365-man.xml" CreateDate_="06/03/2026" CreateTime_="15:40:01">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="020365" CustomerReference_="ABU020365-man" OrderDate_="06/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BRE003" FabricDescription_="BRE003 (cream)" Width_="1750" Drop_="1400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1750" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="ABU020365-man" IsDirectDeliveryBySupplier_="True" DelEmail_="reyazkash@rediffmail.com" DelPhone_="+971553638730" DelFirstName_="Mrs.Taqleed  Sayyed" DelLine1_="Mrs.Taqleed  Sayyed" CustomerAddressLine1_="Mrs.Taqleed  Sayyed" DelLine2_="Mrs.Taqleed  Sayyed" CustomerAddressLine2_="Mrs.Taqleed  Sayyed" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BRE003" FabricDescription_="BRE003 (cream)" Width_="1770" Drop_="1400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="1770" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="ABU020365-man" IsDirectDeliveryBySupplier_="True" DelEmail_="reyazkash@rediffmail.com" DelPhone_="+971553638730" DelFirstName_="Mrs.Taqleed  Sayyed" DelLine1_="Mrs.Taqleed  Sayyed" CustomerAddressLine1_="Mrs.Taqleed  Sayyed" DelLine2_="Mrs.Taqleed  Sayyed" CustomerAddressLine2_="Mrs.Taqleed  Sayyed" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN001" FabricDescription_="BAN001 (white)" Width_="1750" Drop_="1400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1750" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="ABU020365-man" IsDirectDeliveryBySupplier_="True" DelEmail_="reyazkash@rediffmail.com" DelPhone_="+971553638730" DelFirstName_="Mrs.Taqleed  Sayyed" DelLine1_="Mrs.Taqleed  Sayyed" CustomerAddressLine1_="Mrs.Taqleed  Sayyed" DelLine2_="Mrs.Taqleed  Sayyed" CustomerAddressLine2_="Mrs.Taqleed  Sayyed" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN001" FabricDescription_="BAN001 (white)" Width_="1750" Drop_="1400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="1750" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="ABU020365-man" IsDirectDeliveryBySupplier_="True" DelEmail_="reyazkash@rediffmail.com" DelPhone_="+971553638730" DelFirstName_="Mrs.Taqleed  Sayyed" DelLine1_="Mrs.Taqleed  Sayyed" CustomerAddressLine1_="Mrs.Taqleed  Sayyed" DelLine2_="Mrs.Taqleed  Sayyed" CustomerAddressLine2_="Mrs.Taqleed  Sayyed" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

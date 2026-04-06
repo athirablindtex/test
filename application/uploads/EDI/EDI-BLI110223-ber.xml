@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI110223-ber.xml" CreateDate_="11/02/2026" CreateTime_="14:24:35">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="110223" CustomerReference_="BLI110223-ber" OrderDate_="11/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="2160" Drop_="2670" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="2160" DropDisplay_="2670" CustomerOrderReference_="" OrderID_="BLI110223-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="ayad.zamel@gmail.com" DelPhone_="0501804152" DelFirstName_="Ayad  Zamel" DelLine1_="Ayad  Zamel" CustomerAddressLine1_="Ayad  Zamel" DelLine2_="Ayad  Zamel" CustomerAddressLine2_="Ayad  Zamel" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

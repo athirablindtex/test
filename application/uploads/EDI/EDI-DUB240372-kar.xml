@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB240372-kar.xml" CreateDate_="25/03/2026" CreateTime_="12:03:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="240372" CustomerReference_="DUB240372-kar" OrderDate_="25/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="5210" Drop_="3210" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="5210" DropDisplay_="3210" CustomerOrderReference_="" OrderID_="DUB240372-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0504626599" DelFirstName_="for costing only Lorraine and Paul Wright" DelLine1_="for costing only Lorraine and Paul Wright" CustomerAddressLine1_="for costing only Lorraine and Paul Wright" DelLine2_="for costing only Lorraine and Paul Wright" CustomerAddressLine2_="for costing only Lorraine and Paul Wright" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="BK Blackout Linen" Width_="5210" Drop_="3210" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="5210" DropDisplay_="3210" CustomerOrderReference_="" OrderID_="DUB240372-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0504626599" DelFirstName_="for costing only Lorraine and Paul Wright" DelLine1_="for costing only Lorraine and Paul Wright" CustomerAddressLine1_="for costing only Lorraine and Paul Wright" DelLine2_="for costing only Lorraine and Paul Wright" CustomerAddressLine2_="for costing only Lorraine and Paul Wright" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="5210" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="5210" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB240372-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0504626599" DelFirstName_="for costing only Lorraine and Paul Wright" DelLine1_="for costing only Lorraine and Paul Wright" CustomerAddressLine1_="for costing only Lorraine and Paul Wright" DelLine2_="for costing only Lorraine and Paul Wright" CustomerAddressLine2_="for costing only Lorraine and Paul Wright" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="5210" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="5210" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB240372-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0504626599" DelFirstName_="for costing only Lorraine and Paul Wright" DelLine1_="for costing only Lorraine and Paul Wright" CustomerAddressLine1_="for costing only Lorraine and Paul Wright" DelLine2_="for costing only Lorraine and Paul Wright" CustomerAddressLine2_="for costing only Lorraine and Paul Wright" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

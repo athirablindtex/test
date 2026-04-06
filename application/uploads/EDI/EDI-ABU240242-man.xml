@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU240242-man.xml" CreateDate_="24/02/2026" CreateTime_="13:52:17">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="240242" CustomerReference_="ABU240242-man" OrderDate_="24/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian-Signature" MetricMeasurement_="0" FabricCode_="MAD005" FabricDescription_="Madiba Porcelean" Width_="1530" Drop_="1800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1530" DropDisplay_="1800" CustomerOrderReference_="3cm Handle sticks out needs 7.5mm wall brackets.15cm above" OrderID_="ABU240242-man" IsDirectDeliveryBySupplier_="True" DelEmail_="farsy96@gmail.com" DelPhone_="0568975498" DelFirstName_="Abdulla Al Farsy" DelLine1_="Abdulla Al Farsy" CustomerAddressLine1_="Abdulla Al Farsy" DelLine2_="Abdulla Al Farsy" CustomerAddressLine2_="Abdulla Al Farsy" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian-Signature" MetricMeasurement_="0" FabricCode_="MAD005" FabricDescription_="Madiba Porcelean" Width_="1530" Drop_="1800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="1530" DropDisplay_="1800" CustomerOrderReference_="3cm Handle sticks out needs 7.5mm wall brackets.15cm above" OrderID_="ABU240242-man" IsDirectDeliveryBySupplier_="True" DelEmail_="farsy96@gmail.com" DelPhone_="0568975498" DelFirstName_="Abdulla Al Farsy" DelLine1_="Abdulla Al Farsy" CustomerAddressLine1_="Abdulla Al Farsy" DelLine2_="Abdulla Al Farsy" CustomerAddressLine2_="Abdulla Al Farsy" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian-Signature" MetricMeasurement_="0" FabricCode_="MAD005" FabricDescription_="Madiba Porcelean" Width_="1700" Drop_="2380" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Stair - 1" WidthDisplay_="1700" DropDisplay_="2380" CustomerOrderReference_="3cm Handle sticks out needs 7.5mm wall brackets.18cm above" OrderID_="ABU240242-man" IsDirectDeliveryBySupplier_="True" DelEmail_="farsy96@gmail.com" DelPhone_="0568975498" DelFirstName_="Abdulla Al Farsy" DelLine1_="Abdulla Al Farsy" CustomerAddressLine1_="Abdulla Al Farsy" DelLine2_="Abdulla Al Farsy" CustomerAddressLine2_="Abdulla Al Farsy" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian-Signature" MetricMeasurement_="0" FabricCode_="MAD005" FabricDescription_="Madiba Porcelean" Width_="1700" Drop_="2380" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Stair - 2" WidthDisplay_="1700" DropDisplay_="2380" CustomerOrderReference_="3cm Handle sticks out needs 7.5mm wall brackets.18cm above. " OrderID_="ABU240242-man" IsDirectDeliveryBySupplier_="True" DelEmail_="farsy96@gmail.com" DelPhone_="0568975498" DelFirstName_="Abdulla Al Farsy" DelLine1_="Abdulla Al Farsy" CustomerAddressLine1_="Abdulla Al Farsy" DelLine2_="Abdulla Al Farsy" CustomerAddressLine2_="Abdulla Al Farsy" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BRE002" FabricDescription_="BRE002 (off ivory)" Width_="900" Drop_="1300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Maid's Room - 1" WidthDisplay_="900" DropDisplay_="1300" CustomerOrderReference_="" OrderID_="ABU240242-man" IsDirectDeliveryBySupplier_="True" DelEmail_="farsy96@gmail.com" DelPhone_="0568975498" DelFirstName_="Abdulla Al Farsy" DelLine1_="Abdulla Al Farsy" CustomerAddressLine1_="Abdulla Al Farsy" DelLine2_="Abdulla Al Farsy" CustomerAddressLine2_="Abdulla Al Farsy" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="SHA036VV" FabricDescription_="SHA036 (off white)" Width_="2000" Drop_="2300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="2000" DropDisplay_="2300" CustomerOrderReference_="" OrderID_="ABU240242-man" IsDirectDeliveryBySupplier_="True" DelEmail_="farsy96@gmail.com" DelPhone_="0568975498" DelFirstName_="Abdulla Al Farsy" DelLine1_="Abdulla Al Farsy" CustomerAddressLine1_="Abdulla Al Farsy" DelLine2_="Abdulla Al Farsy" CustomerAddressLine2_="Abdulla Al Farsy" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Left" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Type" 
+            Choice_="Left Cord Operated" 
+            ChoiceCode_="SPE054" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottoms" 
+            Choice_="White Weights and Chain" 
+            ChoiceCode_="SPE146a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="89 Face Fix" 
+            ChoiceCode_="BRA002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Slim - White" 
+            ChoiceCode_="VCM008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

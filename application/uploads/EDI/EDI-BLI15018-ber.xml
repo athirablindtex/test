@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI15018-ber.xml" CreateDate_="16/01/2026" CreateTime_="13:13:17">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="15018" CustomerReference_="BLI15018-ber" OrderDate_="16/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="LAC002-B" FabricDescription_="Sheer LAC002" Width_="4130" Drop_="2660" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="4130" DropDisplay_="2660" CustomerOrderReference_="" OrderID_="BLI15018-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0529404054" DelFirstName_="Natalie De Freitas" DelLine1_="Natalie De Freitas" CustomerAddressLine1_="Natalie De Freitas" DelLine2_="Natalie De Freitas" CustomerAddressLine2_="Natalie De Freitas" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="4130" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="4130" DropDisplay_="1" CustomerOrderReference_="" OrderID_="BLI15018-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0529404054" DelFirstName_="Natalie De Freitas" DelLine1_="Natalie De Freitas" CustomerAddressLine1_="Natalie De Freitas" DelLine2_="Natalie De Freitas" CustomerAddressLine2_="Natalie De Freitas" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

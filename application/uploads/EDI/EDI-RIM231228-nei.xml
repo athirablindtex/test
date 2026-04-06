@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM231228-nei.xml" CreateDate_="23/12/2025" CreateTime_="12:43:07">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="231228" CustomerReference_="RIM231228-nei" OrderDate_="23/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC002" FabricDescription_="Basix BIC002 (natural)" Width_="1400" Drop_="2623" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen1" WidthDisplay_="1400" DropDisplay_="2623" CustomerOrderReference_="" OrderID_="RIM231228-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="055 167 9125" DelFirstName_="abbas" DelLine1_="abbas" CustomerAddressLine1_="abbas" DelLine2_="abbas" CustomerAddressLine2_="abbas" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC002" FabricDescription_="Basix BIC002 (natural)" Width_="2170" Drop_="2623" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen2" WidthDisplay_="2170" DropDisplay_="2623" CustomerOrderReference_="" OrderID_="RIM231228-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="055 167 9125" DelFirstName_="abbas" DelLine1_="abbas" CustomerAddressLine1_="abbas" DelLine2_="abbas" CustomerAddressLine2_="abbas" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC002" FabricDescription_="Basix BIC002 (natural)" Width_="1710" Drop_="2610" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="1710" DropDisplay_="2610" CustomerOrderReference_="pls send extra fabric of BIC002 to cover the window gap on the side. 400x600mm size." OrderID_="RIM231228-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="055 167 9125" DelFirstName_="abbas" DelLine1_="abbas" CustomerAddressLine1_="abbas" DelLine2_="abbas" CustomerAddressLine2_="abbas" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC002" FabricDescription_="Basix BIC002 (natural)" Width_="1445" Drop_="2610" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room2" WidthDisplay_="1445" DropDisplay_="2610" CustomerOrderReference_="" OrderID_="RIM231228-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="055 167 9125" DelFirstName_="abbas" DelLine1_="abbas" CustomerAddressLine1_="abbas" DelLine2_="abbas" CustomerAddressLine2_="abbas" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

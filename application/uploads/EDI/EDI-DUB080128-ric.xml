@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB080128-ric.xml" CreateDate_="08/01/2026" CreateTime_="09:42:31">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="080128" CustomerReference_="DUB080128-ric" OrderDate_="08/01/2026" OrderNote_="only testing do not process the order">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex-Basix" MetricMeasurement_="0" FabricCode_="NYL002DD-B" FabricDescription_="Basix NYL002D" Width_="1830" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="bed 1 - 1" WidthDisplay_="1830" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="DUB080128-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0503025889" DelFirstName_="Ms. Rola Abiajram" DelLine1_="Ms. Rola Abiajram" CustomerAddressLine1_="Ms. Rola Abiajram" DelLine2_="Ms. Rola Abiajram" CustomerAddressLine2_="Ms. Rola Abiajram" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Same Room" Choice_="No" ChoiceCode_="SPE134"/>
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex -Signature" MetricMeasurement_="0" FabricCode_="ILL024" FabricDescription_="Illusion Black" Width_="1710" Drop_="2660" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="bed 3 - 1" WidthDisplay_="1710" DropDisplay_="2660" CustomerOrderReference_="" OrderID_="DUB080128-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0503025889" DelFirstName_="Ms. Rola Abiajram" DelLine1_="Ms. Rola Abiajram" CustomerAddressLine1_="Ms. Rola Abiajram" DelLine2_="Ms. Rola Abiajram" CustomerAddressLine2_="Ms. Rola Abiajram" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Cassette Colour" Choice_="Matching fabric" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex-Basix" MetricMeasurement_="0" FabricCode_="REA004D-B" FabricDescription_="Basix REA004" Width_="1710" Drop_="2660" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="bed 2 - 1" WidthDisplay_="1710" DropDisplay_="2660" CustomerOrderReference_="" OrderID_="DUB080128-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0503025889" DelFirstName_="Ms. Rola Abiajram" DelLine1_="Ms. Rola Abiajram" CustomerAddressLine1_="Ms. Rola Abiajram" DelLine2_="Ms. Rola Abiajram" CustomerAddressLine2_="Ms. Rola Abiajram" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Same Room" Choice_="No" ChoiceCode_="SPE134"/>
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex-Basix" MetricMeasurement_="0" FabricCode_="WAV002D-B" FabricDescription_="Basix WAV002" Width_="2100" Drop_="3620" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Entrance - 1" WidthDisplay_="2100" DropDisplay_="3620" CustomerOrderReference_="" OrderID_="DUB080128-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0503025889" DelFirstName_="Ms. Rola Abiajram" DelLine1_="Ms. Rola Abiajram" CustomerAddressLine1_="Ms. Rola Abiajram" DelLine2_="Ms. Rola Abiajram" CustomerAddressLine2_="Ms. Rola Abiajram" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Same Room" Choice_="No" ChoiceCode_="SPE134"/>
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30781-B" FabricDescription_="Sheer RAC001" Width_="6000" Drop_="3900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="6000" DropDisplay_="3900" CustomerOrderReference_="" OrderID_="DUB080128-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0503025889" DelFirstName_="Ms. Rola Abiajram" DelLine1_="Ms. Rola Abiajram" CustomerAddressLine1_="Ms. Rola Abiajram" DelLine2_="Ms. Rola Abiajram" CustomerAddressLine2_="Ms. Rola Abiajram" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

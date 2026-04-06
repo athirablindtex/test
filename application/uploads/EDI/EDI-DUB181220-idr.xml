@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB181220-idr.xml" CreateDate_="18/12/2025" CreateTime_="13:14:36">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="181220" CustomerReference_="DUB181220-idr" OrderDate_="18/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="Basix BIC001 (white)" Width_="2330" Drop_="2300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="2330" DropDisplay_="2300" CustomerOrderReference_="" OrderID_="DUB181220-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="mariadavvi1@outlook.com" DelPhone_="0547200427" DelFirstName_="Ms.Maria Davvi" DelLine1_="Ms.Maria Davvi" CustomerAddressLine1_="Ms.Maria Davvi" DelLine2_="Ms.Maria Davvi" CustomerAddressLine2_="Ms.Maria Davvi" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

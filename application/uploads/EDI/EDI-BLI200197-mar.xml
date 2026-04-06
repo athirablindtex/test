@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI200197-mar.xml" CreateDate_="23/01/2026" CreateTime_="16:06:48">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="200197" CustomerReference_="BLI200197-mar" OrderDate_="23/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="1800" Drop_="2940" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Children  room - 1" WidthDisplay_="1800" DropDisplay_="2940" CustomerOrderReference_="please program the motor according to the height 
+left motor " OrderID_="BLI200197-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="stanwehbe@gmail.com" DelPhone_="0569824355" DelFirstName_="Mr Stan Wehbe" DelLine1_="Mr Stan Wehbe" CustomerAddressLine1_="Mr Stan Wehbe" DelLine2_="Mr Stan Wehbe" CustomerAddressLine2_="Mr Stan Wehbe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape White" ChoiceCode_="LTAPE6051- WHITE"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Sonesse 40 RTS 6/20" ChoiceCode_="SOM119"/>
+        <TEDIOptionList_Details OptionName_="Remote" Choice_="Somfy Situo 5 RTS Modulus" ChoiceCode_="SOM073"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="With Returns" ChoiceCode_="W010"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="1800" Drop_="2940" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Children  room - 2" WidthDisplay_="1800" DropDisplay_="2940" CustomerOrderReference_="please program the motor according to height 
+
+Dispatch on Wednesday 28-1-2026
+right motor" OrderID_="BLI200197-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="stanwehbe@gmail.com" DelPhone_="0569824355" DelFirstName_="Mr Stan Wehbe" DelLine1_="Mr Stan Wehbe" CustomerAddressLine1_="Mr Stan Wehbe" DelLine2_="Mr Stan Wehbe" CustomerAddressLine2_="Mr Stan Wehbe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape White" ChoiceCode_="LTAPE6051- WHITE"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Sonesse 40 RTS 6/20" ChoiceCode_="SOM119"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="With Returns" ChoiceCode_="W010"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="1660" Drop_="3080" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Parents  room - 1" WidthDisplay_="1660" DropDisplay_="3080" CustomerOrderReference_="pelmet size 1715 with return
+please program motor according to height
+left motor " OrderID_="BLI200197-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="stanwehbe@gmail.com" DelPhone_="0569824355" DelFirstName_="Mr Stan Wehbe" DelLine1_="Mr Stan Wehbe" CustomerAddressLine1_="Mr Stan Wehbe" DelLine2_="Mr Stan Wehbe" CustomerAddressLine2_="Mr Stan Wehbe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape White" ChoiceCode_="LTAPE6051- WHITE"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Sonesse 40 RTS 6/20" ChoiceCode_="SOM119"/>
+        <TEDIOptionList_Details OptionName_="Remote" Choice_="Somfy Situo 5 RTS Modulus" ChoiceCode_="SOM073"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="With Returns" ChoiceCode_="W010"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="1720" Drop_="3080" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Parents  room - 2" WidthDisplay_="1720" DropDisplay_="3080" CustomerOrderReference_="pelmet size 1715 with return
+please program motor according to height
+right motor " OrderID_="BLI200197-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="stanwehbe@gmail.com" DelPhone_="0569824355" DelFirstName_="Mr Stan Wehbe" DelLine1_="Mr Stan Wehbe" CustomerAddressLine1_="Mr Stan Wehbe" DelLine2_="Mr Stan Wehbe" CustomerAddressLine2_="Mr Stan Wehbe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape White" ChoiceCode_="LTAPE6051- WHITE"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="With Returns" ChoiceCode_="W010"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Sonesse 40 RTS 6/20" ChoiceCode_="SOM119"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="1350" Drop_="3070" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guestroom  - 1" WidthDisplay_="1350" DropDisplay_="3070" CustomerOrderReference_="1 pelmet in 2 blinds with return  Pelmet  size 2750 
+please program the motor according  to height 
+left. motor " OrderID_="BLI200197-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="stanwehbe@gmail.com" DelPhone_="0569824355" DelFirstName_="Mr Stan Wehbe" DelLine1_="Mr Stan Wehbe" CustomerAddressLine1_="Mr Stan Wehbe" DelLine2_="Mr Stan Wehbe" CustomerAddressLine2_="Mr Stan Wehbe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape White" ChoiceCode_="LTAPE6051- WHITE"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Sonesse 40 RTS 6/20" ChoiceCode_="SOM119"/>
+        <TEDIOptionList_Details OptionName_="Remote" Choice_="Somfy Situo 5 RTS Modulus" ChoiceCode_="SOM073"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="With Returns" ChoiceCode_="W010"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="1350" Drop_="3070" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guestroom  - 2" WidthDisplay_="1350" DropDisplay_="3070" CustomerOrderReference_="please program the motor according height 
+right motor " OrderID_="BLI200197-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="stanwehbe@gmail.com" DelPhone_="0569824355" DelFirstName_="Mr Stan Wehbe" DelLine1_="Mr Stan Wehbe" CustomerAddressLine1_="Mr Stan Wehbe" DelLine2_="Mr Stan Wehbe" CustomerAddressLine2_="Mr Stan Wehbe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape White" ChoiceCode_="LTAPE6051- WHITE"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Sonesse 40 RTS 6/20" ChoiceCode_="SOM119"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="With Returns" ChoiceCode_="W010"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

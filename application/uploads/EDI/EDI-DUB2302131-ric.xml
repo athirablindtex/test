@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB2302131-ric.xml" CreateDate_="23/02/2026" CreateTime_="15:29:33">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2302131" CustomerReference_="DUB2302131-ric" OrderDate_="23/02/2026" OrderNote_="Trade customer ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="SHU-01-01" BlindTypeDescription_="Shutters Classic" MetricMeasurement_="0" FabricCode_="PV08" FabricDescription_="PVC PV08 Oyster" Width_="1970" Drop_="2230" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="1" Location_="Bathroom  1 - 1" WidthDisplay_="1970" DropDisplay_="2230" CustomerOrderReference_="" OrderID_="DUB2302131-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="support@blindtex.com" DelPhone_="0561398206" DelFirstName_="Mizanna Designs" DelLine1_="Mizanna Designs" CustomerAddressLine1_="Mizanna Designs" DelLine2_="Mizanna Designs" CustomerAddressLine2_="Mizanna Designs" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Hinges" 
+            Choice_="Match Painted Louvre" 
+            ChoiceCode_="SHU-HIN09" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Louver Size" 
+            Choice_="63mm" 
+            ChoiceCode_="SHU-LOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Position" 
+            Choice_="Not Required" 
+            ChoiceCode_="SHU-MID05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Type" 
+            Choice_="Hidden Tilt" 
+            ChoiceCode_="SHU-TILT03" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Number of Frame Sides" 
+            Choice_="LTR" 
+            ChoiceCode_="SHU-NFS02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Panel Config" 
+            Choice_="LLRR" 
+            ChoiceCode_="SHU-PAN08" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Predrill Frame" 
+            Choice_="Sides" 
+            ChoiceCode_="SHU-PED01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stile Type" 
+            Choice_="Beaded 50mm Astragal" 
+            ChoiceCode_="SHU-STIL05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mounting Location" 
+            Choice_="Inside Recess" 
+            ChoiceCode_="SHU-MOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Frame Type" 
+            Choice_="Z50" 
+            ChoiceCode_="SHU-FRA11" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Installation Style" 
+            Choice_="Sunburst 1" 
+            ChoiceCode_="SHU-INS16" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

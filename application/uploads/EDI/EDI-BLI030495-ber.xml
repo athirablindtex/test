@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI030495-ber.xml" CreateDate_="03/04/2026" CreateTime_="13:32:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="030495" CustomerReference_="BLI030495-ber" OrderDate_="03/04/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="RIG001" FabricDescription_="RIG001 (pearl)" Width_="1910" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MD Room - 1" WidthDisplay_="1910" DropDisplay_="2500" CustomerOrderReference_="1085
+825
+825
+1175 if 4 pcs" OrderID_="BLI030495-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maureen@aksauae.com" DelPhone_="0559541846" DelFirstName_="Maureen / Aksa Power Generation FZE :" DelLine1_="Maureen / Aksa Power Generation FZE :" CustomerAddressLine1_="Maureen / Aksa Power Generation FZE :" DelLine2_="Maureen / Aksa Power Generation FZE :" CustomerAddressLine2_="Maureen / Aksa Power Generation FZE :" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="RIG001" FabricDescription_="RIG001 (pearl)" Width_="1995" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MD Room - 2" WidthDisplay_="1995" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI030495-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maureen@aksauae.com" DelPhone_="0559541846" DelFirstName_="Maureen / Aksa Power Generation FZE :" DelLine1_="Maureen / Aksa Power Generation FZE :" CustomerAddressLine1_="Maureen / Aksa Power Generation FZE :" DelLine2_="Maureen / Aksa Power Generation FZE :" CustomerAddressLine2_="Maureen / Aksa Power Generation FZE :" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="RIG001" FabricDescription_="RIG001 (pearl)" Width_="1545" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MD Room - 3" WidthDisplay_="1545" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI030495-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maureen@aksauae.com" DelPhone_="0559541846" DelFirstName_="Maureen / Aksa Power Generation FZE :" DelLine1_="Maureen / Aksa Power Generation FZE :" CustomerAddressLine1_="Maureen / Aksa Power Generation FZE :" DelLine2_="Maureen / Aksa Power Generation FZE :" CustomerAddressLine2_="Maureen / Aksa Power Generation FZE :" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="RIG001" FabricDescription_="RIG001 (pearl)" Width_="1540" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MD Room - 4" WidthDisplay_="1540" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI030495-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maureen@aksauae.com" DelPhone_="0559541846" DelFirstName_="Maureen / Aksa Power Generation FZE :" DelLine1_="Maureen / Aksa Power Generation FZE :" CustomerAddressLine1_="Maureen / Aksa Power Generation FZE :" DelLine2_="Maureen / Aksa Power Generation FZE :" CustomerAddressLine2_="Maureen / Aksa Power Generation FZE :" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

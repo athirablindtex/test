@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB010496-idr.xml" CreateDate_="03/04/2026" CreateTime_="13:10:17">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="010496" CustomerReference_="DUB010496-idr" OrderDate_="03/04/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="" OrderID_="DUB010496-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.abusada@gutmannme.com" DelPhone_="0529723332" DelFirstName_="Gutmann Industries LLC" DelLine1_="Gutmann Industries LLC" CustomerAddressLine1_="Gutmann Industries LLC" DelLine2_="Gutmann Industries LLC" CustomerAddressLine2_="Gutmann Industries LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Medium Wirefree" 
+            ChoiceCode_="DOY013M" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Charger" 
+            Choice_="USB Micro 3mtr cable with Adaptor ( M / L)" 
+            ChoiceCode_="DOY018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Blindtex DY Remote 1 Channel" 
+            ChoiceCode_="DOY003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 2" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="" OrderID_="DUB010496-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="a.abusada@gutmannme.com" DelPhone_="0529723332" DelFirstName_="Gutmann Industries LLC" DelLine1_="Gutmann Industries LLC" CustomerAddressLine1_="Gutmann Industries LLC" DelLine2_="Gutmann Industries LLC" CustomerAddressLine2_="Gutmann Industries LLC" Salesperson_="Idris">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

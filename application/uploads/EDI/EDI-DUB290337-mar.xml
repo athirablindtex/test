@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB290337-mar.xml" CreateDate_="29/03/2026" CreateTime_="12:46:04">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="290337" CustomerReference_="DUB290337-mar" OrderDate_="29/03/2026" OrderNote_="Dispatch on friday">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="RIG005" FabricDescription_="RIG005 (grey)" Width_="2690" Drop_="1500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="2690" DropDisplay_="1500" CustomerOrderReference_="Chain 1400
+Put signature mechanism" OrderID_="DUB290337-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="W.boudargham@gmail.com" DelPhone_="0501588535" DelFirstName_="Widad bou dargham" DelLine1_="Widad bou dargham" CustomerAddressLine1_="Widad bou dargham" DelLine2_="Widad bou dargham" CustomerAddressLine2_="Widad bou dargham" Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI290715205225-moh.xml" CreateDate_="29/07/2025" CreateTime_="15:20:53">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="12233" CustomerReference_="BLI2907152052/25-moh" OrderDate_="29/07/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller-Signature" MetricMeasurement_="0" FabricCode_="FAS001 (E)" FabricDescription_="80s Fashion - BO Essen" Width_="1200" Drop_="1400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room1" WidthDisplay_="1200" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="BLI290715205225-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White Flat S Channel" ChoiceCode_="RCM023WH"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Somfy intermediate bracket (RTS 50)" ChoiceCode_="SPE185"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Extension" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER003" FabricDescription_="Blackout_NER003" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room2" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="" OrderID_="BLI290715205225-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout Cream" ChoiceCode_="LIN006"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Extension" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Borders" Choice_="Horizontal Boarder x 2" ChoiceCode_="STY049"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

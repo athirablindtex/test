@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI1702129-mar.xml" CreateDate_="20/02/2026" CreateTime_="15:12:21">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1702129" CustomerReference_="BLI1702129-mar" OrderDate_="20/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="" OrderID_="BLI1702129-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="easyapply17@yahoo.com" DelPhone_="0557543521" DelFirstName_="Mr marlon" DelLine1_="Mr marlon" CustomerAddressLine1_="Mr marlon" DelLine2_="Mr marlon" CustomerAddressLine2_="Mr marlon" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Medium Wired RTS 10/17" 
+            ChoiceCode_="DOY027" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="" OrderID_="BLI1702129-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="easyapply17@yahoo.com" DelPhone_="0557543521" DelFirstName_="Mr marlon" DelLine1_="Mr marlon" CustomerAddressLine1_="Mr marlon" DelLine2_="Mr marlon" CustomerAddressLine2_="Mr marlon" Salesperson_="Maria Blindtex">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM280216-ber.xml" CreateDate_="28/02/2026" CreateTime_="10:54:06">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="280216" CustomerReference_="RIM280216-ber" OrderDate_="28/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="3710" Drop_="3200" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="3710" DropDisplay_="3200" CustomerOrderReference_="" OrderID_="RIM280216-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="Bernard@blindtex.com" DelPhone_="0551514384" DelFirstName_=" Dummy Conceetha Sequeira" DelLine1_=" Dummy Conceetha Sequeira" CustomerAddressLine1_=" Dummy Conceetha Sequeira" DelLine2_=" Dummy Conceetha Sequeira" CustomerAddressLine2_=" Dummy Conceetha Sequeira" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="3710" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 2" WidthDisplay_="3710" DropDisplay_="1" CustomerOrderReference_="" OrderID_="RIM280216-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="Bernard@blindtex.com" DelPhone_="0551514384" DelFirstName_=" Dummy Conceetha Sequeira" DelLine1_=" Dummy Conceetha Sequeira" CustomerAddressLine1_=" Dummy Conceetha Sequeira" DelLine2_=" Dummy Conceetha Sequeira" CustomerAddressLine2_=" Dummy Conceetha Sequeira" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="7" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

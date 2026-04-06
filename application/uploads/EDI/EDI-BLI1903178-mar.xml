@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI1903178-mar.xml" CreateDate_="19/03/2026" CreateTime_="12:53:03">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1903178" CustomerReference_="BLI1903178-mar" OrderDate_="19/03/2026" OrderNote_="Please dipatch on monday">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Other2" BlindTypeDescription_="Consumables" MetricMeasurement_="0" FabricCode_="Other" FabricDescription_="Other" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Van stock - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="Tape measure 1qty
+Double sided tape 1qty
+3 wipes 
+Wall plug 3 box 
+Paper tape 1 pcs 1inch" OrderID_="BLI1903178-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0545839233" DelFirstName_="Van stock" DelLine1_="Van stock" CustomerAddressLine1_="Van stock" DelLine2_="Van stock" CustomerAddressLine2_="Van stock" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cleaning" 
+            Choice_="Wet Wipes" 
+            ChoiceCode_="FIT001" 
+            Quantity_="3" />
+        <TEDIOptionList_Details 
+            OptionName_="Plugs" 
+            Choice_="6mm Grey Plugs" 
+            ChoiceCode_="FIT024" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

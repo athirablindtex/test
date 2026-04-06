@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB0703174-ric.xml" CreateDate_="09/03/2026" CreateTime_="11:50:28">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0703174" CustomerReference_="DUB0703174-ric" OrderDate_="09/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1160" Drop_="1485" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="1160" DropDisplay_="1485" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1220" Drop_="2920" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1220" DropDisplay_="2920" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1325" Drop_="2920" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="1325" DropDisplay_="2920" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1400" Drop_="2920" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="1400" DropDisplay_="2920" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1050" Drop_="2920" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="1050" DropDisplay_="2920" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1260" Drop_="2920" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 5" WidthDisplay_="1260" DropDisplay_="2920" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1330" Drop_="2920" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 6" WidthDisplay_="1330" DropDisplay_="2920" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1070" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1070" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1225" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="1225" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="980" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 3" WidthDisplay_="980" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="740" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 4" WidthDisplay_="740" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1160" Drop_="2900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="1160" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1000" Drop_="2990" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="1000" DropDisplay_="2990" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="1260" Drop_="2990" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 3" WidthDisplay_="1260" DropDisplay_="2990" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Signature" MetricMeasurement_="0" FabricCode_="MIN006-2800" FabricDescription_="Minerals Coffee" Width_="950" Drop_="2990" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 4" WidthDisplay_="950" DropDisplay_="2990" CustomerOrderReference_="" OrderID_="DUB0703174-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nospam01@live.nl" DelPhone_="0509527907" DelFirstName_="Mr. Kai Ho" DelLine1_="Mr. Kai Ho" CustomerAddressLine1_="Mr. Kai Ho" DelLine2_="Mr. Kai Ho" CustomerAddressLine2_="Mr. Kai Ho" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Side by Side" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Default" 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI261177-mar.xml" CreateDate_="27/11/2025" CreateTime_="09:24:43">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="261177" CustomerReference_="BLI261177-mar" OrderDate_="27/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="CUB003VV" FabricDescription_="Basix CUB003 (white)" Width_="3430" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office1" WidthDisplay_="3430" DropDisplay_="2500" CustomerOrderReference_="cord and chain 1700
+dispatch on Saturday jlt " OrderID_="BLI261177-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="nadiiasoloviora1@gmail.com" DelPhone_="0502526376" DelFirstName_="ms nadia" DelLine1_="ms nadia" CustomerAddressLine1_="ms nadia" DelLine2_="ms nadia" CustomerAddressLine2_="ms nadia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="CUB003VV" FabricDescription_="Basix CUB003 (white)" Width_="3420" Drop_="2515" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office2" WidthDisplay_="3420" DropDisplay_="2515" CustomerOrderReference_="cord and chain 1700" OrderID_="BLI261177-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="nadiiasoloviora1@gmail.com" DelPhone_="0502526376" DelFirstName_="ms nadia" DelLine1_="ms nadia" CustomerAddressLine1_="ms nadia" DelLine2_="ms nadia" CustomerAddressLine2_="ms nadia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

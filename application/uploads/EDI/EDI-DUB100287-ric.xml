@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB100287-ric.xml" CreateDate_="10/02/2026" CreateTime_="09:15:56">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="100287" CustomerReference_="DUB100287-ric" OrderDate_="10/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller-Signature" MetricMeasurement_="0" FabricCode_="STA001 - BO (P)" FabricDescription_="Stars Blackout" Width_="1760" Drop_="1700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1760" DropDisplay_="1700" CustomerOrderReference_="stars number 5
+sta 005 cassette and bottom bar." OrderID_="DUB100287-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="stephaniektyler@gmail.com" DelPhone_="0521569019" DelFirstName_="Stephanie Elliott" DelLine1_="Stephanie Elliott" CustomerAddressLine1_="Stephanie Elliott" DelLine2_="Stephanie Elliott" CustomerAddressLine2_="Stephanie Elliott" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Block Out System" Choice_="Sides and Bottom Only ( White )" ChoiceCode_="SPE18a"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB16103-idr.xml" CreateDate_="06/11/2025" CreateTime_="01:35:34">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="16103" CustomerReference_="DUB16103-idr" OrderDate_="06/11/2025" OrderNote_="width 210cm
+Height 265cm
+A request from Mihaela to produce the blinds on this measurements, as its not covers under the warranty terms.">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="HAZEL" FabricDescription_="Faux - Signature Hazel" Width_="2100" Drop_="2640" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office2" WidthDisplay_="2100" DropDisplay_="2640" CustomerOrderReference_="" OrderID_="DUB16103-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Mihaelaconsttantin@gmail.com" DelPhone_="0509344815" DelFirstName_="Sheik Ahmed Al Nuaimi Palace" DelLine1_="Sheik Ahmed Al Nuaimi Palace" CustomerAddressLine1_="Sheik Ahmed Al Nuaimi Palace" DelLine2_="Sheik Ahmed Al Nuaimi Palace" CustomerAddressLine2_="Sheik Ahmed Al Nuaimi Palace" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Extension" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="With Returns" ChoiceCode_="W010"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

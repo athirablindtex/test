@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM070370-nei.xml" CreateDate_="07/03/2026" CreateTime_="16:50:53">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="070370" CustomerReference_="RIM070370-nei" OrderDate_="07/03/2026" OrderNote_="Need little giant">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER002" FabricDescription_="NER002" Width_="985" Drop_="2480" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="985" DropDisplay_="2480" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER002" FabricDescription_="NER002" Width_="985" Drop_="2485" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="985" DropDisplay_="2485" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ORC002" FabricDescription_="ORC002 (natural)" Width_="785" Drop_="2520" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guest - 1" WidthDisplay_="785" DropDisplay_="2520" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ORC002" FabricDescription_="ORC002 (natural)" Width_="785" Drop_="2520" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guest - 2" WidthDisplay_="785" DropDisplay_="2520" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="PECAN" FabricDescription_="Faux - Signature Pecan" Width_="2225" Drop_="700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="2225" DropDisplay_="700" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE014" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="No Returns" 
+            ChoiceCode_="W002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="PEA004" FabricDescription_="PEA004 (Green)" Width_="1490" Drop_="2050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Stairs - 1" WidthDisplay_="1490" DropDisplay_="2050" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="PEA004" FabricDescription_="PEA004 (Green)" Width_="1480" Drop_="2915" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Stairs - 2" WidthDisplay_="1480" DropDisplay_="2915" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="PEA004" FabricDescription_="PEA004 (Green)" Width_="985" Drop_="2480" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="1st floor - 1" WidthDisplay_="985" DropDisplay_="2480" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="PEA004" FabricDescription_="PEA004 (Green)" Width_="990" Drop_="2485" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="1st floor - 2" WidthDisplay_="990" DropDisplay_="2485" CustomerOrderReference_="" OrderID_="RIM070370-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0504883343" DelFirstName_="anas" DelLine1_="anas" CustomerAddressLine1_="anas" DelLine2_="anas" CustomerAddressLine2_="anas" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

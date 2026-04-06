@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB240375-kar.xml" CreateDate_="24/03/2026" CreateTime_="14:12:23">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="240375" CustomerReference_="DUB240375-kar" OrderDate_="24/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="AUR005-B" FabricDescription_="AUR005" Width_="2250" Drop_="2990" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="2250" DropDisplay_="2990" CustomerOrderReference_="" OrderID_="DUB240375-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0561777099" DelFirstName_=" for costing only Mouhcine Lebba" DelLine1_=" for costing only Mouhcine Lebba" CustomerAddressLine1_=" for costing only Mouhcine Lebba" DelLine2_=" for costing only Mouhcine Lebba" CustomerAddressLine2_=" for costing only Mouhcine Lebba" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2250" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="2250" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB240375-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0561777099" DelFirstName_=" for costing only Mouhcine Lebba" DelLine1_=" for costing only Mouhcine Lebba" CustomerAddressLine1_=" for costing only Mouhcine Lebba" DelLine2_=" for costing only Mouhcine Lebba" CustomerAddressLine2_=" for costing only Mouhcine Lebba" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall bracket 35mm white" 
+            ChoiceCode_="CCM120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="AUR005-B" FabricDescription_="AUR005" Width_="3250" Drop_="2200" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="3250" DropDisplay_="2200" CustomerOrderReference_="" OrderID_="DUB240375-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0561777099" DelFirstName_=" for costing only Mouhcine Lebba" DelLine1_=" for costing only Mouhcine Lebba" CustomerAddressLine1_=" for costing only Mouhcine Lebba" DelLine2_=" for costing only Mouhcine Lebba" CustomerAddressLine2_=" for costing only Mouhcine Lebba" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track,Flexible Rail Blindtex" MetricMeasurement_="0" FabricCode_="FLEX01" FabricDescription_="Flexible,Silver" Width_="3250" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 2" WidthDisplay_="3250" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB240375-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0561777099" DelFirstName_=" for costing only Mouhcine Lebba" DelLine1_=" for costing only Mouhcine Lebba" CustomerAddressLine1_=" for costing only Mouhcine Lebba" DelLine2_=" for costing only Mouhcine Lebba" CustomerAddressLine2_=" for costing only Mouhcine Lebba" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Flexible Rail Top Fix Bracket" 
+            ChoiceCode_="BRA045" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

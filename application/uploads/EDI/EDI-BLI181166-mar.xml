@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI181166-mar.xml" CreateDate_="19/11/2025" CreateTime_="17:09:00">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="181166" CustomerReference_="BLI181166-mar" OrderDate_="19/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004" FabricDescription_="Sheer HAZ004" Width_="3500" Drop_="2635" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dining Room1" WidthDisplay_="3500" DropDisplay_="2635" CustomerOrderReference_="hem to hem no more deduction " OrderID_="BLI181166-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="gale.clement@jumeirah.com" DelPhone_="0558856106" DelFirstName_="Ms Gale clement" DelLine1_="Ms Gale clement" CustomerAddressLine1_="Ms Gale clement" DelLine2_="Ms Gale clement" CustomerAddressLine2_="Ms Gale clement" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Easy Fold (Wave)" ChoiceCode_="STY102"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK" BlindTypeDescription_="Curtain Track Forest" MetricMeasurement_="0" FabricCode_="KS" FabricDescription_="Klick System Curtain Track White" Width_="3500" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room2" WidthDisplay_="3500" DropDisplay_="0" CustomerOrderReference_="dispatch on monday " OrderID_="BLI181166-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="gale.clement@jumeirah.com" DelPhone_="0558856106" DelFirstName_="Ms Gale clement" DelLine1_="Ms Gale clement" CustomerAddressLine1_="Ms Gale clement" DelLine2_="Ms Gale clement" CustomerAddressLine2_="Ms Gale clement" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Wall bracket 60mm white" ChoiceCode_="CCM121"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Overlap" Choice_="Easy Wave 90 degree Master Carrier" ChoiceCode_="CCM190"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Easy Fold System,FES" Choice_="Easy Wave Fold System - With Overlap" ChoiceCode_="STY088"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

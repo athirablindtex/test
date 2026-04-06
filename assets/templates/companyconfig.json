@@ -1,0 +1,50 @@
+{
+    "product": [{
+            "productId": "1",
+            "productName": "Roller Blinds",
+            "collection": "Signature collection",
+            "productPercent":"10",
+            "fabric": [{
+                    "fabricId": "1",
+                    "fabricName": "Anycolour Proto",
+                    "fabricMarginPercent": "10"
+                },
+                {
+                    "fabricId": "2",
+                    "fabricName": "Anycolour chelsea",
+                    "fabricMarginPercent": "10"
+                }],
+            "extras": [{
+                    "extraId": "1",	
+                    "extraName": "Roll Direction",
+                    "options": [{ 	
+                            "optionId": "1",
+                            "optionName": "Front Roll",
+                            "optionMarginPercent": "20"
+                        },
+                        { 	
+                            "optionId": "2",
+                            "optionName": "Back Roll",
+                            "optionMarginPercent": "20"
+                        }
+                    ]
+                },
+                {
+                    "extraId": "2",	
+                    "extraName": "Cassette",
+                    "options": [{ 	
+                            "optionId": "1",
+                            "optionName": "With Cassette",
+                            "optionMarginPercent": "10"
+                        },
+                        { 	
+                            "optionId": "2",
+                            "optionName": "Without Cassette",
+                            "optionMarginPercent": "10"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

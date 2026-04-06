@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1402103-ric.xml" CreateDate_="14/02/2026" CreateTime_="16:37:53">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1402103" CustomerReference_="DUB1402103-ric" OrderDate_="14/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="1000" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1000" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1402103-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Ramin.siach@gmail.com" DelPhone_="0553460040" DelFirstName_="Ramin Siahcheshmi" DelLine1_="Ramin Siahcheshmi" CustomerAddressLine1_="Ramin Siahcheshmi" DelLine2_="Ramin Siahcheshmi" CustomerAddressLine2_="Ramin Siahcheshmi" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Home Automation" Choice_="Blindtex Smart Home Hub DY" ChoiceCode_="DOY024"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Front" ChoiceCode_="SPE144"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

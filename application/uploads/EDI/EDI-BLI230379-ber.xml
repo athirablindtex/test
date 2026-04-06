@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI230379-ber.xml" CreateDate_="23/03/2026" CreateTime_="18:57:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="230379" CustomerReference_="BLI230379-ber" OrderDate_="23/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Curtain (new hooks) below 3m x 3m" Width_="3310" Drop_="2965" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="3310" DropDisplay_="2965" CustomerOrderReference_="Old size 3310x3000
+New size 3310x2965" OrderID_="BLI230379-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Curtain (new hooks) below 3m x 3m" Width_="3040" Drop_="2965" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kids room - 1" WidthDisplay_="3040" DropDisplay_="2965" CustomerOrderReference_="Old Measurement 3180x2985
+New 3040x2490" OrderID_="BLI230379-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Vertical/Vertex (existing mechanism)" Width_="3090" Drop_="2965" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guest room - 1" WidthDisplay_="3090" DropDisplay_="2965" CustomerOrderReference_="Old measurement 3330x2990
+New 3090x2965" OrderID_="BLI230379-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Vertical/Vertex (existing mechanism)" Width_="1785" Drop_="2630" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living down - 1" WidthDisplay_="1785" DropDisplay_="2630" CustomerOrderReference_="Old measurement 1785x2630
+Left bunch left control
+Please  send bracket face fix 89" OrderID_="BLI230379-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Vertical/Vertex (existing mechanism)" Width_="1800" Drop_="2630" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living down - 2" WidthDisplay_="1800" DropDisplay_="2630" CustomerOrderReference_="Old measurement 2895x263
+Right bunch right control
+Please send face fix bracket 89
+" OrderID_="BLI230379-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Vertical/Vertex (existing mechanism)" Width_="100" Drop_="100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="100" DropDisplay_="100" CustomerOrderReference_="Old measurement 3040x2630
+New 2170x2560" OrderID_="BLI230379-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

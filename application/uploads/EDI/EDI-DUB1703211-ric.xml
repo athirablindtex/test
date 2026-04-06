@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1703211-ric.xml" CreateDate_="17/03/2026" CreateTime_="11:17:58">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1703211" CustomerReference_="DUB1703211-ric" OrderDate_="17/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUTRACK" BlindTypeDescription_="Curtain Track Forest" MetricMeasurement_="0" FabricCode_="KS" FabricDescription_="Klick System Curtain Track White" Width_="3560" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="3560" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1703211-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="John.rigler@clermont.com" DelPhone_="0524921460" DelFirstName_="Jonathan Rigler" DelLine1_="Jonathan Rigler" CustomerAddressLine1_="Jonathan Rigler" DelLine2_="Jonathan Rigler" CustomerAddressLine2_="Jonathan Rigler" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

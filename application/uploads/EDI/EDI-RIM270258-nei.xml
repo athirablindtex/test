@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM270258-nei.xml" CreateDate_="27/02/2026" CreateTime_="13:40:13">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="270258" CustomerReference_="RIM270258-nei" OrderDate_="27/02/2026" OrderNote_="Repair of roman blinds ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roman (existing mechanism)" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="" OrderID_="RIM270258-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0501667200" DelFirstName_="Mirna" DelLine1_="Mirna" CustomerAddressLine1_="Mirna" DelLine2_="Mirna" CustomerAddressLine2_="Mirna" Salesperson_="Neil">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU21023-moh.xml" CreateDate_="21/02/2026" CreateTime_="13:59:57">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="21023" CustomerReference_="ABU21023-moh" OrderDate_="21/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller-Signature" MetricMeasurement_="0" FabricCode_="AC- CHE" FabricDescription_="Anycolour Chelsea" Width_="1200" Drop_="1400" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="1200" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="ABU21023-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="Mohammedeu">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

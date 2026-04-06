@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB0303161-ric.xml" CreateDate_="03/03/2026" CreateTime_="20:17:09">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0303161" CustomerReference_="DUB0303161-ric" OrderDate_="03/03/2026" OrderNote_="Updated invoice ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="VIS001" FabricDescription_="VIS001 (white)" Width_="1940" Drop_="1750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1940" DropDisplay_="1750" CustomerOrderReference_="" OrderID_="DUB0303161-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0526452399" DelFirstName_="Mr. Karl Whyte " DelLine1_="Mr. Karl Whyte " CustomerAddressLine1_="Mr. Karl Whyte " DelLine2_="Mr. Karl Whyte " CustomerAddressLine2_="Mr. Karl Whyte " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Blindtex DY Remote 1 Channel" 
+            ChoiceCode_="DOY003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Medium Wired RTS 10/17" 
+            ChoiceCode_="DOY027" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Block Out System" 
+            Choice_="Sides and Bottom Only ( White )" 
+            ChoiceCode_="SPE18a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

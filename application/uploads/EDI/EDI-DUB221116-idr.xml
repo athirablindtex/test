@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB221116-idr.xml" CreateDate_="22/11/2025" CreateTime_="15:15:31">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="221116" CustomerReference_="DUB221116-idr" OrderDate_="22/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="LAC003" FabricDescription_="Sheer LAC003" Width_="2110" Drop_="3040" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room1" WidthDisplay_="2110" DropDisplay_="3040" CustomerOrderReference_="" OrderID_="DUB221116-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Sean@wwps.ae" DelPhone_="0505441230" DelFirstName_="Sean Mclaughlan" DelLine1_="Sean Mclaughlan" CustomerAddressLine1_="Sean Mclaughlan" DelLine2_="Sean Mclaughlan" CustomerAddressLine2_="Sean Mclaughlan" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Standard Cream" ChoiceCode_="LIN001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System" Choice_="Deluxe System (default)" ChoiceCode_="SPE120"/>
+        <TEDIOptionList_Details OptionName_="Stacking Type" Choice_="Standard Stacking" ChoiceCode_="SPE036"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="LAC003" FabricDescription_="Sheer LAC003" Width_="2110" Drop_="2370" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room2" WidthDisplay_="2110" DropDisplay_="2370" CustomerOrderReference_="" OrderID_="DUB221116-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Sean@wwps.ae" DelPhone_="0505441230" DelFirstName_="Sean Mclaughlan" DelLine1_="Sean Mclaughlan" CustomerAddressLine1_="Sean Mclaughlan" DelLine2_="Sean Mclaughlan" CustomerAddressLine2_="Sean Mclaughlan" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Standard Cream" ChoiceCode_="LIN001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System" Choice_="Deluxe System (default)" ChoiceCode_="SPE120"/>
+        <TEDIOptionList_Details OptionName_="Stacking Type" Choice_="Standard Stacking" ChoiceCode_="SPE036"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="ODE004" FabricDescription_="Blackout ODE004" Width_="2370" Drop_="2900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom1" WidthDisplay_="2370" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="DUB221116-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Sean@wwps.ae" DelPhone_="0505441230" DelFirstName_="Sean Mclaughlan" DelLine1_="Sean Mclaughlan" CustomerAddressLine1_="Sean Mclaughlan" DelLine2_="Sean Mclaughlan" CustomerAddressLine2_="Sean Mclaughlan" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Stacking Type" Choice_="Standard Stacking" ChoiceCode_="SPE036"/>
+        <TEDIOptionList_Details OptionName_="System" Choice_="Deluxe System (default)" ChoiceCode_="SPE120"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="ODE004" FabricDescription_="Blackout ODE004" Width_="1300" Drop_="2900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom2" WidthDisplay_="1300" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="DUB221116-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Sean@wwps.ae" DelPhone_="0505441230" DelFirstName_="Sean Mclaughlan" DelLine1_="Sean Mclaughlan" CustomerAddressLine1_="Sean Mclaughlan" DelLine2_="Sean Mclaughlan" CustomerAddressLine2_="Sean Mclaughlan" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Stacking Type" Choice_="Standard Stacking" ChoiceCode_="SPE036"/>
+        <TEDIOptionList_Details OptionName_="System" Choice_="Deluxe System (default)" ChoiceCode_="SPE120"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB0903177-ric.xml" CreateDate_="09/03/2026" CreateTime_="17:19:49">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0903177" CustomerReference_="DUB0903177-ric" OrderDate_="09/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="PEARL" FabricDescription_="Faux - Signature Pearl" Width_="1900" Drop_="3210" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="1900" DropDisplay_="3210" CustomerOrderReference_="" OrderID_="DUB0903177-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="svetbar024@gmail.com" DelPhone_="0585447191" DelFirstName_="Svetlana Baryshnikova" DelLine1_="Svetlana Baryshnikova" CustomerAddressLine1_="Svetlana Baryshnikova" DelLine2_="Svetlana Baryshnikova" CustomerAddressLine2_="Svetlana Baryshnikova" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="With Returns" 
+            ChoiceCode_="W010" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

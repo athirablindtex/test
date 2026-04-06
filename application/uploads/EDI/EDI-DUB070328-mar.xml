@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB070328-mar.xml" CreateDate_="08/03/2026" CreateTime_="01:46:40">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="070328" CustomerReference_="DUB070328-mar" OrderDate_="08/03/2026" OrderNote_="Please dispatch on wednesday and little giant long ladder">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SOL003" FabricDescription_="SOL003 (reflective off blue)" Width_="2000" Drop_="2780" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="2000" DropDisplay_="2780" CustomerOrderReference_="Customer will used existing Mechanism and cassette just change fabric" OrderID_="DUB070328-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="andydutchie@yahoo.co.uk" DelPhone_="0509406138" DelFirstName_="Andrew Holland" DelLine1_="Andrew Holland" CustomerAddressLine1_="Andrew Holland" DelLine2_="Andrew Holland" CustomerAddressLine2_="Andrew Holland" Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="2000" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="2000" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB070328-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="andydutchie@yahoo.co.uk" DelPhone_="0509406138" DelFirstName_="Andrew Holland" DelLine1_="Andrew Holland" CustomerAddressLine1_="Andrew Holland" DelLine2_="Andrew Holland" CustomerAddressLine2_="Andrew Holland" Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB15123-ric.xml" CreateDate_="15/12/2025" CreateTime_="10:43:11">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="15123" CustomerReference_="DUB15123-ric" OrderDate_="15/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA009" FabricDescription_="Basix SHA009 (beige)" Width_="1325" Drop_="2980" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room1" WidthDisplay_="1325" DropDisplay_="2980" CustomerOrderReference_="" OrderID_="DUB15123-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Ramin.siach@gmail.com" DelPhone_="0553460040" DelFirstName_="Ramin Siahcheshmi" DelLine1_="Ramin Siahcheshmi" CustomerAddressLine1_="Ramin Siahcheshmi" DelLine2_="Ramin Siahcheshmi" CustomerAddressLine2_="Ramin Siahcheshmi" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Default," ChoiceCode_="ROLSYS4A"/>
+        <TEDIOptionList_Details OptionName_="Remote Control" Choice_="Blindtex DY Remote 15 Channel" ChoiceCode_="DOY004"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Medium Wirefree" ChoiceCode_="DOY013M"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA009" FabricDescription_="Basix SHA009 (beige)" Width_="2400" Drop_="2980" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room2" WidthDisplay_="2400" DropDisplay_="2980" CustomerOrderReference_="" OrderID_="DUB15123-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Ramin.siach@gmail.com" DelPhone_="0553460040" DelFirstName_="Ramin Siahcheshmi" DelLine1_="Ramin Siahcheshmi" CustomerAddressLine1_="Ramin Siahcheshmi" DelLine2_="Ramin Siahcheshmi" CustomerAddressLine2_="Ramin Siahcheshmi" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Default," ChoiceCode_="ROLSYS4A"/>
+        <TEDIOptionList_Details OptionName_="Charger" Choice_="USB Micro 3mtr cable with Adaptor ( M / L)" ChoiceCode_="DOY018"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Medium Wirefree" ChoiceCode_="DOY013M"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

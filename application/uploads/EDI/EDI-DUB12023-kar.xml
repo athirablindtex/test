@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB12023-kar.xml" CreateDate_="12/02/2026" CreateTime_="09:29:04">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="12023" CustomerReference_="DUB12023-kar" OrderDate_="12/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG005" FabricDescription_="RIG005 (grey)" Width_="1280" Drop_="2600" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Office 1 - 1" WidthDisplay_="1280" DropDisplay_="2600" CustomerOrderReference_="" OrderID_="DUB12023-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="mdesouki@idealstandard.com" DelPhone_="0527778518" DelFirstName_="Ideal Standard" DelLine1_="Ideal Standard" CustomerAddressLine1_="Ideal Standard" DelLine2_="Ideal Standard" CustomerAddressLine2_="Ideal Standard" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Default," ChoiceCode_="ROLSYS4A"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Uncovered" ChoiceCode_="BBARUN"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG005" FabricDescription_="RIG005 (grey)" Width_="1595" Drop_="2600" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Office 1 - 2" WidthDisplay_="1595" DropDisplay_="2600" CustomerOrderReference_="" OrderID_="DUB12023-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="mdesouki@idealstandard.com" DelPhone_="0527778518" DelFirstName_="Ideal Standard" DelLine1_="Ideal Standard" CustomerAddressLine1_="Ideal Standard" DelLine2_="Ideal Standard" CustomerAddressLine2_="Ideal Standard" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Default," ChoiceCode_="ROLSYS4A"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

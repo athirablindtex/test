@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI130815482225-mar.xml" CreateDate_="20/08/2025" CreateTime_="16:20:03">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="130815482225" CustomerReference_="BLI1308154822/25-mar" OrderDate_="20/08/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="Basix BIC001 (white)" Width_="860" Drop_="2280" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office upstairs1" WidthDisplay_="860" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="BLI130815482225-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="amohan@grandstores.ae" DelPhone_="0565226171" DelFirstName_="Grand stores" DelLine1_="Grand stores" CustomerAddressLine1_="Grand stores" DelLine2_="Grand stores" CustomerAddressLine2_="Grand stores" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="Basix BIC001 (white)" Width_="1195" Drop_="2280" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office upstairs2" WidthDisplay_="1195" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="BLI130815482225-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="amohan@grandstores.ae" DelPhone_="0565226171" DelFirstName_="Grand stores" DelLine1_="Grand stores" CustomerAddressLine1_="Grand stores" DelLine2_="Grand stores" CustomerAddressLine2_="Grand stores" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="Basix BIC001 (white)" Width_="1170" Drop_="2280" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office upstairs3" WidthDisplay_="1170" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="BLI130815482225-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="amohan@grandstores.ae" DelPhone_="0565226171" DelFirstName_="Grand stores" DelLine1_="Grand stores" CustomerAddressLine1_="Grand stores" DelLine2_="Grand stores" CustomerAddressLine2_="Grand stores" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

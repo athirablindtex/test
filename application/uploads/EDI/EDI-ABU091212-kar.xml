@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abudhabi Blinds" FileTransfName_="ABU091212-kar.xml" CreateDate_="09/12/2025" CreateTime_="10:50:14">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="091212" CustomerReference_="ABU091212-kar" OrderDate_="09/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CAS005-BO" FabricDescription_="Blackout CAS005" Width_="1400" Drop_="3040" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="1400" DropDisplay_="3040" CustomerOrderReference_="" OrderID_="ABU091212-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="hishamfakhreddin@yahoo.com" DelPhone_="0501447526" DelFirstName_="Mr. Hisham Fahkreddin" DelLine1_="Mr. Hisham Fahkreddin" CustomerAddressLine1_="Mr. Hisham Fahkreddin" DelLine2_="Mr. Hisham Fahkreddin" CustomerAddressLine2_="Mr. Hisham Fahkreddin" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Single Curtain" ChoiceCode_="STY084"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="1400" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room2" WidthDisplay_="1400" DropDisplay_="1" CustomerOrderReference_="" OrderID_="ABU091212-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="hishamfakhreddin@yahoo.com" DelPhone_="0501447526" DelFirstName_="Mr. Hisham Fahkreddin" DelLine1_="Mr. Hisham Fahkreddin" CustomerAddressLine1_="Mr. Hisham Fahkreddin" DelLine2_="Mr. Hisham Fahkreddin" CustomerAddressLine2_="Mr. Hisham Fahkreddin" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Left Bunch" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

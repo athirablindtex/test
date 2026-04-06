@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM310337-ber.xml" CreateDate_="31/03/2026" CreateTime_="09:33:57">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="310337" CustomerReference_="RIM310337-ber" OrderDate_="31/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Vertical/Vertex (existing mechanism)" Width_="100" Drop_="100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="100" DropDisplay_="100" CustomerOrderReference_="" OrderID_="RIM310337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="chochi1957@hotmail.com" DelPhone_="0508504352" DelFirstName_="Sheila Trout" DelLine1_="Sheila Trout" CustomerAddressLine1_="Sheila Trout" DelLine2_="Sheila Trout" CustomerAddressLine2_="Sheila Trout" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

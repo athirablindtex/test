@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM041116-nei.xml" CreateDate_="04/11/2025" CreateTime_="14:22:09">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="041116" CustomerReference_="RIM041116-nei" OrderDate_="04/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="ODE003" FabricDescription_="Blackout ODE003" Width_="2377" Drop_="2315" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="2377" DropDisplay_="2315" CustomerOrderReference_="" OrderID_="RIM041116-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="indracosta2828@gmail.com" DelPhone_="0545282828" DelFirstName_="indra" DelLine1_="indra" CustomerAddressLine1_="indra" DelLine2_="indra" CustomerAddressLine2_="indra" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

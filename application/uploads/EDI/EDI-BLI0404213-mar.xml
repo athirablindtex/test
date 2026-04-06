@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI0404213-mar.xml" CreateDate_="04/04/2026" CreateTime_="14:53:10">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0404213" CustomerReference_="BLI0404213-mar" OrderDate_="04/04/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="CLE003" FabricDescription_="CLE003" Width_="1590" Drop_="2285" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="1590" DropDisplay_="2285" CustomerOrderReference_="" OrderID_="BLI0404213-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="imadtamara@gmail.com" DelPhone_="0558484070" DelFirstName_="Ms Tamara imad" DelLine1_="Ms Tamara imad" CustomerAddressLine1_="Ms Tamara imad" DelLine2_="Ms Tamara imad" CustomerAddressLine2_="Ms Tamara imad" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

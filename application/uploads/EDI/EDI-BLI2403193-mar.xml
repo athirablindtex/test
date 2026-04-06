@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2403193-mar.xml" CreateDate_="24/03/2026" CreateTime_="13:08:42">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2403193" CustomerReference_="BLI2403193-mar" OrderDate_="24/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30817" FabricDescription_="Bloom Flaxen" Width_="3160" Drop_="2015" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="3160" DropDisplay_="2015" CustomerOrderReference_="Hem to hem no more deduction" OrderID_="BLI2403193-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="amylimaimee@hotmail.com" DelPhone_="0502651432" DelFirstName_="Aimee Lim" DelLine1_="Aimee Lim" CustomerAddressLine1_="Aimee Lim" DelLine2_="Aimee Lim" CustomerAddressLine2_="Aimee Lim" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK" BlindTypeDescription_="Curtain Track Forest" MetricMeasurement_="0" FabricCode_="KS" FabricDescription_="Klick System Curtain Track White" Width_="3160" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="3160" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2403193-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="amylimaimee@hotmail.com" DelPhone_="0502651432" DelFirstName_="Aimee Lim" DelLine1_="Aimee Lim" CustomerAddressLine1_="Aimee Lim" DelLine2_="Aimee Lim" CustomerAddressLine2_="Aimee Lim" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Easy Fold System,FES" 
+            Choice_="Easy Wave Fold System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Overlap" 
+            Choice_="Easy Wave 90 degree Master Carrier" 
+            ChoiceCode_="CCM190" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="BLI14036-ath.xml" CreateDate_="14/03/2026" CreateTime_="14:22:53">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="14036" CustomerReference_="BLI14036-ath" OrderDate_="14/03/2026" OrderNote_="Test">
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

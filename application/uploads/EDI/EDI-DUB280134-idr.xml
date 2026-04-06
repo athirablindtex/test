@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB280134-idr.xml" CreateDate_="04/02/2026" CreateTime_="10:46:47">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="280134" CustomerReference_="DUB280134-idr" OrderDate_="04/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="1750" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MAN PRAYING - 1" WidthDisplay_="1750" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="1750" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MAN PRAYING - 2" WidthDisplay_="1750" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="1750" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MAN PRAYING - 3" WidthDisplay_="1750" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="3700" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MAN PRAYING - 4" WidthDisplay_="3700" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="3600" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MAN PRAYING - 5" WidthDisplay_="3600" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="1750" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MAN PRAYING - 6" WidthDisplay_="1750" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="1750" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MAN PRAYING - 7" WidthDisplay_="1750" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="1750" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MAN PRAYING - 8" WidthDisplay_="1750" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="1450" Drop_="2200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="WOMEN PRAYING - 1" WidthDisplay_="1450" DropDisplay_="2200" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="NOV015VV" FabricDescription_="Basix NOV015 (off white)" Width_="1450" Drop_="2200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="WOMEN PRAYING - 2" WidthDisplay_="1450" DropDisplay_="2200" CustomerOrderReference_="" OrderID_="DUB280134-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="tursynbek89@gmail.com" DelPhone_="0585408715" DelFirstName_="Hissa Bint Almur Mosque" DelLine1_="Hissa Bint Almur Mosque" CustomerAddressLine1_="Hissa Bint Almur Mosque" DelLine2_="Hissa Bint Almur Mosque" CustomerAddressLine2_="Hissa Bint Almur Mosque" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

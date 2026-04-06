@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI190121-ber.xml" CreateDate_="19/01/2026" CreateTime_="12:25:00">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="190121" CustomerReference_="BLI190121-ber" OrderDate_="19/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="RIG002VV" FabricDescription_="Basix RIG002 (ivory)" Width_="2240" Drop_="2280" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office - 1" WidthDisplay_="2240" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="BLI190121-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="administration@ceramedtrading.com" DelPhone_="0527075082" DelFirstName_="Ceramed Trading FZCO" DelLine1_="Ceramed Trading FZCO" CustomerAddressLine1_="Ceramed Trading FZCO" DelLine2_="Ceramed Trading FZCO" CustomerAddressLine2_="Ceramed Trading FZCO" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="RIG002VV" FabricDescription_="Basix RIG002 (ivory)" Width_="2290" Drop_="2280" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office - 2" WidthDisplay_="2290" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="BLI190121-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="administration@ceramedtrading.com" DelPhone_="0527075082" DelFirstName_="Ceramed Trading FZCO" DelLine1_="Ceramed Trading FZCO" CustomerAddressLine1_="Ceramed Trading FZCO" DelLine2_="Ceramed Trading FZCO" CustomerAddressLine2_="Ceramed Trading FZCO" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="RIG002VV" FabricDescription_="Basix RIG002 (ivory)" Width_="2210" Drop_="2280" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office - 3" WidthDisplay_="2210" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="BLI190121-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="administration@ceramedtrading.com" DelPhone_="0527075082" DelFirstName_="Ceramed Trading FZCO" DelLine1_="Ceramed Trading FZCO" CustomerAddressLine1_="Ceramed Trading FZCO" DelLine2_="Ceramed Trading FZCO" CustomerAddressLine2_="Ceramed Trading FZCO" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

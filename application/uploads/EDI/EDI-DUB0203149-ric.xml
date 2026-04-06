@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB0203149-ric.xml" CreateDate_="02/03/2026" CreateTime_="09:15:28">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0203149" CustomerReference_="DUB0203149-ric" OrderDate_="02/03/2026" OrderNote_="Please send approval before final printing ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller Signature" MetricMeasurement_="0" FabricCode_="DP-RIG" FabricDescription_="Digital Print Screen" Width_="900" Drop_="2250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office 4 - 1" WidthDisplay_="900" DropDisplay_="2250" CustomerOrderReference_="" OrderID_="DUB0203149-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Mary.regalia@leoron.com" DelPhone_="0971 4 4475711" DelFirstName_="Leoron Professional Development Institute " DelLine1_="Leoron Professional Development Institute " CustomerAddressLine1_="Leoron Professional Development Institute " DelLine2_="Leoron Professional Development Institute " CustomerAddressLine2_="Leoron Professional Development Institute " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Medium Wirefree" 
+            ChoiceCode_="DOY013M" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Blindtex DY Remote 15 Channel" 
+            ChoiceCode_="DOY004" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Charger" 
+            Choice_="USB Micro 3mtr cable with Adaptor ( M / L)" 
+            ChoiceCode_="DOY018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller Signature" MetricMeasurement_="0" FabricCode_="DP-RIG" FabricDescription_="Digital Print Screen" Width_="900" Drop_="2250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office 4 - 2" WidthDisplay_="900" DropDisplay_="2250" CustomerOrderReference_="" OrderID_="DUB0203149-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Mary.regalia@leoron.com" DelPhone_="0971 4 4475711" DelFirstName_="Leoron Professional Development Institute " DelLine1_="Leoron Professional Development Institute " CustomerAddressLine1_="Leoron Professional Development Institute " DelLine2_="Leoron Professional Development Institute " CustomerAddressLine2_="Leoron Professional Development Institute " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Medium Wirefree" 
+            ChoiceCode_="DOY013M" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller Signature" MetricMeasurement_="0" FabricCode_="DP-RIG" FabricDescription_="Digital Print Screen" Width_="660" Drop_="2250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office 4 - 3" WidthDisplay_="660" DropDisplay_="2250" CustomerOrderReference_="" OrderID_="DUB0203149-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Mary.regalia@leoron.com" DelPhone_="0971 4 4475711" DelFirstName_="Leoron Professional Development Institute " DelLine1_="Leoron Professional Development Institute " CustomerAddressLine1_="Leoron Professional Development Institute " DelLine2_="Leoron Professional Development Institute " CustomerAddressLine2_="Leoron Professional Development Institute " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Medium Wirefree" 
+            ChoiceCode_="DOY013M" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

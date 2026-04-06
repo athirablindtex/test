@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2402140-mar.xml" CreateDate_="03/03/2026" CreateTime_="16:05:11">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2402140" CustomerReference_="BLI2402140-mar" OrderDate_="03/03/2026" OrderNote_="Please dispatch on friday 
+Read worksheets ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30844-B" FabricDescription_="NER001" Width_="5000" Drop_="2865" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Masterbedroom - 1" WidthDisplay_="5000" DropDisplay_="2865" CustomerOrderReference_="Hem to hem no more deduction 
+Hooks left  bunch 42 + 2 carrier Right bunch a  42+2 Carrier 
+Width 4600 plus 200 CM on both return =Total=5000" OrderID_="BLI2402140-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="robertrebecca@yahoo.com" DelPhone_="0544639393" DelFirstName_="Rebecca Robert" DelLine1_="Rebecca Robert" CustomerAddressLine1_="Rebecca Robert" DelLine2_="Rebecca Robert" CustomerAddressLine2_="Rebecca Robert" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30844-B" FabricDescription_="NER001" Width_="4200" Drop_="2875" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Daughter room - 1" WidthDisplay_="4200" DropDisplay_="2875" CustomerOrderReference_="Hem to hem no more deduction 
+Hooks left  bunch 34+ 2 carrier Right bunch a  34+2 Carrier 
+Width 3800 plus 200 CM on both return =Total=4200" OrderID_="BLI2402140-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="robertrebecca@yahoo.com" DelPhone_="0544639393" DelFirstName_="Rebecca Robert" DelLine1_="Rebecca Robert" CustomerAddressLine1_="Rebecca Robert" DelLine2_="Rebecca Robert" CustomerAddressLine2_="Rebecca Robert" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30844-B" FabricDescription_="NER001" Width_="2400" Drop_="2865" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Son room - 1" WidthDisplay_="2400" DropDisplay_="2865" CustomerOrderReference_="Hem to hem no more deduction 
+Hooks left  bunch 16 + 2 carrier Right bunch a  16+2 Carrier 
+Width 2000 plus 200 CM on both return =Total=2400" OrderID_="BLI2402140-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="robertrebecca@yahoo.com" DelPhone_="0544639393" DelFirstName_="Rebecca Robert" DelLine1_="Rebecca Robert" CustomerAddressLine1_="Rebecca Robert" DelLine2_="Rebecca Robert" CustomerAddressLine2_="Rebecca Robert" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

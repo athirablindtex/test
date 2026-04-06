@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI240383-ber.xml" CreateDate_="24/03/2026" CreateTime_="15:16:46">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="240383" CustomerReference_="BLI240383-ber" OrderDate_="24/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="TEAK" FabricDescription_="Paulowina Teak" Width_="960" Drop_="3245" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="960" DropDisplay_="3245" CustomerOrderReference_="" OrderID_="BLI240383-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0563136559" DelFirstName_="Mr Jag Dummy" DelLine1_="Mr Jag Dummy" CustomerAddressLine1_="Mr Jag Dummy" DelLine2_="Mr Jag Dummy" CustomerAddressLine2_="Mr Jag Dummy" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Tape Coffee" 
+            ChoiceCode_="LTAPE6963- Coffee" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote" 
+            Choice_="Somfy Situo 5 RTS Modulus" 
+            ChoiceCode_="SOM073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="TEAK" FabricDescription_="Paulowina Teak" Width_="965" Drop_="3245" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="965" DropDisplay_="3245" CustomerOrderReference_="" OrderID_="BLI240383-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0563136559" DelFirstName_="Mr Jag Dummy" DelLine1_="Mr Jag Dummy" CustomerAddressLine1_="Mr Jag Dummy" DelLine2_="Mr Jag Dummy" CustomerAddressLine2_="Mr Jag Dummy" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Tape Coffee" 
+            ChoiceCode_="LTAPE6963- Coffee" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

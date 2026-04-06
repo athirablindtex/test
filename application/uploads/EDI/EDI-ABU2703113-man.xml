@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="ABU015" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU2703113-man.xml" CreateDate_="27/03/2026" CreateTime_="15:31:46">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2703113" CustomerReference_="ABU2703113-man" OrderDate_="27/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1250" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Chairman's Room - 1" WidthDisplay_="1250" DropDisplay_="2100" CustomerOrderReference_="SHA009,SHA007" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1220" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Chairman's Room - 2" WidthDisplay_="1220" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1220" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Chairman's Room - 3" WidthDisplay_="1220" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1205" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Chairman's Room - 4" WidthDisplay_="1205" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1210" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Reception - 1" WidthDisplay_="1210" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1940" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Reception - 2" WidthDisplay_="1940" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1625" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 1" WidthDisplay_="1625" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1220" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 2" WidthDisplay_="1220" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN002" FabricDescription_="BAN002 (natural)" Width_="1405" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 3" WidthDisplay_="1405" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="ABU2703113-man" IsDirectDeliveryBySupplier_="True" DelEmail_="contact@jeco.ae" DelPhone_="0559022691" DelFirstName_="Jersey Engineering Consultants" DelLine1_="Jersey Engineering Consultants" CustomerAddressLine1_="Jersey Engineering Consultants" DelLine2_="Jersey Engineering Consultants" CustomerAddressLine2_="Jersey Engineering Consultants" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

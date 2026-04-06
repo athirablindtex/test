@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB270249-kar.xml" CreateDate_="27/02/2026" CreateTime_="15:38:54">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="270249" CustomerReference_="DUB270249-kar" OrderDate_="27/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="CAR002" FabricDescription_="CAR002 (natural)" Width_="1870" Drop_="1550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="1870" DropDisplay_="1550" CustomerOrderReference_="" OrderID_="DUB270249-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="sami.hakim@outlook.com" DelPhone_="0585203927" DelFirstName_="Mr. Sami  Hakim" DelLine1_="Mr. Sami  Hakim" CustomerAddressLine1_="Mr. Sami  Hakim" DelLine2_="Mr. Sami  Hakim" CustomerAddressLine2_="Mr. Sami  Hakim" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="CAR001" FabricDescription_="CAR001 (white / brown)" Width_="2010" Drop_="2250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 1" WidthDisplay_="2010" DropDisplay_="2250" CustomerOrderReference_="" OrderID_="DUB270249-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="sami.hakim@outlook.com" DelPhone_="0585203927" DelFirstName_="Mr. Sami  Hakim" DelLine1_="Mr. Sami  Hakim" CustomerAddressLine1_="Mr. Sami  Hakim" DelLine2_="Mr. Sami  Hakim" CustomerAddressLine2_="Mr. Sami  Hakim" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Front" 
+            ChoiceCode_="SPE144" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

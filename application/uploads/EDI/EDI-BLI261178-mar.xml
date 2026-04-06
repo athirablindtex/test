@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI261178-mar.xml" CreateDate_="26/11/2025" CreateTime_="17:41:35">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="261178" CustomerReference_="BLI261178-mar" OrderDate_="26/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS005" FabricDescription_="Basix ESS005 (blue)" Width_="1775" Drop_="2250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Boys room1" WidthDisplay_="1775" DropDisplay_="2250" CustomerOrderReference_="dispatch Saturday  in jlt showroom " OrderID_="BLI261178-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="3aficionado.g@gmail.com" DelPhone_="0504239850" DelFirstName_="Mr vikram" DelLine1_="Mr vikram" CustomerAddressLine1_="Mr vikram" DelLine2_="Mr vikram" CustomerAddressLine2_="Mr vikram" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

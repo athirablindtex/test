@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1402100-ric.xml" CreateDate_="14/02/2026" CreateTime_="15:54:00">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1402100" CustomerReference_="DUB1402100-ric" OrderDate_="14/02/2026" OrderNote_="1400 deposit">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="SHU-01-01" BlindTypeDescription_="Shutters Classic" MetricMeasurement_="0" FabricCode_="PV02" FabricDescription_="PVC PV02 Classic White" Width_="970" Drop_="1560" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="2" Location_="Living Room - 1" WidthDisplay_="970" DropDisplay_="1560" CustomerOrderReference_="" OrderID_="DUB1402100-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="hannah@ravensnestdesignstudio.com" DelPhone_="0564840624" DelFirstName_="Ms. Hannah Raven" DelLine1_="Ms. Hannah Raven" CustomerAddressLine1_="Ms. Hannah Raven" DelLine2_="Ms. Hannah Raven" CustomerAddressLine2_="Ms. Hannah Raven" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Frame Type" Choice_="Insert L 50" ChoiceCode_="SHU-FRA06"/>
+        <TEDIOptionList_Details OptionName_="Hinges" Choice_="White" ChoiceCode_="SHU-HIN01"/>
+        <TEDIOptionList_Details OptionName_="Installation Style" Choice_="Full Height" ChoiceCode_="SHU-INS01"/>
+        <TEDIOptionList_Details OptionName_="Louver Size" Choice_="63mm" ChoiceCode_="SHU-LOU01"/>
+        <TEDIOptionList_Details OptionName_="Mid Rail Position" Choice_="Not Required" ChoiceCode_="SHU-MID05"/>
+        <TEDIOptionList_Details OptionName_="Mounting Location" Choice_="Outside Recess" ChoiceCode_="SHU-MOU02"/>
+        <TEDIOptionList_Details OptionName_="Number of Frame Sides" Choice_="4" ChoiceCode_="SHU-NFS01"/>
+        <TEDIOptionList_Details OptionName_="Panel Config" Choice_="LR" ChoiceCode_="SHU-PAN03"/>
+        <TEDIOptionList_Details OptionName_="Predrill Frame" Choice_="Front" ChoiceCode_="SHU-PED02"/>
+        <TEDIOptionList_Details OptionName_="Stile Type" Choice_="Beaded 50mm Astragal" ChoiceCode_="SHU-STIL05"/>
+        <TEDIOptionList_Details OptionName_="Tilt Type" Choice_="Centre" ChoiceCode_="SHU-TILT02"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

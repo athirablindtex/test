@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB200165-ric.xml" CreateDate_="20/01/2026" CreateTime_="10:08:37">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="200165" CustomerReference_="DUB200165-ric" OrderDate_="20/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG004" FabricDescription_="Basix RIG004 (brown)" Width_="1180" Drop_="2360" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 1" WidthDisplay_="1180" DropDisplay_="2360" CustomerOrderReference_="" OrderID_="DUB200165-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="ceo@seaenergygroup.inc" DelPhone_="0544179507" DelFirstName_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine1_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine1_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine2_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine2_="Sea Energy Group/ Mr. Dean Tavakoli" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG004" FabricDescription_="Basix RIG004 (brown)" Width_="1250" Drop_="2360" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 2" WidthDisplay_="1250" DropDisplay_="2360" CustomerOrderReference_="" OrderID_="DUB200165-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="ceo@seaenergygroup.inc" DelPhone_="0544179507" DelFirstName_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine1_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine1_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine2_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine2_="Sea Energy Group/ Mr. Dean Tavakoli" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG004" FabricDescription_="Basix RIG004 (brown)" Width_="1250" Drop_="2360" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 3" WidthDisplay_="1250" DropDisplay_="2360" CustomerOrderReference_="" OrderID_="DUB200165-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="ceo@seaenergygroup.inc" DelPhone_="0544179507" DelFirstName_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine1_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine1_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine2_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine2_="Sea Energy Group/ Mr. Dean Tavakoli" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG004" FabricDescription_="Basix RIG004 (brown)" Width_="1250" Drop_="2360" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 4" WidthDisplay_="1250" DropDisplay_="2360" CustomerOrderReference_="" OrderID_="DUB200165-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="ceo@seaenergygroup.inc" DelPhone_="0544179507" DelFirstName_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine1_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine1_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine2_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine2_="Sea Energy Group/ Mr. Dean Tavakoli" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG004" FabricDescription_="Basix RIG004 (brown)" Width_="1250" Drop_="2360" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 5" WidthDisplay_="1250" DropDisplay_="2360" CustomerOrderReference_="" OrderID_="DUB200165-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="ceo@seaenergygroup.inc" DelPhone_="0544179507" DelFirstName_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine1_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine1_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine2_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine2_="Sea Energy Group/ Mr. Dean Tavakoli" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG004" FabricDescription_="Basix RIG004 (brown)" Width_="1205" Drop_="2360" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting Room - 6" WidthDisplay_="1205" DropDisplay_="2360" CustomerOrderReference_="" OrderID_="DUB200165-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="ceo@seaenergygroup.inc" DelPhone_="0544179507" DelFirstName_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine1_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine1_="Sea Energy Group/ Mr. Dean Tavakoli" DelLine2_="Sea Energy Group/ Mr. Dean Tavakoli" CustomerAddressLine2_="Sea Energy Group/ Mr. Dean Tavakoli" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

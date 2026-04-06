@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB231117-idr.xml" CreateDate_="23/11/2025" CreateTime_="23:30:50">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="231117" CustomerReference_="DUB231117-idr" OrderDate_="23/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CAS003-BO" FabricDescription_="Blackout CAS003" Width_="3200" Drop_="3055" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room1" WidthDisplay_="3200" DropDisplay_="3055" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Single Curtain" ChoiceCode_="STY084"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CAS003-BO" FabricDescription_="Blackout CAS003" Width_="3200" Drop_="3055" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room2" WidthDisplay_="3200" DropDisplay_="3055" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Single Curtain" ChoiceCode_="STY084"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30784" FabricDescription_="Cirus White" Width_="3200" Drop_="3055" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room3" WidthDisplay_="3200" DropDisplay_="3055" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Single Curtain" ChoiceCode_="STY084"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30784" FabricDescription_="Cirus White" Width_="3200" Drop_="3055" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room4" WidthDisplay_="3200" DropDisplay_="3055" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Single Curtain" ChoiceCode_="STY084"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3200" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room5" WidthDisplay_="3200" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Left Bunch" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3200" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room6" WidthDisplay_="3200" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Right Bunch" ChoiceCode_="SPE008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA009" FabricDescription_="Basix SHA009 (beige)" Width_="950" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Maid Room1" WidthDisplay_="950" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="" BlindTypeDescription_="Honeycomb Perfect Fit" MetricMeasurement_="0" FabricCode_="LAR004" FabricDescription_="Larissa Ash" Width_="605" Drop_="1990" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Master Bedroom1" WidthDisplay_="605" DropDisplay_="1990" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Configuration" Choice_="Tensioned Single Pull Top Down" ChoiceCode_="PFITFLOA02A"/>
+        <TEDIOptionList_Details OptionName_="Bead Depth" Choice_="30 mm" ChoiceCode_="BD013"/>
+        <TEDIOptionList_Details OptionName_="Perfect Fit Frame" Choice_="Graphite" ChoiceCode_="PFREQG"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="AUR005" FabricDescription_="Blackout AUR005" Width_="3650" Drop_="2795" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom2" WidthDisplay_="3650" DropDisplay_="2795" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain B" ChoiceCode_="STY044b"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30784" FabricDescription_="Cirus White" Width_="3650" Drop_="2795" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom3" WidthDisplay_="3650" DropDisplay_="2795" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3650" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom4" WidthDisplay_="3650" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA009" FabricDescription_="Basix SHA009 (beige)" Width_="1760" Drop_="2450" InstallHeight_="0" MeasureName_="Cloth Size" Quantity_="1" Location_="Office1" WidthDisplay_="1760" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="AUR003" FabricDescription_="Blackout AUR003" Width_="3270" Drop_="2695" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Baby Room1" WidthDisplay_="3270" DropDisplay_="2695" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain B" ChoiceCode_="STY044b"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30784" FabricDescription_="Cirus White" Width_="3270" Drop_="2695" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Baby Room2" WidthDisplay_="3270" DropDisplay_="2695" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3270" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Baby Room3" WidthDisplay_="3270" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB231117-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Chappel.wayne@yahoo.com" DelPhone_="0508591777" DelFirstName_="Wayne Chappel" DelLine1_="Wayne Chappel" CustomerAddressLine1_="Wayne Chappel" DelLine2_="Wayne Chappel" CustomerAddressLine2_="Wayne Chappel" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

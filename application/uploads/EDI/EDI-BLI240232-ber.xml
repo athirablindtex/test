@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI240232-ber.xml" CreateDate_="25/02/2026" CreateTime_="15:18:09">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="240232" CustomerReference_="BLI240232-ber" OrderDate_="25/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ESS001" FabricDescription_="ESS001 (white)" Width_="1450" Drop_="2550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom 1 - 1" WidthDisplay_="1450" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="BLI240232-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502425233" DelFirstName_="Samia Al Heraki" DelLine1_="Samia Al Heraki" CustomerAddressLine1_="Samia Al Heraki" DelLine2_="Samia Al Heraki" CustomerAddressLine2_="Samia Al Heraki" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Block Out System" 
+            Choice_="Sides and Bottom Only ( White )" 
+            ChoiceCode_="SPE18a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SOL003" FabricDescription_="SOL003 (reflective off blue)" Width_="1420" Drop_="2550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom 2 - 1" WidthDisplay_="1420" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="BLI240232-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502425233" DelFirstName_="Samia Al Heraki" DelLine1_="Samia Al Heraki" CustomerAddressLine1_="Samia Al Heraki" DelLine2_="Samia Al Heraki" CustomerAddressLine2_="Samia Al Heraki" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SOL003" FabricDescription_="SOL003 (reflective off blue)" Width_="1465" Drop_="2550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom 2 - 2" WidthDisplay_="1465" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="BLI240232-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502425233" DelFirstName_="Samia Al Heraki" DelLine1_="Samia Al Heraki" CustomerAddressLine1_="Samia Al Heraki" DelLine2_="Samia Al Heraki" CustomerAddressLine2_="Samia Al Heraki" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

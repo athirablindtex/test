@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM160377-nei.xml" CreateDate_="16/03/2026" CreateTime_="11:11:17">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="160377" CustomerReference_="RIM160377-nei" OrderDate_="16/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Vertex01" BlindTypeDescription_="Vertex  Signature" MetricMeasurement_="0" FabricCode_="STR003" FabricDescription_="Stripe Mid Cream" Width_="3120" Drop_="3035" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="3120" DropDisplay_="3035" CustomerOrderReference_="" OrderID_="RIM160377-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0561387405" DelFirstName_="alina" DelLine1_="alina" CustomerAddressLine1_="alina" DelLine2_="alina" CustomerAddressLine2_="alina" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA031" 
+            Quantity_="6" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Left" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left Cord Operated" 
+            ChoiceCode_="SPE054" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="White" 
+            ChoiceCode_="VCM501" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="Vertex01" BlindTypeDescription_="Vertex  Signature" MetricMeasurement_="0" FabricCode_="STR003" FabricDescription_="Stripe Mid Cream" Width_="3670" Drop_="3025" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="3670" DropDisplay_="3025" CustomerOrderReference_="" OrderID_="RIM160377-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0561387405" DelFirstName_="alina" DelLine1_="alina" CustomerAddressLine1_="alina" DelLine2_="alina" CustomerAddressLine2_="alina" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA031" 
+            Quantity_="8" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Right" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right Cord operated" 
+            ChoiceCode_="SPE053" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="White" 
+            ChoiceCode_="VCM501" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2603206-mar.xml" CreateDate_="27/03/2026" CreateTime_="19:54:46">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2603206" CustomerReference_="BLI2603206-mar" OrderDate_="27/03/2026" OrderNote_="Customer confirmed curtains touch the floor. Please DISPATCH Tuesday MASTERBEDROOM AND WARDROBE AND NURSERY priority only the rest dispatch on thursday All without overlap">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="5470" Drop_="3165" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="5470" DropDisplay_="3165" CustomerOrderReference_="No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="5170" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="5170" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joiner" 
+            Choice_="Track Joiner" 
+            ChoiceCode_="DOY021" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ002-B" FabricDescription_="Sheer HAZ002" Width_="5170" Drop_="3165" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master Bedroom - 4" WidthDisplay_="5170" DropDisplay_="3165" CustomerOrderReference_="No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="5170" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 4" WidthDisplay_="5170" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joiner" 
+            Choice_="Track Joiner" 
+            ChoiceCode_="DOY021" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="6180" Drop_="3150" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Masterbedroom wardrobe - 1" WidthDisplay_="6180" DropDisplay_="3150" CustomerOrderReference_="No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="5880" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Masterbedroom wardrobe - 2" WidthDisplay_="5880" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joiner" 
+            Choice_="Track Joiner" 
+            ChoiceCode_="DOY021" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ002-B" FabricDescription_="Sheer HAZ002" Width_="5880" Drop_="3150" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Masterbedroom wardrobe - 3" WidthDisplay_="5880" DropDisplay_="3150" CustomerOrderReference_="No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="5880" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Masterbedroom wardrobe - 4" WidthDisplay_="5880" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joiner" 
+            Choice_="Track Joiner" 
+            ChoiceCode_="DOY021" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="2550" Drop_="3170" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Harry Room curtains - 1" WidthDisplay_="2550" DropDisplay_="3170" CustomerOrderReference_="No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="2550" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Harry Room curtains - 2" WidthDisplay_="2550" DropDisplay_="0" CustomerOrderReference_="Follow template" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bending" 
+            Choice_="1 bend" 
+            ChoiceCode_="STY090a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joiner" 
+            Choice_="Track Joiner" 
+            ChoiceCode_="DOY021" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="1520" Drop_="3170" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Harry Room curtains - 3" WidthDisplay_="1520" DropDisplay_="3170" CustomerOrderReference_="No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="1520" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Harry Room curtains - 4" WidthDisplay_="1520" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="2820" Drop_="3145" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Darla room - 1" WidthDisplay_="2820" DropDisplay_="3145" CustomerOrderReference_="No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="2820" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Darla room - 2" WidthDisplay_="2820" DropDisplay_="0" CustomerOrderReference_="Follow template" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bending" 
+            Choice_="1 bend" 
+            ChoiceCode_="STY090a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="1050" Drop_="3160" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Darla room - 3" WidthDisplay_="1050" DropDisplay_="3160" CustomerOrderReference_="No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="16" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="1050" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Darla room - 4" WidthDisplay_="1050" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="17" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="2000" Drop_="3160" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Nursery - 1" WidthDisplay_="2000" DropDisplay_="3160" CustomerOrderReference_="Fur on the left side only vertical
+No more deduction " OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Borders" 
+            Choice_="Vertical Boarders x 2" 
+            ChoiceCode_="STY050A
+" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="18" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="2000" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Nursery - 2" WidthDisplay_="2000" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2603206-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0585170574" DelFirstName_="olivia" DelLine1_="olivia" CustomerAddressLine1_="olivia" DelLine2_="olivia" CustomerAddressLine2_="olivia" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex  Curtain Motor Wired Matter  RTS-WT " 
+            ChoiceCode_="DOY044" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

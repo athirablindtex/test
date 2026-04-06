@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM050243-nei.xml" CreateDate_="05/02/2026" CreateTime_="13:29:35">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="050243" CustomerReference_="RIM050243-nei" OrderDate_="05/02/2026" OrderNote_=" call-out charge only to Al Ain customer during measurement.">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="300" Drop_="300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="call out charge - 1" WidthDisplay_="300" DropDisplay_="300" CustomerOrderReference_="" OrderID_="RIM050243-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="ibtesam.uae@gmail.com" DelPhone_="0502888575" DelFirstName_="ibtesam" DelLine1_="ibtesam" CustomerAddressLine1_="ibtesam" DelLine2_="ibtesam" CustomerAddressLine2_="ibtesam" Salesperson_="Neil">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

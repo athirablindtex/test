@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI19029-moh.xml" CreateDate_="19/02/2026" CreateTime_="10:08:11">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="19029" CustomerReference_="BLI19029-moh" OrderDate_="19/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

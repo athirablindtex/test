@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB170363-idr.xml" CreateDate_="17/03/2026" CreateTime_="17:22:41">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="170363" CustomerReference_="DUB170363-idr" OrderDate_="17/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Other1" BlindTypeDescription_="Uniform" MetricMeasurement_="0" FabricCode_="Other" FabricDescription_="Other" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="" Quantity_="4" Location_="Study Room - 1" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="Need L size of 4 pcs Dubai Blinds Tshirt." OrderID_="DUB170363-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="idrisblindtex@gmail.com" DelPhone_="0556108983" DelFirstName_="Idris Khan" DelLine1_="Idris Khan" CustomerAddressLine1_="Idris Khan" DelLine2_="Idris Khan" CustomerAddressLine2_="Idris Khan" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

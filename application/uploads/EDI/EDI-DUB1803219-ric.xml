@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1803219-ric.xml" CreateDate_="19/03/2026" CreateTime_="11:43:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1803219" CustomerReference_="DUB1803219-ric" OrderDate_="19/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="SHU-01-02" BlindTypeDescription_="Shutters Signature" MetricMeasurement_="0" FabricCode_="PW01" FabricDescription_="Paulownia Hard Wood PW01 True White" Width_="900" Drop_="1680" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="4" Location_="Bedroom  1 - 1" WidthDisplay_="900" DropDisplay_="1680" CustomerOrderReference_="" OrderID_="DUB1803219-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0551652909" DelFirstName_="Penny Parbhoo" DelLine1_="Penny Parbhoo" CustomerAddressLine1_="Penny Parbhoo" DelLine2_="Penny Parbhoo" CustomerAddressLine2_="Penny Parbhoo" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Frame Type" 
+            Choice_="Insert L 50" 
+            ChoiceCode_="SHU-FRA06" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Hinges" 
+            Choice_="White" 
+            ChoiceCode_="SHU-HIN01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Installation Style" 
+            Choice_="Arch 2" 
+            ChoiceCode_="SHU-INS05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Louver Size" 
+            Choice_="63mm" 
+            ChoiceCode_="SHU-LOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Position" 
+            Choice_="Not required" 
+            ChoiceCode_="SHU-MID05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mounting Location" 
+            Choice_="Outside Recess" 
+            ChoiceCode_="SHU-MOU02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Number of Frame Side" 
+            Choice_="4" 
+            ChoiceCode_="SHU-NFS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Panel Config" 
+            Choice_="LR" 
+            ChoiceCode_="SHU-PAN03" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Predrill Frame" 
+            Choice_="Front" 
+            ChoiceCode_="SHU-PED02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stile Type" 
+            Choice_="Beaded 50mm Astragal" 
+            ChoiceCode_="SHU-STIL05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Type" 
+            Choice_="Centre" 
+            ChoiceCode_="SHU-TILT02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30845-B" FabricDescription_="NER002" Width_="5840" Drop_="2735" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="5840" DropDisplay_="2735" CustomerOrderReference_="" OrderID_="DUB1803219-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0551652909" DelFirstName_="Penny Parbhoo" DelLine1_="Penny Parbhoo" CustomerAddressLine1_="Penny Parbhoo" DelLine2_="Penny Parbhoo" CustomerAddressLine2_="Penny Parbhoo" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout White" 
+            ChoiceCode_="LIN002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="5840" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="5840" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1803219-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0551652909" DelFirstName_="Penny Parbhoo" DelLine1_="Penny Parbhoo" CustomerAddressLine1_="Penny Parbhoo" DelLine2_="Penny Parbhoo" CustomerAddressLine2_="Penny Parbhoo" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex Curtain Motor - Wirefree" 
+            ChoiceCode_="DOY001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote" 
+            Choice_="Blindtex DY Remote 1 Channel" 
+            ChoiceCode_="DOY003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joiner" 
+            Choice_="Track Joiner" 
+            ChoiceCode_="DOY021" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Charger" 
+            Choice_="Charger" 
+            ChoiceCode_="DOY002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

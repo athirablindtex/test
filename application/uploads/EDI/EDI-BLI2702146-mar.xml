@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2702146-mar.xml" CreateDate_="27/02/2026" CreateTime_="16:31:02">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2702146" CustomerReference_="BLI2702146-mar" OrderDate_="27/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROLDS01" BlindTypeDescription_="Roller Signature Designer" MetricMeasurement_="0" FabricCode_="SD-CHE" FabricDescription_="Translucent" Width_="900" Drop_="1200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="900" DropDisplay_="1200" CustomerOrderReference_="Print same as sample book 
+Regal bloom#1 cassette and bottom bar matching fabric
+Chain 1000
+Dispatch wednesday" OrderID_="BLI2702146-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="p_hemi_77@yahoo.com" DelPhone_="0503543901" DelFirstName_="Heminder Kochar " DelLine1_="Heminder Kochar " CustomerAddressLine1_="Heminder Kochar " DelLine2_="Heminder Kochar " CustomerAddressLine2_="Heminder Kochar " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Name" 
+            Choice_="Regal Bloom" 
+            ChoiceCode_="SD-022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Option Number" 
+            Choice_="Option 1" 
+            ChoiceCode_="OPT1" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Front" 
+            ChoiceCode_="SPE144" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

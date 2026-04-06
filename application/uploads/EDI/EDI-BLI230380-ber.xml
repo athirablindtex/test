@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI230380-ber.xml" CreateDate_="23/03/2026" CreateTime_="19:00:52">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="230380" CustomerReference_="BLI230380-ber" OrderDate_="23/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30691" FabricDescription_="Ostrich_Beige" Width_="900" Drop_="2490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="900" DropDisplay_="2490" CustomerOrderReference_="Lights on both sides" OrderID_="BLI230380-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout White" 
+            ChoiceCode_="LIN009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-01" BlindTypeDescription_="Vertical  Signature" MetricMeasurement_="0" FabricCode_="ORC001V" FabricDescription_="Orchard Ivory" Width_="4300" Drop_="2965" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living up - 1" WidthDisplay_="4300" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI230380-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="White" 
+            ChoiceCode_="VCM501" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Type" 
+            Choice_="Left Cord Operated" 
+            ChoiceCode_="SPE054" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA001" 
+            Quantity_="8" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="VERT-ON-01" BlindTypeDescription_="Vertical  Signature" MetricMeasurement_="0" FabricCode_="REG017V" FabricDescription_="Regency Skye" Width_="1070" Drop_="1160" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="1070" DropDisplay_="1160" CustomerOrderReference_="" OrderID_="BLI230380-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0502221343" DelFirstName_="Ms. Maria Cohn" DelLine1_="Ms. Maria Cohn" CustomerAddressLine1_="Ms. Maria Cohn" DelLine2_="Ms. Maria Cohn" CustomerAddressLine2_="Ms. Maria Cohn" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Right" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="White" 
+            ChoiceCode_="VCM501" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Type" 
+            Choice_="Right Cord operated" 
+            ChoiceCode_="SPE053" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottoms" 
+            Choice_="White Weights and Chain" 
+            ChoiceCode_="SPE146a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="89 Face Fix" 
+            ChoiceCode_="BRA002" 
+            Quantity_="3" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

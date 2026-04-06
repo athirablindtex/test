@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB010485-idr.xml" CreateDate_="01/04/2026" CreateTime_="10:18:09">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="010485" CustomerReference_="DUB010485-idr" OrderDate_="01/04/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Vertex01" BlindTypeDescription_="Vertex  Signature" MetricMeasurement_="0" FabricCode_="STR015" FabricDescription_="Stripe Forest" Width_="2720" Drop_="3065" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="2720" DropDisplay_="3065" CustomerOrderReference_="" OrderID_="DUB010485-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="yulia.bogdanova21@gmail.com" DelPhone_="0581051564" DelFirstName_="Ms.YULIYA  BOGDANOVA" DelLine1_="Ms.YULIYA  BOGDANOVA" CustomerAddressLine1_="Ms.YULIYA  BOGDANOVA" DelLine2_="Ms.YULIYA  BOGDANOVA" CustomerAddressLine2_="Ms.YULIYA  BOGDANOVA" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA031" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right Cord operated" 
+            ChoiceCode_="SPE053" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Piano Black" 
+            ChoiceCode_="VCM500" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

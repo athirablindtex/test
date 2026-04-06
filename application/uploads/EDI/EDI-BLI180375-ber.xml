@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI180375-ber.xml" CreateDate_="24/03/2026" CreateTime_="11:47:08">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="180375" CustomerReference_="BLI180375-ber" OrderDate_="24/03/2026" OrderNote_="1pc only">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Vertex04" BlindTypeDescription_="Vertex Vanes Only" MetricMeasurement_="0" FabricCode_="STR008" FabricDescription_="Stripe Light Grey" Width_="3880" Drop_="3415" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="3880" DropDisplay_="3415" CustomerOrderReference_="" OrderID_="BLI180375-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="judith@dubailinkgroup.com" DelPhone_="0555560084" DelFirstName_="Judith" DelLine1_="Judith" CustomerAddressLine1_="Judith" DelLine2_="Judith" CustomerAddressLine2_="Judith" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

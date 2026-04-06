@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU210235-man.xml" CreateDate_="23/02/2026" CreateTime_="11:00:39">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="210235" CustomerReference_="ABU210235-man" OrderDate_="23/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="4550" Drop_="3520" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Majlis - 1" WidthDisplay_="4550" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30836-B
+" FabricDescription_="CAS003" Width_="4550" Drop_="3520" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Majlis - 2" WidthDisplay_="4550" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Returns add to the width" 
+            Choice_="Return Length 150 mm" 
+            ChoiceCode_="SPE217" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="4550" Drop_="3520" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Majlis - 3" WidthDisplay_="4550" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="1200" Drop_="3520" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Majlis - 5" WidthDisplay_="1200" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30836-B
+" FabricDescription_="CAS003" Width_="1200" Drop_="3520" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Majlis - 6" WidthDisplay_="1200" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Returns add to the width" 
+            Choice_="Return Length 150 mm" 
+            ChoiceCode_="SPE217" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="1200" Drop_="3520" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Majlis - 6" WidthDisplay_="1200" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="1170" Drop_="3510" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Majlis - 7" WidthDisplay_="1170" DropDisplay_="3510" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30836-B
+" FabricDescription_="CAS003" Width_="1170" Drop_="3510" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Majlis - 8" WidthDisplay_="1170" DropDisplay_="3510" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Returns add to the width" 
+            Choice_="Return Length 150 mm" 
+            ChoiceCode_="SPE217" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="1170" Drop_="3510" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Majlis - 9" WidthDisplay_="1170" DropDisplay_="3510" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="4350" Drop_="3520" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Office - 1" WidthDisplay_="4350" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30836-B
+" FabricDescription_="CAS003" Width_="4350" Drop_="3520" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Office - 2" WidthDisplay_="4350" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Returns add to the width" 
+            Choice_="Return Length 150 mm" 
+            ChoiceCode_="SPE217" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="4350" Drop_="3520" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Office - 3" WidthDisplay_="4350" DropDisplay_="3520" CustomerOrderReference_="" OrderID_="ABU210235-man" IsDirectDeliveryBySupplier_="True" DelEmail_="lmartinquerol@gmail.com" DelPhone_="0501583703" DelFirstName_="Luis Martin Querol Daian. " DelLine1_="Luis Martin Querol Daian. " CustomerAddressLine1_="Luis Martin Querol Daian. " DelLine2_="Luis Martin Querol Daian. " CustomerAddressLine2_="Luis Martin Querol Daian. " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM150246-nei.xml" CreateDate_="15/02/2026" CreateTime_="12:50:02">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="150246" CustomerReference_="RIM150246-nei" OrderDate_="15/02/2026" OrderNote_="Repair/ replacement of vertex hangers">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Vertical/Vertex (existing mechanism)" Width_="300" Drop_="300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="300" DropDisplay_="300" CustomerOrderReference_="" OrderID_="RIM150246-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0508515226" DelFirstName_="Agne" DelLine1_="Agne" CustomerAddressLine1_="Agne" DelLine2_="Agne" CustomerAddressLine2_="Agne" Salesperson_="Neil">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

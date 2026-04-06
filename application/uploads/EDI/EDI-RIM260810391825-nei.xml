@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM260810391825-nei.xml" CreateDate_="26/08/2025" CreateTime_="12:52:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="260810391825" CustomerReference_="RIM260810391825-nei" OrderDate_="26/08/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="HAZEL" FabricDescription_="Faux - Signature Hazel" Width_="1445" Drop_="940" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen1" WidthDisplay_="1445" DropDisplay_="940" CustomerOrderReference_="make valance 1465mm" OrderID_="RIM260810391825-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0563100548" DelFirstName_="sachin" DelLine1_="sachin" CustomerAddressLine1_="sachin" DelLine2_="sachin" CustomerAddressLine2_="sachin" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

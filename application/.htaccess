@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|img|crm_data|fonts|font-awesome|assets|datepicker|temp|emailer|backup|captcha|uploads|css|js|robots\.txt)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+
+# mod_pagespeed configuration - Do NOT modify the contents
+<IfModule pagespeed_module>
+    ModPagespeedDomain *
+    ModPagespeed off
+</IfModule>
+# End of mod_pagespeed configuration- Do NOT modify the contents

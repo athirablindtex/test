@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI230925-mar.xml" CreateDate_="29/09/2025" CreateTime_="17:24:39">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="230925" CustomerReference_="BLI230925-mar" OrderDate_="29/09/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA004" FabricDescription_="Basix SHA004 (green)" Width_="2800" Drop_="4000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office1" WidthDisplay_="2800" DropDisplay_="4000" CustomerOrderReference_="chain 2600" OrderID_="BLI230925-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="rehan@mskrealestate.com" DelPhone_="0582786800" DelFirstName_="MSK Real estate" DelLine1_="MSK Real estate" CustomerAddressLine1_="MSK Real estate" DelLine2_="MSK Real estate" CustomerAddressLine2_="MSK Real estate" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White Flat S Channel" ChoiceCode_="RCM023WH"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA004" FabricDescription_="Basix SHA004 (green)" Width_="2500" Drop_="3900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="DM office1" WidthDisplay_="2500" DropDisplay_="3900" CustomerOrderReference_="chain 2600" OrderID_="BLI230925-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="rehan@mskrealestate.com" DelPhone_="0582786800" DelFirstName_="MSK Real estate" DelLine1_="MSK Real estate" CustomerAddressLine1_="MSK Real estate" DelLine2_="MSK Real estate" CustomerAddressLine2_="MSK Real estate" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White Flat S Channel" ChoiceCode_="RCM023WH"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

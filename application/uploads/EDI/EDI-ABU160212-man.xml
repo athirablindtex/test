@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU160212-man.xml" CreateDate_="17/02/2026" CreateTime_="11:15:44">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="160212" CustomerReference_="ABU160212-man" OrderDate_="17/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CLE003-B" FabricDescription_="CLE003" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="3" Location_="Living Room - 1" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Returns add to the width" Choice_="Return Length 150 mm" ChoiceCode_="SPE217"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="3" Location_="Living Room - 2" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="CSS" FabricDescription_="Corded Signature System White" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="3" Location_="Living Room - 3" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord Add On" Choice_="Cord Weight" ChoiceCode_="fowt"/>
+        <TEDIOptionList_Details OptionName_="Cord Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="3" Location_="Living Room - 4" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CLE003-B" FabricDescription_="CLE003" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Guest Bedroom - 1" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Guest Bedroom - 2" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="CSS" FabricDescription_="Corded Signature System White" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guest Bedroom - 3" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord Add On" Choice_="Cord Weight" ChoiceCode_="fowt"/>
+        <TEDIOptionList_Details OptionName_="Cord Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guest Bedroom - 4" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CLE003-B" FabricDescription_="CLE003" Width_="2500" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="2" Location_="Masterbedroom - 1" WidthDisplay_="2500" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Returns add to the width" Choice_="Return Length 150 mm" ChoiceCode_="SPE217"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="2500" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="2" Location_="Masterbedroom - 2" WidthDisplay_="2500" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="CSS" FabricDescription_="Corded Signature System White" Width_="2500" Drop_="2800" InstallHeight_="0" MeasureName_="Recess" Quantity_="2" Location_="Masterbedroom - 3" WidthDisplay_="2500" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord Add On" Choice_="Cord Weight" ChoiceCode_="fowt"/>
+        <TEDIOptionList_Details OptionName_="Cord Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="2500" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Masterbedroom - 4" WidthDisplay_="2500" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CLE003-B" FabricDescription_="CLE003" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Returns add to the width" Choice_="Return Length 150 mm" ChoiceCode_="SPE217"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  2 - 2" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="CSS" FabricDescription_="Corded Signature System White" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 3" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord Add On" Choice_="Cord Weight" ChoiceCode_="fowt"/>
+        <TEDIOptionList_Details OptionName_="Cord Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="16" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="2200" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 4" WidthDisplay_="2200" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="17" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FLA001" FabricDescription_="FLA001 (white)" Width_="1600" Drop_="1750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Bedroom  1 - 1" WidthDisplay_="1600" DropDisplay_="1750" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Front" ChoiceCode_="SPE144"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="18" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FLA001" FabricDescription_="FLA001 (white)" Width_="1700" Drop_="2400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Stair - 1" WidthDisplay_="1700" DropDisplay_="2400" CustomerOrderReference_="Chain should be same height of the blind." OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Front" ChoiceCode_="SPE144"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="19" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FLA001" FabricDescription_="FLA001 (white)" Width_="1700" Drop_="2400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Stair - 2" WidthDisplay_="1700" DropDisplay_="2400" CustomerOrderReference_="Chain should be same height of the blind." OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Front" ChoiceCode_="SPE144"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="20" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BRE002" FabricDescription_="BRE002 (off ivory)" Width_="900" Drop_="1300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Maid's Room - 1" WidthDisplay_="900" DropDisplay_="1300" CustomerOrderReference_="" OrderID_="ABU160212-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0568975498" DelFirstName_="Abdullah Al Farsi.Dummy order for Costing." DelLine1_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine1_="Abdullah Al Farsi.Dummy order for Costing." DelLine2_="Abdullah Al Farsi.Dummy order for Costing." CustomerAddressLine2_="Abdullah Al Farsi.Dummy order for Costing." Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

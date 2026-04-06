@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM180249-nei.xml" CreateDate_="18/02/2026" CreateTime_="20:18:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="180249" CustomerReference_="RIM180249-nei" OrderDate_="18/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="PINE" FabricDescription_="Faux - Signature Pine" Width_="1065" Drop_="1350" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 1" WidthDisplay_="1065" DropDisplay_="1350" CustomerOrderReference_="" OrderID_="RIM180249-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="arushakhan@gmail.com" DelPhone_="0581252247" DelFirstName_="Arusha" DelLine1_="Arusha" CustomerAddressLine1_="Arusha" DelLine2_="Arusha" CustomerAddressLine2_="Arusha" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="PINE" FabricDescription_="Faux - Signature Pine" Width_="550" Drop_="1350" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="550" DropDisplay_="1350" CustomerOrderReference_="" OrderID_="RIM180249-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="arushakhan@gmail.com" DelPhone_="0581252247" DelFirstName_="Arusha" DelLine1_="Arusha" CustomerAddressLine1_="Arusha" DelLine2_="Arusha" CustomerAddressLine2_="Arusha" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="PINE" FabricDescription_="Faux - Signature Pine" Width_="1155" Drop_="1355" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 2" WidthDisplay_="1155" DropDisplay_="1355" CustomerOrderReference_="" OrderID_="RIM180249-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="arushakhan@gmail.com" DelPhone_="0581252247" DelFirstName_="Arusha" DelLine1_="Arusha" CustomerAddressLine1_="Arusha" DelLine2_="Arusha" CustomerAddressLine2_="Arusha" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="PINE" FabricDescription_="Faux - Signature Pine" Width_="960" Drop_="1045" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="960" DropDisplay_="1045" CustomerOrderReference_="" OrderID_="RIM180249-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="arushakhan@gmail.com" DelPhone_="0581252247" DelFirstName_="Arusha" DelLine1_="Arusha" CustomerAddressLine1_="Arusha" DelLine2_="Arusha" CustomerAddressLine2_="Arusha" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="PINE" FabricDescription_="Faux - Signature Pine" Width_="960" Drop_="1550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 2" WidthDisplay_="960" DropDisplay_="1550" CustomerOrderReference_="" OrderID_="RIM180249-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="arushakhan@gmail.com" DelPhone_="0581252247" DelFirstName_="Arusha" DelLine1_="Arusha" CustomerAddressLine1_="Arusha" DelLine2_="Arusha" CustomerAddressLine2_="Arusha" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

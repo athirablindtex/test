@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM130809572725-nei.xml" CreateDate_="14/08/2025" CreateTime_="14:45:16">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="12233" CustomerReference_="RIM1308095727/25-nei" OrderDate_="14/08/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-02" BlindTypeDescription_="Curtain 2,6 Fullness" MetricMeasurement_="0" FabricCode_="CAS002-BO" FabricDescription_="Blackout CAS002" Width_="4220" Drop_="3320" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="guest down1" WidthDisplay_="4220" DropDisplay_="3320" CustomerOrderReference_="existing customer. 3rd order. payment after fitting. " OrderID_="RIM130809572725-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminibkinds.com" DelPhone_="0506580980" DelFirstName_="hanan - 2nd villa(2nd order)" DelLine1_="hanan - 2nd villa(2nd order)" CustomerAddressLine1_="hanan - 2nd villa(2nd order)" DelLine2_="hanan - 2nd villa(2nd order)" CustomerAddressLine2_="hanan - 2nd villa(2nd order)" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="By Hand Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Easy Fold (Wave)" ChoiceCode_="STY102A"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

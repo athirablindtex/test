@@ -1,0 +1,17 @@
+{
+   "commonMagingPecent" : "10",
+    "company":[{
+               "companyId":"8",
+                "companyName":"Dubai Blinds",
+                "companyPercent" : "10",
+                "status":"active"
+        },
+        {
+               "companyId":"9",
+                "companyName":"Rimini Blinds",
+                "companyPercent" : "10",
+                "status":"inactive"
+        }
+    ]
+    
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2702151-mar.xml" CreateDate_="27/02/2026" CreateTime_="16:07:58">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2702151" CustomerReference_="BLI2702151-mar" OrderDate_="27/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA009" FabricDescription_="SHA009 (beige)" Width_="1200" Drop_="3350" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Staircase - 1" WidthDisplay_="1200" DropDisplay_="3350" CustomerOrderReference_="" OrderID_="BLI2702151-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0545839233" DelFirstName_="dummy order/ OA costing purposes" DelLine1_="dummy order/ OA costing purposes" CustomerAddressLine1_="dummy order/ OA costing purposes" DelLine2_="dummy order/ OA costing purposes" CustomerAddressLine2_="dummy order/ OA costing purposes" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA009" FabricDescription_="SHA009 (beige)" Width_="1200" Drop_="2430" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Staircase - 2" WidthDisplay_="1200" DropDisplay_="2430" CustomerOrderReference_="" OrderID_="BLI2702151-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0545839233" DelFirstName_="dummy order/ OA costing purposes" DelLine1_="dummy order/ OA costing purposes" CustomerAddressLine1_="dummy order/ OA costing purposes" DelLine2_="dummy order/ OA costing purposes" CustomerAddressLine2_="dummy order/ OA costing purposes" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

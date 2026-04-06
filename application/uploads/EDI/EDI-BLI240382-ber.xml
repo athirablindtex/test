@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI240382-ber.xml" CreateDate_="24/03/2026" CreateTime_="09:26:05">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="240382" CustomerReference_="BLI240382-ber" OrderDate_="24/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD011" FabricDescription_="Madiba Gunmental" Width_="950" Drop_="2955" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bathroom - 1" WidthDisplay_="950" DropDisplay_="2955" CustomerOrderReference_="2mtrs wand" OrderID_="BLI240382-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="fareedbawa@hotmail.com" DelPhone_="0557630460" DelFirstName_="Fareed  Bawa" DelLine1_="Fareed  Bawa" CustomerAddressLine1_="Fareed  Bawa" DelLine2_="Fareed  Bawa" CustomerAddressLine2_="Fareed  Bawa" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default," 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

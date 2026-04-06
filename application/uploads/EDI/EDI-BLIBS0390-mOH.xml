@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLIBS0390-mOH.xml" CreateDate_="03/04/2026" CreateTime_="15:55:54">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0390" CustomerReference_="BLIBS0390-mOH" OrderDate_="03/04/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2470" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="2470" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2270" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 2" WidthDisplay_="2270" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2320" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 3" WidthDisplay_="2320" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2470" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 4" WidthDisplay_="2470" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2270" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 5" WidthDisplay_="2270" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2320" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 6" WidthDisplay_="2320" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1300" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="G/F stairs - 1" WidthDisplay_="1300" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Situo 5 RTS White" 
+            ChoiceCode_="SOM066" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1450" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="G/F stairs - 2" WidthDisplay_="1450" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1300" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="G/F stairs - 3" WidthDisplay_="1300" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1450" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="G/F stairs - 4" WidthDisplay_="1450" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1450" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Balcony - 1" WidthDisplay_="1450" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Situo 5 RTS White" 
+            ChoiceCode_="SOM066" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1450" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Balcony - 2" WidthDisplay_="1450" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1450" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Balcony - 3" WidthDisplay_="1450" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1450" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Balcony - 4" WidthDisplay_="1450" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2360" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="GF living - 1" WidthDisplay_="2360" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="16" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2260" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="GF living - 2" WidthDisplay_="2260" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="17" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2260" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="GF living - 3" WidthDisplay_="2260" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="18" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2360" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="GF living - 4" WidthDisplay_="2360" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="19" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2260" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="GF living - 5" WidthDisplay_="2260" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="20" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2260" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="GF living - 6" WidthDisplay_="2260" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="21" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1700" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kids Room - 1" WidthDisplay_="1700" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="22" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1700" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kids Room - 2" WidthDisplay_="1700" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="23" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1700" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kids Room - 3" WidthDisplay_="1700" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="24" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1700" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kids Room - 4" WidthDisplay_="1700" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="25" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1700" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 1" WidthDisplay_="1700" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="26" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1700" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 2" WidthDisplay_="1700" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="27" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1700" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 3" WidthDisplay_="1700" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="28" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1700" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 4" WidthDisplay_="1700" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="29" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1300" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Small office - 1" WidthDisplay_="1300" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="30" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1300" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Small office - 2" WidthDisplay_="1300" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="31" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1300" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Small office - 3" WidthDisplay_="1300" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="32" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1300" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Small office - 4" WidthDisplay_="1300" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="33" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="1500" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="SMALL MASTER - 1" WidthDisplay_="1500" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="34" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="1500" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="SMALL MASTER - 2" WidthDisplay_="1500" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="35" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2350" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="2350" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="36" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2260" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="2260" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="37" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MIN002" FabricDescription_="MIN002 (natural)" Width_="2260" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 3" WidthDisplay_="2260" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="38" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2350" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 4" WidthDisplay_="2350" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="39" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2260" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 5" WidthDisplay_="2260" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="40" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="MES001" FabricDescription_="MES001 (white)" Width_="2260" Drop_="2750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 6" WidthDisplay_="2260" DropDisplay_="2750" CustomerOrderReference_="" OrderID_="BLIBS0390-mOH" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0543724749" DelFirstName_="Nhard Elardo" DelLine1_="Nhard Elardo" CustomerAddressLine1_="Nhard Elardo" DelLine2_="Nhard Elardo" CustomerAddressLine2_="Nhard Elardo" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abudhabi Blinds" FileTransfName_="ABU111216-kar.xml" CreateDate_="11/12/2025" CreateTime_="19:11:29">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="111216" CustomerReference_="ABU111216-kar" OrderDate_="11/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA009" FabricDescription_="Basix SHA009 (beige)" Width_="1490" Drop_="2040" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom1" WidthDisplay_="1490" DropDisplay_="2040" CustomerOrderReference_="" OrderID_="ABU111216-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="davyb91@gmail.com" DelPhone_="0551473981" DelFirstName_="Davy Bannon" DelLine1_="Davy Bannon" CustomerAddressLine1_="Davy Bannon" DelLine2_="Davy Bannon" CustomerAddressLine2_="Davy Bannon" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

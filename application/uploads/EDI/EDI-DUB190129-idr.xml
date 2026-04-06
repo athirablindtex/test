@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB190129-idr.xml" CreateDate_="23/01/2026" CreateTime_="13:24:30">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="190129" CustomerReference_="DUB190129-idr" OrderDate_="23/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="580" Drop_="1250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MASTER BEDROOM - 1" WidthDisplay_="580" DropDisplay_="1250" CustomerOrderReference_="" OrderID_="DUB190129-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="weaverlisa@me.com" DelPhone_="0585966075" DelFirstName_="lisa weaver " DelLine1_="lisa weaver " CustomerAddressLine1_="lisa weaver " DelLine2_="lisa weaver " CustomerAddressLine2_="lisa weaver " Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="580" Drop_="1250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MASTER BEDROOM - 2" WidthDisplay_="580" DropDisplay_="1250" CustomerOrderReference_="" OrderID_="DUB190129-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="weaverlisa@me.com" DelPhone_="0585966075" DelFirstName_="lisa weaver " DelLine1_="lisa weaver " CustomerAddressLine1_="lisa weaver " DelLine2_="lisa weaver " CustomerAddressLine2_="lisa weaver " Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="990" Drop_="1260" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MASTER BEDROOM - 3" WidthDisplay_="990" DropDisplay_="1260" CustomerOrderReference_="" OrderID_="DUB190129-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="weaverlisa@me.com" DelPhone_="0585966075" DelFirstName_="lisa weaver " DelLine1_="lisa weaver " CustomerAddressLine1_="lisa weaver " DelLine2_="lisa weaver " CustomerAddressLine2_="lisa weaver " Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="980" Drop_="1255" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="MASTER BEDROOM - 4" WidthDisplay_="980" DropDisplay_="1255" CustomerOrderReference_="" OrderID_="DUB190129-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="weaverlisa@me.com" DelPhone_="0585966075" DelFirstName_="lisa weaver " DelLine1_="lisa weaver " CustomerAddressLine1_="lisa weaver " DelLine2_="lisa weaver " CustomerAddressLine2_="lisa weaver " Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="580" Drop_="1250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="SON UPSTAIRS" WidthDisplay_="580" DropDisplay_="1250" CustomerOrderReference_="" OrderID_="DUB190129-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="weaverlisa@me.com" DelPhone_="0585966075" DelFirstName_="lisa weaver " DelLine1_="lisa weaver " CustomerAddressLine1_="lisa weaver " DelLine2_="lisa weaver " CustomerAddressLine2_="lisa weaver " Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="FROST" FabricDescription_="Faux - Signature Frost" Width_="580" Drop_="1250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="SON UPSTAIRS" WidthDisplay_="580" DropDisplay_="1250" CustomerOrderReference_="" OrderID_="DUB190129-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="weaverlisa@me.com" DelPhone_="0585966075" DelFirstName_="lisa weaver " DelLine1_="lisa weaver " CustomerAddressLine1_="lisa weaver " DelLine2_="lisa weaver " CustomerAddressLine2_="lisa weaver " Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Tape Default" ChoiceCode_="TAP061"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

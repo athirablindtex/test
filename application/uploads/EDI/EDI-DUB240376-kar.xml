@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB240376-kar.xml" CreateDate_="25/03/2026" CreateTime_="10:56:14">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="240376" CustomerReference_="DUB240376-kar" OrderDate_="25/03/2026" OrderNote_="1 pc trunking 
+5 meters wire ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ORC002" FabricDescription_="ORC002 (natural)" Width_="1971" Drop_="1200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Main office - 1" WidthDisplay_="1971" DropDisplay_="1200" CustomerOrderReference_="" OrderID_="DUB240376-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="JEY@AURAUAE.COM" DelPhone_="0566967609" DelFirstName_="Mr.JEYASURESH  SUNDARAM" DelLine1_="Mr.JEYASURESH  SUNDARAM" CustomerAddressLine1_="Mr.JEYASURESH  SUNDARAM" DelLine2_="Mr.JEYASURESH  SUNDARAM" CustomerAddressLine2_="Mr.JEYASURESH  SUNDARAM" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Medium Wired RTS 10/17" 
+            ChoiceCode_="DOY027" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Blindtex DY Remote 15 Channel" 
+            ChoiceCode_="DOY004" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ORC002" FabricDescription_="ORC002 (natural)" Width_="2011" Drop_="1200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Main office - 2" WidthDisplay_="2011" DropDisplay_="1200" CustomerOrderReference_="" OrderID_="DUB240376-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="JEY@AURAUAE.COM" DelPhone_="0566967609" DelFirstName_="Mr.JEYASURESH  SUNDARAM" DelLine1_="Mr.JEYASURESH  SUNDARAM" CustomerAddressLine1_="Mr.JEYASURESH  SUNDARAM" DelLine2_="Mr.JEYASURESH  SUNDARAM" CustomerAddressLine2_="Mr.JEYASURESH  SUNDARAM" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ORC002" FabricDescription_="ORC002 (natural)" Width_="871" Drop_="1200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Main office - 3" WidthDisplay_="871" DropDisplay_="1200" CustomerOrderReference_="" OrderID_="DUB240376-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="JEY@AURAUAE.COM" DelPhone_="0566967609" DelFirstName_="Mr.JEYASURESH  SUNDARAM" DelLine1_="Mr.JEYASURESH  SUNDARAM" CustomerAddressLine1_="Mr.JEYASURESH  SUNDARAM" DelLine2_="Mr.JEYASURESH  SUNDARAM" CustomerAddressLine2_="Mr.JEYASURESH  SUNDARAM" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

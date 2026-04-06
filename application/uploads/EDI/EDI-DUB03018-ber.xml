@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB03018-ber.xml" CreateDate_="05/01/2026" CreateTime_="11:45:55">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="03018" CustomerReference_="DUB03018-ber" OrderDate_="05/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA007" FabricDescription_="Basix SHA007 (off white)" Width_="1050" Drop_="2160" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room - 1" WidthDisplay_="1050" DropDisplay_="2160" CustomerOrderReference_="" OrderID_="DUB03018-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="Scholtz.dewald@gmail.com" DelPhone_="0542975983" DelFirstName_="David Scholtz" DelLine1_="David Scholtz" CustomerAddressLine1_="David Scholtz" DelLine2_="David Scholtz" CustomerAddressLine2_="David Scholtz" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA007" FabricDescription_="Basix SHA007 (off white)" Width_="2300" Drop_="2700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room - 2" WidthDisplay_="2300" DropDisplay_="2700" CustomerOrderReference_="" OrderID_="DUB03018-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="Scholtz.dewald@gmail.com" DelPhone_="0542975983" DelFirstName_="David Scholtz" DelLine1_="David Scholtz" CustomerAddressLine1_="David Scholtz" DelLine2_="David Scholtz" CustomerAddressLine2_="David Scholtz" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB020116-ric.xml" CreateDate_="02/01/2026" CreateTime_="15:21:20">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="020116" CustomerReference_="DUB020116-ric" OrderDate_="02/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="CHERRY" FabricDescription_="Paulowina Cherry" Width_="1090" Drop_="2300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1090" DropDisplay_="2300" CustomerOrderReference_="" OrderID_="DUB020116-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="saraabukhadra@gmail.com" DelPhone_="0506240591" DelFirstName_="Ms. Sara Abukhadra" DelLine1_="Ms. Sara Abukhadra" CustomerAddressLine1_="Ms. Sara Abukhadra" DelLine2_="Ms. Sara Abukhadra" CustomerAddressLine2_="Ms. Sara Abukhadra" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Cord" ChoiceCode_="TAP060"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="Left Return Only" ChoiceCode_="W009"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="CHERRY" FabricDescription_="Paulowina Cherry" Width_="1090" Drop_="2300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="1090" DropDisplay_="2300" CustomerOrderReference_="" OrderID_="DUB020116-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="saraabukhadra@gmail.com" DelPhone_="0506240591" DelFirstName_="Ms. Sara Abukhadra" DelLine1_="Ms. Sara Abukhadra" CustomerAddressLine1_="Ms. Sara Abukhadra" DelLine2_="Ms. Sara Abukhadra" CustomerAddressLine2_="Ms. Sara Abukhadra" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Cord" ChoiceCode_="TAP060"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="CHERRY" FabricDescription_="Paulowina Cherry" Width_="1090" Drop_="2300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="1090" DropDisplay_="2300" CustomerOrderReference_="" OrderID_="DUB020116-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="saraabukhadra@gmail.com" DelPhone_="0506240591" DelFirstName_="Ms. Sara Abukhadra" DelLine1_="Ms. Sara Abukhadra" CustomerAddressLine1_="Ms. Sara Abukhadra" DelLine2_="Ms. Sara Abukhadra" CustomerAddressLine2_="Ms. Sara Abukhadra" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Cord" ChoiceCode_="TAP060"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="Right Return Only" ChoiceCode_="W008"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

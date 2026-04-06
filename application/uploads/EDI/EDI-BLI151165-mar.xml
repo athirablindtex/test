@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI151165-mar.xml" CreateDate_="15/11/2025" CreateTime_="19:49:34">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="151165" CustomerReference_="BLI151165-mar" OrderDate_="15/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="HONCOM-FREE" BlindTypeDescription_="Honeycomb" MetricMeasurement_="0" FabricCode_="DAR006" FabricDescription_="Darby Willow" Width_="620" Drop_="920" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Dining Room1" WidthDisplay_="620" DropDisplay_="920" CustomerOrderReference_="dispatch 20-11-2025" OrderID_="BLI151165-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="ana.mae@pipecaregroup.com" DelPhone_="0526490331" DelFirstName_="Pipecare group" DelLine1_="Pipecare group" CustomerAddressLine1_="Pipecare group" DelLine2_="Pipecare group" CustomerAddressLine2_="Pipecare group" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Configuration" Choice_="Tensioned Single Pull Bottom Up" ChoiceCode_="PFITFLOA02"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bead Depth" Choice_="20 mm" ChoiceCode_="BRA038"/>
+        <TEDIOptionList_Details OptionName_="Perfect Fit Frame" Choice_="White" ChoiceCode_="PFREQ"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="HONCOM-FREE" BlindTypeDescription_="Honeycomb" MetricMeasurement_="0" FabricCode_="DAR006" FabricDescription_="Darby Willow" Width_="620" Drop_="920" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Dining Room2" WidthDisplay_="620" DropDisplay_="920" CustomerOrderReference_="" OrderID_="BLI151165-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="ana.mae@pipecaregroup.com" DelPhone_="0526490331" DelFirstName_="Pipecare group" DelLine1_="Pipecare group" CustomerAddressLine1_="Pipecare group" DelLine2_="Pipecare group" CustomerAddressLine2_="Pipecare group" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Configuration" Choice_="Tensioned Single Pull Bottom Up" ChoiceCode_="PFITFLOA02"/>
+        <TEDIOptionList_Details OptionName_="Bead Depth" Choice_="20 mm" ChoiceCode_="BRA038"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Perfect Fit Frame" Choice_="White" ChoiceCode_="PFREQ"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

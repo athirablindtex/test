@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB2502137-ric.xml" CreateDate_="25/02/2026" CreateTime_="11:25:22">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2502137" CustomerReference_="DUB2502137-ric" OrderDate_="25/02/2026" OrderNote_="6cm spacing ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-02" BlindTypeDescription_="Curtain 2,6 Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric." Width_="6550" Drop_="3240" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="First floor - 2" WidthDisplay_="6550" DropDisplay_="3240" CustomerOrderReference_="Book 1210 no. 17" OrderID_="DUB2502137-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fitriani.hay@jmhfzco.com" DelPhone_="0504593707" DelFirstName_="Fitri Hay" DelLine1_="Fitri Hay" CustomerAddressLine1_="Fitri Hay" DelLine2_="Fitri Hay" CustomerAddressLine2_="Fitri Hay" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="By Hand Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Easy Fold (Wave)" 
+            ChoiceCode_="STY102A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-ON-07" BlindTypeDescription_="Curtain 2,6 Fullness" MetricMeasurement_="0" FabricCode_="AUR003-B
+" FabricDescription_="AUR003" Width_="6550" Drop_="3240" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="First floor - 2" WidthDisplay_="6550" DropDisplay_="3240" CustomerOrderReference_="" OrderID_="DUB2502137-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fitriani.hay@jmhfzco.com" DelPhone_="0504593707" DelFirstName_="Fitri Hay" DelLine1_="Fitri Hay" CustomerAddressLine1_="Fitri Hay" DelLine2_="Fitri Hay" CustomerAddressLine2_="Fitri Hay" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Easy Fold (Wave)" 
+            ChoiceCode_="STY102A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="By Hand Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-ON-02" BlindTypeDescription_="Curtain 2,6 Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric." Width_="6680" Drop_="3500" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Ground floor - 2" WidthDisplay_="6680" DropDisplay_="3500" CustomerOrderReference_="Book 1210 no. 17" OrderID_="DUB2502137-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fitriani.hay@jmhfzco.com" DelPhone_="0504593707" DelFirstName_="Fitri Hay" DelLine1_="Fitri Hay" CustomerAddressLine1_="Fitri Hay" DelLine2_="Fitri Hay" CustomerAddressLine2_="Fitri Hay" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Easy Fold (Wave)" 
+            ChoiceCode_="STY102A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="By Hand Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

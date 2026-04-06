@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1203190-ric.xml" CreateDate_="12/03/2026" CreateTime_="13:49:50">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1203190" CustomerReference_="DUB1203190-ric" OrderDate_="12/03/2026" OrderNote_="Updated invoice, scaffolding added">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-01" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="CASHEW" FabricDescription_="Faux - Signature Cashew" Width_="1780" Drop_="2190" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="1780" DropDisplay_="2190" CustomerOrderReference_="" OrderID_="DUB1203190-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Khaldoona380@gmail.com" DelPhone_="0566558950" DelFirstName_="Mr. Khaldoon Nasser" DelLine1_="Mr. Khaldoon Nasser" CustomerAddressLine1_="Mr. Khaldoon Nasser" DelLine2_="Mr. Khaldoon Nasser" CustomerAddressLine2_="Mr. Khaldoon Nasser" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 6/20" 
+            ChoiceCode_="SOM119" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="No Returns" 
+            ChoiceCode_="W002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote" 
+            Choice_="Somfy Situo 5 RTS Modulus" 
+            ChoiceCode_="SOM073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Tape Default" 
+            ChoiceCode_="TAP061" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE014" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CONS001" BlindTypeDescription_="Ladders Scaffold" MetricMeasurement_="0" FabricCode_="Lader-Scaf" FabricDescription_="Lader-Scaf" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 2" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="" OrderID_="DUB1203190-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Khaldoona380@gmail.com" DelPhone_="0566558950" DelFirstName_="Mr. Khaldoon Nasser" DelLine1_="Mr. Khaldoon Nasser" CustomerAddressLine1_="Mr. Khaldoon Nasser" DelLine2_="Mr. Khaldoon Nasser" CustomerAddressLine2_="Mr. Khaldoon Nasser" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Rental per day" 
+            Choice_="7M Scaffold" 
+            ChoiceCode_="movezzz114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

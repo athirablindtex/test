@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2401102-mar.xml" CreateDate_="24/01/2026" CreateTime_="13:08:09">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2401102" CustomerReference_="BLI2401102-mar" OrderDate_="24/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30650" FabricDescription_="Plains_Ice" Width_="1950" Drop_="2010" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1950" DropDisplay_="2010" CustomerOrderReference_="chain plastic white 1900
+please dispatch Monday " OrderID_="BLI2401102-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Nanasiegel@yahoo.com" DelPhone_="0505505048" DelFirstName_="Nathalie  Arora" DelLine1_="Nathalie  Arora" CustomerAddressLine1_="Nathalie  Arora" DelLine2_="Nathalie  Arora" CustomerAddressLine2_="Nathalie  Arora" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Stacking Type" Choice_="Standard Stacking" ChoiceCode_="SPE036"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout White" ChoiceCode_="LIN009"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Plastic Chain - White" ChoiceCode_="RCM019WH"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

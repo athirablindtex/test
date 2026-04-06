@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU180221-man.xml" CreateDate_="18/02/2026" CreateTime_="14:03:56">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="180221" CustomerReference_="ABU180221-man" OrderDate_="18/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="VIS001" FabricDescription_="VIS001 (white)" Width_="2110" Drop_="1450" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="2110" DropDisplay_="1450" CustomerOrderReference_="Chain length should be same as blind height" OrderID_="ABU180221-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0506667945" DelFirstName_="Noora" DelLine1_="Noora" CustomerAddressLine1_="Noora" DelLine2_="Noora" CustomerAddressLine2_="Noora" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

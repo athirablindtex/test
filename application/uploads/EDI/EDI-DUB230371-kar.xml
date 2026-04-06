@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB230371-kar.xml" CreateDate_="23/03/2026" CreateTime_="20:49:28">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="230371" CustomerReference_="DUB230371-kar" OrderDate_="23/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="2300" Drop_="3200" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="2300" DropDisplay_="3200" CustomerOrderReference_="" OrderID_="DUB230371-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="bilengamze@gmail.com" DelPhone_="0543035994" DelFirstName_="Gamze Corte Real" DelLine1_="Gamze Corte Real" CustomerAddressLine1_="Gamze Corte Real" DelLine2_="Gamze Corte Real" CustomerAddressLine2_="Gamze Corte Real" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Velcro for light diming" 
+            Choice_="Outside of Curtain Single" 
+            ChoiceCode_="SPE233" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

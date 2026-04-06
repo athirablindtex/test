@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1802112-ric.xml" CreateDate_="18/02/2026" CreateTime_="11:20:44">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1802112" CustomerReference_="DUB1802112-ric" OrderDate_="18/02/2026" OrderNote_="Updated invoice, cost approved mr martin">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="4500" Drop_="2910" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="4500" DropDisplay_="2910" CustomerOrderReference_="Size given is rail to floor" OrderID_="DUB1802112-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="stephen@vgm.co" DelPhone_="0555479091" DelFirstName_="Stephen Freshwater " DelLine1_="Stephen Freshwater " CustomerAddressLine1_="Stephen Freshwater " DelLine2_="Stephen Freshwater " CustomerAddressLine2_="Stephen Freshwater " Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Wave" ChoiceCode_="STY102"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="4500" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="4500" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1802112-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="stephen@vgm.co" DelPhone_="0555479091" DelFirstName_="Stephen Freshwater " DelLine1_="Stephen Freshwater " CustomerAddressLine1_="Stephen Freshwater " DelLine2_="Stephen Freshwater " CustomerAddressLine2_="Stephen Freshwater " Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Wall bracket 35mm white" ChoiceCode_="CCM120"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Wave" Choice_="200% Easysnap Button Tape System" ChoiceCode_="STY088B"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

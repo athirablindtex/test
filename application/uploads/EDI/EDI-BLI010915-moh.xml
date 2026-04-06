@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI010915-moh.xml" CreateDate_="01/09/2025" CreateTime_="10:43:03">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="010915" CustomerReference_="BLI010915-moh" OrderDate_="01/09/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-01" BlindTypeDescription_="Vertical -Signature" MetricMeasurement_="0" FabricCode_="AC- RIG" FabricDescription_="Anycolour Screen" Width_="1200" Drop_="1400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="1200" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="BLI010915-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE008"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Champagne Gold" ChoiceCode_="VCM504"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Wand Operated" ChoiceCode_="SPE052"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Extension" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="BAN004VV" FabricDescription_="Basix BAN004 (black)" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room2" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="" OrderID_="BLI010915-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Wand Operated" ChoiceCode_="SPE052"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Extension" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="Sewn in weights" ChoiceCode_="SPE145"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

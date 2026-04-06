@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB210364-kar.xml" CreateDate_="23/03/2026" CreateTime_="15:14:17">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="210364" CustomerReference_="DUB210364-kar" OrderDate_="23/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CIR006-B" FabricDescription_="Sheer CIR006" Width_="2380" Drop_="3005" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="2380" DropDisplay_="3005" CustomerOrderReference_="" OrderID_="DUB210364-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Renee.medawar@gmail.com" DelPhone_="0507490039" DelFirstName_="Rena medawar" DelLine1_="Rena medawar" CustomerAddressLine1_="Rena medawar" DelLine2_="Rena medawar" CustomerAddressLine2_="Rena medawar" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="2" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="2" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2380" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 2" WidthDisplay_="2380" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB210364-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Renee.medawar@gmail.com" DelPhone_="0507490039" DelFirstName_="Rena medawar" DelLine1_="Rena medawar" CustomerAddressLine1_="Rena medawar" DelLine2_="Rena medawar" CustomerAddressLine2_="Rena medawar" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

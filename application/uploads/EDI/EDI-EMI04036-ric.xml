@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="EMI" CompanyName_="Emirates Shutters" FileTransfName_="EMI04036-ric.xml" CreateDate_="04/03/2026" CreateTime_="14:39:39">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="04036" CustomerReference_="EMI04036-ric" OrderDate_="04/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="SHU-01-01" BlindTypeDescription_="Shutters Classic" MetricMeasurement_="0" FabricCode_="PV01" FabricDescription_="PVC PV01 True White" Width_="710" Drop_="2420" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="710" DropDisplay_="2420" CustomerOrderReference_="" OrderID_="EMI04036-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="mozakhamees@outlook.com" DelPhone_="0506301076" DelFirstName_="Moza Alsenaidi" DelLine1_="Moza Alsenaidi" CustomerAddressLine1_="Moza Alsenaidi" DelLine2_="Moza Alsenaidi" CustomerAddressLine2_="Moza Alsenaidi" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Frame Type" 
+            Choice_="Insert L 50" 
+            ChoiceCode_="SHU-FRA06" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Hinges" 
+            Choice_="White" 
+            ChoiceCode_="SHU-HIN01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Installation Style" 
+            Choice_="Full Height" 
+            ChoiceCode_="SHU-INS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Louver Size" 
+            Choice_="63mm" 
+            ChoiceCode_="SHU-LOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Position" 
+            Choice_="Exact" 
+            ChoiceCode_="SHU-MID03" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mounting Location" 
+            Choice_="Outside Recess" 
+            ChoiceCode_="SHU-MOU02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Predrill Frame" 
+            Choice_="Front" 
+            ChoiceCode_="SHU-PED02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stile Type" 
+            Choice_="Beaded 50mm Astragal" 
+            ChoiceCode_="SHU-STIL05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Type" 
+            Choice_="Centre" 
+            ChoiceCode_="SHU-TILT02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Number of Frame Sides" 
+            Choice_="4" 
+            ChoiceCode_="SHU-NFS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Panel Config" 
+            Choice_="Please Specify" 
+            ChoiceCode_="SHU-PAN09" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="SHU-01-01" BlindTypeDescription_="Shutters Classic" MetricMeasurement_="0" FabricCode_="PV01" FabricDescription_="PVC PV01 True White" Width_="1560" Drop_="2420" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="1560" DropDisplay_="2420" CustomerOrderReference_="" OrderID_="EMI04036-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="mozakhamees@outlook.com" DelPhone_="0506301076" DelFirstName_="Moza Alsenaidi" DelLine1_="Moza Alsenaidi" CustomerAddressLine1_="Moza Alsenaidi" DelLine2_="Moza Alsenaidi" CustomerAddressLine2_="Moza Alsenaidi" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Frame Type" 
+            Choice_="Insert L 50" 
+            ChoiceCode_="SHU-FRA06" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Hinges" 
+            Choice_="White" 
+            ChoiceCode_="SHU-HIN01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Installation Style" 
+            Choice_="Full Height" 
+            ChoiceCode_="SHU-INS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Louver Size" 
+            Choice_="63mm" 
+            ChoiceCode_="SHU-LOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Position" 
+            Choice_="Exact" 
+            ChoiceCode_="SHU-MID03" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mounting Location" 
+            Choice_="Outside Recess" 
+            ChoiceCode_="SHU-MOU02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Predrill Frame" 
+            Choice_="Front" 
+            ChoiceCode_="SHU-PED02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stile Type" 
+            Choice_="Beaded 50mm Astragal" 
+            ChoiceCode_="SHU-STIL05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Type" 
+            Choice_="Centre" 
+            ChoiceCode_="SHU-TILT02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Number of Frame Sides" 
+            Choice_="4" 
+            ChoiceCode_="SHU-NFS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Panel Config" 
+            Choice_="Please Specify" 
+            ChoiceCode_="SHU-PAN09" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="SHU-01-01" BlindTypeDescription_="Shutters Classic" MetricMeasurement_="0" FabricCode_="PV01" FabricDescription_="PVC PV01 True White" Width_="710" Drop_="2420" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="710" DropDisplay_="2420" CustomerOrderReference_="" OrderID_="EMI04036-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="mozakhamees@outlook.com" DelPhone_="0506301076" DelFirstName_="Moza Alsenaidi" DelLine1_="Moza Alsenaidi" CustomerAddressLine1_="Moza Alsenaidi" DelLine2_="Moza Alsenaidi" CustomerAddressLine2_="Moza Alsenaidi" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Frame Type" 
+            Choice_="Insert L 50" 
+            ChoiceCode_="SHU-FRA06" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Hinges" 
+            Choice_="White" 
+            ChoiceCode_="SHU-HIN01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Installation Style" 
+            Choice_="Full Height" 
+            ChoiceCode_="SHU-INS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Louver Size" 
+            Choice_="63mm" 
+            ChoiceCode_="SHU-LOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Position" 
+            Choice_="Exact" 
+            ChoiceCode_="SHU-MID03" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mounting Location" 
+            Choice_="Outside Recess" 
+            ChoiceCode_="SHU-MOU02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Predrill Frame" 
+            Choice_="Front" 
+            ChoiceCode_="SHU-PED02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stile Type" 
+            Choice_="Beaded 50mm Astragal" 
+            ChoiceCode_="SHU-STIL05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Type" 
+            Choice_="Centre" 
+            ChoiceCode_="SHU-TILT02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Number of Frame Sides" 
+            Choice_="4" 
+            ChoiceCode_="SHU-NFS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Panel Config" 
+            Choice_="Please Specify" 
+            ChoiceCode_="SHU-PAN09" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

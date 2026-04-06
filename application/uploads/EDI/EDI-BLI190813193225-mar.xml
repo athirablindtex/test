@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI190813193225-mar.xml" CreateDate_="19/08/2025" CreateTime_="14:39:52">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="190813193225" CustomerReference_="BLI190813193225-mar" OrderDate_="19/08/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="ESS006VV" FabricDescription_="Basix ESS006 (brown)" Width_="2270" Drop_="2560" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office1" WidthDisplay_="2270" DropDisplay_="2560" CustomerOrderReference_="accesories graphite" OrderID_="BLI190813193225-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="ollyjunior1979@gmail.com" DelPhone_="0556088235" DelFirstName_="Mr Oliver" DelLine1_="Mr Oliver" CustomerAddressLine1_="Mr Oliver" DelLine2_="Mr Oliver" CustomerAddressLine2_="Mr Oliver" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="Black Weights and Chain" ChoiceCode_="SPE146"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Cassette" Choice_="Not Required" ChoiceCode_="SPE181"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="ESS006VV" FabricDescription_="Basix ESS006 (brown)" Width_="1270" Drop_="2560" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office2" WidthDisplay_="1270" DropDisplay_="2560" CustomerOrderReference_="accesories graphite" OrderID_="BLI190813193225-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="ollyjunior1979@gmail.com" DelPhone_="0556088235" DelFirstName_="Mr Oliver" DelLine1_="Mr Oliver" CustomerAddressLine1_="Mr Oliver" DelLine2_="Mr Oliver" CustomerAddressLine2_="Mr Oliver" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="Black Weights and Chain" ChoiceCode_="SPE146"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Cassette" Choice_="Not Required" ChoiceCode_="SPE181"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

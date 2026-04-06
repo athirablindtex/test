@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI240717212925-moh.xml" CreateDate_="24/07/2025" CreateTime_="17:21:31">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="12233" CustomerReference_="BLI2407172129/25-moh" OrderDate_="24/07/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ELF004" FabricDescription_="ELF ELF004" Width_="1200" Drop_="1400" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bed Room1" WidthDisplay_="1200" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="BLI240717212925-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="mohammedeu8@gmail.com" DelPhone_="0552560616" DelFirstName_="mohammedkarat" DelLine1_="mohammedkarat" CustomerAddressLine1_="mohammedkarat" DelLine2_="mohammedkarat" CustomerAddressLine2_="mohammedkarat" Salesperson_="Mohammedeu">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White Flat S Channel" ChoiceCode_="RCM023WH"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Somfy intermediate bracket (RTS 50)" ChoiceCode_="SPE185"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Extension" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller-Signature" MetricMeasurement_="0" FabricCode_="FAS001 (E)" FabricDescription_="80s Fashion - BO Essen" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room2" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="" OrderID_="BLI240717212925-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="mohammedeu8@gmail.com" DelPhone_="0552560616" DelFirstName_="mohammedkarat" DelLine1_="mohammedkarat" CustomerAddressLine1_="mohammedkarat" DelLine2_="mohammedkarat" CustomerAddressLine2_="mohammedkarat" Salesperson_="Mohammedeu">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White Flat S Channel" ChoiceCode_="RCM023WH"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Somfy intermediate bracket (RTS 50)" ChoiceCode_="SPE185"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Extension" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

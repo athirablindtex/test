@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI280927-mar.xml" CreateDate_="29/09/2025" CreateTime_="18:05:48">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="280927" CustomerReference_="BLI280927-mar" OrderDate_="29/09/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG004" FabricDescription_="Basix RIG004 (brown)" Width_="2525" Drop_="3180" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room1" WidthDisplay_="2525" DropDisplay_="3180" CustomerOrderReference_="" OrderID_="BLI280927-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Faizaldahlawia@gmail.com" DelPhone_="0509038053" DelFirstName_="Mohamad Faizal" DelLine1_="Mohamad Faizal" CustomerAddressLine1_="Mohamad Faizal" DelLine2_="Mohamad Faizal" CustomerAddressLine2_="Mohamad Faizal" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

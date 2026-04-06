@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM230254-nei.xml" CreateDate_="23/02/2026" CreateTime_="17:09:21">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="230254" CustomerReference_="RIM230254-nei" OrderDate_="23/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="2170" Drop_="1610" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="2170" DropDisplay_="1610" CustomerOrderReference_="" OrderID_="RIM230254-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0528484207" DelFirstName_="Ayman" DelLine1_="Ayman" CustomerAddressLine1_="Ayman" DelLine2_="Ayman" CustomerAddressLine2_="Ayman" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Block Out System" 
+            Choice_="Sides and Bottom Only ( White )" 
+            ChoiceCode_="SPE18a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

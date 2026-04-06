@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI170317-hon.xml" CreateDate_="17/03/2026" CreateTime_="10:07:34">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="170317" CustomerReference_="BLI170317-hon" OrderDate_="17/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="" BlindTypeDescription_="Consumables" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="Chain only" OrderID_="BLI170317-hon" IsDirectDeliveryBySupplier_="True" DelEmail_="marc_thurmayr@yahoo.com" DelPhone_="0508477014" DelFirstName_="Mr. Marc Thurmayr" DelLine1_="Mr. Marc Thurmayr" CustomerAddressLine1_="Mr. Marc Thurmayr" DelLine2_="Mr. Marc Thurmayr" CustomerAddressLine2_="Mr. Marc Thurmayr" Salesperson_="Honey">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

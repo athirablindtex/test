@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex" FileTransfName_="BA20250724102957-mr.xml" CreateDate_="24/07/2025" CreateTime_="10:29:57">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="12233" CustomerReference_="BLI2407102955/25-moh" OrderDate_="24/07/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUTRACK-04" BlindTypeDescription_="Curtain Poles 38mm" MetricMeasurement_="0" FabricCode_="DPOL38N2" FabricDescription_="38mm &amp; 38mm Motorised Nickel" Width_="1200" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room1" WidthDisplay_="1200" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BA20250724102957-mr" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="Mohammedeu">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="38/28mm Double Wall Bracket Black" ChoiceCode_="BRA308BB"/>
+        <TEDIOptionList_Details OptionName_="Finials" Choice_="38mm Cylinder Finial two Lines Brass" ChoiceCode_="FIN413B"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Left Bunch" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Extension" ChoiceCode_="TEST_1"/>
+        <TEDIOptionList_Details OptionName_="Angle Joiner" Choice_="28mm Angle Joiner Nickel" ChoiceCode_="CCM251N"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

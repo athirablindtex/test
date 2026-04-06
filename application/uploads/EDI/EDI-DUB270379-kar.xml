@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB270379-kar.xml" CreateDate_="28/03/2026" CreateTime_="13:02:29">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="270379" CustomerReference_="DUB270379-kar" OrderDate_="28/03/2026" OrderNote_="Place of bottom add side channel 3 pc ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BRE002" FabricDescription_="BRE002 (off ivory)" Width_="2500" Drop_="3160" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="2500" DropDisplay_="3160" CustomerOrderReference_="" OrderID_="DUB270379-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="iassudden@gmail.com" DelPhone_="0562215188" DelFirstName_="Ms. Irina Sandakova" DelLine1_="Ms. Irina Sandakova" CustomerAddressLine1_="Ms. Irina Sandakova" DelLine2_="Ms. Irina Sandakova" CustomerAddressLine2_="Ms. Irina Sandakova" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Block Out Cassette Colour" 
+            Choice_="Covered in Matching Fabric" 
+            ChoiceCode_="EVOMCF1" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Block Out System" 
+            Choice_="Sides and Bottom Only ( White )" 
+            ChoiceCode_="SPE18a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

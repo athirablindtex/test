@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU210236-man.xml" CreateDate_="21/02/2026" CreateTime_="17:45:02">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="210236" CustomerReference_="ABU210236-man" OrderDate_="21/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30810" FabricDescription_="Casablanca Ocean" Width_="2500" Drop_="1750" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Masterbedroom - 1" WidthDisplay_="2500" DropDisplay_="1750" CustomerOrderReference_="" OrderID_="ABU210236-man" IsDirectDeliveryBySupplier_="True" DelEmail_="Urweship@gmail.com" DelPhone_="0568282701" DelFirstName_="Urweshi Pillay" DelLine1_="Urweshi Pillay" CustomerAddressLine1_="Urweshi Pillay" DelLine2_="Urweshi Pillay" CustomerAddressLine2_="Urweshi Pillay" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout White" 
+            ChoiceCode_="LIN002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024" FabricDescription_="Brushed Nickel" Width_="2500" Drop_="1750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Masterbedroom - 2" WidthDisplay_="2500" DropDisplay_="1750" CustomerOrderReference_="" OrderID_="ABU210236-man" IsDirectDeliveryBySupplier_="True" DelEmail_="Urweship@gmail.com" DelPhone_="0568282701" DelFirstName_="Urweshi Pillay" DelLine1_="Urweshi Pillay" CustomerAddressLine1_="Urweshi Pillay" DelLine2_="Urweshi Pillay" CustomerAddressLine2_="Urweshi Pillay" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Single Brkt: Brushed Nickel" 
+            ChoiceCode_="BRA301" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Crown Brushed Nickel" 
+            ChoiceCode_="FIN403" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

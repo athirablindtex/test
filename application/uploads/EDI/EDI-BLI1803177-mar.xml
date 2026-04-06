@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI1803177-mar.xml" CreateDate_="18/03/2026" CreateTime_="18:22:57">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1803177" CustomerReference_="BLI1803177-mar" OrderDate_="18/03/2026" OrderNote_="2pcs bracket dispatch tommorow 
+Living room repair dispatch on wednesday">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUTRACK" BlindTypeDescription_="Curtain Track Forest" MetricMeasurement_="0" FabricCode_="KS" FabricDescription_="Klick System Curtain Track White" Width_="4400" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="4400" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI1803177-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Kellymcauliffe@gmail.com" DelPhone_="0585149241" DelFirstName_="Ms Kelly McAuliffe" DelLine1_="Ms Kelly McAuliffe" CustomerAddressLine1_="Ms Kelly McAuliffe" DelLine2_="Ms Kelly McAuliffe" CustomerAddressLine2_="Ms Kelly McAuliffe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

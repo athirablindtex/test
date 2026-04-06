@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM280337-ber.xml" CreateDate_="30/03/2026" CreateTime_="11:07:23">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="280337" CustomerReference_="RIM280337-ber" OrderDate_="30/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="3190" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="3190" DropDisplay_="1" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Single Brkt: Black Nickel" 
+            ChoiceCode_="BRA301B" 
+            Quantity_="3" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Turret Brushed Nickel" 
+            ChoiceCode_="FIN405" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD005" FabricDescription_="Madiba Porcelean" Width_="1495" Drop_="1150" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="1495" DropDisplay_="1150" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default," 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="515" Drop_="985" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master beedroom - 3" WidthDisplay_="515" DropDisplay_="985" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="615" Drop_="495" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master beedroom - 4" WidthDisplay_="615" DropDisplay_="495" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="515" Drop_="985" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master beedroom - 5" WidthDisplay_="515" DropDisplay_="985" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="615" Drop_="490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master beedroom - 6" WidthDisplay_="615" DropDisplay_="490" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="415" Drop_="985" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="415" DropDisplay_="985" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="515" Drop_="490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="515" DropDisplay_="490" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="515" Drop_="1670" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 3" WidthDisplay_="515" DropDisplay_="1670" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="415" Drop_="980" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 4" WidthDisplay_="415" DropDisplay_="980" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="515" Drop_="490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 5" WidthDisplay_="515" DropDisplay_="490" CustomerOrderReference_="" OrderID_="RIM280337-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="maura.geertsma@gmail.com" DelPhone_="0562166891" DelFirstName_="Maura Geertsma" DelLine1_="Maura Geertsma" CustomerAddressLine1_="Maura Geertsma" DelLine2_="Maura Geertsma" CustomerAddressLine2_="Maura Geertsma" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="None" 
+            ChoiceCode_="SPE232" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

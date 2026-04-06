@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM180140-nei.xml" CreateDate_="18/01/2026" CreateTime_="12:03:19">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="180140" CustomerReference_="RIM180140-nei" OrderDate_="18/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="MAPLE" FabricDescription_="Paulowina Maple" Width_="890" Drop_="2435" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen1" WidthDisplay_="890" DropDisplay_="2435" CustomerOrderReference_="" OrderID_="RIM180140-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0508931862" DelFirstName_="zarah" DelLine1_="zarah" CustomerAddressLine1_="zarah" DelLine2_="zarah" CustomerAddressLine2_="zarah" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Cord" ChoiceCode_="TAP060"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="MAPLE" FabricDescription_="Paulowina Maple" Width_="925" Drop_="2435" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen2" WidthDisplay_="925" DropDisplay_="2435" CustomerOrderReference_="make 1valance item 2 and 3" OrderID_="RIM180140-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0508931862" DelFirstName_="zarah" DelLine1_="zarah" CustomerAddressLine1_="zarah" DelLine2_="zarah" CustomerAddressLine2_="zarah" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Cord" ChoiceCode_="TAP060"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="MAPLE" FabricDescription_="Paulowina Maple" Width_="915" Drop_="2435" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen3" WidthDisplay_="915" DropDisplay_="2435" CustomerOrderReference_="" OrderID_="RIM180140-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0508931862" DelFirstName_="zarah" DelLine1_="zarah" CustomerAddressLine1_="zarah" DelLine2_="zarah" CustomerAddressLine2_="zarah" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Cord" ChoiceCode_="TAP060"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Right" ChoiceCode_="SPE013"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="MAPLE" FabricDescription_="Paulowina Maple" Width_="820" Drop_="2435" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 4" WidthDisplay_="820" DropDisplay_="2435" CustomerOrderReference_="" OrderID_="RIM180140-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0508931862" DelFirstName_="zarah" DelLine1_="zarah" CustomerAddressLine1_="zarah" DelLine2_="zarah" CustomerAddressLine2_="zarah" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Cord" ChoiceCode_="TAP060"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

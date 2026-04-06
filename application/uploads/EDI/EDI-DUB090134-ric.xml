@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB090134-ric.xml" CreateDate_="20/01/2026" CreateTime_="14:06:58">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="090134" CustomerReference_="DUB090134-ric" OrderDate_="20/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="SHU-01-01" BlindTypeDescription_="Shutters Classic" MetricMeasurement_="0" FabricCode_="PV01" FabricDescription_="PVC PV01 True White" Width_="1585" Drop_="2270" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="1" Location_="Study" WidthDisplay_="1585" DropDisplay_="2270" CustomerOrderReference_="" OrderID_="DUB090134-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="Florence@dubaiblinds.com" DelPhone_="0585810715" DelFirstName_="Mrs. Rachael Afkari" DelLine1_="Mrs. Rachael Afkari" CustomerAddressLine1_="Mrs. Rachael Afkari" DelLine2_="Mrs. Rachael Afkari" CustomerAddressLine2_="Mrs. Rachael Afkari" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Mid Rail Position" Choice_="Exact" ChoiceCode_="SHU-MID03"/>
+        <TEDIOptionList_Details OptionName_="Tilt Type" Choice_="Centre" ChoiceCode_="SHU-TILT02"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Installation Style" Choice_="Full Height" ChoiceCode_="SHU-INS01"/>
+        <TEDIOptionList_Details OptionName_="Number of Frame Sides" Choice_="4" ChoiceCode_="SHU-NFS01"/>
+        <TEDIOptionList_Details OptionName_="Frame Type" Choice_="Z40" ChoiceCode_="SHU-FRA10"/>
+        <TEDIOptionList_Details OptionName_="Hinges" Choice_="White" ChoiceCode_="SHU-HIN01"/>
+        <TEDIOptionList_Details OptionName_="Louver Size" Choice_="63mm" ChoiceCode_="SHU-LOU01"/>
+        <TEDIOptionList_Details OptionName_="Mounting Location" Choice_="Inside Recess" ChoiceCode_="SHU-MOU01"/>
+        <TEDIOptionList_Details OptionName_="Mid Rail Height" Choice_="Refer Notes" ChoiceCode_="SHU-MID06"/>
+        <TEDIOptionList_Details OptionName_="Stile Type" Choice_="Beaded 50mm Astragal" ChoiceCode_="SHU-STIL05"/>
+        <TEDIOptionList_Details OptionName_="Predrill Frame" Choice_="Sides" ChoiceCode_="SHU-PED01"/>
+        <TEDIOptionList_Details OptionName_="Panel Config" Choice_="LLRR" ChoiceCode_="SHU-PAN08"/>
+        <TEDIOptionList_Details OptionName_="Sill Plate" Choice_="1B" ChoiceCode_="SHU-SIL01"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

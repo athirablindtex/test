@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI050351-ber.xml" CreateDate_="05/03/2026" CreateTime_="15:12:42">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="050351" CustomerReference_="BLI050351-ber" OrderDate_="05/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD005" FabricDescription_="Madiba Porcelean" Width_="1510" Drop_="1370" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1510" DropDisplay_="1370" CustomerOrderReference_="" OrderID_="BLI050351-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="lifesabeach247@gmail.com" DelPhone_="0506450274" DelFirstName_="Rod Jones " DelLine1_="Rod Jones " CustomerAddressLine1_="Rod Jones " DelLine2_="Rod Jones " CustomerAddressLine2_="Rod Jones " Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default," 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD005" FabricDescription_="Madiba Porcelean" Width_="1510" Drop_="1370" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="1510" DropDisplay_="1370" CustomerOrderReference_="" OrderID_="BLI050351-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="lifesabeach247@gmail.com" DelPhone_="0506450274" DelFirstName_="Rod Jones " DelLine1_="Rod Jones " CustomerAddressLine1_="Rod Jones " DelLine2_="Rod Jones " CustomerAddressLine2_="Rod Jones " Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

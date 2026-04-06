@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU250247-man.xml" CreateDate_="25/02/2026" CreateTime_="15:33:38">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="250247" CustomerReference_="ABU250247-man" OrderDate_="25/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="MON002" FabricDescription_="MON002 (white)" Width_="770" Drop_="1750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Laundry Room - 1" WidthDisplay_="770" DropDisplay_="1750" CustomerOrderReference_="" OrderID_="ABU250247-man" IsDirectDeliveryBySupplier_="True" DelEmail_="2641387@gmail.com" DelPhone_="0567308100" DelFirstName_="Marina Sharaeva " DelLine1_="Marina Sharaeva " CustomerAddressLine1_="Marina Sharaeva " DelLine2_="Marina Sharaeva " CustomerAddressLine2_="Marina Sharaeva " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="MON002" FabricDescription_="MON002 (white)" Width_="970" Drop_="1700" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bathroom  1 - 1" WidthDisplay_="970" DropDisplay_="1700" CustomerOrderReference_="" OrderID_="ABU250247-man" IsDirectDeliveryBySupplier_="True" DelEmail_="2641387@gmail.com" DelPhone_="0567308100" DelFirstName_="Marina Sharaeva " DelLine1_="Marina Sharaeva " CustomerAddressLine1_="Marina Sharaeva " DelLine2_="Marina Sharaeva " CustomerAddressLine2_="Marina Sharaeva " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="7000" Drop_="1" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="7000" DropDisplay_="1" CustomerOrderReference_="" OrderID_="ABU250247-man" IsDirectDeliveryBySupplier_="True" DelEmail_="2641387@gmail.com" DelPhone_="0567308100" DelFirstName_="Marina Sharaeva " DelLine1_="Marina Sharaeva " CustomerAddressLine1_="Marina Sharaeva " DelLine2_="Marina Sharaeva " CustomerAddressLine2_="Marina Sharaeva " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Velcro for light diming" 
+            Choice_="Outside of Curtain Pair" 
+            ChoiceCode_="SPE234" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

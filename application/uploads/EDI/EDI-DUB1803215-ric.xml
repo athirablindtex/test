@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1803215-ric.xml" CreateDate_="19/03/2026" CreateTime_="11:57:37">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1803215" CustomerReference_="DUB1803215-ric" OrderDate_="19/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="SHU-01-02" BlindTypeDescription_="Shutters Signature" MetricMeasurement_="0" FabricCode_="PW01" FabricDescription_="Paulownia Hard Wood PW01 True White" Width_="960" Drop_="2060" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="1" Location_="Blue Room - 1" WidthDisplay_="960" DropDisplay_="2060" CustomerOrderReference_="" OrderID_="DUB1803215-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="mcmanueljr@yahoo.com" DelPhone_="0508682064" DelFirstName_="Mr. Manuel Lastimosa " DelLine1_="Mr. Manuel Lastimosa " CustomerAddressLine1_="Mr. Manuel Lastimosa " DelLine2_="Mr. Manuel Lastimosa " CustomerAddressLine2_="Mr. Manuel Lastimosa " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Frame Type" 
+            Choice_="Z40" 
+            ChoiceCode_="SHU-FRA10" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Installation Style" 
+            Choice_="Full Height" 
+            ChoiceCode_="SHU-INS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Louver Size" 
+            Choice_="63mm" 
+            ChoiceCode_="SHU-LOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Position" 
+            Choice_="Exact" 
+            ChoiceCode_="SHU-MID03" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mounting Location" 
+            Choice_="Inside Recess" 
+            ChoiceCode_="SHU-MOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Number of Frame Side" 
+            Choice_="4" 
+            ChoiceCode_="SHU-NFS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Predrill Frame" 
+            Choice_="Sides" 
+            ChoiceCode_="SHU-PED01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stile Type" 
+            Choice_="Beaded 50mm Astragal" 
+            ChoiceCode_="SHU-STIL05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Type" 
+            Choice_="Centre" 
+            ChoiceCode_="SHU-TILT02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Hinges" 
+            Choice_="White" 
+            ChoiceCode_="SHU-HIN01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Panel Config" 
+            Choice_="Please Specify" 
+            ChoiceCode_="SHU-PAN09" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Height" 
+            Choice_="Refer Notes" 
+            ChoiceCode_="SHU-MID06" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Sill Plate" 
+            Choice_="1B" 
+            ChoiceCode_="SHU-SIL01" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="SHU-01-02" BlindTypeDescription_="Shutters Signature" MetricMeasurement_="0" FabricCode_="PW01" FabricDescription_="Paulownia Hard Wood PW01 True White" Width_="965" Drop_="2060" InstallHeight_="0" MeasureName_="Frame Size" Quantity_="1" Location_="Beige Room - 1" WidthDisplay_="965" DropDisplay_="2060" CustomerOrderReference_="RAL1001" OrderID_="DUB1803215-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="mcmanueljr@yahoo.com" DelPhone_="0508682064" DelFirstName_="Mr. Manuel Lastimosa " DelLine1_="Mr. Manuel Lastimosa " CustomerAddressLine1_="Mr. Manuel Lastimosa " DelLine2_="Mr. Manuel Lastimosa " CustomerAddressLine2_="Mr. Manuel Lastimosa " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Frame Type" 
+            Choice_="Z40" 
+            ChoiceCode_="SHU-FRA10" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Hinges" 
+            Choice_="Match Painted Louvre" 
+            ChoiceCode_="SHU-HIN09" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Installation Style" 
+            Choice_="Full Height" 
+            ChoiceCode_="SHU-INS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Louver Size" 
+            Choice_="63mm" 
+            ChoiceCode_="SHU-LOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Position" 
+            Choice_="Exact" 
+            ChoiceCode_="SHU-MID03" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mounting Location" 
+            Choice_="Inside Recess" 
+            ChoiceCode_="SHU-MOU01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Number of Frame Side" 
+            Choice_="4" 
+            ChoiceCode_="SHU-NFS01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Panel Config" 
+            Choice_="Please Specify" 
+            ChoiceCode_="SHU-PAN09" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Predrill Frame" 
+            Choice_="Sides" 
+            ChoiceCode_="SHU-PED01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stile Type" 
+            Choice_="Beaded 50mm Astragal" 
+            ChoiceCode_="SHU-STIL05" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Type" 
+            Choice_="Centre" 
+            ChoiceCode_="SHU-TILT02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Mid Rail Height" 
+            Choice_="Refer Notes" 
+            ChoiceCode_="SHU-MID06" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Sill Plate" 
+            Choice_="1B" 
+            ChoiceCode_="SHU-SIL01" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Custom Colour" 
+            Choice_="Custom Color" 
+            ChoiceCode_="SHU-CC01" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

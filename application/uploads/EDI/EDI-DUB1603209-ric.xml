@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1603209-ric.xml" CreateDate_="17/03/2026" CreateTime_="10:31:14">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1603209" CustomerReference_="DUB1603209-ric" OrderDate_="17/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="ODE001-B" FabricDescription_="ODE001" Width_="2500" Drop_="2830" InstallHeight_="0" MeasureName_="Track and Bracket Deduction" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="2500" DropDisplay_="2830" CustomerOrderReference_="" OrderID_="DUB1603209-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="cmveeden@gmail.com" DelPhone_="0553131912" DelFirstName_="Mrs. Christelmarie Van Eeden " DelLine1_="Mrs. Christelmarie Van Eeden " CustomerAddressLine1_="Mrs. Christelmarie Van Eeden " DelLine2_="Mrs. Christelmarie Van Eeden " CustomerAddressLine2_="Mrs. Christelmarie Van Eeden " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="ODE001-B" FabricDescription_="ODE001" Width_="1250" Drop_="2870" InstallHeight_="0" MeasureName_="Track and Bracket Deduction" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="1250" DropDisplay_="2870" CustomerOrderReference_="" OrderID_="DUB1603209-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="cmveeden@gmail.com" DelPhone_="0553131912" DelFirstName_="Mrs. Christelmarie Van Eeden " DelLine1_="Mrs. Christelmarie Van Eeden " CustomerAddressLine1_="Mrs. Christelmarie Van Eeden " DelLine2_="Mrs. Christelmarie Van Eeden " CustomerAddressLine2_="Mrs. Christelmarie Van Eeden " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Nickel" 
+            ChoiceCode_="CCM012" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical  Basix" MetricMeasurement_="0" FabricCode_="NIA002VV" FabricDescription_="NIA002 (grey)" Width_="1850" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Landing - 1" WidthDisplay_="1850" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="DUB1603209-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="cmveeden@gmail.com" DelPhone_="0553131912" DelFirstName_="Mrs. Christelmarie Van Eeden " DelLine1_="Mrs. Christelmarie Van Eeden " CustomerAddressLine1_="Mrs. Christelmarie Van Eeden " DelLine2_="Mrs. Christelmarie Van Eeden " CustomerAddressLine2_="Mrs. Christelmarie Van Eeden " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Slim - White" 
+            ChoiceCode_="VCM008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="127 Face Fix" 
+            ChoiceCode_="BRA003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Type" 
+            Choice_="Left Cord Operated" 
+            ChoiceCode_="SPE054" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Left" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical  Basix" MetricMeasurement_="0" FabricCode_="NIA002VV" FabricDescription_="NIA002 (grey)" Width_="1520" Drop_="3300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Landing - 2" WidthDisplay_="1520" DropDisplay_="3300" CustomerOrderReference_="" OrderID_="DUB1603209-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="cmveeden@gmail.com" DelPhone_="0553131912" DelFirstName_="Mrs. Christelmarie Van Eeden " DelLine1_="Mrs. Christelmarie Van Eeden " CustomerAddressLine1_="Mrs. Christelmarie Van Eeden " DelLine2_="Mrs. Christelmarie Van Eeden " CustomerAddressLine2_="Mrs. Christelmarie Van Eeden " Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Type" 
+            Choice_="Left Cord Operated" 
+            ChoiceCode_="SPE054" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Slim - White" 
+            ChoiceCode_="VCM008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="127 Face Fix" 
+            ChoiceCode_="BRA003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Left" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI0503155-mar.xml" CreateDate_="05/03/2026" CreateTime_="10:57:45">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0503155" CustomerReference_="BLI0503155-mar" OrderDate_="05/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="89HO" BlindTypeDescription_="Vertical and Vertex Headrail Only" MetricMeasurement_="0" FabricCode_="HEA001" FabricDescription_="89mm Slim Line White" Width_="3380" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="3380" DropDisplay_="1" CustomerOrderReference_="Dispatch on monday" OrderID_="BLI0503155-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="madalina.en@proton.me" DelPhone_="0552422800" DelFirstName_="Madalina Niculescu" DelLine1_="Madalina Niculescu" CustomerAddressLine1_="Madalina Niculescu" DelLine2_="Madalina Niculescu" CustomerAddressLine2_="Madalina Niculescu" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Colours" 
+            Choice_="Slimline - White" 
+            ChoiceCode_="VCM008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Type" 
+            Choice_="Cord" 
+            ChoiceCode_="vercor" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="LHC Cord Operated" 
+            ChoiceCode_="SPE054" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

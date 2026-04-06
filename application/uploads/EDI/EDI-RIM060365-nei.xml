@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM060365-nei.xml" CreateDate_="07/03/2026" CreateTime_="16:41:13">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="060365" CustomerReference_="RIM060365-nei" OrderDate_="07/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD004" FabricDescription_="Madiba Glacier" Width_="835" Drop_="2490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting room - 1" WidthDisplay_="835" DropDisplay_="2490" CustomerOrderReference_="" OrderID_="RIM060365-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Katty077@ya.ru" DelPhone_="0569435979" DelFirstName_="kate" DelLine1_="kate" CustomerAddressLine1_="kate" DelLine2_="kate" CustomerAddressLine2_="kate" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD004" FabricDescription_="Madiba Glacier" Width_="835" Drop_="2490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting room - 2" WidthDisplay_="835" DropDisplay_="2490" CustomerOrderReference_="" OrderID_="RIM060365-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Katty077@ya.ru" DelPhone_="0569435979" DelFirstName_="kate" DelLine1_="kate" CustomerAddressLine1_="kate" DelLine2_="kate" CustomerAddressLine2_="kate" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD004" FabricDescription_="Madiba Glacier" Width_="835" Drop_="2490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting room - 3" WidthDisplay_="835" DropDisplay_="2490" CustomerOrderReference_="" OrderID_="RIM060365-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Katty077@ya.ru" DelPhone_="0569435979" DelFirstName_="kate" DelLine1_="kate" CustomerAddressLine1_="kate" DelLine2_="kate" CustomerAddressLine2_="kate" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD004" FabricDescription_="Madiba Glacier" Width_="835" Drop_="2490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting room - 4" WidthDisplay_="835" DropDisplay_="2490" CustomerOrderReference_="" OrderID_="RIM060365-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Katty077@ya.ru" DelPhone_="0569435979" DelFirstName_="kate" DelLine1_="kate" CustomerAddressLine1_="kate" DelLine2_="kate" CustomerAddressLine2_="kate" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD004" FabricDescription_="Madiba Glacier" Width_="835" Drop_="2490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting room - 5" WidthDisplay_="835" DropDisplay_="2490" CustomerOrderReference_="" OrderID_="RIM060365-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Katty077@ya.ru" DelPhone_="0569435979" DelFirstName_="kate" DelLine1_="kate" CustomerAddressLine1_="kate" DelLine2_="kate" CustomerAddressLine2_="kate" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD004" FabricDescription_="Madiba Glacier" Width_="835" Drop_="2490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Meeting room - 6" WidthDisplay_="835" DropDisplay_="2490" CustomerOrderReference_="" OrderID_="RIM060365-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Katty077@ya.ru" DelPhone_="0569435979" DelFirstName_="kate" DelLine1_="kate" CustomerAddressLine1_="kate" DelLine2_="kate" CustomerAddressLine2_="kate" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

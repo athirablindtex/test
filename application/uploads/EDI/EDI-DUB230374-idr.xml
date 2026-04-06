@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB230374-idr.xml" CreateDate_="24/03/2026" CreateTime_="12:34:17">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="230374" CustomerReference_="DUB230374-idr" OrderDate_="24/03/2026" OrderNote_="Put velcro thick tape on the back of the pelmet, call reynan for clarification.">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUPELMET" BlindTypeDescription_="Pelmet Box" MetricMeasurement_="0" FabricCode_="30837" FabricDescription_="Cashmere Ecru" Width_="3140" Drop_="400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guest Bedroom - 1" WidthDisplay_="3140" DropDisplay_="400" CustomerOrderReference_="Straight pelmet only, without sides and without top.
+CAS002 Fabric for Pelmet." OrderID_="DUB230374-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="samdagher1@hotmail.com" DelPhone_="0567741529" DelFirstName_="Mr. Sam Dagher" DelLine1_="Mr. Sam Dagher" CustomerAddressLine1_="Mr. Sam Dagher" DelLine2_="Mr. Sam Dagher" CustomerAddressLine2_="Mr. Sam Dagher" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Returns" 
+            Choice_="NO" 
+            ChoiceCode_="STY037" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Ext Brackets 75MM" 
+            ChoiceCode_="BRA026A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM111117-nei.xml" CreateDate_="11/11/2025" CreateTime_="11:54:56">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="111117" CustomerReference_="RIM111117-nei" OrderDate_="11/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI001" FabricDescription_="Basix FRI001 (white)" Width_="2380" Drop_="1800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen1" WidthDisplay_="2380" DropDisplay_="1800" CustomerOrderReference_="" OrderID_="RIM111117-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0558535062" DelFirstName_="ester" DelLine1_="ester" CustomerAddressLine1_="ester" DelLine2_="ester" CustomerAddressLine2_="ester" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

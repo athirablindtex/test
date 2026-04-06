@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB180216-kar.xml" CreateDate_="18/02/2026" CreateTime_="11:58:34">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="180216" CustomerReference_="DUB180216-kar" OrderDate_="18/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SOL003" FabricDescription_="SOL003 (reflective off blue)" Width_="1910" Drop_="2340" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="1910" DropDisplay_="2340" CustomerOrderReference_="" OrderID_="DUB180216-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Faye.brown@hotmail.com" DelPhone_="+44 7802 773736" DelFirstName_="Faye Rogers" DelLine1_="Faye Rogers" CustomerAddressLine1_="Faye Rogers" DelLine2_="Faye Rogers" CustomerAddressLine2_="Faye Rogers" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SOL003" FabricDescription_="SOL003 (reflective off blue)" Width_="1125" Drop_="2340" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 2" WidthDisplay_="1125" DropDisplay_="2340" CustomerOrderReference_="" OrderID_="DUB180216-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Faye.brown@hotmail.com" DelPhone_="+44 7802 773736" DelFirstName_="Faye Rogers" DelLine1_="Faye Rogers" CustomerAddressLine1_="Faye Rogers" DelLine2_="Faye Rogers" CustomerAddressLine2_="Faye Rogers" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

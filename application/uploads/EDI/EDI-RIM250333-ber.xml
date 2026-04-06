@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM250333-ber.xml" CreateDate_="03/04/2026" CreateTime_="09:59:47">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="250333" CustomerReference_="RIM250333-ber" OrderDate_="03/04/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30647" FabricDescription_="Jewel Pearl" Width_="3200" Drop_="2720" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="3200" DropDisplay_="2720" CustomerOrderReference_="Using existing curtain pole
+Antique brass eyelet color tieback will be velcro type and hook" OrderID_="RIM250333-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="fatimaahmad84@hotmail.com" DelPhone_="0508536690" DelFirstName_="Fatima Khan" DelLine1_="Fatima Khan" CustomerAddressLine1_="Fatima Khan" DelLine2_="Fatima Khan" CustomerAddressLine2_="Fatima Khan" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Eyelet Colour" 
+            Choice_="Black" 
+            ChoiceCode_="CCM015" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Eyelets" 
+            ChoiceCode_="STY099" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="2" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

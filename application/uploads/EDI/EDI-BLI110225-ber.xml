@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI110225-ber.xml" CreateDate_="12/02/2026" CreateTime_="11:28:53">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="110225" CustomerReference_="BLI110225-ber" OrderDate_="12/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30701" FabricDescription_="Canvas Granola" Width_="1085" Drop_="3040" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="1085" DropDisplay_="3040" CustomerOrderReference_="" OrderID_="BLI110225-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="052576 6972" DelFirstName_="Ms. Sveta" DelLine1_="Ms. Sveta" CustomerAddressLine1_="Ms. Sveta" DelLine2_="Ms. Sveta" CustomerAddressLine2_="Ms. Sveta" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout White" ChoiceCode_="LIN002"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB280133-idr.xml" CreateDate_="28/01/2026" CreateTime_="11:17:07">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="280133" CustomerReference_="DUB280133-idr" OrderDate_="28/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="NIA002" FabricDescription_="Basix NIA002 (grey)" Width_="1800" Drop_="1800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room - 1" WidthDisplay_="1800" DropDisplay_="1800" CustomerOrderReference_="" OrderID_="DUB280133-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="shaffafmarakkar@gmail.com" DelPhone_="0522069515" DelFirstName_="Shaffaf" DelLine1_="Shaffaf" CustomerAddressLine1_="Shaffaf" DelLine2_="Shaffaf" CustomerAddressLine2_="Shaffaf" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Child Safe" Choice_="Fixed tension system Face Fix" ChoiceCode_="OP3"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CIR006-B" FabricDescription_="Sheer CIR006" Width_="2000" Drop_="2615" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="2000" DropDisplay_="2615" CustomerOrderReference_="" OrderID_="DUB280133-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="shaffafmarakkar@gmail.com" DelPhone_="0522069515" DelFirstName_="Shaffaf" DelLine1_="Shaffaf" CustomerAddressLine1_="Shaffaf" DelLine2_="Shaffaf" CustomerAddressLine2_="Shaffaf" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="210281" FabricDescription_="Dusk Iron" Width_="2000" Drop_="2615" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="2000" DropDisplay_="2615" CustomerOrderReference_="" OrderID_="DUB280133-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="shaffafmarakkar@gmail.com" DelPhone_="0522069515" DelFirstName_="Shaffaf" DelLine1_="Shaffaf" CustomerAddressLine1_="Shaffaf" DelLine2_="Shaffaf" CustomerAddressLine2_="Shaffaf" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Standard White" ChoiceCode_="LIN012"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex ELF" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="2000" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Living Room - 3" WidthDisplay_="2000" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB280133-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="shaffafmarakkar@gmail.com" DelPhone_="0522069515" DelFirstName_="Shaffaf" DelLine1_="Shaffaf" CustomerAddressLine1_="Shaffaf" DelLine2_="Shaffaf" CustomerAddressLine2_="Shaffaf" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Wall Bracket -Double 100mm white" ChoiceCode_="CCM128"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

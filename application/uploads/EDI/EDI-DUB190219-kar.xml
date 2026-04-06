@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB190219-kar.xml" CreateDate_="19/02/2026" CreateTime_="09:44:31">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="190219" CustomerReference_="DUB190219-kar" OrderDate_="19/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="3130" Drop_="2900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="3130" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="DUB190219-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="sandra4336@gmail.com" DelPhone_="0583018375" DelFirstName_="Sandra" DelLine1_="Sandra" CustomerAddressLine1_="Sandra" DelLine2_="Sandra" CustomerAddressLine2_="Sandra" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="3130" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="3130" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB190219-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="sandra4336@gmail.com" DelPhone_="0583018375" DelFirstName_="Sandra" DelLine1_="Sandra" CustomerAddressLine1_="Sandra" DelLine2_="Sandra" CustomerAddressLine2_="Sandra" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="3200" Drop_="2900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="3200" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="DUB190219-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="sandra4336@gmail.com" DelPhone_="0583018375" DelFirstName_="Sandra" DelLine1_="Sandra" CustomerAddressLine1_="Sandra" DelLine2_="Sandra" CustomerAddressLine2_="Sandra" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="3200" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="3200" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB190219-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="sandra4336@gmail.com" DelPhone_="0583018375" DelFirstName_="Sandra" DelLine1_="Sandra" CustomerAddressLine1_="Sandra" DelLine2_="Sandra" CustomerAddressLine2_="Sandra" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="HAZ004" FabricDescription_="Sheer HAZ004" Width_="1160" Drop_="2710" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Roman - 1" WidthDisplay_="1160" DropDisplay_="2710" CustomerOrderReference_="" OrderID_="DUB190219-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="sandra4336@gmail.com" DelPhone_="0583018375" DelFirstName_="Sandra" DelLine1_="Sandra" CustomerAddressLine1_="Sandra" DelLine2_="Sandra" CustomerAddressLine2_="Sandra" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System" Choice_="Deluxe System (default)" ChoiceCode_="SPE120"/>
+        <TEDIOptionList_Details OptionName_="Stacking Type" Choice_="Standard Stacking" ChoiceCode_="SPE036"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

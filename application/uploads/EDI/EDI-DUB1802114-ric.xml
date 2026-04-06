@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1802114-ric.xml" CreateDate_="18/02/2026" CreateTime_="17:16:59">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1802114" CustomerReference_="DUB1802114-ric" OrderDate_="18/02/2026" OrderNote_="Need long ladder for stairs ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="SHA035VV" FabricDescription_="SHA035 (white)" Width_="950" Drop_="4000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="stairs - 1" WidthDisplay_="950" DropDisplay_="4000" CustomerOrderReference_="" OrderID_="DUB1802114-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="gomythhot@naver.com" DelPhone_="0503520564" DelFirstName_="Ju Hyun " DelLine1_="Ju Hyun " CustomerAddressLine1_="Ju Hyun " DelLine2_="Ju Hyun " CustomerAddressLine2_="Ju Hyun " Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE008"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="127 Face Fix" ChoiceCode_="BRA003"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="BIC001 (white)" Width_="735" Drop_="1200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="maids - 1" WidthDisplay_="735" DropDisplay_="1200" CustomerOrderReference_="" OrderID_="DUB1802114-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="gomythhot@naver.com" DelPhone_="0503520564" DelFirstName_="Ju Hyun " DelLine1_="Ju Hyun " CustomerAddressLine1_="Ju Hyun " DelLine2_="Ju Hyun " CustomerAddressLine2_="Ju Hyun " Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Front" ChoiceCode_="SPE144"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

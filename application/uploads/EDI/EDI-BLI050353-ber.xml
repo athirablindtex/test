@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI050353-ber.xml" CreateDate_="07/03/2026" CreateTime_="12:34:51">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="050353" CustomerReference_="BLI050353-ber" OrderDate_="07/03/2026" OrderNote_="2 blinds in each bedroom">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN001" FabricDescription_="BAN001 (white)" Width_="1140" Drop_="2740" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1140" DropDisplay_="2740" CustomerOrderReference_="" OrderID_="BLI050353-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="giuseppemarchesani@gmail.com" DelPhone_="0553805407" DelFirstName_="Giuseppe Marchesani" DelLine1_="Giuseppe Marchesani" CustomerAddressLine1_="Giuseppe Marchesani" DelLine2_="Giuseppe Marchesani" CustomerAddressLine2_="Giuseppe Marchesani" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN001" FabricDescription_="BAN001 (white)" Width_="1145" Drop_="2740" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="1145" DropDisplay_="2740" CustomerOrderReference_="" OrderID_="BLI050353-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="giuseppemarchesani@gmail.com" DelPhone_="0553805407" DelFirstName_="Giuseppe Marchesani" DelLine1_="Giuseppe Marchesani" CustomerAddressLine1_="Giuseppe Marchesani" DelLine2_="Giuseppe Marchesani" CustomerAddressLine2_="Giuseppe Marchesani" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="CAS004" FabricDescription_="CAS004 (light grey)" Width_="1140" Drop_="2740" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="1140" DropDisplay_="2740" CustomerOrderReference_="1140
+1145 if 2 blinds" OrderID_="BLI050353-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="giuseppemarchesani@gmail.com" DelPhone_="0553805407" DelFirstName_="Giuseppe Marchesani" DelLine1_="Giuseppe Marchesani" CustomerAddressLine1_="Giuseppe Marchesani" DelLine2_="Giuseppe Marchesani" CustomerAddressLine2_="Giuseppe Marchesani" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="CAS004" FabricDescription_="CAS004 (light grey)" Width_="1145" Drop_="2740" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 2" WidthDisplay_="1145" DropDisplay_="2740" CustomerOrderReference_="" OrderID_="BLI050353-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="giuseppemarchesani@gmail.com" DelPhone_="0553805407" DelFirstName_="Giuseppe Marchesani" DelLine1_="Giuseppe Marchesani" CustomerAddressLine1_="Giuseppe Marchesani" DelLine2_="Giuseppe Marchesani" CustomerAddressLine2_="Giuseppe Marchesani" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

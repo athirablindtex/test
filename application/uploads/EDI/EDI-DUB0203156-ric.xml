@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB0203156-ric.xml" CreateDate_="02/03/2026" CreateTime_="23:09:31">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0203156" CustomerReference_="DUB0203156-ric" OrderDate_="02/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="STR035" FabricDescription_="STR035 (natural)" Width_="1720" Drop_="2290" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1720" DropDisplay_="2290" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="STR035" FabricDescription_="STR035 (natural)" Width_="1725" Drop_="2290" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="1725" DropDisplay_="2290" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30769-B" FabricDescription_="Sheer WEB001" Width_="2050" Drop_="2280" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="2050" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30769-B" FabricDescription_="Sheer WEB001" Width_="2080" Drop_="2220" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="2080" DropDisplay_="2220" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30769-B" FabricDescription_="Sheer WEB001" Width_="2020" Drop_="2280" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="2020" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30769-B" FabricDescription_="Sheer WEB001" Width_="2290" Drop_="2280" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="2290" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30769-B" FabricDescription_="Sheer WEB001" Width_="2250" Drop_="2280" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 5" WidthDisplay_="2250" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2050" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 6" WidthDisplay_="2050" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2080" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 7" WidthDisplay_="2080" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2020" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 8" WidthDisplay_="2020" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2290" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 9" WidthDisplay_="2290" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2250" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 10" WidthDisplay_="2250" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="STR035" FabricDescription_="STR035 (natural)" Width_="1735" Drop_="2290" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="1735" DropDisplay_="2290" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="STR035" FabricDescription_="STR035 (natural)" Width_="1760" Drop_="2190" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 2" WidthDisplay_="1760" DropDisplay_="2190" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="STR035" FabricDescription_="STR035 (natural)" Width_="1195" Drop_="2190" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  3 - 1" WidthDisplay_="1195" DropDisplay_="2190" CustomerOrderReference_="" OrderID_="DUB0203156-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="marinella.baer@gmail.com" DelPhone_="0527927127" DelFirstName_="Marinella Baer" DelLine1_="Marinella Baer" CustomerAddressLine1_="Marinella Baer" DelLine2_="Marinella Baer" CustomerAddressLine2_="Marinella Baer" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Default," 
+            ChoiceCode_="ROLSYS4A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

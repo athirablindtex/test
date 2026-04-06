@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB07014-nei.xml" CreateDate_="07/01/2026" CreateTime_="17:28:46">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="07014" CustomerReference_="DUB07014-nei" OrderDate_="07/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="300" Drop_="300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room - 1" WidthDisplay_="300" DropDisplay_="300" CustomerOrderReference_="" OrderID_="DUB07014-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Erika.raske@gmail.com" DelPhone_="0506365084" DelFirstName_="erika" DelLine1_="erika" CustomerAddressLine1_="erika" DelLine2_="erika" CustomerAddressLine2_="erika" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

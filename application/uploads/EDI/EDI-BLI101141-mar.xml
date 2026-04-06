@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI101141-mar.xml" CreateDate_="10/11/2025" CreateTime_="16:46:06">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="101141" CustomerReference_="BLI101141-mar" OrderDate_="10/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CAS006-BO" FabricDescription_="Blackout CAS006" Width_="4130" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room1" WidthDisplay_="4130" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3930" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room2" WidthDisplay_="3930" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ002" FabricDescription_="Sheer HAZ002" Width_="3930" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room3" WidthDisplay_="3930" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3930" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room4" WidthDisplay_="3930" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CAS006-BO" FabricDescription_="Blackout CAS006" Width_="4140" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room1" WidthDisplay_="4140" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3940" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room2" WidthDisplay_="3940" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Cord Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ002" FabricDescription_="Sheer HAZ002" Width_="3940" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room3" WidthDisplay_="3940" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3940" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room4" WidthDisplay_="3940" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Cord Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CAS006-BO" FabricDescription_="Blackout CAS006" Width_="4140" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="masterbedroom1" WidthDisplay_="4140" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3940" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="masterbedroom2" WidthDisplay_="3940" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ002" FabricDescription_="Sheer HAZ002" Width_="3940" Drop_="2500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="masterbedroom3" WidthDisplay_="3940" DropDisplay_="2500" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3940" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="masterbedroom4" WidthDisplay_="3940" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI101141-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0555602569" DelFirstName_="OA purposes only dont process" DelLine1_="OA purposes only dont process" CustomerAddressLine1_="OA purposes only dont process" DelLine2_="OA purposes only dont process" CustomerAddressLine2_="OA purposes only dont process" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Cord Add On" Choice_="Cord Weight" ChoiceCode_="fowt"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

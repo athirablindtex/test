@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB310142-idr.xml" CreateDate_="31/01/2026" CreateTime_="15:39:49">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="310142" CustomerReference_="DUB310142-idr" OrderDate_="31/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LAR002" FabricDescription_="Larissa Ecru" Width_="735" Drop_="2450" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Door - 1" WidthDisplay_="735" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB310142-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="mcarmen.dedios@gmail.com" DelPhone_="0558420578" DelFirstName_="Mr. Ruben Ortega" DelLine1_="Mr. Ruben Ortega" CustomerAddressLine1_="Mr. Ruben Ortega" DelLine2_="Mr. Ruben Ortega" CustomerAddressLine2_="Mr. Ruben Ortega" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="P-Fit Frame" Choice_="Graphite" ChoiceCode_="PFREQG"/>
+        <TEDIOptionList_Details OptionName_="Bead Depth" Choice_="28 mm" ChoiceCode_="BD011"/>
+        <TEDIOptionList_Details OptionName_="Configuration" Choice_="Tensioned Single Pull Top Down" ChoiceCode_="PFITFLOA02A"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

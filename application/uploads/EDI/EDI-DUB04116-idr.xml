@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB04116-idr.xml" CreateDate_="09/02/2026" CreateTime_="17:11:10">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="04116" CustomerReference_="DUB04116-idr" OrderDate_="09/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA010" FabricDescription_="Basix SHA010 (grey)" Width_="1800" Drop_="3410" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Living Room1" WidthDisplay_="1800" DropDisplay_="3410" CustomerOrderReference_="" OrderID_="DUB04116-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="Abdulla.alqemzi1979@gmail.com" DelPhone_="0559911887" DelFirstName_="Abdulla Alqemzi" DelLine1_="Abdulla Alqemzi" CustomerAddressLine1_="Abdulla Alqemzi" DelLine2_="Abdulla Alqemzi" CustomerAddressLine2_="Abdulla Alqemzi" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="BBARUN"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

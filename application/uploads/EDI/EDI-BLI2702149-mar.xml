@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2702149-mar.xml" CreateDate_="27/02/2026" CreateTime_="16:37:58">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2702149" CustomerReference_="BLI2702149-mar" OrderDate_="27/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Call out charge - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="Repair bottom bar on site " OrderID_="BLI2702149-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="christopherdunn00@gmail.com" DelPhone_="0502298691" DelFirstName_="Mr Chris Dunn" DelLine1_="Mr Chris Dunn" CustomerAddressLine1_="Mr Chris Dunn" DelLine2_="Mr Chris Dunn" CustomerAddressLine2_="Mr Chris Dunn" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

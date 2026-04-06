@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI21016-hon.xml" CreateDate_="21/01/2026" CreateTime_="17:01:01">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="21016" CustomerReference_="BLI21016-hon" OrderDate_="21/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Other2" BlindTypeDescription_="Consumables" MetricMeasurement_="0" FabricCode_="Other" FabricDescription_="Other" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Showroom - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="" OrderID_="BLI21016-hon" IsDirectDeliveryBySupplier_="True" DelEmail_="hello@blindtex.com" DelPhone_="97145648448" DelFirstName_="BLINDTEX DMCC" DelLine1_="BLINDTEX DMCC" CustomerAddressLine1_="BLINDTEX DMCC" DelLine2_="BLINDTEX DMCC" CustomerAddressLine2_="BLINDTEX DMCC" Salesperson_="Honey">
+        <TEDIOptionList_Details OptionName_="Cleaning" Choice_="Wet Wipes" ChoiceCode_="FIT001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

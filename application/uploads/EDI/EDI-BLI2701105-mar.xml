@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2701105-mar.xml" CreateDate_="27/01/2026" CreateTime_="14:58:01">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2701105" CustomerReference_="BLI2701105-mar" OrderDate_="27/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="PAN-ON-01" BlindTypeDescription_="Panel " MetricMeasurement_="0" FabricCode_="DP-POR" FabricDescription_="Digital Print Porto" Width_="1165" Drop_="2870" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="clinic - 1" WidthDisplay_="1165" DropDisplay_="2870" CustomerOrderReference_="" OrderID_="BLI2701105-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / Oa purposes harmony Medical Centre " DelLine1_="dummy order / Oa purposes harmony Medical Centre " CustomerAddressLine1_="dummy order / Oa purposes harmony Medical Centre " DelLine2_="dummy order / Oa purposes harmony Medical Centre " CustomerAddressLine2_="dummy order / Oa purposes harmony Medical Centre " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Logo" Choice_="Logo Reproduction" ChoiceCode_="Logo2"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="PAN-ON-01" BlindTypeDescription_="Panel " MetricMeasurement_="0" FabricCode_="AC- POR" FabricDescription_="Anycolour Porto" Width_="1160" Drop_="2870" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="clinic - 2" WidthDisplay_="1160" DropDisplay_="2870" CustomerOrderReference_="" OrderID_="BLI2701105-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / Oa purposes harmony Medical Centre " DelLine1_="dummy order / Oa purposes harmony Medical Centre " CustomerAddressLine1_="dummy order / Oa purposes harmony Medical Centre " DelLine2_="dummy order / Oa purposes harmony Medical Centre " CustomerAddressLine2_="dummy order / Oa purposes harmony Medical Centre " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Logo" Choice_="Logo Reproduction" ChoiceCode_="Logo2"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU180222-man.xml" CreateDate_="18/02/2026" CreateTime_="16:51:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="180222" CustomerReference_="ABU180222-man" OrderDate_="18/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA014" FabricDescription_="SHA014 (Ecru)" Width_="1000" Drop_="2320" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1000" DropDisplay_="2320" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA014" FabricDescription_="SHA014 (Ecru)" Width_="865" Drop_="2320" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="865" DropDisplay_="2320" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA014" FabricDescription_="SHA014 (Ecru)" Width_="1000" Drop_="2320" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="1000" DropDisplay_="2320" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA014" FabricDescription_="SHA014 (Ecru)" Width_="930" Drop_="2320" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="930" DropDisplay_="2320" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Front" ChoiceCode_="SPE144"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA014" FabricDescription_="SHA014 (Ecru)" Width_="1000" Drop_="2320" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 2" WidthDisplay_="1000" DropDisplay_="2320" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Front" ChoiceCode_="SPE144"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA014" FabricDescription_="SHA014 (Ecru)" Width_="930" Drop_="2320" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 3" WidthDisplay_="930" DropDisplay_="2320" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Front" ChoiceCode_="SPE144"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Covered" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="3050" Drop_="2400" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dining Room - 4" WidthDisplay_="3050" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="3050" Drop_="2400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 5" WidthDisplay_="3050" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Wall bracket 35mm white" ChoiceCode_="CCM120"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30849-B
+" FabricDescription_="CAS007" Width_="2350" Drop_="3110" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="2350" DropDisplay_="3110" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="2350" Drop_="3110" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="2350" DropDisplay_="3110" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Wall bracket 35mm white" ChoiceCode_="CCM120"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30849-B
+" FabricDescription_="CAS007" Width_="2350" Drop_="3095" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="2350" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="2350" Drop_="3095" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 2" WidthDisplay_="2350" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="ABU180222-man" IsDirectDeliveryBySupplier_="True" DelEmail_="d.hannard@btinternet.com" DelPhone_="0585285872" DelFirstName_="Dave Hannard" DelLine1_="Dave Hannard" CustomerAddressLine1_="Dave Hannard" DelLine2_="Dave Hannard" CustomerAddressLine2_="Dave Hannard" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Wall bracket 35mm white" ChoiceCode_="CCM120"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

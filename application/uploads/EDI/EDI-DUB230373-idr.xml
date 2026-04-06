@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB230373-idr.xml" CreateDate_="24/03/2026" CreateTime_="14:47:48">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="230373" CustomerReference_="DUB230373-idr" OrderDate_="24/03/2026" OrderNote_="1) Master bedroom big windows are Blackout curtain battery operated and Sheer Curtains are manually operated by hands.
+2) Master Small window - Roman blind manual.
+3) living Room - Blackout curtains only for big window - manual operated.
+4) living door and Office window are Roman blind Manual operated by chain.">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30846-B" FabricDescription_="NER003" Width_="3970" Drop_="2900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="3970" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30704" FabricDescription_="Sheer White" Width_="3970" Drop_="2900" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom - 2" WidthDisplay_="3970" DropDisplay_="2900" CustomerOrderReference_="" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="3970" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 3" WidthDisplay_="3970" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Overlap" 
+            Choice_="Z Overlap 175mm" 
+            ChoiceCode_="CCM244" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER003" FabricDescription_="NER003" Width_="995" Drop_="2065" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 4" WidthDisplay_="995" DropDisplay_="2065" CustomerOrderReference_="Roman Blind" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="3970" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 5" WidthDisplay_="3970" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex Curtain Motor - Wirefree" 
+            ChoiceCode_="DOY001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote" 
+            Choice_="Blindtex DY Remote 1 Channel" 
+            ChoiceCode_="DOY003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Charger" 
+            Choice_="Charger" 
+            ChoiceCode_="DOY002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joiner" 
+            Choice_="Track Joiner" 
+            ChoiceCode_="DOY021" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30846-B" FabricDescription_="NER003" Width_="4200" Drop_="2895" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="4200" DropDisplay_="2895" CustomerOrderReference_="" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="4200" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="4200" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Overlap" 
+            Choice_="Z Overlap 175mm" 
+            ChoiceCode_="CCM244" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER003" FabricDescription_="NER003" Width_="855" Drop_="2220" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="855" DropDisplay_="2220" CustomerOrderReference_="Roman Blind" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER003" FabricDescription_="NER003" Width_="1595" Drop_="2055" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 1" WidthDisplay_="1595" DropDisplay_="2055" CustomerOrderReference_="Roman Blind" OrderID_="DUB230373-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="customercare@dubaiblinds.com" DelPhone_="0589449958" DelFirstName_="COSTING Tareq Zaben" DelLine1_="COSTING Tareq Zaben" CustomerAddressLine1_="COSTING Tareq Zaben" DelLine2_="COSTING Tareq Zaben" CustomerAddressLine2_="COSTING Tareq Zaben" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

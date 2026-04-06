@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2303185-mar.xml" CreateDate_="23/03/2026" CreateTime_="12:31:30">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2303185" CustomerReference_="BLI2303185-mar" OrderDate_="23/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="5470" Drop_="3175" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="5470" DropDisplay_="3175" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="5170" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="5170" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - With Overlap" 
+            ChoiceCode_="STY088" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="5170" Drop_="3175" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master Bedroom - 3" WidthDisplay_="5170" DropDisplay_="3175" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="5170" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 4" WidthDisplay_="5170" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="6180" Drop_="3160" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Masterbedroom wardrobe - 1" WidthDisplay_="6180" DropDisplay_="3160" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="5880" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Masterbedroom wardrobe - 2" WidthDisplay_="5880" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - With Overlap" 
+            ChoiceCode_="STY088" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="5880" Drop_="3160" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Masterbedroom wardrobe - 3" WidthDisplay_="5880" DropDisplay_="3160" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="5880" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Masterbedroom wardrobe - 4" WidthDisplay_="5880" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="2850" Drop_="3180" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Harry Room curtains - 1" WidthDisplay_="2850" DropDisplay_="3180" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="2550" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Harry Room curtains - 2" WidthDisplay_="2550" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - With Overlap" 
+            ChoiceCode_="STY088" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bending" 
+            Choice_="1 bend" 
+            ChoiceCode_="STY090a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="1670" Drop_="3180" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Harry Room curtains - 3" WidthDisplay_="1670" DropDisplay_="3180" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="1520" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Harry Room curtains - 4" WidthDisplay_="1520" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - With Overlap" 
+            ChoiceCode_="STY088" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="3120" Drop_="3155" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Darla room - 1" WidthDisplay_="3120" DropDisplay_="3155" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="2820" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Darla room - 2" WidthDisplay_="2820" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - With Overlap" 
+            ChoiceCode_="STY088" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bending" 
+            Choice_="1 bend" 
+            ChoiceCode_="STY090a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="1200" Drop_="3170" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Darla room - 3" WidthDisplay_="1200" DropDisplay_="3170" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="16" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="1050" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Darla room - 4" WidthDisplay_="1050" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - With Overlap" 
+            ChoiceCode_="STY088" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="17" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="2000" Drop_="3170" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Nursery - 1" WidthDisplay_="2000" DropDisplay_="3170" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="18" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="2000" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Nursery - 2" WidthDisplay_="2000" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2303185-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="oliviagallaherdxb@icloud.com" DelPhone_="0585170574" DelFirstName_="dummy order oa purposes costing" DelLine1_="dummy order oa purposes costing" CustomerAddressLine1_="dummy order oa purposes costing" DelLine2_="dummy order oa purposes costing" CustomerAddressLine2_="dummy order oa purposes costing" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - With Overlap" 
+            ChoiceCode_="STY088" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60 WT" 
+            ChoiceCode_="SOM106W" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

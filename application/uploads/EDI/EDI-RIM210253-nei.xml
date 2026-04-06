@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM210253-nei.xml" CreateDate_="21/02/2026" CreateTime_="10:22:27">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="210253" CustomerReference_="RIM210253-nei" OrderDate_="21/02/2026" OrderNote_="Pls provide 2 pcs wire trunking.">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30846-B" FabricDescription_="NER003" Width_="4750" Drop_="2640" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="4750" DropDisplay_="2640" CustomerOrderReference_="" OrderID_="RIM210253-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0506247230" DelFirstName_="Maria" DelLine1_="Maria" CustomerAddressLine1_="Maria" DelLine2_="Maria" CustomerAddressLine2_="Maria" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Blindtex" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Blindtex Track White" Width_="4750" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="4750" DropDisplay_="1" CustomerOrderReference_="" OrderID_="RIM210253-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0506247230" DelFirstName_="Maria" DelLine1_="Maria" CustomerAddressLine1_="Maria" DelLine2_="Maria" CustomerAddressLine2_="Maria" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="SOM098" 
+            Quantity_="11" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joiner" 
+            Choice_="Track Joiner" 
+            ChoiceCode_="DOY021" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex Curtain Motor - Wired" 
+            ChoiceCode_="DOY025" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote" 
+            Choice_="Blindtex DY Remote 1 Channel" 
+            ChoiceCode_="DOY003" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU14024-man.xml" CreateDate_="14/02/2026" CreateTime_="10:46:22">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="14024" CustomerReference_="ABU14024-man" OrderDate_="14/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="" OrderID_="ABU14024-man" IsDirectDeliveryBySupplier_="True" DelEmail_="manoj@blindtex.com" DelPhone_="0506622943" DelFirstName_="Mr.Bakir" DelLine1_="Mr.Bakir" CustomerAddressLine1_="Mr.Bakir" DelLine2_="Mr.Bakir" CustomerAddressLine2_="Mr.Bakir" Salesperson_="Manoj">
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Sonesse 40 RTS 3/30" ChoiceCode_="SOM116"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

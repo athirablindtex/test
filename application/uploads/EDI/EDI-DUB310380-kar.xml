@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB310380-kar.xml" CreateDate_="31/03/2026" CreateTime_="19:35:19">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="310380" CustomerReference_="DUB310380-kar" OrderDate_="31/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="2500" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="2500" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB310380-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="Karunblindtex@gmail.com" DelPhone_="0509204312 " DelFirstName_="Nadine Wilson" DelLine1_="Nadine Wilson" CustomerAddressLine1_="Nadine Wilson" DelLine2_="Nadine Wilson" CustomerAddressLine2_="Nadine Wilson" Salesperson_="Karun">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

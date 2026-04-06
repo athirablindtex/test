@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI251174-mar.xml" CreateDate_="25/11/2025" CreateTime_="15:59:38">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="251174" CustomerReference_="BLI251174-mar" OrderDate_="25/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Other2" BlindTypeDescription_="Consumables" MetricMeasurement_="0" FabricCode_="Other" FabricDescription_="Other" Width_="1000" Drop_="1" InstallHeight_="1000" MeasureName_="Blind Size" Quantity_="1" Location_="van stock 1" WidthDisplay_="1000" DropDisplay_="1" CustomerOrderReference_="Please  dispatch tomorrow 
+
+Black screw 2inch = 2box
+White Silicon = 5pcs 
+Wet wipes = 4pcs
+Marble bitt = 3pcs
+5.5 bitt= 3pcs
+Packaging tape =2pcs
+Silicon. Spray  =1 PC" OrderID_="BLI251174-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="stock order /ma luisa" DelLine1_="stock order /ma luisa" CustomerAddressLine1_="stock order /ma luisa" DelLine2_="stock order /ma luisa" CustomerAddressLine2_="stock order /ma luisa" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cleaning" Choice_="Wet Wipes" ChoiceCode_="FIT001"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

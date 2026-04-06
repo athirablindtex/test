@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI120810553025-mar.xml" CreateDate_="12/08/2025" CreateTime_="13:04:58">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="12233" CustomerReference_="BLI1208105530/25-mar" OrderDate_="12/08/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG001" FabricDescription_="Basix RIG001 (pearl)" Width_="2015" Drop_="2600" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="admin1" WidthDisplay_="2015" DropDisplay_="2600" CustomerOrderReference_="" OrderID_="BLI120810553025-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Hr@newbury.ae" DelPhone_="0503578613" DelFirstName_="New Bury Developments" DelLine1_="New Bury Developments" CustomerAddressLine1_="New Bury Developments" DelLine2_="New Bury Developments" CustomerAddressLine2_="New Bury Developments" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Large Wired RTS 20/26" ChoiceCode_="DOY035"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Not Required." ChoiceCode_="RCM031Z"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Not Required." ChoiceCode_="RCM031Z"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White Flat S Channel" ChoiceCode_="RCM023WH"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Remote Control" Choice_="Blindtex DY Remote 15 Channel" ChoiceCode_="DOY004"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG001" FabricDescription_="Basix RIG001 (pearl)" Width_="2015" Drop_="2600" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="admin2" WidthDisplay_="2015" DropDisplay_="2600" CustomerOrderReference_="" OrderID_="BLI120810553025-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Hr@newbury.ae" DelPhone_="0503578613" DelFirstName_="New Bury Developments" DelLine1_="New Bury Developments" CustomerAddressLine1_="New Bury Developments" DelLine2_="New Bury Developments" CustomerAddressLine2_="New Bury Developments" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White Flat S Channel" ChoiceCode_="RCM023WH"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Not Required." ChoiceCode_="RCM031Z"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Not Required." ChoiceCode_="RCM031Z"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="White - Accessories" ChoiceCode_="ACCWHI"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Large Wired RTS 20/26" ChoiceCode_="DOY035"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

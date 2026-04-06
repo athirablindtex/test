@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB3003223-ric.xml" CreateDate_="30/03/2026" CreateTime_="15:57:57">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="3003223" CustomerReference_="DUB3003223-ric" OrderDate_="30/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="4050" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="4050" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB3003223-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="dario_cremonese@mvc46.eu" DelPhone_="0508244712" DelFirstName_="Pakida SPV Ltd." DelLine1_="Pakida SPV Ltd." CustomerAddressLine1_="Pakida SPV Ltd." DelLine2_="Pakida SPV Ltd." CustomerAddressLine2_="Pakida SPV Ltd." Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60e Ultra RTS" 
+            ChoiceCode_="SOM106R" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Situo 1 RTS White" 
+            ChoiceCode_="SOM063" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="4930" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="4930" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB3003223-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="dario_cremonese@mvc46.eu" DelPhone_="0508244712" DelFirstName_="Pakida SPV Ltd." DelLine1_="Pakida SPV Ltd." CustomerAddressLine1_="Pakida SPV Ltd." DelLine2_="Pakida SPV Ltd." CustomerAddressLine2_="Pakida SPV Ltd." Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Situo 5 RTS White" 
+            ChoiceCode_="SOM066" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60e Ultra RTS" 
+            ChoiceCode_="SOM106R" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="4930" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="4930" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB3003223-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="dario_cremonese@mvc46.eu" DelPhone_="0508244712" DelFirstName_="Pakida SPV Ltd." DelLine1_="Pakida SPV Ltd." CustomerAddressLine1_="Pakida SPV Ltd." DelLine2_="Pakida SPV Ltd." CustomerAddressLine2_="Pakida SPV Ltd." Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60e Ultra RTS" 
+            ChoiceCode_="SOM106R" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="5100" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="5100" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB3003223-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="dario_cremonese@mvc46.eu" DelPhone_="0508244712" DelFirstName_="Pakida SPV Ltd." DelLine1_="Pakida SPV Ltd." CustomerAddressLine1_="Pakida SPV Ltd." DelLine2_="Pakida SPV Ltd." CustomerAddressLine2_="Pakida SPV Ltd." Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60e Ultra RTS" 
+            ChoiceCode_="SOM106R" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Situo 1 RTS White" 
+            ChoiceCode_="SOM063" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="3800" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  3 - 1" WidthDisplay_="3800" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB3003223-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="dario_cremonese@mvc46.eu" DelPhone_="0508244712" DelFirstName_="Pakida SPV Ltd." DelLine1_="Pakida SPV Ltd." CustomerAddressLine1_="Pakida SPV Ltd." DelLine2_="Pakida SPV Ltd." CustomerAddressLine2_="Pakida SPV Ltd." Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="SOM093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60e Ultra RTS" 
+            ChoiceCode_="SOM106R" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Situo 1 RTS White" 
+            ChoiceCode_="SOM063" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="Other2" BlindTypeDescription_="Consumables" MetricMeasurement_="0" FabricCode_="Other" FabricDescription_="Other" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="" OrderID_="DUB3003223-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="dario_cremonese@mvc46.eu" DelPhone_="0508244712" DelFirstName_="Pakida SPV Ltd." DelLine1_="Pakida SPV Ltd." CustomerAddressLine1_="Pakida SPV Ltd." DelLine2_="Pakida SPV Ltd." CustomerAddressLine2_="Pakida SPV Ltd." Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Electrical" 
+            Choice_="3 Pin Plug" 
+            ChoiceCode_="FIT017" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="Other2" BlindTypeDescription_="Consumables" MetricMeasurement_="0" FabricCode_="Other" FabricDescription_="Other" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 2" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="" OrderID_="DUB3003223-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="dario_cremonese@mvc46.eu" DelPhone_="0508244712" DelFirstName_="Pakida SPV Ltd." DelLine1_="Pakida SPV Ltd." CustomerAddressLine1_="Pakida SPV Ltd." DelLine2_="Pakida SPV Ltd." CustomerAddressLine2_="Pakida SPV Ltd." Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Electrical" 
+            Choice_="Cable Trunking 2.8m length" 
+            ChoiceCode_="FIT019" 
+            Quantity_="5" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

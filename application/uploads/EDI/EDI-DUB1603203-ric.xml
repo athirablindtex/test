@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1603203-ric.xml" CreateDate_="16/03/2026" CreateTime_="10:31:44">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1603203" CustomerReference_="DUB1603203-ric" OrderDate_="16/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric. " Width_="4280" Drop_="2370" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="4280" DropDisplay_="2370" CustomerOrderReference_="F design book 545 serial no. 32
+Please make the lining same as the main fabric. Back to back curtains " OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard Cream" 
+            ChoiceCode_="LIN001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="LAC003" FabricDescription_="Sheer LAC003" Width_="1730" Drop_="2370" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="1730" DropDisplay_="2370" CustomerOrderReference_="" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="LAC003" FabricDescription_="Sheer LAC003" Width_="1700" Drop_="2370" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="1700" DropDisplay_="2370" CustomerOrderReference_="" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="LAC003" FabricDescription_="Sheer LAC003" Width_="1700" Drop_="2370" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="1700" DropDisplay_="2370" CustomerOrderReference_="" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUPELMET" BlindTypeDescription_="Pelmet Box" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric." Width_="1750" Drop_="300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 5" WidthDisplay_="1750" DropDisplay_="300" CustomerOrderReference_="F design book 545 serial no. 32
+Width 1750mm inside pelmet 
+Width 1750mm Drop 300mm Depth 100mm" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Ext Brackets 150MM" 
+            ChoiceCode_="BRA026" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Returns" 
+            Choice_="YES" 
+            ChoiceCode_="STY036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUPELMET" BlindTypeDescription_="Pelmet Box" MetricMeasurement_="0" FabricCode_="CUS005" FabricDescription_="Customer Own Fabric." Width_="4280" Drop_="300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 6" WidthDisplay_="4280" DropDisplay_="300" CustomerOrderReference_="F design book 545 serial no. 32
+Width 4280mm inside pelmet 
+Width 4280mm Drop 300mm Depth 160mm" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Ext Brackets 150MM" 
+            ChoiceCode_="BRA026" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Returns" 
+            Choice_="YES" 
+            ChoiceCode_="STY036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="4260" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 7" WidthDisplay_="4260" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUSCOVPIP" BlindTypeDescription_="Cushions" MetricMeasurement_="0" FabricCode_="30740" FabricDescription_="Abstract Amethyst" Width_="500" Drop_="500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Hall - 1" WidthDisplay_="500" DropDisplay_="500" CustomerOrderReference_="Front of pillow F design book 545 Serial no. 32 and back of pillow Radian Clouds" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Band C" 
+            Choice_="50cm x 50cm Piped" 
+            ChoiceCode_="CUSIZE7" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUSCOVPIP" BlindTypeDescription_="Cushions" MetricMeasurement_="0" FabricCode_="30638" FabricDescription_="Ostrich Pewter" Width_="500" Drop_="500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Hall - 2" WidthDisplay_="500" DropDisplay_="500" CustomerOrderReference_="Front of pillow F design book 545 Serial no. 32 and back of pillow Ostrich pewter" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Band B" 
+            Choice_="50cm x 50cm Piped" 
+            ChoiceCode_="CUSIZE7" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUSCOVPIP" BlindTypeDescription_="Cushions" MetricMeasurement_="0" FabricCode_="30638" FabricDescription_="Ostrich Pewter" Width_="650" Drop_="650" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Hall - 3" WidthDisplay_="650" DropDisplay_="650" CustomerOrderReference_="Front of pillow F design book 545 Serial no. 32 and back of pillow Ostrich pewter" OrderID_="DUB1603203-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Band B" 
+            Choice_="60cm x 60cm Piped" 
+            ChoiceCode_="CUSIZE8" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

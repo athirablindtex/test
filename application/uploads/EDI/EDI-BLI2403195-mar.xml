@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2403195-mar.xml" CreateDate_="24/03/2026" CreateTime_="11:41:10">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2403195" CustomerReference_="BLI2403195-mar" OrderDate_="24/03/2026" OrderNote_="Dispatch friday 27-03-2026
+Fitting friday
+Time 3:00 to 6:00pm">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="605" Drop_="1990" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="605" DropDisplay_="1990" CustomerOrderReference_="" OrderID_="BLI2403195-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="murrayfh@gmail.com" DelPhone_="0506575467" DelFirstName_="Ms faith murray" DelLine1_="Ms faith murray" CustomerAddressLine1_="Ms faith murray" DelLine2_="Ms faith murray" CustomerAddressLine2_="Ms faith murray" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="20 mm" 
+            ChoiceCode_="BD003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Top Down" 
+            ChoiceCode_="PFITFLOA02A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller Signature" MetricMeasurement_="0" FabricCode_="DP-ESS" FabricDescription_="Digital Printing Essen" Width_="1450" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Son bedroom - 1" WidthDisplay_="1450" DropDisplay_="2100" CustomerOrderReference_="Print 1099 essen  fabric
+Put signature mechanism
+1900" OrderID_="BLI2403195-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="murrayfh@gmail.com" DelPhone_="0506575467" DelFirstName_="Ms faith murray" DelLine1_="Ms faith murray" CustomerAddressLine1_="Ms faith murray" DelLine2_="Ms faith murray" CustomerAddressLine2_="Ms faith murray" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="600" Drop_="475" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Son bedroom 2 - 1" WidthDisplay_="600" DropDisplay_="475" CustomerOrderReference_="" OrderID_="BLI2403195-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="murrayfh@gmail.com" DelPhone_="0506575467" DelFirstName_="Ms faith murray" DelLine1_="Ms faith murray" CustomerAddressLine1_="Ms faith murray" DelLine2_="Ms faith murray" CustomerAddressLine2_="Ms faith murray" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="20 mm" 
+            ChoiceCode_="BD003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

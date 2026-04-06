@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU270258-man.xml" CreateDate_="27/02/2026" CreateTime_="14:13:58">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="270258" CustomerReference_="ABU270258-man" OrderDate_="27/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER002" FabricDescription_="NER002" Width_="1210" Drop_="2595" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1210" DropDisplay_="2595" CustomerOrderReference_="" OrderID_="ABU270258-man" IsDirectDeliveryBySupplier_="True" DelEmail_="ena.baricevic1@gmail.com" DelPhone_="0585806856" DelFirstName_="Ena Azic" DelLine1_="Ena Azic" CustomerAddressLine1_="Ena Azic" DelLine2_="Ena Azic" CustomerAddressLine2_="Ena Azic" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Cascade" 
+            ChoiceCode_="SPE037" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER002" FabricDescription_="NER002" Width_="1245" Drop_="2595" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="1245" DropDisplay_="2595" CustomerOrderReference_="" OrderID_="ABU270258-man" IsDirectDeliveryBySupplier_="True" DelEmail_="ena.baricevic1@gmail.com" DelPhone_="0585806856" DelFirstName_="Ena Azic" DelLine1_="Ena Azic" CustomerAddressLine1_="Ena Azic" DelLine2_="Ena Azic" CustomerAddressLine2_="Ena Azic" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Cascade" 
+            ChoiceCode_="SPE037" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROM-ON-03" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="NER002" FabricDescription_="NER002" Width_="710" Drop_="2595" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 3" WidthDisplay_="710" DropDisplay_="2595" CustomerOrderReference_="" OrderID_="ABU270258-man" IsDirectDeliveryBySupplier_="True" DelEmail_="ena.baricevic1@gmail.com" DelPhone_="0585806856" DelFirstName_="Ena Azic" DelLine1_="Ena Azic" CustomerAddressLine1_="Ena Azic" DelLine2_="Ena Azic" CustomerAddressLine2_="Ena Azic" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Cascade" 
+            ChoiceCode_="SPE037" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Deluxe System (default)" 
+            ChoiceCode_="SPE120" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

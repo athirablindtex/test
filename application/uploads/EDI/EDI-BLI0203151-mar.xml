@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI0203151-mar.xml" CreateDate_="03/03/2026" CreateTime_="08:16:22">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0203151" CustomerReference_="BLI0203151-mar" OrderDate_="03/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="Check and  re-program motor on site" OrderID_="BLI0203151-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="yazan.barakat@live.com" DelPhone_="0509431278" DelFirstName_=" Mr Yassan barakat" DelLine1_=" Mr Yassan barakat" CustomerAddressLine1_=" Mr Yassan barakat" DelLine2_=" Mr Yassan barakat" CustomerAddressLine2_=" Mr Yassan barakat" Salesperson_="Maria Blindtex">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

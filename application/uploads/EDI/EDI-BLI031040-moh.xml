@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI031040-moh.xml" CreateDate_="03/10/2025" CreateTime_="14:07:54">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="031040" CustomerReference_="BLI031040-moh" OrderDate_="03/10/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CU120CUB" BlindTypeDescription_="Cubicale Curtain 1,2 fullness" MetricMeasurement_="0" FabricCode_="BIO002" FabricDescription_="Basix Navy Blue" Width_="1000" Drop_="2000" InstallHeight_="0" MeasureName_="recess" Quantity_="1" Location_="Kitchen1" WidthDisplay_="1000" DropDisplay_="2000" CustomerOrderReference_="" OrderID_="BLI031040-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

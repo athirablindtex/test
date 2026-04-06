@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI0902114-mar.xml" CreateDate_="09/02/2026" CreateTime_="13:16:42">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0902114" CustomerReference_="BLI0902114-mar" OrderDate_="09/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Other2" BlindTypeDescription_="Consumables" MetricMeasurement_="0" FabricCode_="Other" FabricDescription_="Other" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="dispatch Tuesday 
+2 inch black screw 1 box 
+Wet wipes 3pcs
+Filler 1
+Wall plug 4 box
+Masking tape 1
+Self tapping screw 1.5 1 box
+Marble bitt 5.5 4pcs
+Concrete bitt 5.5 4pcs" OrderID_="BLI0902114-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="van stock maria" DelLine1_="van stock maria" CustomerAddressLine1_="van stock maria" DelLine2_="van stock maria" CustomerAddressLine2_="van stock maria" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

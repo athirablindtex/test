@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU250249-man.xml" CreateDate_="28/02/2026" CreateTime_="13:43:01">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="250249" CustomerReference_="ABU250249-man" OrderDate_="28/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical  Basix" MetricMeasurement_="0" FabricCode_="SHA009VV" FabricDescription_="SHA009 (beige)" Width_="1460" Drop_="2050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Playroom - 1" WidthDisplay_="1460" DropDisplay_="2050" CustomerOrderReference_="" OrderID_="ABU250249-man" IsDirectDeliveryBySupplier_="True" DelEmail_="Sjcloth@hotmail.com" DelPhone_="0505089673" DelFirstName_="Ms.Sarah clothier " DelLine1_="Ms.Sarah clothier " CustomerAddressLine1_="Ms.Sarah clothier " DelLine2_="Ms.Sarah clothier " CustomerAddressLine2_="Ms.Sarah clothier " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Left" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Type" 
+            Choice_="Left Cord Operated" 
+            ChoiceCode_="SPE054" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottoms" 
+            Choice_="White Weights and Chain" 
+            ChoiceCode_="SPE146a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="89 Face Fix" 
+            ChoiceCode_="BRA002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Slim - White" 
+            ChoiceCode_="VCM008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical  Basix" MetricMeasurement_="0" FabricCode_="SHA009VV" FabricDescription_="SHA009 (beige)" Width_="1460" Drop_="2050" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Playroom - 2" WidthDisplay_="1460" DropDisplay_="2050" CustomerOrderReference_="" OrderID_="ABU250249-man" IsDirectDeliveryBySupplier_="True" DelEmail_="Sjcloth@hotmail.com" DelPhone_="0505089673" DelFirstName_="Ms.Sarah clothier " DelLine1_="Ms.Sarah clothier " CustomerAddressLine1_="Ms.Sarah clothier " DelLine2_="Ms.Sarah clothier " CustomerAddressLine2_="Ms.Sarah clothier " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Right" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Type" 
+            Choice_="Right Cord operated" 
+            ChoiceCode_="SPE053" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottoms" 
+            Choice_="White Weights and Chain" 
+            ChoiceCode_="SPE146a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="89 Face Fix" 
+            ChoiceCode_="BRA002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Slim - White" 
+            ChoiceCode_="VCM008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

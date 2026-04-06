@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2102137-mar.xml" CreateDate_="21/02/2026" CreateTime_="10:07:29">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2102137" CustomerReference_="BLI2102137-mar" OrderDate_="21/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="2420" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="2420" DropDisplay_="1" CustomerOrderReference_="" OrderID_="BLI2102137-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastr5" DelPhone_="0545839233" DelFirstName_="dummy order/ OA costing purpose only " DelLine1_="dummy order/ OA costing purpose only " CustomerAddressLine1_="dummy order/ OA costing purpose only " DelLine2_="dummy order/ OA costing purpose only " CustomerAddressLine2_="dummy order/ OA costing purpose only " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60e Ultra RTS" 
+            ChoiceCode_="SOM106R" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Home Automation" 
+            Choice_="Tahoma Switch" 
+            ChoiceCode_="SOM149A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Zigbee Accessories" 
+            Choice_="Glydea Zigbee Module 400" 
+            ChoiceCode_="SOM178" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="HAZ004-B" FabricDescription_="Sheer HAZ004" Width_="7350" Drop_="2890" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Majless - 1" WidthDisplay_="7350" DropDisplay_="2890" CustomerOrderReference_="" OrderID_="BLI2102137-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastr5" DelPhone_="0545839233" DelFirstName_="dummy order/ OA costing purpose only " DelLine1_="dummy order/ OA costing purpose only " CustomerAddressLine1_="dummy order/ OA costing purpose only " DelLine2_="dummy order/ OA costing purpose only " CustomerAddressLine2_="dummy order/ OA costing purpose only " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Wave" 
+            ChoiceCode_="STY102" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="3675" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Majless - 2" WidthDisplay_="3675" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2102137-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastr5" DelPhone_="0545839233" DelFirstName_="dummy order/ OA costing purpose only " DelLine1_="dummy order/ OA costing purpose only " CustomerAddressLine1_="dummy order/ OA costing purpose only " DelLine2_="dummy order/ OA costing purpose only " CustomerAddressLine2_="dummy order/ OA costing purpose only " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Location" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Glydea - 60e Ultra RTS" 
+            ChoiceCode_="SOM106R" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Zigbee Accessories" 
+            Choice_="Glydea Zigbee Module 400" 
+            ChoiceCode_="SOM178" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="3675" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Majless - 3" WidthDisplay_="3675" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI2102137-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastr5" DelPhone_="0545839233" DelFirstName_="dummy order/ OA costing purpose only " DelLine1_="dummy order/ OA costing purpose only " CustomerAddressLine1_="dummy order/ OA costing purpose only " DelLine2_="dummy order/ OA costing purpose only " CustomerAddressLine2_="dummy order/ OA costing purpose only " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Zigbee Accessories" 
+            Choice_="Glydea Zigbee Module 400" 
+            ChoiceCode_="SOM178" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Wave System" 
+            Choice_="Wave System - Without Overlap" 
+            ChoiceCode_="STY088a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

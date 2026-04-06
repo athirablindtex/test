@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1803214-ric.xml" CreateDate_="18/03/2026" CreateTime_="00:31:38">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1803214" CustomerReference_="DUB1803214-ric" OrderDate_="18/03/2026" OrderNote_="Dining 1 and 2 
+Dining 3 and 4
+Dining 5 and 6
+
+One pelmet only">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="1185" Drop_="1595" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="1st Floor - 1" WidthDisplay_="1185" DropDisplay_="1595" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="No Returns" 
+            ChoiceCode_="W002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="900" Drop_="2690" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="900" DropDisplay_="2690" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="Left Return Only" 
+            ChoiceCode_="W009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="900" Drop_="2690" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 2" WidthDisplay_="900" DropDisplay_="2690" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="Right Return Only" 
+            ChoiceCode_="W008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="1100" Drop_="2690" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 3" WidthDisplay_="1100" DropDisplay_="2690" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="Left Return Only" 
+            ChoiceCode_="W009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="1100" Drop_="2690" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 4" WidthDisplay_="1100" DropDisplay_="2690" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="Right Return Only" 
+            ChoiceCode_="W008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="1100" Drop_="2690" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 5" WidthDisplay_="1100" DropDisplay_="2690" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="Left Return Only" 
+            ChoiceCode_="W009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="1100" Drop_="2690" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 6" WidthDisplay_="1100" DropDisplay_="2690" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="Right Return Only" 
+            ChoiceCode_="W008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="1010" Drop_="2780" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1010" DropDisplay_="2780" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="With Returns" 
+            ChoiceCode_="W010" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="1010" Drop_="2780" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="1010" DropDisplay_="2780" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="With Returns" 
+            ChoiceCode_="W010" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="BEECH" FabricDescription_="Paulowina Beech" Width_="1850" Drop_="1275" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="1850" DropDisplay_="1275" CustomerOrderReference_="" OrderID_="DUB1803214-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="florence@dubaiblinds.com" DelPhone_="0547916446" DelFirstName_="dummy CO Evgeny Kruglov" DelLine1_="dummy CO Evgeny Kruglov" CustomerAddressLine1_="dummy CO Evgeny Kruglov" DelLine2_="dummy CO Evgeny Kruglov" CustomerAddressLine2_="dummy CO Evgeny Kruglov" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Cord,Tape" 
+            Choice_="Cord" 
+            ChoiceCode_="TAP060" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lift Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tilt Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE013" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Valance" 
+            Choice_="With Returns" 
+            ChoiceCode_="W010" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

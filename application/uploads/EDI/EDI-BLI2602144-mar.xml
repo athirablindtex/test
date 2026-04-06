@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2602144-mar.xml" CreateDate_="26/02/2026" CreateTime_="16:35:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2602144" CustomerReference_="BLI2602144-mar" OrderDate_="26/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LAR005" FabricDescription_="Larissa Lead" Width_="340" Drop_="540" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Kids room ground floor - 1" WidthDisplay_="340" DropDisplay_="540" CustomerOrderReference_="" OrderID_="BLI2602144-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="shane.velandy@hotmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LAR005" FabricDescription_="Larissa Lead" Width_="860" Drop_="1030" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Master Bedroom - 3" WidthDisplay_="860" DropDisplay_="1030" CustomerOrderReference_="" OrderID_="BLI2602144-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="shane.velandy@hotmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="27 mm" 
+            ChoiceCode_="BD010" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LAR005" FabricDescription_="Larissa Lead" Width_="850" Drop_="1025" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Master Bedroom - 4" WidthDisplay_="850" DropDisplay_="1025" CustomerOrderReference_="" OrderID_="BLI2602144-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="shane.velandy@hotmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="27 mm" 
+            ChoiceCode_="BD010" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="600" Drop_="1030" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Kids room 1st floor - 3" WidthDisplay_="600" DropDisplay_="1030" CustomerOrderReference_="" OrderID_="BLI2602144-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="shane.velandy@hotmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="25 mm" 
+            ChoiceCode_="BD008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="600" Drop_="1030" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Kids room 1st floor - 4" WidthDisplay_="600" DropDisplay_="1030" CustomerOrderReference_="" OrderID_="BLI2602144-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="shane.velandy@hotmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="25 mm" 
+            ChoiceCode_="BD008" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM090134-nei.xml" CreateDate_="09/01/2026" CreateTime_="18:16:19">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="090134" CustomerReference_="RIM090134-nei" OrderDate_="09/01/2026" OrderNote_="Self black out fabric. we will use existing curtain rail.">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30834-B
+" FabricDescription_="Blackout CAS001" Width_="3800" Drop_="2090" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="3800" DropDisplay_="2090" CustomerOrderReference_="" OrderID_="RIM090134-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="salman@everest-homes.com" DelPhone_="0551280285" DelFirstName_="Salman" DelLine1_="Salman" CustomerAddressLine1_="Salman" DelLine2_="Salman" CustomerAddressLine2_="Salman" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

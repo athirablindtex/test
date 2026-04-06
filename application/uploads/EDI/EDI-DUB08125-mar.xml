@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB08125-mar.xml" CreateDate_="08/12/2025" CreateTime_="14:50:21">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="08125" CustomerReference_="DUB08125-mar" OrderDate_="08/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="REG015VV" FabricDescription_="Basix REG015 (grey)" Width_="2380" Drop_="2150" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="2380" DropDisplay_="2150" CustomerOrderReference_="" OrderID_="DUB08125-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="s_a_qader@hotmail.com" DelPhone_="0504538021" DelFirstName_="Mr Sharfaraz Sheikh" DelLine1_="Mr Sharfaraz Sheikh" CustomerAddressLine1_="Mr Sharfaraz Sheikh" DelLine2_="Mr Sharfaraz Sheikh" CustomerAddressLine2_="Mr Sharfaraz Sheikh" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI1803174-mar.xml" CreateDate_="18/03/2026" CreateTime_="11:28:09">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1803174" CustomerReference_="BLI1803174-mar" OrderDate_="18/03/2026" OrderNote_="2pcs bracket dispatch tommorow 
+Living room repair dispatch on wednesday">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUTRACK" BlindTypeDescription_="Curtain Track Forest" MetricMeasurement_="0" FabricCode_="KS" FabricDescription_="Klick System Curtain Track White" Width_="4400" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="4400" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI1803174-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Kellymcauliffe@gmail.com" DelPhone_="0585149241" DelFirstName_="Ms Kelly McAuliffe" DelLine1_="Ms Kelly McAuliffe" CustomerAddressLine1_="Ms Kelly McAuliffe" DelLine2_="Ms Kelly McAuliffe" CustomerAddressLine2_="Ms Kelly McAuliffe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Curtain (new hooks) below 3m x 3m" Width_="4400" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="4400" DropDisplay_="0" CustomerOrderReference_="" OrderID_="BLI1803174-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Kellymcauliffe@gmail.com" DelPhone_="0585149241" DelFirstName_="Ms Kelly McAuliffe" DelLine1_="Ms Kelly McAuliffe" CustomerAddressLine1_="Ms Kelly McAuliffe" DelLine2_="Ms Kelly McAuliffe" CustomerAddressLine2_="Ms Kelly McAuliffe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Curtain (new hooks) below 3m x 3m" Width_="3050" Drop_="300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="3050" DropDisplay_="300" CustomerOrderReference_="No need alter only installation" OrderID_="BLI1803174-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Kellymcauliffe@gmail.com" DelPhone_="0585149241" DelFirstName_="Ms Kelly McAuliffe" DelLine1_="Ms Kelly McAuliffe" CustomerAddressLine1_="Ms Kelly McAuliffe" DelLine2_="Ms Kelly McAuliffe" CustomerAddressLine2_="Ms Kelly McAuliffe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fabric" 
+            Choice_="Fabric Price Band A" 
+            ChoiceCode_="Fabric Price Band A" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="2150" Drop_="2150" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="2150" DropDisplay_="2150" CustomerOrderReference_="" OrderID_="BLI1803174-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="Kellymcauliffe@gmail.com" DelPhone_="0585149241" DelFirstName_="Ms Kelly McAuliffe" DelLine1_="Ms Kelly McAuliffe" CustomerAddressLine1_="Ms Kelly McAuliffe" DelLine2_="Ms Kelly McAuliffe" CustomerAddressLine2_="Ms Kelly McAuliffe" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Single Brkt: Black Nickel" 
+            ChoiceCode_="BRA301B" 
+            Quantity_="2" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

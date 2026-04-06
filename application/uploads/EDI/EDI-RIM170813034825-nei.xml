@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM170813034825-nei.xml" CreateDate_="17/08/2025" CreateTime_="13:07:24">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="12233" CustomerReference_="RIM1708130348/25-nei" OrderDate_="17/08/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BRI012" FabricDescription_="Basix BRI012 (natural)" Width_="1860" Drop_="1920" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bathroom1" WidthDisplay_="1860" DropDisplay_="1920" CustomerOrderReference_="" OrderID_="RIM170813034825-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0557924741" DelFirstName_="Mehdi" DelLine1_="Mehdi" CustomerAddressLine1_="Mehdi" DelLine2_="Mehdi" CustomerAddressLine2_="Mehdi" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Remote Control" Choice_="Blindtex DY Remote 1 Channel" ChoiceCode_="DOY003"/>
+        <TEDIOptionList_Details OptionName_="Charger" Choice_="USB Micro 3mtr cable with Adaptor ( M / L)" ChoiceCode_="DOY018"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Medium Wirefree" ChoiceCode_="DOY013M"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

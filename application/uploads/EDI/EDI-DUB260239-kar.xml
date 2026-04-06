@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB260239-kar.xml" CreateDate_="26/02/2026" CreateTime_="12:43:24">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="260239" CustomerReference_="DUB260239-kar" OrderDate_="26/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="NOV021" FabricDescription_="Nova Oat" Width_="560" Drop_="760" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="560" DropDisplay_="760" CustomerOrderReference_="" OrderID_="DUB260239-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="karunverma3194@gmail.com" DelPhone_="0564082737" DelFirstName_="Mr. Aditya Dua" DelLine1_="Mr. Aditya Dua" CustomerAddressLine1_="Mr. Aditya Dua" DelLine2_="Mr. Aditya Dua" CustomerAddressLine2_="Mr. Aditya Dua" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="Regular Handle" 
+            ChoiceCode_="ACM037" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Top Down" 
+            ChoiceCode_="PFITFLOA02A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="NOV022" FabricDescription_="Nova Wheat" Width_="560" Drop_="760" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="560" DropDisplay_="760" CustomerOrderReference_="" OrderID_="DUB260239-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="karunverma3194@gmail.com" DelPhone_="0564082737" DelFirstName_="Mr. Aditya Dua" DelLine1_="Mr. Aditya Dua" CustomerAddressLine1_="Mr. Aditya Dua" DelLine2_="Mr. Aditya Dua" CustomerAddressLine2_="Mr. Aditya Dua" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Top Down" 
+            ChoiceCode_="PFITFLOA02A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="Regular Handle" 
+            ChoiceCode_="ACM037" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="ARI004" FabricDescription_="Aria Clay" Width_="560" Drop_="760" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="560" DropDisplay_="760" CustomerOrderReference_="" OrderID_="DUB260239-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="karunverma3194@gmail.com" DelPhone_="0564082737" DelFirstName_="Mr. Aditya Dua" DelLine1_="Mr. Aditya Dua" CustomerAddressLine1_="Mr. Aditya Dua" DelLine2_="Mr. Aditya Dua" CustomerAddressLine2_="Mr. Aditya Dua" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Top Down" 
+            ChoiceCode_="PFITFLOA02A" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation" 
+            Choice_="Regular Handle" 
+            ChoiceCode_="ACM037" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB230367-idr.xml" CreateDate_="23/03/2026" CreateTime_="13:32:46">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="230367" CustomerReference_="DUB230367-idr" OrderDate_="23/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="3500" Drop_="3110" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="3500" DropDisplay_="3110" CustomerOrderReference_="" OrderID_="DUB230367-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="m.maurer@gsprod.ae" DelPhone_="0554252911" DelFirstName_="Mr. Matthias  Maurer" DelLine1_="Mr. Matthias  Maurer" CustomerAddressLine1_="Mr. Matthias  Maurer" DelLine2_="Mr. Matthias  Maurer" CustomerAddressLine2_="Mr. Matthias  Maurer" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30778" FabricDescription_="Haze Almond" Width_="3500" Drop_="3110" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="3500" DropDisplay_="3110" CustomerOrderReference_="" OrderID_="DUB230367-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="m.maurer@gsprod.ae" DelPhone_="0554252911" DelFirstName_="Mr. Matthias  Maurer" DelLine1_="Mr. Matthias  Maurer" CustomerAddressLine1_="Mr. Matthias  Maurer" DelLine2_="Mr. Matthias  Maurer" CustomerAddressLine2_="Mr. Matthias  Maurer" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Borders" 
+            Choice_="Not Required" 
+            ChoiceCode_="SPE094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="3500" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Living Room - 3" WidthDisplay_="3500" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB230367-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="m.maurer@gsprod.ae" DelPhone_="0554252911" DelFirstName_="Mr. Matthias  Maurer" DelLine1_="Mr. Matthias  Maurer" CustomerAddressLine1_="Mr. Matthias  Maurer" DelLine2_="Mr. Matthias  Maurer" CustomerAddressLine2_="Mr. Matthias  Maurer" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="3600" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="3600" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB230367-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="m.maurer@gsprod.ae" DelPhone_="0554252911" DelFirstName_="Mr. Matthias  Maurer" DelLine1_="Mr. Matthias  Maurer" CustomerAddressLine1_="Mr. Matthias  Maurer" DelLine2_="Mr. Matthias  Maurer" CustomerAddressLine2_="Mr. Matthias  Maurer" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall bracket 35mm white" 
+            ChoiceCode_="CCM120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="ODE004-B" FabricDescription_="ODE004" Width_="3970" Drop_="3110" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="3970" DropDisplay_="3110" CustomerOrderReference_="" OrderID_="DUB230367-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="m.maurer@gsprod.ae" DelPhone_="0554252911" DelFirstName_="Mr. Matthias  Maurer" DelLine1_="Mr. Matthias  Maurer" CustomerAddressLine1_="Mr. Matthias  Maurer" DelLine2_="Mr. Matthias  Maurer" CustomerAddressLine2_="Mr. Matthias  Maurer" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30778" FabricDescription_="Haze Almond" Width_="3440" Drop_="3015" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom - 2" WidthDisplay_="3440" DropDisplay_="3015" CustomerOrderReference_="" OrderID_="DUB230367-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="m.maurer@gsprod.ae" DelPhone_="0554252911" DelFirstName_="Mr. Matthias  Maurer" DelLine1_="Mr. Matthias  Maurer" CustomerAddressLine1_="Mr. Matthias  Maurer" DelLine2_="Mr. Matthias  Maurer" CustomerAddressLine2_="Mr. Matthias  Maurer" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="3970" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 3" WidthDisplay_="3970" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB230367-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="m.maurer@gsprod.ae" DelPhone_="0554252911" DelFirstName_="Mr. Matthias  Maurer" DelLine1_="Mr. Matthias  Maurer" CustomerAddressLine1_="Mr. Matthias  Maurer" DelLine2_="Mr. Matthias  Maurer" CustomerAddressLine2_="Mr. Matthias  Maurer" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="3440" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 4" WidthDisplay_="3440" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB230367-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="m.maurer@gsprod.ae" DelPhone_="0554252911" DelFirstName_="Mr. Matthias  Maurer" DelLine1_="Mr. Matthias  Maurer" CustomerAddressLine1_="Mr. Matthias  Maurer" DelLine2_="Mr. Matthias  Maurer" CustomerAddressLine2_="Mr. Matthias  Maurer" Salesperson_="Idris">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI160112-ber.xml" CreateDate_="16/01/2026" CreateTime_="17:59:12">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="160112" CustomerReference_="BLI160112-ber" OrderDate_="16/01/2026" OrderNote_="please follow original order, This confirm order just to upload on blind data">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Vertical/Vertex (existing mechanism)" Width_="100" Drop_="100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="4" Location_="alteration Altus 50 tube - 1" WidthDisplay_="100" DropDisplay_="100" CustomerOrderReference_="" OrderID_="BLI160112-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="bernard@blindtex.com" DelPhone_="0585073848" DelFirstName_="Mr Theodoros Papadopoulos" DelLine1_="Mr Theodoros Papadopoulos" CustomerAddressLine1_="Mr Theodoros Papadopoulos" DelLine2_="Mr Theodoros Papadopoulos" CustomerAddressLine2_="Mr Theodoros Papadopoulos" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

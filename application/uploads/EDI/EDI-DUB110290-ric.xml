@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB110290-ric.xml" CreateDate_="11/02/2026" CreateTime_="20:47:14">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="110290" CustomerReference_="DUB110290-ric" OrderDate_="11/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30846-B" FabricDescription_="NER003" Width_="3110" Drop_="3095" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Hutson - 1" WidthDisplay_="3110" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="DUB110290-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="daniel.bedward@icloud.com" DelPhone_="0522800459" DelFirstName_="Daniel Bedward" DelLine1_="Daniel Bedward" CustomerAddressLine1_="Daniel Bedward" DelLine2_="Daniel Bedward" CustomerAddressLine2_="Daniel Bedward" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout White" ChoiceCode_="LIN002"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain B" ChoiceCode_="STY044b"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="BIC001 (white)" Width_="2000" Drop_="2480" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="2000" DropDisplay_="2480" CustomerOrderReference_="" OrderID_="DUB110290-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="daniel.bedward@icloud.com" DelPhone_="0522800459" DelFirstName_="Daniel Bedward" DelLine1_="Daniel Bedward" CustomerAddressLine1_="Daniel Bedward" DelLine2_="Daniel Bedward" CustomerAddressLine2_="Daniel Bedward" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Default," ChoiceCode_="ROLSYS4A"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU020363-man.xml" CreateDate_="03/03/2026" CreateTime_="21:10:49">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="020363" CustomerReference_="ABU020363-man" OrderDate_="03/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Vertex02" BlindTypeDescription_="Vertex Motorised" MetricMeasurement_="0" FabricCode_="PER004" FabricDescription_="Perla Latte" Width_="2030" Drop_="3185" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="2030" DropDisplay_="3185" CustomerOrderReference_="Needs 8mtr wire and 3pcs trunking." OrderID_="ABU020363-man" IsDirectDeliveryBySupplier_="True" DelEmail_="gcastilloestevez@gmai.com" DelPhone_="+971 50 328 5816" DelFirstName_="Yona Castillo " DelLine1_="Yona Castillo " CustomerAddressLine1_="Yona Castillo " DelLine2_="Yona Castillo " CustomerAddressLine2_="Yona Castillo " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA031" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Right" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Motorized Headrail" 
+            ChoiceCode_="BOF015" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex Wired Heavy Duty	" 
+            ChoiceCode_="BOF036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote" 
+            Choice_="5 Channel Remote" 
+            ChoiceCode_="BOF014" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="Vertex02" BlindTypeDescription_="Vertex Motorised" MetricMeasurement_="0" FabricCode_="PER004" FabricDescription_="Perla Latte" Width_="3310" Drop_="3185" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="3310" DropDisplay_="3185" CustomerOrderReference_="" OrderID_="ABU020363-man" IsDirectDeliveryBySupplier_="True" DelEmail_="gcastilloestevez@gmai.com" DelPhone_="+971 50 328 5816" DelFirstName_="Yona Castillo " DelLine1_="Yona Castillo " CustomerAddressLine1_="Yona Castillo " DelLine2_="Yona Castillo " CustomerAddressLine2_="Yona Castillo " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA031" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Right" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Motorized Headrail" 
+            ChoiceCode_="BOF015" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex Wired Heavy Duty	" 
+            ChoiceCode_="BOF036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="Vertex02" BlindTypeDescription_="Vertex Motorised" MetricMeasurement_="0" FabricCode_="PER004" FabricDescription_="Perla Latte" Width_="3630" Drop_="3190" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="3630" DropDisplay_="3190" CustomerOrderReference_="" OrderID_="ABU020363-man" IsDirectDeliveryBySupplier_="True" DelEmail_="gcastilloestevez@gmai.com" DelPhone_="+971 50 328 5816" DelFirstName_="Yona Castillo " DelLine1_="Yona Castillo " CustomerAddressLine1_="Yona Castillo " DelLine2_="Yona Castillo " CustomerAddressLine2_="Yona Castillo " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA031" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Left" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Motorized Headrail" 
+            ChoiceCode_="BOF015" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex Wired Heavy Duty	" 
+            ChoiceCode_="BOF036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="Vertex02" BlindTypeDescription_="Vertex Motorised" MetricMeasurement_="0" FabricCode_="PER004" FabricDescription_="Perla Latte" Width_="4250" Drop_="3185" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 2" WidthDisplay_="4250" DropDisplay_="3185" CustomerOrderReference_="" OrderID_="ABU020363-man" IsDirectDeliveryBySupplier_="True" DelEmail_="gcastilloestevez@gmai.com" DelPhone_="+971 50 328 5816" DelFirstName_="Yona Castillo " DelLine1_="Yona Castillo " CustomerAddressLine1_="Yona Castillo " DelLine2_="Yona Castillo " CustomerAddressLine2_="Yona Castillo " Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Top Fix" 
+            ChoiceCode_="BRA031" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bunch" 
+            Choice_="Left" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headrail Options" 
+            Choice_="Motorized Headrail" 
+            ChoiceCode_="BOF015" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Blindtex Wired Heavy Duty	" 
+            ChoiceCode_="BOF036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Joiner Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="BOF023" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

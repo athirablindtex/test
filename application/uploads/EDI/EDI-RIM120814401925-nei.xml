@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM120814401925-nei.xml" CreateDate_="14/08/2025" CreateTime_="11:42:01">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="12233" CustomerReference_="RIM1208144019/25-nei" OrderDate_="14/08/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="RIG004VV" FabricDescription_="Basix RIG004 (brown)" Width_="3410" Drop_="1870" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office 71" WidthDisplay_="3410" DropDisplay_="1870" CustomerOrderReference_="" OrderID_="RIM120814401925-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Robinson.Galang@ith.com" DelPhone_="0506332816" DelFirstName_="ITH Bolting Technology Middle East DWC LLC" DelLine1_="ITH Bolting Technology Middle East DWC LLC" CustomerAddressLine1_="ITH Bolting Technology Middle East DWC LLC" DelLine2_="ITH Bolting Technology Middle East DWC LLC" CustomerAddressLine2_="ITH Bolting Technology Middle East DWC LLC" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Cassette" Choice_="Not Required" ChoiceCode_="SPE181"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="RIG004VV" FabricDescription_="Basix RIG004 (brown)" Width_="3460" Drop_="1870" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office 72" WidthDisplay_="3460" DropDisplay_="1870" CustomerOrderReference_="" OrderID_="RIM120814401925-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Robinson.Galang@ith.com" DelPhone_="0506332816" DelFirstName_="ITH Bolting Technology Middle East DWC LLC" DelLine1_="ITH Bolting Technology Middle East DWC LLC" CustomerAddressLine1_="ITH Bolting Technology Middle East DWC LLC" DelLine2_="ITH Bolting Technology Middle East DWC LLC" CustomerAddressLine2_="ITH Bolting Technology Middle East DWC LLC" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="89 Face Fix" ChoiceCode_="BRA002"/>
+        <TEDIOptionList_Details OptionName_="Cassette" Choice_="Not Required" ChoiceCode_="SPE181"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG004" FabricDescription_="Basix RIG004 (brown)" Width_="915" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office 73" WidthDisplay_="915" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="RIM120814401925-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="Robinson.Galang@ith.com" DelPhone_="0506332816" DelFirstName_="ITH Bolting Technology Middle East DWC LLC" DelLine1_="ITH Bolting Technology Middle East DWC LLC" CustomerAddressLine1_="ITH Bolting Technology Middle East DWC LLC" DelLine2_="ITH Bolting Technology Middle East DWC LLC" CustomerAddressLine2_="ITH Bolting Technology Middle East DWC LLC" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

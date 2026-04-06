@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB2302124-ric.xml" CreateDate_="23/02/2026" CreateTime_="09:22:37">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2302124" CustomerReference_="DUB2302124-ric" OrderDate_="23/02/2026" OrderNote_="Change of fabric we will send repair form">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="POR002" FabricDescription_="POR002 (white)" Width_="2060" Drop_="2100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Hall - 1" WidthDisplay_="2060" DropDisplay_="2100" CustomerOrderReference_="" OrderID_="DUB2302124-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="steve.barnett.sb@gmail.com" DelPhone_="0555266663" DelFirstName_="Steve Barnett" DelLine1_="Steve Barnett" CustomerAddressLine1_="Steve Barnett" DelLine2_="Steve Barnett" CustomerAddressLine2_="Steve Barnett" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

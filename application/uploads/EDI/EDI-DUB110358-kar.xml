@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB110358-kar.xml" CreateDate_="11/03/2026" CreateTime_="12:52:12">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="110358" CustomerReference_="DUB110358-kar" OrderDate_="11/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA010" FabricDescription_="SHA010 (grey)" Width_="1380" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="1380" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB110358-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="aneesj@anjsecurity.com" DelPhone_="0562770555 " DelFirstName_="Anees Geddy" DelLine1_="Anees Geddy" CustomerAddressLine1_="Anees Geddy" DelLine2_="Anees Geddy" CustomerAddressLine2_="Anees Geddy" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Block Out Cassette Colour" 
+            Choice_="Covered in Matching Fabric" 
+            ChoiceCode_="EVOMCF1" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 3/30" 
+            ChoiceCode_="SOM116" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA010" FabricDescription_="SHA010 (grey)" Width_="1360" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 2" WidthDisplay_="1360" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB110358-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="aneesj@anjsecurity.com" DelPhone_="0562770555 " DelFirstName_="Anees Geddy" DelLine1_="Anees Geddy" CustomerAddressLine1_="Anees Geddy" DelLine2_="Anees Geddy" CustomerAddressLine2_="Anees Geddy" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Block Out Cassette Colour" 
+            Choice_="Covered in Matching Fabric" 
+            ChoiceCode_="EVOMCF1" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 3/30" 
+            ChoiceCode_="SOM116" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA010" FabricDescription_="SHA010 (grey)" Width_="1380" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 3" WidthDisplay_="1380" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="DUB110358-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="aneesj@anjsecurity.com" DelPhone_="0562770555 " DelFirstName_="Anees Geddy" DelLine1_="Anees Geddy" CustomerAddressLine1_="Anees Geddy" DelLine2_="Anees Geddy" CustomerAddressLine2_="Anees Geddy" Salesperson_="Karun">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Block Out Cassette Colour" 
+            Choice_="Covered in Matching Fabric" 
+            ChoiceCode_="EVOMCF1" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Sonesse 40 RTS 3/30" 
+            ChoiceCode_="SOM116" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

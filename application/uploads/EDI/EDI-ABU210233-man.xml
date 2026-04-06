@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU210233-man.xml" CreateDate_="21/02/2026" CreateTime_="10:53:03">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="210233" CustomerReference_="ABU210233-man" OrderDate_="21/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="1960" Drop_="1620" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Office - 1" WidthDisplay_="1960" DropDisplay_="1620" CustomerOrderReference_="" OrderID_="ABU210233-man" IsDirectDeliveryBySupplier_="True" DelEmail_="fraukeh@gmail.com" DelPhone_="0506120230" DelFirstName_="Frauke Heard" DelLine1_="Frauke Heard" CustomerAddressLine1_="Frauke Heard" DelLine2_="Frauke Heard" CustomerAddressLine2_="Frauke Heard" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="" BlindTypeDescription_="" MetricMeasurement_="0" FabricCode_="" FabricDescription_="" Width_="1720" Drop_="2300" InstallHeight_="0" MeasureName_="" Quantity_="1" Location_="Office - 2" WidthDisplay_="1720" DropDisplay_="2300" CustomerOrderReference_="" OrderID_="ABU210233-man" IsDirectDeliveryBySupplier_="True" DelEmail_="fraukeh@gmail.com" DelPhone_="0506120230" DelFirstName_="Frauke Heard" DelLine1_="Frauke Heard" CustomerAddressLine1_="Frauke Heard" DelLine2_="Frauke Heard" CustomerAddressLine2_="Frauke Heard" Salesperson_="Manoj">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

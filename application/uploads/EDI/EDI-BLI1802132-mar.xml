@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI1802132-mar.xml" CreateDate_="18/02/2026" CreateTime_="13:10:09">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1802132" CustomerReference_="BLI1802132-mar" OrderDate_="18/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roman (existing mechanism)" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master bedroom - 1" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="" OrderID_="BLI1802132-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="naisa_t@yahoo.com" DelPhone_="0556329733" DelFirstName_="Naisa" DelLine1_="Naisa" CustomerAddressLine1_="Naisa" DelLine2_="Naisa" CustomerAddressLine2_="Naisa" Salesperson_="Maria Blindtex">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

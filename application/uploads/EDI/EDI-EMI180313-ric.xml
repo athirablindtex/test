@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="EMI018" CompanyName_="Emirates Shutters" FileTransfName_="EMI180313-ric.xml" CreateDate_="18/03/2026" CreateTime_="21:19:29">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="180313" CustomerReference_="EMI180313-ric" OrderDate_="18/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="" OrderID_="EMI180313-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="awbajda@gmail.com" DelPhone_="0582890264" DelFirstName_="Ms. Anna Bajda" DelLine1_="Ms. Anna Bajda" CustomerAddressLine1_="Ms. Anna Bajda" DelLine2_="Ms. Anna Bajda" CustomerAddressLine2_="Ms. Anna Bajda" Salesperson_="Richard">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

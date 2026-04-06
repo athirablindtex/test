@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="ABU015" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU140395-man.xml" CreateDate_="16/03/2026" CreateTime_="15:39:34">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="140395" CustomerReference_="ABU140395-man" OrderDate_="16/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA010" FabricDescription_="SHA010 (grey)" Width_="2250" Drop_="1650" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Reception - 1" WidthDisplay_="2250" DropDisplay_="1650" CustomerOrderReference_="" OrderID_="ABU140395-man" IsDirectDeliveryBySupplier_="True" DelEmail_="ntalivalery@gmail.com" DelPhone_="0525858711" DelFirstName_="Sheen Specialty Tea" DelLine1_="Sheen Specialty Tea" CustomerAddressLine1_="Sheen Specialty Tea" DelLine2_="Sheen Specialty Tea" CustomerAddressLine2_="Sheen Specialty Tea" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

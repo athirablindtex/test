@@ -1,0 +1,126 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+
+class Ediftp
+{
+    private $ftp_server;
+    private $ftp_user;
+    private $ftp_password;
+    private $connection;
+
+    function __construct($server = "innov8.blindata.co.uk", $user = "blindtexinno", $pass = "aO_hGAU13di")
+    {
+        $this->ftp_server = $server;
+        $this->ftp_user = $user;
+        $this->ftp_password = $pass;
+    }
+
+    private function ensureRemoteDirectory($dirPath)
+    {
+        $dirs = explode('/', $dirPath);
+        $path = '';
+        foreach ($dirs as $dir) {
+            if (!$dir) continue; // skip empty parts
+            $path .= '/' . $dir;
+            if (!@ftp_chdir($this->connection, $path)) {
+                if (@ftp_mkdir($this->connection, $path)) {
+                    echo "📁 Created remote directory: $path\n";
+                } else {
+                    echo "❌ Failed to create remote directory: $path\n";
+                    return false;
+                }
+            }
+        }
+        // Change back to root or starting dir if you want
+        ftp_chdir($this->connection, '/');
+        return true;
+    }
+
+    public function upload_file($local_source_file, $remote_destination_file)
+    {
+        // error_reporting(E_ALL);
+        // ini_set('display_errors', 1);
+
+        echo "🔌 Connecting to FTP server: {$this->ftp_server}\n";
+        $this->connection = ftp_connect($this->ftp_server);
+        if (!$this->connection) {
+            die("❌ Could not connect to FTP server: {$this->ftp_server}\n");
+        }
+        echo "✅ Connected to FTP server\n";
+
+        echo "🔐 Logging in as {$this->ftp_user}\n";
+        if (!ftp_login($this->connection, $this->ftp_user, $this->ftp_password)) {
+            ftp_close($this->connection);
+            die("❌ FTP login failed for user: {$this->ftp_user}\n");
+        }
+        echo "✅ Logged in successfully\n";
+
+        // Print server system type
+        $sys = ftp_systype($this->connection);
+        echo "🖥️ FTP Server System Type: $sys\n";
+
+        // Enable passive mode
+   ftp_pasv($this->connection, false);
+
+        // Check local file existence
+        if (!file_exists($local_source_file)) {
+            ftp_close($this->connection);
+            die("❌ Local file not found: $local_source_file\n");
+        }
+
+        echo "📏 Local file size: " . filesize($local_source_file) . " bytes\n";
+        echo "🔐 File permissions: " . substr(sprintf('%o', fileperms($local_source_file)), -4) . "\n";
+
+        // Split remote destination into directory and filename
+        $remote_dir = dirname($remote_destination_file);
+        $remote_filename = basename($remote_destination_file);
+
+        // Try to create remote directory structure if it doesn't exist
+        if (!$this->ensureRemoteDirectory($remote_dir)) {
+            ftp_close($this->connection);
+            die("❌ Cannot create remote directory path: $remote_dir\n");
+        }
+
+        // Change to remote directory
+        if (!ftp_chdir($this->connection, $remote_dir)) {
+            echo "⚠️ Could not change to remote directory: $remote_dir\n";
+            // Optional: You could die() here if directory access is mandatory
+        } else {
+            echo "📂 Changed to remote directory: $remote_dir\n";
+        }
+
+        // Capture warnings on ftp_put
+        ob_start();
+        $upload = ftp_put($this->connection, $remote_filename, $local_source_file, FTP_BINARY);
+        $ftp_warning = ob_get_clean();
+
+        if ($upload) {
+            echo "✅ Upload successful: $remote_destination_file\n";
+        } else {
+            echo "❌ Upload failed: $remote_destination_file\n";
+            if (!empty($ftp_warning)) {
+                echo "⚠️ FTP Warning: $ftp_warning\n";
+            }
+            $last_error = error_get_last();
+            if ($last_error) {
+                echo "🔍 PHP Error: {$last_error['message']}\n";
+            }
+
+            // List files in remote dir for debugging
+            $files = ftp_nlist($this->connection, ".");
+            if ($files !== false) {
+                echo "📄 Files in remote directory:\n";
+                print_r($files);
+            } else {
+                echo "⚠️ Could not list remote directory files. Check permissions.\n";
+            }
+        }
+
+        ftp_close($this->connection);
+    }
+
+    public function test()
+    {
+        return "Reached FTP Library. FTP SERVER = " . $this->ftp_server;
+    }
+}

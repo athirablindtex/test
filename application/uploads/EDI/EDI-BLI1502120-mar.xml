@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI1502120-mar.xml" CreateDate_="15/02/2026" CreateTime_="16:29:09">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1502120" CustomerReference_="BLI1502120-mar" OrderDate_="15/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="VIS004" FabricDescription_="VIS004 (blue)" Width_="2335" Drop_="3220" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 1" WidthDisplay_="2335" DropDisplay_="3220" CustomerOrderReference_="Aluminium  grey  flat side channel cover 
+Dispatch on Wednesday  18-2-2026" OrderID_="BLI1502120-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="simonharman@mac.com" DelPhone_="0585258839" DelFirstName_="Mr Simon harman" DelLine1_="Mr Simon harman" CustomerAddressLine1_="Mr Simon harman" DelLine2_="Mr Simon harman" CustomerAddressLine2_="Mr Simon harman" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Block Out System" Choice_="Sides Only ( Graphite )" ChoiceCode_="SPE183d"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Remote Control" Choice_="Blindtex DY Remote 1 Channel" ChoiceCode_="DOY003"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Medium Wired RTS 10/17" ChoiceCode_="DOY027"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Contrast / Anycolour (Add  note)" ChoiceCode_="BBARCCF"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="Other2" BlindTypeDescription_="Consumables" MetricMeasurement_="0" FabricCode_="Other" FabricDescription_="Other" Width_="1" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  2 - 2" WidthDisplay_="1" DropDisplay_="1" CustomerOrderReference_="Tranking 2pcs 
+Electrical tape 1 
+Wall plug 1
+Wire 5 meter " OrderID_="BLI1502120-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="simonharman@mac.com" DelPhone_="0585258839" DelFirstName_="Mr Simon harman" DelLine1_="Mr Simon harman" CustomerAddressLine1_="Mr Simon harman" DelLine2_="Mr Simon harman" CustomerAddressLine2_="Mr Simon harman" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Electrical" Choice_="3 Pin Plug" ChoiceCode_="FIT017"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

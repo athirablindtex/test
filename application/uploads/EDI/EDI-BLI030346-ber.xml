@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI030346-ber.xml" CreateDate_="06/03/2026" CreateTime_="10:01:30">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="030346" CustomerReference_="BLI030346-ber" OrderDate_="06/03/2026" OrderNote_="2 pcs wire free Blindtex motor small and 1 Medium motor ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BRI012" FabricDescription_="BRI012 (natural)" Width_="100" Drop_="100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="100" DropDisplay_="100" CustomerOrderReference_="" OrderID_="BLI030346-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="olivia.bouteraa@gmail.com" DelPhone_="0508029602" DelFirstName_=" Olivia Bouteraa" DelLine1_=" Olivia Bouteraa" CustomerAddressLine1_=" Olivia Bouteraa" DelLine2_=" Olivia Bouteraa" CustomerAddressLine2_=" Olivia Bouteraa" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Front" 
+            ChoiceCode_="SPE144" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Small Wirefree" 
+            ChoiceCode_="DOY013S" 
+            Quantity_="2" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="BAN001" FabricDescription_="BAN001 (white)" Width_="100" Drop_="100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="100" DropDisplay_="100" CustomerOrderReference_="" OrderID_="BLI030346-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="olivia.bouteraa@gmail.com" DelPhone_="0508029602" DelFirstName_=" Olivia Bouteraa" DelLine1_=" Olivia Bouteraa" CustomerAddressLine1_=" Olivia Bouteraa" DelLine2_=" Olivia Bouteraa" CustomerAddressLine2_=" Olivia Bouteraa" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Front" 
+            ChoiceCode_="SPE144" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor" 
+            Choice_="Medium Wirefree" 
+            ChoiceCode_="DOY013M" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

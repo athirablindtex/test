@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB300140-idr.xml" CreateDate_="30/01/2026" CreateTime_="17:53:25">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="300140" CustomerReference_="DUB300140-idr" OrderDate_="30/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG005" FabricDescription_="Basix RIG005 (grey)" Width_="980" Drop_="1370" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 1" WidthDisplay_="980" DropDisplay_="1370" CustomerOrderReference_="" OrderID_="DUB300140-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="gayathrivirajkumar@sudlows.com" DelPhone_="0528956003" DelFirstName_="Sudlows Communications Systems LLC" DelLine1_="Sudlows Communications Systems LLC" CustomerAddressLine1_="Sudlows Communications Systems LLC" DelLine2_="Sudlows Communications Systems LLC" CustomerAddressLine2_="Sudlows Communications Systems LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="RIG005" FabricDescription_="Basix RIG005 (grey)" Width_="1975" Drop_="1370" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 2" WidthDisplay_="1975" DropDisplay_="1370" CustomerOrderReference_="" OrderID_="DUB300140-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="gayathrivirajkumar@sudlows.com" DelPhone_="0528956003" DelFirstName_="Sudlows Communications Systems LLC" DelLine1_="Sudlows Communications Systems LLC" CustomerAddressLine1_="Sudlows Communications Systems LLC" DelLine2_="Sudlows Communications Systems LLC" CustomerAddressLine2_="Sudlows Communications Systems LLC" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

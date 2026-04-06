@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI09033-moh.xml" CreateDate_="09/03/2026" CreateTime_="11:50:14">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="09033" CustomerReference_="BLI09033-moh" OrderDate_="09/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller Signature" MetricMeasurement_="0" FabricCode_="AC- CHE" FabricDescription_="Anycolour Chelsea" Width_="2000" Drop_="2500" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="2000" DropDisplay_="2500" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ALM001" FabricDescription_="ALM001 (natural)" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Bedroom - 2" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30815" FabricDescription_="Anais_Marine" Width_="1200" Drop_="1400" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="1200" DropDisplay_="1400" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30815" FabricDescription_="Anais_Marine" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Dining Room - 2" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="Test note " OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30815" FabricDescription_="Anais_Marine" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Dining Room - 3" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30815" FabricDescription_="Anais_Marine" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Dining Room - 4" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30815" FabricDescription_="Anais_Marine" Width_="1500" Drop_="1800" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Dining Room - 5" WidthDisplay_="1500" DropDisplay_="1800" CustomerOrderReference_="Test not3" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout Cream" 
+            ChoiceCode_="LIN006" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="ROLDS01" BlindTypeDescription_="Roller Signature Designer" MetricMeasurement_="0" FabricCode_="SD-ESS" FabricDescription_="Blackout Textured" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Name" 
+            Choice_="Bold Luster" 
+            ChoiceCode_="SD-093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Option Number" 
+            Choice_="Option 3" 
+            ChoiceCode_="OPT3" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="ROLDS01" BlindTypeDescription_="Roller Signature Designer" MetricMeasurement_="0" FabricCode_="SD-ESS" FabricDescription_="Blackout Textured" Width_="2500" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Kitchen - 2" WidthDisplay_="2500" DropDisplay_="2000" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Name" 
+            Choice_="Bold Luster" 
+            ChoiceCode_="SD-093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Option Number" 
+            Choice_="Option 3" 
+            ChoiceCode_="OPT3" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="ROLDS01" BlindTypeDescription_="Roller Signature Designer" MetricMeasurement_="0" FabricCode_="SD-ESS" FabricDescription_="Blackout Textured" Width_="1500" Drop_="1800" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Kitchen - 3" WidthDisplay_="1500" DropDisplay_="1800" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Name" 
+            Choice_="Bold Luster" 
+            ChoiceCode_="SD-093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Option Number" 
+            Choice_="Option 3" 
+            ChoiceCode_="OPT3" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="ROLDS01" BlindTypeDescription_="Roller Signature Designer" MetricMeasurement_="0" FabricCode_="SD-ESS" FabricDescription_="Blackout Textured" Width_="1800" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Kitchen - 4" WidthDisplay_="1800" DropDisplay_="2000" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Name" 
+            Choice_="Bold Luster" 
+            ChoiceCode_="SD-093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Option Number" 
+            Choice_="Option 3" 
+            ChoiceCode_="OPT3" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="ROLDS01" BlindTypeDescription_="Roller Signature Designer" MetricMeasurement_="0" FabricCode_="SD-ESS" FabricDescription_="Blackout Textured" Width_="1400" Drop_="2000" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Kitchen - 5" WidthDisplay_="1400" DropDisplay_="2000" CustomerOrderReference_="Test note" OrderID_="BLI09033-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Name" 
+            Choice_="Bold Luster" 
+            ChoiceCode_="SD-093" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Design Option Number" 
+            Choice_="Option 3" 
+            ChoiceCode_="OPT3" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI111146-mar.xml" CreateDate_="11/11/2025" CreateTime_="18:49:29">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="111146" CustomerReference_="BLI111146-mar" OrderDate_="11/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian-Signature" MetricMeasurement_="0" FabricCode_="MAD011" FabricDescription_="Madiba Gunmental" Width_="400" Drop_="1490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="entrance1" WidthDisplay_="400" DropDisplay_="1490" CustomerOrderReference_="" OrderID_="BLI111146-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0543081979" DelFirstName_="Dummy order / Oa purposes only " DelLine1_="Dummy order / Oa purposes only " CustomerAddressLine1_="Dummy order / Oa purposes only " DelLine2_="Dummy order / Oa purposes only " CustomerAddressLine2_="Dummy order / Oa purposes only " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian-Signature" MetricMeasurement_="0" FabricCode_="MAD010" FabricDescription_="Madiba Platinum" Width_="1200" Drop_="1490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kitchen1" WidthDisplay_="1200" DropDisplay_="1490" CustomerOrderReference_="" OrderID_="BLI111146-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0543081979" DelFirstName_="Dummy order / Oa purposes only " DelLine1_="Dummy order / Oa purposes only " CustomerAddressLine1_="Dummy order / Oa purposes only " DelLine2_="Dummy order / Oa purposes only " CustomerAddressLine2_="Dummy order / Oa purposes only " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS004" FabricDescription_="Basix ESS004 (black)" Width_="2600" Drop_="2520" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="masterbedroom1" WidthDisplay_="2600" DropDisplay_="2520" CustomerOrderReference_="" OrderID_="BLI111146-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0543081979" DelFirstName_="Dummy order / Oa purposes only " DelLine1_="Dummy order / Oa purposes only " CustomerAddressLine1_="Dummy order / Oa purposes only " DelLine2_="Dummy order / Oa purposes only " CustomerAddressLine2_="Dummy order / Oa purposes only " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White Flat S Channel" ChoiceCode_="RCM023WH"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Block Out System" Choice_="Sides & Bottom Only ( White )" ChoiceCode_="SPE18a"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

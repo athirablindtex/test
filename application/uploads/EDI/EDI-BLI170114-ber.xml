@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI170114-ber.xml" CreateDate_="17/01/2026" CreateTime_="09:24:57">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="170114" CustomerReference_="BLI170114-ber" OrderDate_="17/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="100" Drop_="100" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room - 1" WidthDisplay_="100" DropDisplay_="100" CustomerOrderReference_="" OrderID_="BLI170114-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="afshynhalari@gmail.com" DelPhone_="0543452595 " DelFirstName_="Ms Affy" DelLine1_="Ms Affy" CustomerAddressLine1_="Ms Affy" DelLine2_="Ms Affy" CustomerAddressLine2_="Ms Affy" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

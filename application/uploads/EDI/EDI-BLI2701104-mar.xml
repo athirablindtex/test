@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2701104-mar.xml" CreateDate_="04/02/2026" CreateTime_="18:53:05">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2701104" CustomerReference_="BLI2701104-mar" OrderDate_="04/02/2026" OrderNote_="please dispatch on friday ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller-Signature" MetricMeasurement_="0" FabricCode_="DP-POR" FabricDescription_="Digital Print Porto" Width_="1165" Drop_="2870" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="clinic - 1" WidthDisplay_="1165" DropDisplay_="2870" CustomerOrderReference_="harmony  Medical center logo 
+1165x2870
+
+customer approved layout " OrderID_="BLI2701104-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anthony@harmonymc.ae" DelPhone_="0589517081" DelFirstName_="harmony Medical Centre " DelLine1_="harmony Medical Centre " CustomerAddressLine1_="harmony Medical Centre " DelLine2_="harmony Medical Centre " CustomerAddressLine2_="harmony Medical Centre " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel  Steel" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Custom Print" Choice_="Image  Reproduction" ChoiceCode_="Logo2"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-01" BlindTypeDescription_="Roller-Signature" MetricMeasurement_="0" FabricCode_="DP-POR" FabricDescription_="Digital Print Porto" Width_="1145" Drop_="2870" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="clinic - 2" WidthDisplay_="1145" DropDisplay_="2870" CustomerOrderReference_="updated measurements width 1145x 2870
+Kindly leave a 70 cm space from the top and position the logo so that the design remains visible when the blinds are rolled down." OrderID_="BLI2701104-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anthony@harmonymc.ae" DelPhone_="0589517081" DelFirstName_="harmony Medical Centre " DelLine1_="harmony Medical Centre " CustomerAddressLine1_="harmony Medical Centre " DelLine2_="harmony Medical Centre " CustomerAddressLine2_="harmony Medical Centre " Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar - White" ChoiceCode_="BBARMCF"/>
+        <TEDIOptionList_Details OptionName_="Custom Print" Choice_="Image  Reproduction" ChoiceCode_="Logo2"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

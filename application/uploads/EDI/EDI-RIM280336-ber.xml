@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM280336-ber.xml" CreateDate_="28/03/2026" CreateTime_="19:45:42">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="280336" CustomerReference_="RIM280336-ber" OrderDate_="28/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30838-B
+" FabricDescription_="CAS006" Width_="2100" Drop_="3530" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="2100" DropDisplay_="3530" CustomerOrderReference_="" OrderID_="RIM280336-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="khalid.hdh@gmail.com" DelPhone_="0555551100" DelFirstName_="Ms. Haya" DelLine1_="Ms. Haya" CustomerAddressLine1_="Ms. Haya" DelLine2_="Ms. Haya" CustomerAddressLine2_="Ms. Haya" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout White" 
+            ChoiceCode_="LIN002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30850-B" FabricDescription_="Sheer MAT002" Width_="2100" Drop_="3530" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  1 - 2" WidthDisplay_="2100" DropDisplay_="3530" CustomerOrderReference_="" OrderID_="RIM280336-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="khalid.hdh@gmail.com" DelPhone_="0555551100" DelFirstName_="Ms. Haya" DelLine1_="Ms. Haya" CustomerAddressLine1_="Ms. Haya" DelLine2_="Ms. Haya" CustomerAddressLine2_="Ms. Haya" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="2100" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Bedroom  1 - 3" WidthDisplay_="2100" DropDisplay_="1" CustomerOrderReference_="" OrderID_="RIM280336-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="khalid.hdh@gmail.com" DelPhone_="0555551100" DelFirstName_="Ms. Haya" DelLine1_="Ms. Haya" CustomerAddressLine1_="Ms. Haya" DelLine2_="Ms. Haya" CustomerAddressLine2_="Ms. Haya" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="7" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30838-B
+" FabricDescription_="CAS006" Width_="2100" Drop_="3530" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  1 - 4" WidthDisplay_="2100" DropDisplay_="3530" CustomerOrderReference_="" OrderID_="RIM280336-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="khalid.hdh@gmail.com" DelPhone_="0555551100" DelFirstName_="Ms. Haya" DelLine1_="Ms. Haya" CustomerAddressLine1_="Ms. Haya" DelLine2_="Ms. Haya" CustomerAddressLine2_="Ms. Haya" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Blackout White" 
+            ChoiceCode_="LIN002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30850-B" FabricDescription_="Sheer MAT002" Width_="2100" Drop_="3530" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bedroom  1 - 5" WidthDisplay_="2100" DropDisplay_="3530" CustomerOrderReference_="" OrderID_="RIM280336-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="khalid.hdh@gmail.com" DelPhone_="0555551100" DelFirstName_="Ms. Haya" DelLine1_="Ms. Haya" CustomerAddressLine1_="Ms. Haya" DelLine2_="Ms. Haya" CustomerAddressLine2_="Ms. Haya" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="2100" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="2" Location_="Bedroom  1 - 6" WidthDisplay_="2100" DropDisplay_="1" CustomerOrderReference_="" OrderID_="RIM280336-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="khalid.hdh@gmail.com" DelPhone_="0555551100" DelFirstName_="Ms. Haya" DelLine1_="Ms. Haya" CustomerAddressLine1_="Ms. Haya" DelLine2_="Ms. Haya" CustomerAddressLine2_="Ms. Haya" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="7" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU270259-man.xml" CreateDate_="27/02/2026" CreateTime_="16:15:47">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="270259" CustomerReference_="ABU270259-man" OrderDate_="27/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA015" FabricDescription_="SHA015 (Dove)" Width_="1200" Drop_="1750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Son's Room - 1" WidthDisplay_="1200" DropDisplay_="1750" CustomerOrderReference_="" OrderID_="ABU270259-man" IsDirectDeliveryBySupplier_="True" DelEmail_="7ala.asfour@gmail.com" DelPhone_="0503154045" DelFirstName_="Mrs. Hala Asfour" DelLine1_="Mrs. Hala Asfour" CustomerAddressLine1_="Mrs. Hala Asfour" DelLine2_="Mrs. Hala Asfour" CustomerAddressLine2_="Mrs. Hala Asfour" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Front" 
+            ChoiceCode_="SPE144" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA015" FabricDescription_="SHA015 (Dove)" Width_="1200" Drop_="1750" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Son's Room - 2" WidthDisplay_="1200" DropDisplay_="1750" CustomerOrderReference_="" OrderID_="ABU270259-man" IsDirectDeliveryBySupplier_="True" DelEmail_="7ala.asfour@gmail.com" DelPhone_="0503154045" DelFirstName_="Mrs. Hala Asfour" DelLine1_="Mrs. Hala Asfour" CustomerAddressLine1_="Mrs. Hala Asfour" DelLine2_="Mrs. Hala Asfour" CustomerAddressLine2_="Mrs. Hala Asfour" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Front" 
+            ChoiceCode_="SPE144" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30831-B
+" FabricDescription_="CAS005" Width_="2240" Drop_="2400" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Son's Room - 4" WidthDisplay_="2240" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="ABU270259-man" IsDirectDeliveryBySupplier_="True" DelEmail_="7ala.asfour@gmail.com" DelPhone_="0503154045" DelFirstName_="Mrs. Hala Asfour" DelLine1_="Mrs. Hala Asfour" CustomerAddressLine1_="Mrs. Hala Asfour" DelLine2_="Mrs. Hala Asfour" CustomerAddressLine2_="Mrs. Hala Asfour" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2240" Drop_="2400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Son's Room - 5" WidthDisplay_="2240" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="ABU270259-man" IsDirectDeliveryBySupplier_="True" DelEmail_="7ala.asfour@gmail.com" DelPhone_="0503154045" DelFirstName_="Mrs. Hala Asfour" DelLine1_="Mrs. Hala Asfour" CustomerAddressLine1_="Mrs. Hala Asfour" DelLine2_="Mrs. Hala Asfour" CustomerAddressLine2_="Mrs. Hala Asfour" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall bracket 35mm white" 
+            ChoiceCode_="CCM120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

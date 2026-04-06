@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="ABU015" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU140393-man.xml" CreateDate_="15/03/2026" CreateTime_="21:29:36">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="140393" CustomerReference_="ABU140393-man" OrderDate_="15/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="LAC002-B" FabricDescription_="Sheer LAC002" Width_="2200" Drop_="2625" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="2200" DropDisplay_="2625" CustomerOrderReference_="" OrderID_="ABU140393-man" IsDirectDeliveryBySupplier_="True" DelEmail_="jamestoulman23@hotmail.com" DelPhone_="0588587737" DelFirstName_="James Toulman" DelLine1_="James Toulman" CustomerAddressLine1_="James Toulman" DelLine2_="James Toulman" CustomerAddressLine2_="James Toulman" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="2200" Drop_="2625" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="2200" DropDisplay_="2625" CustomerOrderReference_="" OrderID_="ABU140393-man" IsDirectDeliveryBySupplier_="True" DelEmail_="jamestoulman23@hotmail.com" DelPhone_="0588587737" DelFirstName_="James Toulman" DelLine1_="James Toulman" CustomerAddressLine1_="James Toulman" DelLine2_="James Toulman" CustomerAddressLine2_="James Toulman" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="LAC002-B" FabricDescription_="Sheer LAC002" Width_="1300" Drop_="2625" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 5" WidthDisplay_="1300" DropDisplay_="2625" CustomerOrderReference_="" OrderID_="ABU140393-man" IsDirectDeliveryBySupplier_="True" DelEmail_="jamestoulman23@hotmail.com" DelPhone_="0588587737" DelFirstName_="James Toulman" DelLine1_="James Toulman" CustomerAddressLine1_="James Toulman" DelLine2_="James Toulman" CustomerAddressLine2_="James Toulman" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="3" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="1300" Drop_="2625" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 6" WidthDisplay_="1300" DropDisplay_="2625" CustomerOrderReference_="" OrderID_="ABU140393-man" IsDirectDeliveryBySupplier_="True" DelEmail_="jamestoulman23@hotmail.com" DelPhone_="0588587737" DelFirstName_="James Toulman" DelLine1_="James Toulman" CustomerAddressLine1_="James Toulman" DelLine2_="James Toulman" CustomerAddressLine2_="James Toulman" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall bracket 35mm white" 
+            ChoiceCode_="CCM120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="LAC002-B" FabricDescription_="Sheer LAC002" Width_="2200" Drop_="2430" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="2200" DropDisplay_="2430" CustomerOrderReference_="" OrderID_="ABU140393-man" IsDirectDeliveryBySupplier_="True" DelEmail_="jamestoulman23@hotmail.com" DelPhone_="0588587737" DelFirstName_="James Toulman" DelLine1_="James Toulman" CustomerAddressLine1_="James Toulman" DelLine2_="James Toulman" CustomerAddressLine2_="James Toulman" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain A" 
+            ChoiceCode_="STY044a" 
+            Quantity_="2" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System " Width_="2200" Drop_="2430" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 2" WidthDisplay_="2200" DropDisplay_="2430" CustomerOrderReference_="" OrderID_="ABU140393-man" IsDirectDeliveryBySupplier_="True" DelEmail_="jamestoulman23@hotmail.com" DelPhone_="0588587737" DelFirstName_="James Toulman" DelLine1_="James Toulman" CustomerAddressLine1_="James Toulman" DelLine2_="James Toulman" CustomerAddressLine2_="James Toulman" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

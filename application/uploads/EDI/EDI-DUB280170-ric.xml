@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB280170-ric.xml" CreateDate_="28/01/2026" CreateTime_="09:59:28">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="280170" CustomerReference_="DUB280170-ric" OrderDate_="28/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="SHE003-B" FabricDescription_="Sheer SHE003" Width_="3540" Drop_="3160" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Green Room - 1" WidthDisplay_="3540" DropDisplay_="3160" CustomerOrderReference_="" OrderID_="DUB280170-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="picb17@hotmail.com" DelPhone_="0509382102" DelFirstName_="Mr. Paulo Borges" DelLine1_="Mr. Paulo Borges" CustomerAddressLine1_="Mr. Paulo Borges" DelLine2_="Mr. Paulo Borges" CustomerAddressLine2_="Mr. Paulo Borges" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CTM" BlindTypeDescription_="Curtain Track with Motor,Somfy" MetricMeasurement_="0" FabricCode_="SOM089" FabricDescription_="Somfy White" Width_="3540" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Green Room - 2" WidthDisplay_="3540" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB280170-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="picb17@hotmail.com" DelPhone_="0509382102" DelFirstName_="Mr. Paulo Borges" DelLine1_="Mr. Paulo Borges" CustomerAddressLine1_="Mr. Paulo Borges" DelLine2_="Mr. Paulo Borges" CustomerAddressLine2_="Mr. Paulo Borges" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Motor Location" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Motor Type" Choice_="Glydea - 35 Ultra RTS" ChoiceCode_="SOM105R"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Remote Control" Choice_="Somfy Situo 5 RTS White" ChoiceCode_="SOM066"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

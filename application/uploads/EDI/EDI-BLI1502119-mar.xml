@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI1502119-mar.xml" CreateDate_="15/02/2026" CreateTime_="10:05:57">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1502119" CustomerReference_="BLI1502119-mar" OrderDate_="15/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="CHE001VV" FabricDescription_="CHE001 (white)" Width_="2200" Drop_="3220" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="2200" DropDisplay_="3220" CustomerOrderReference_="Please dispatch on Thursday 19-2-2026" OrderID_="BLI1502119-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="richard.pragasam@gmail.com" DelPhone_="0567807536" DelFirstName_="Mr richard pragasam" DelLine1_="Mr richard pragasam" CustomerAddressLine1_="Mr richard pragasam" DelLine2_="Mr richard pragasam" CustomerAddressLine2_="Mr richard pragasam" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="CHE001VV" FabricDescription_="CHE001 (white)" Width_="2200" Drop_="3220" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="2200" DropDisplay_="3220" CustomerOrderReference_="" OrderID_="BLI1502119-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="richard.pragasam@gmail.com" DelPhone_="0567807536" DelFirstName_="Mr richard pragasam" DelLine1_="Mr richard pragasam" CustomerAddressLine1_="Mr richard pragasam" DelLine2_="Mr richard pragasam" CustomerAddressLine2_="Mr richard pragasam" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Right" ChoiceCode_="SPE008"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="CHE001VV" FabricDescription_="CHE001 (white)" Width_="3430" Drop_="3215" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom  1 - 1" WidthDisplay_="3430" DropDisplay_="3215" CustomerOrderReference_="" OrderID_="BLI1502119-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="richard.pragasam@gmail.com" DelPhone_="0567807536" DelFirstName_="Mr richard pragasam" DelLine1_="Mr richard pragasam" CustomerAddressLine1_="Mr richard pragasam" DelLine2_="Mr richard pragasam" CustomerAddressLine2_="Mr richard pragasam" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Left Cord Operated" ChoiceCode_="SPE054"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

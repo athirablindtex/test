@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI3103209-mar.xml" CreateDate_="31/03/2026" CreateTime_="16:32:40">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="3103209" CustomerReference_="BLI3103209-mar" OrderDate_="31/03/2026" OrderNote_="Customer confirmed fabric SHA015 in staircase
+Dispatch on april 7 ">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA015" FabricDescription_="SHA015 (Dove)" Width_="1200" Drop_="3350" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Staircase - 1" WidthDisplay_="1200" DropDisplay_="3350" CustomerOrderReference_="Change fabric used existing mechanism and cassette" OrderID_="BLI3103209-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="christopherdunn00@gmail.com" DelPhone_="0502298691" DelFirstName_="Mr Chris Dunn" DelLine1_="Mr Chris Dunn" CustomerAddressLine1_="Mr Chris Dunn" DelLine2_="Mr Chris Dunn" CustomerAddressLine2_="Mr Chris Dunn" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA015" FabricDescription_="SHA015 (Dove)" Width_="1200" Drop_="2430" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Staircase - 2" WidthDisplay_="1200" DropDisplay_="2430" CustomerOrderReference_="Change fabric used existing mechanism and cassette" OrderID_="BLI3103209-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="christopherdunn00@gmail.com" DelPhone_="0502298691" DelFirstName_="Mr Chris Dunn" DelLine1_="Mr Chris Dunn" CustomerAddressLine1_="Mr Chris Dunn" DelLine2_="Mr Chris Dunn" CustomerAddressLine2_="Mr Chris Dunn" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (existing mechanism)" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living room repair cost - 1" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="Repair living room bottom bar 
+1230x3080" OrderID_="BLI3103209-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="christopherdunn00@gmail.com" DelPhone_="0502298691" DelFirstName_="Mr Chris Dunn" DelLine1_="Mr Chris Dunn" CustomerAddressLine1_="Mr Chris Dunn" DelLine2_="Mr Chris Dunn" CustomerAddressLine2_="Mr Chris Dunn" Salesperson_="Maria Blindtex">
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CONS001" BlindTypeDescription_="Ladders Scaffold" MetricMeasurement_="0" FabricCode_="Lader-Scaf" FabricDescription_="Lader-Scaf" Width_="1000" Drop_="5000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Staircase Scaffolding - 1" WidthDisplay_="1000" DropDisplay_="5000" CustomerOrderReference_="" OrderID_="BLI3103209-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="christopherdunn00@gmail.com" DelPhone_="0502298691" DelFirstName_="Mr Chris Dunn" DelLine1_="Mr Chris Dunn" CustomerAddressLine1_="Mr Chris Dunn" DelLine2_="Mr Chris Dunn" CustomerAddressLine2_="Mr Chris Dunn" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Rental per day" 
+            Choice_="7M Scaffold" 
+            ChoiceCode_="movezzz114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

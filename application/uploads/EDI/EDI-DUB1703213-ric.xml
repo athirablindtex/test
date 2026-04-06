@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1703213-ric.xml" CreateDate_="17/03/2026" CreateTime_="13:48:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1703213" CustomerReference_="DUB1703213-ric" OrderDate_="17/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUSCOVPIP" BlindTypeDescription_="Cushions" MetricMeasurement_="0" FabricCode_="30638" FabricDescription_="Ostrich Pewter" Width_="1200" Drop_="350" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Hall - 1" WidthDisplay_="1200" DropDisplay_="350" CustomerOrderReference_="Front of pillow F design book 545 Serial no. 35 and back of pillow Ostrich Pwerter put the zipper on the long size. Size is 1200*350" OrderID_="DUB1703213-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="fairleyscott@me.com" DelPhone_="0521035786" DelFirstName_="Mr. Fairley Scott" DelLine1_="Mr. Fairley Scott" CustomerAddressLine1_="Mr. Fairley Scott" DelLine2_="Mr. Fairley Scott" CustomerAddressLine2_="Mr. Fairley Scott" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Band C" 
+            Choice_="60cm x 60cm Piped" 
+            ChoiceCode_="CUSIZE8" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

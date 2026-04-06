@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB11125-ber.xml" CreateDate_="11/12/2025" CreateTime_="19:57:36">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="11125" CustomerReference_="DUB11125-ber" OrderDate_="11/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="SHA015" FabricDescription_="Basix SHA015 (Dove)" Width_="1410" Drop_="1300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="1410" DropDisplay_="1300" CustomerOrderReference_="" OrderID_="DUB11125-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="rorr@disdubai.ae" DelPhone_="0552711782" DelFirstName_="Robert Orr" DelLine1_="Robert Orr" CustomerAddressLine1_="Robert Orr" DelLine2_="Robert Orr" CustomerAddressLine2_="Robert Orr" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

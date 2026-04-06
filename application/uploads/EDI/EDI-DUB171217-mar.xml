@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB171217-mar.xml" CreateDate_="17/12/2025" CreateTime_="14:45:25">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="171217" CustomerReference_="DUB171217-mar" OrderDate_="17/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Ceo office1" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="all chain 1750
+dispatch Monday " OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Ceo office2" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Ceo office3" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1030" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Ceo office4" WidthDisplay_="1030" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1040" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Ceo office5" WidthDisplay_="1040" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Ceo office6" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office area1" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office area2" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="office area3" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="650" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="meeting  room1" WidthDisplay_="650" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="meeting  room2" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="FRI011" FabricDescription_="Basix FRI011 (grey)" Width_="1135" Drop_="1840" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="meeting  room3" WidthDisplay_="1135" DropDisplay_="1840" CustomerOrderReference_="" OrderID_="DUB171217-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="anaisha@azora-tech.com" DelPhone_="0503435315" DelFirstName_="Azora Technologies" DelLine1_="Azora Technologies" CustomerAddressLine1_="Azora Technologies" DelLine2_="Azora Technologies" CustomerAddressLine2_="Azora Technologies" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

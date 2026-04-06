@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI121154-mar.xml" CreateDate_="20/11/2025" CreateTime_="10:13:03">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="121154" CustomerReference_="BLI121154-mar" OrderDate_="20/11/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian-Signature" MetricMeasurement_="0" FabricCode_="MAD011" FabricDescription_="Madiba Gunmental" Width_="400" Drop_="1490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="entrance1" WidthDisplay_="400" DropDisplay_="1490" CustomerOrderReference_="dispatch on monday" OrderID_="BLI121154-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="michellepoti@gmail.com" DelPhone_="0543081979" DelFirstName_="ms michelle" DelLine1_="ms michelle" CustomerAddressLine1_="ms michelle" DelLine2_="ms michelle" CustomerAddressLine2_="ms michelle" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian-Signature" MetricMeasurement_="0" FabricCode_="MAD010" FabricDescription_="Madiba Platinum" Width_="1200" Drop_="1490" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kitchen1" WidthDisplay_="1200" DropDisplay_="1490" CustomerOrderReference_="wand and cord 1400 " OrderID_="BLI121154-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="michellepoti@gmail.com" DelPhone_="0543081979" DelFirstName_="ms michelle" DelLine1_="ms michelle" CustomerAddressLine1_="ms michelle" DelLine2_="ms michelle" CustomerAddressLine2_="ms michelle" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

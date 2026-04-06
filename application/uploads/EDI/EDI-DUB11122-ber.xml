@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB11122-ber.xml" CreateDate_="20/12/2025" CreateTime_="10:05:18">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="11122" CustomerReference_="DUB11122-ber" OrderDate_="20/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NER001" FabricDescription_="Blackout NER001" Width_="2640" Drop_="3095" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Bed Room1" WidthDisplay_="2640" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="DUB11122-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="sarahmueller913@gmail.com" DelPhone_="0502667326" DelFirstName_="Sarah Vieilledent" DelLine1_="Sarah Vieilledent" CustomerAddressLine1_="Sarah Vieilledent" DelLine2_="Sarah Vieilledent" CustomerAddressLine2_="Sarah Vieilledent" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Borders" Choice_="Not Required" ChoiceCode_="SPE094"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout White" ChoiceCode_="LIN002"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="2640" Drop_="3095" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room2" WidthDisplay_="2640" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="DUB11122-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="sarahmueller913@gmail.com" DelPhone_="0502667326" DelFirstName_="Sarah Vieilledent" DelLine1_="Sarah Vieilledent" CustomerAddressLine1_="Sarah Vieilledent" DelLine2_="Sarah Vieilledent" CustomerAddressLine2_="Sarah Vieilledent" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NER001" FabricDescription_="Blackout NER001" Width_="3115" Drop_="3095" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="bedroom 21" WidthDisplay_="3115" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="DUB11122-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="sarahmueller913@gmail.com" DelPhone_="0502667326" DelFirstName_="Sarah Vieilledent" DelLine1_="Sarah Vieilledent" CustomerAddressLine1_="Sarah Vieilledent" DelLine2_="Sarah Vieilledent" CustomerAddressLine2_="Sarah Vieilledent" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout White" ChoiceCode_="LIN002"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="SS" FabricDescription_="Signature System White" Width_="3115" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="bedroom 22" WidthDisplay_="3115" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB11122-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="sarahmueller913@gmail.com" DelPhone_="0502667326" DelFirstName_="Sarah Vieilledent" DelLine1_="Sarah Vieilledent" CustomerAddressLine1_="Sarah Vieilledent" DelLine2_="Sarah Vieilledent" CustomerAddressLine2_="Sarah Vieilledent" Salesperson_="Bernard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

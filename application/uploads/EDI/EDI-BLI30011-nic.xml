@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI30011-nic.xml" CreateDate_="30/01/2026" CreateTime_="12:13:44">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="30011" CustomerReference_="BLI30011-nic" OrderDate_="30/01/2026" OrderNote_="Customer wants curtain hanging on floor 3cm">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ALM001" FabricDescription_="Basix ALM001 (natural)" Width_="2000" Drop_="2000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room - 1" WidthDisplay_="2000" DropDisplay_="2000" CustomerOrderReference_="20cm over each window" OrderID_="BLI30011-nic" IsDirectDeliveryBySupplier_="True" DelEmail_="nicole@blindtex.com" DelPhone_="0569989382" DelFirstName_="Nicole Test 1" DelLine1_="Nicole Test 1" CustomerAddressLine1_="Nicole Test 1" DelLine2_="Nicole Test 1" CustomerAddressLine2_="Nicole Test 1" Salesperson_="Nicole">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ALM001" FabricDescription_="Basix ALM001 (natural)" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room - 2" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="" OrderID_="BLI30011-nic" IsDirectDeliveryBySupplier_="True" DelEmail_="nicole@blindtex.com" DelPhone_="0569989382" DelFirstName_="Nicole Test 1" DelLine1_="Nicole Test 1" CustomerAddressLine1_="Nicole Test 1" DelLine2_="Nicole Test 1" CustomerAddressLine2_="Nicole Test 1" Salesperson_="Nicole">
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30740" FabricDescription_="Abstract Amethyst" Width_="3000" Drop_="3000" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="3000" DropDisplay_="3000" CustomerOrderReference_="" OrderID_="BLI30011-nic" IsDirectDeliveryBySupplier_="True" DelEmail_="nicole@blindtex.com" DelPhone_="0569989382" DelFirstName_="Nicole Test 1" DelLine1_="Nicole Test 1" CustomerAddressLine1_="Nicole Test 1" DelLine2_="Nicole Test 1" CustomerAddressLine2_="Nicole Test 1" Salesperson_="Nicole">
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3000" Drop_="" InstallHeight_="500" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="3000" DropDisplay_="" CustomerOrderReference_="" OrderID_="BLI30011-nic" IsDirectDeliveryBySupplier_="True" DelEmail_="nicole@blindtex.com" DelPhone_="0569989382" DelFirstName_="Nicole Test 1" DelLine1_="Nicole Test 1" CustomerAddressLine1_="Nicole Test 1" DelLine2_="Nicole Test 1" CustomerAddressLine2_="Nicole Test 1" Salesperson_="Nicole">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

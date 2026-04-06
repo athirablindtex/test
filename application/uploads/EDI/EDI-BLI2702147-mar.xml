@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI2702147-mar.xml" CreateDate_="27/02/2026" CreateTime_="10:51:33">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="2702147" CustomerReference_="BLI2702147-mar" OrderDate_="27/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="615" Drop_="2000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="615" DropDisplay_="2000" CustomerOrderReference_="Please dispatch on tuesday " OrderID_="BLI2702147-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="chariesejade@gmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="620" Drop_="2000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 2" WidthDisplay_="620" DropDisplay_="2000" CustomerOrderReference_="" OrderID_="BLI2702147-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="chariesejade@gmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="620" Drop_="2000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 3" WidthDisplay_="620" DropDisplay_="2000" CustomerOrderReference_="" OrderID_="BLI2702147-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="chariesejade@gmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="620" Drop_="2000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room - 4" WidthDisplay_="620" DropDisplay_="2000" CustomerOrderReference_="" OrderID_="BLI2702147-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="chariesejade@gmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="460" Drop_="2030" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 1" WidthDisplay_="460" DropDisplay_="2030" CustomerOrderReference_="" OrderID_="BLI2702147-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="chariesejade@gmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="LIA002" FabricDescription_="Liana Ivory" Width_="460" Drop_="2030" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen - 2" WidthDisplay_="460" DropDisplay_="2030" CustomerOrderReference_="" OrderID_="BLI2702147-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="chariesejade@gmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="18 mm" 
+            ChoiceCode_="BD001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA007" FabricDescription_="SHA007 (off white)" Width_="930" Drop_="2450" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kids room 1st floor - 1" WidthDisplay_="930" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="BLI2702147-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="chariesejade@gmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Front" 
+            ChoiceCode_="SPE144" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA007" FabricDescription_="SHA007 (off white)" Width_="930" Drop_="2450" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kids room 1st floor - 2" WidthDisplay_="930" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="BLI2702147-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="chariesejade@gmail.com" DelPhone_="0523725251" DelFirstName_="chariese" DelLine1_="chariese" CustomerAddressLine1_="chariese" DelLine2_="chariese" CustomerAddressLine2_="chariese" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

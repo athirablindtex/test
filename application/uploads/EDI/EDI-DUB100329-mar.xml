@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB100329-mar.xml" CreateDate_="11/03/2026" CreateTime_="08:15:52">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="100329" CustomerReference_="DUB100329-mar" OrderDate_="11/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30836-B
+" FabricDescription_="CAS003" Width_="2150" Drop_="2450" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living room curtains - 1" WidthDisplay_="2150" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="1950" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living room curtains - 2" WidthDisplay_="1950" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Double Brkt: Black Nickel" 
+            ChoiceCode_="BRA303B" 
+            Quantity_="3" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Globe Black Nickel" 
+            ChoiceCode_="FIN401B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Rings" 
+            Choice_="Rings 28mm: Black Nickel" 
+            ChoiceCode_="CCM063B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30836-B
+" FabricDescription_="CAS003" Width_="2150" Drop_="2450" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living room curtains - 3" WidthDisplay_="2150" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="1950" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living room curtains - 4" WidthDisplay_="1950" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Double Brkt: Black Nickel" 
+            ChoiceCode_="BRA303B" 
+            Quantity_="3" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Globe Black Nickel" 
+            ChoiceCode_="FIN401B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Rings" 
+            Choice_="Rings 28mm: Black Nickel" 
+            ChoiceCode_="CCM063B" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30836-B
+" FabricDescription_="CAS003" Width_="2500" Drop_="2450" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living room curtains - 5" WidthDisplay_="2500" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="2300" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living room curtains - 6" WidthDisplay_="2300" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall Double Brkt: Black Nickel" 
+            ChoiceCode_="BRA303B" 
+            Quantity_="3" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Globe Black Nickel" 
+            ChoiceCode_="FIN401B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Rings" 
+            Choice_="Rings 28mm: Black Nickel" 
+            ChoiceCode_="CCM063B" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CIR006-B" FabricDescription_="Sheer CIR006" Width_="1950" Drop_="2450" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living room sheer - 1" WidthDisplay_="1950" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="1950" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living room sheer - 2" WidthDisplay_="1950" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Globe Black Nickel" 
+            ChoiceCode_="FIN401B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Rings" 
+            Choice_="Rings 28mm: Black Nickel" 
+            ChoiceCode_="CCM063B" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CIR006-B" FabricDescription_="Sheer CIR006" Width_="1950" Drop_="2450" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living room sheer - 3" WidthDisplay_="1950" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="1950" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living room sheer - 4" WidthDisplay_="1950" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Globe Black Nickel" 
+            ChoiceCode_="FIN401B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Rings" 
+            Choice_="Rings 28mm: Black Nickel" 
+            ChoiceCode_="CCM063B" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CIR006-B" FabricDescription_="Sheer CIR006" Width_="2300" Drop_="2450" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living room sheer - 5" WidthDisplay_="2300" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Poles 28mm" MetricMeasurement_="0" FabricCode_="CCM024B" FabricDescription_="Black Nickel" Width_="2300" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living room sheer - 6" WidthDisplay_="2300" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Finial Pair" 
+            Choice_="Globe Black Nickel" 
+            ChoiceCode_="FIN401B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Rings" 
+            Choice_="Rings 28mm: Black Nickel" 
+            ChoiceCode_="CCM063B" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ORC001" FabricDescription_="ORC001 (white)" Width_="1150" Drop_="1250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Study blinds - 1" WidthDisplay_="1150" DropDisplay_="1250" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Option" 
+            Choice_="Matching fabric on Cassette" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="3880" Drop_="2440" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Guestroom first floor - 1" WidthDisplay_="3880" DropDisplay_="2440" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="3880" Drop_="0" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Guestroom first floor - 2" WidthDisplay_="3880" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall bracket 35mm white" 
+            ChoiceCode_="CCM120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Track Joining Plate" 
+            Choice_="Joiner Plate" 
+            ChoiceCode_="CCM114" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="16" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="1750" Drop_="2440" InstallHeight_="0" MeasureName_="Recess Deduction" Quantity_="1" Location_="Guestroom first floor - 3" WidthDisplay_="1750" DropDisplay_="2440" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="17" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="1750" Drop_="1" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Guestroom first floor - 4" WidthDisplay_="1750" DropDisplay_="1" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Wall bracket 35mm white" 
+            ChoiceCode_="CCM120" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="18" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="2200" Drop_="3005" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Masterbedroom - 1" WidthDisplay_="2200" DropDisplay_="3005" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="19" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2000" Drop_="0" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Masterbedroom - 2" WidthDisplay_="2000" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="20" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CIR006-B" FabricDescription_="Sheer CIR006" Width_="2000" Drop_="3005" InstallHeight_="0" MeasureName_="Recess Deduction" Quantity_="1" Location_="Masterbedroom - 3" WidthDisplay_="2000" DropDisplay_="3005" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="21" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2000" Drop_="0" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Masterbedroom - 4" WidthDisplay_="2000" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="22" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30848-B" FabricDescription_="ASP001" Width_="2900" Drop_="3020" InstallHeight_="0" MeasureName_="Recess Deduction" Quantity_="1" Location_="Masterbedroom - 5" WidthDisplay_="2900" DropDisplay_="3020" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="23" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2700" Drop_="0" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Masterbedroom - 6" WidthDisplay_="2700" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="24" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="CIR006-B" FabricDescription_="Sheer CIR006" Width_="2700" Drop_="3020" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Masterbedroom - 7" WidthDisplay_="2700" DropDisplay_="3020" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="25" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2700" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Masterbedroom - 8" WidthDisplay_="2700" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="26" BlindTypeCode_="HONCOM-PFIT" BlindTypeDescription_="Honeycomb P-Fit" MetricMeasurement_="0" FabricCode_="NOV023" FabricDescription_="Nova Khaki" Width_="545" Drop_="790" InstallHeight_="0" MeasureName_="Glass Size" Quantity_="1" Location_="Masterbedroom - 9" WidthDisplay_="545" DropDisplay_="790" CustomerOrderReference_="" OrderID_="DUB100329-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria@blindtex.com" DelPhone_="0558650708" DelFirstName_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine1_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine1_="dummy confirmed order / oa purposes Benjamin Willmore " DelLine2_="dummy confirmed order / oa purposes Benjamin Willmore " CustomerAddressLine2_="dummy confirmed order / oa purposes Benjamin Willmore " Salesperson_="Maria ">
+        <TEDIOptionList_Details 
+            OptionName_="Configuration" 
+            Choice_="Tensioned Single Pull Bottom Up" 
+            ChoiceCode_="PFITFLOA02" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bead Depth" 
+            Choice_="20 mm" 
+            ChoiceCode_="BD003" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="P-Fit Frame" 
+            Choice_="White" 
+            ChoiceCode_="PFREQ" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

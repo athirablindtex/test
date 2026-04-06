@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI091287-mar.xml" CreateDate_="09/12/2025" CreateTime_="16:47:58">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="091287" CustomerReference_="BLI091287-mar" OrderDate_="09/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="Basix BIC001 (white)" Width_="2700" Drop_="2400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bed Room1" WidthDisplay_="2700" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="BLI091287-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="yasiralsfi@gmail.com" DelPhone_="0507012092" DelFirstName_="yassir elzain" DelLine1_="yassir elzain" CustomerAddressLine1_="yassir elzain" DelLine2_="yassir elzain" CustomerAddressLine2_="yassir elzain" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+        <TEDIOptionList_Details OptionName_="Charger" Choice_="USB Micro 3mtr cable with Adaptor ( M / L)" ChoiceCode_="DOY018"/>
+        <TEDIOptionList_Details OptionName_="Motor" Choice_="Large Wirefree 2/28" ChoiceCode_="DOY014L"/>
+        <TEDIOptionList_Details OptionName_="Remote Control" Choice_="Blindtex DY Remote 1 Channel" ChoiceCode_="DOY003"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB240375-idr.xml" CreateDate_="24/03/2026" CreateTime_="13:21:44">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="240375" CustomerReference_="DUB240375-idr" OrderDate_="24/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="Repair" BlindTypeDescription_="Alteration" MetricMeasurement_="0" FabricCode_="Repair" FabricDescription_="Roller (new mechanism)" Width_="1000" Drop_="1000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom - 1" WidthDisplay_="1000" DropDisplay_="1000" CustomerOrderReference_="Bedroom blind mechanism changed." OrderID_="DUB240375-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="ahmed@ahmedalkiremli.com" DelPhone_="0502281075" DelFirstName_="Mr. Ahmed Al Kiremli" DelLine1_="Mr. Ahmed Al Kiremli" CustomerAddressLine1_="Mr. Ahmed Al Kiremli" DelLine2_="Mr. Ahmed Al Kiremli" CustomerAddressLine2_="Mr. Ahmed Al Kiremli" Salesperson_="Idris">
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

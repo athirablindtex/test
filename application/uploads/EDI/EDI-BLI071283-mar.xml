@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI071283-mar.xml" CreateDate_="07/12/2025" CreateTime_="13:38:42">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="071283" CustomerReference_="BLI071283-mar" OrderDate_="07/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="SHU-01-02" BlindTypeDescription_="Shutters Signature" MetricMeasurement_="0" FabricCode_="PW01" FabricDescription_="Paulownia Hard Wood PW01 True White" Width_="1790" Drop_="2035" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room1" WidthDisplay_="1790" DropDisplay_="2035" CustomerOrderReference_="Centre tilting Real wood" OrderID_="BLI071283-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / oa purposes only" DelLine1_="dummy order / oa purposes only" CustomerAddressLine1_="dummy order / oa purposes only" DelLine2_="dummy order / oa purposes only" CustomerAddressLine2_="dummy order / oa purposes only" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details OptionName_="Frame Type" Choice_="Double Insert L50" ChoiceCode_="SHU-FRA09"/>
+        <TEDIOptionList_Details OptionName_="Hinges" Choice_="White" ChoiceCode_="SHU-HIN01"/>
+        <TEDIOptionList_Details OptionName_="Installation Style" Choice_="Full Height" ChoiceCode_="SHU-INS01"/>
+        <TEDIOptionList_Details OptionName_="Louver Size" Choice_="63mm" ChoiceCode_="SHU-LOU01"/>
+        <TEDIOptionList_Details OptionName_="Mid Rail Position" Choice_="Exact" ChoiceCode_="SHU-MID03"/>
+        <TEDIOptionList_Details OptionName_="Mounting Location" Choice_="Inside Recess" ChoiceCode_="SHU-MOU01"/>
+        <TEDIOptionList_Details OptionName_="Number of Frame Side" Choice_="4" ChoiceCode_="SHU-NFS01"/>
+        <TEDIOptionList_Details OptionName_="Panel Config" Choice_="LLRR" ChoiceCode_="SHU-PAN08"/>
+        <TEDIOptionList_Details OptionName_="Predrill Frame" Choice_="Sides" ChoiceCode_="SHU-PED01"/>
+        <TEDIOptionList_Details OptionName_="Stile Type" Choice_="Beaded 50mm Astragal" ChoiceCode_="SHU-STIL05"/>
+        <TEDIOptionList_Details OptionName_="Tilt Type" Choice_="Centre" ChoiceCode_="SHU-TILT02"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

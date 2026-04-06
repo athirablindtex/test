@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI23129-moh.xml" CreateDate_="02/01/2026" CreateTime_="10:53:52">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="23129" CustomerReference_="BLI23129-moh" OrderDate_="02/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex-Basix" MetricMeasurement_="0" FabricCode_="WAV001D-B" FabricDescription_="Basix WAV001" Width_="1200" Drop_="1400" InstallHeight_="0" MeasureName_="recess" Quantity_="1" Location_="Living Room - 1" WidthDisplay_="1200" DropDisplay_="1400" CustomerOrderReference_="" OrderID_="BLI23129-moh" IsDirectDeliveryBySupplier_="True" DelEmail_="athirablindtex@gmail.com" DelPhone_="0552560616" DelFirstName_="athira" DelLine1_="athira" CustomerAddressLine1_="athira" DelLine2_="athira" CustomerAddressLine2_="athira" Salesperson_="MohammedKarat">
+        <TEDIOptionList_Details OptionName_="Controls" Choice_="Right" ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Same Room" Choice_="YEs" ChoiceCode_="SPE133"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

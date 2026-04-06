@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM050363-nei.xml" CreateDate_="05/03/2026" CreateTime_="11:44:43">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="050363" CustomerReference_="RIM050363-nei" OrderDate_="05/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="DUP-ON-01" BlindTypeDescription_="Duplex  Basix" MetricMeasurement_="0" FabricCode_="JAL003D-B" FabricDescription_="JAL003" Width_="2050" Drop_="1450" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Private room - 1" WidthDisplay_="2050" DropDisplay_="1450" CustomerOrderReference_="" OrderID_="RIM050363-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0555604627" DelFirstName_="jenifer/ st. mary's church" DelLine1_="jenifer/ st. mary's church" CustomerAddressLine1_="jenifer/ st. mary's church" DelLine2_="jenifer/ st. mary's church" CustomerAddressLine2_="jenifer/ st. mary's church" Salesperson_="Neil">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Same Room" 
+            Choice_="Yes" 
+            ChoiceCode_="SPE133" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Medium" 
+            ChoiceCode_="ROLSYS38" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Cassette Colour" 
+            Choice_="Matching fabric" 
+            ChoiceCode_="EVOMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

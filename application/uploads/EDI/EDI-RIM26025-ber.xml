@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="RIM001" CompanyName_="Rimini Blinds" FileTransfName_="RIM26025-ber.xml" CreateDate_="02/03/2026" CreateTime_="12:41:38">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="26025" CustomerReference_="RIM26025-ber" OrderDate_="02/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD006" FabricDescription_="Madiba Vanilla" Width_="1630" Drop_="1200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 1" WidthDisplay_="1630" DropDisplay_="1200" CustomerOrderReference_="" OrderID_="RIM26025-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="pia@fourdotsme.com" DelPhone_="0507791987" DelFirstName_="Pia Penaflor" DelLine1_="Pia Penaflor" CustomerAddressLine1_="Pia Penaflor" DelLine2_="Pia Penaflor" CustomerAddressLine2_="Pia Penaflor" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default," 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="V25SIG" BlindTypeDescription_="Venetian Signature" MetricMeasurement_="0" FabricCode_="MAD006" FabricDescription_="Madiba Vanilla" Width_="1630" Drop_="1200" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Office - 2" WidthDisplay_="1630" DropDisplay_="1200" CustomerOrderReference_="" OrderID_="RIM26025-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="pia@fourdotsme.com" DelPhone_="0507791987" DelFirstName_="Pia Penaflor" DelLine1_="Pia Penaflor" CustomerAddressLine1_="Pia Penaflor" DelLine2_="Pia Penaflor" CustomerAddressLine2_="Pia Penaflor" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right default," 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

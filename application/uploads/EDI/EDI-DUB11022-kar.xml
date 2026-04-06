@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB11022-kar.xml" CreateDate_="11/02/2026" CreateTime_="14:12:59">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="11022" CustomerReference_="DUB11022-kar" OrderDate_="11/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="REG014VV" FabricDescription_="REG014 (off white)" Width_="2510" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="cabin1 - 1" WidthDisplay_="2510" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="DUB11022-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="jonnelaivan.tisbe@adisseo.com" DelPhone_="0525160545" DelFirstName_="ADISSEO ANIMAL NUTRITION " DelLine1_="ADISSEO ANIMAL NUTRITION " CustomerAddressLine1_="ADISSEO ANIMAL NUTRITION " DelLine2_="ADISSEO ANIMAL NUTRITION " CustomerAddressLine2_="ADISSEO ANIMAL NUTRITION " Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="Black Weights and Chain" ChoiceCode_="SPE146"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="REG014VV" FabricDescription_="REG014 (off white)" Width_="2390" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="cabin2 - 1" WidthDisplay_="2390" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="DUB11022-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="jonnelaivan.tisbe@adisseo.com" DelPhone_="0525160545" DelFirstName_="ADISSEO ANIMAL NUTRITION " DelLine1_="ADISSEO ANIMAL NUTRITION " CustomerAddressLine1_="ADISSEO ANIMAL NUTRITION " DelLine2_="ADISSEO ANIMAL NUTRITION " CustomerAddressLine2_="ADISSEO ANIMAL NUTRITION " Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="VERT-ON-02" BlindTypeDescription_="Vertical-Basix" MetricMeasurement_="0" FabricCode_="REG014VV" FabricDescription_="REG014 (off white)" Width_="2455" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="cabin3 - 1" WidthDisplay_="2455" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="DUB11022-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="jonnelaivan.tisbe@adisseo.com" DelPhone_="0525160545" DelFirstName_="ADISSEO ANIMAL NUTRITION " DelLine1_="ADISSEO ANIMAL NUTRITION " CustomerAddressLine1_="ADISSEO ANIMAL NUTRITION " DelLine2_="ADISSEO ANIMAL NUTRITION " CustomerAddressLine2_="ADISSEO ANIMAL NUTRITION " Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bunch" Choice_="Left" ChoiceCode_="SPE007"/>
+        <TEDIOptionList_Details OptionName_="Control Type" Choice_="Right Cord operated" ChoiceCode_="SPE053"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Bottoms" Choice_="White Weights and Chain" ChoiceCode_="SPE146a"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Top Fix" ChoiceCode_="BRA001"/>
+        <TEDIOptionList_Details OptionName_="Headrail Options" Choice_="Slim - White" ChoiceCode_="VCM008"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB1303199-ric.xml" CreateDate_="13/03/2026" CreateTime_="11:15:54">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="1303199" CustomerReference_="DUB1303199-ric" OrderDate_="13/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30698" FabricDescription_="Taffeta_Shortbrea" Width_="2100" Drop_="1250" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Maids Rm - 1" WidthDisplay_="2100" DropDisplay_="1250" CustomerOrderReference_="Chain make longer" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard White" 
+            ChoiceCode_="LIN012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30642" FabricDescription_="Calico Fossil" Width_="3560" Drop_="3130" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Guest bedroom - 1" WidthDisplay_="3560" DropDisplay_="3130" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard White" 
+            ChoiceCode_="LIN012" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30642" FabricDescription_="Calico_Fossil" Width_="960" Drop_="1900" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Guest bedroom - 2" WidthDisplay_="960" DropDisplay_="1900" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard White" 
+            ChoiceCode_="LIN012" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="3560" Drop_="0" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Guest bedroom - 3" WidthDisplay_="3560" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30650" FabricDescription_="Plains Ice" Width_="4760" Drop_="3190" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Family Rm - 1" WidthDisplay_="4760" DropDisplay_="3190" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard White" 
+            ChoiceCode_="LIN012" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="4760" Drop_="0" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Family Rm - 2" WidthDisplay_="4760" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30650" FabricDescription_="Plains Ice" Width_="3700" Drop_="3200" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master Bedroom - 1" WidthDisplay_="3700" DropDisplay_="3200" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard White" 
+            ChoiceCode_="LIN012" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="3700" Drop_="0" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Master Bedroom - 2" WidthDisplay_="3700" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30646" FabricDescription_="Taffeta Snow" Width_="2800" Drop_="3200" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Office - 1" WidthDisplay_="2800" DropDisplay_="3200" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Pair of Curtains" 
+            ChoiceCode_="STY085" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Single" 
+            Choice_="Plain B" 
+            ChoiceCode_="STY044b" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Tie Back Hooks Single" 
+            Choice_="Tie Back Hook Brushed nickel (pair)" 
+            ChoiceCode_="CCM022" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard White" 
+            ChoiceCode_="LIN012" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="2800" Drop_="0" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Office - 2" WidthDisplay_="2800" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Split" 
+            ChoiceCode_="SPE009" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30639" FabricDescription_="Taffeta_Graphite" Width_="1150" Drop_="3215" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dressing Rm - 1" WidthDisplay_="1150" DropDisplay_="3215" CustomerOrderReference_="" OrderID_="DUB1303199-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="lanaghandour@yahoo.com" DelPhone_="0505725648" DelFirstName_="Mrs. Lana Ghandour" DelLine1_="Mrs. Lana Ghandour" CustomerAddressLine1_="Mrs. Lana Ghandour" DelLine2_="Mrs. Lana Ghandour" CustomerAddressLine2_="Mrs. Lana Ghandour" Salesperson_="Richard">
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Face" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Standard White" 
+            ChoiceCode_="LIN012" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB060283-ric.xml" CreateDate_="07/02/2026" CreateTime_="08:03:50">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="060283" CustomerReference_="DUB060283-ric" OrderDate_="07/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FAU-ON-02" BlindTypeDescription_="Wood and fauxwood Signature" MetricMeasurement_="0" FabricCode_="CHALK" FabricDescription_="Paulowina Chalk" Width_="1585" Drop_="2280" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="play Room - 1" WidthDisplay_="1585" DropDisplay_="2280" CustomerOrderReference_="" OrderID_="DUB060283-ric" IsDirectDeliveryBySupplier_="True" DelEmail_="nic@nicnax.Co.uk" DelPhone_="0567481585" DelFirstName_="Ms. Nicola Ridley" DelLine1_="Ms. Nicola Ridley" CustomerAddressLine1_="Ms. Nicola Ridley" DelLine2_="Ms. Nicola Ridley" CustomerAddressLine2_="Ms. Nicola Ridley" Salesperson_="Richard">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Cord,Tape" Choice_="Cord" ChoiceCode_="TAP060"/>
+        <TEDIOptionList_Details OptionName_="Tilt Control Side" Choice_="Left" ChoiceCode_="SPE014"/>
+        <TEDIOptionList_Details OptionName_="Lift Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Valance" Choice_="No Returns" ChoiceCode_="W002"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

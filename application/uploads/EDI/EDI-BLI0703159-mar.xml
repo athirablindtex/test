@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI0703159-mar.xml" CreateDate_="07/03/2026" CreateTime_="15:49:10">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0703159" CustomerReference_="BLI0703159-mar" OrderDate_="07/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="ESS001" FabricDescription_="ESS001 (white)" Width_="1350" Drop_="3000" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom upstairs - 1" WidthDisplay_="1350" DropDisplay_="3000" CustomerOrderReference_="Please put signature mechanism
+Dispatch on wednesday" OrderID_="BLI0703159-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="ibuchherrro@gmail.com" DelPhone_="0589515987" DelFirstName_="Mr Buch" DelLine1_="Mr Buch" CustomerAddressLine1_="Mr Buch" DelLine2_="Mr Buch" CustomerAddressLine2_="Mr Buch" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

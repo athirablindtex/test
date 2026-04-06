@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI0903160-mar.xml" CreateDate_="09/03/2026" CreateTime_="18:02:58">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="0903160" CustomerReference_="BLI0903160-mar" OrderDate_="09/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="1710" Drop_="2550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 1" WidthDisplay_="1710" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Sonesse 28 Wirefree" 
+            ChoiceCode_="SOM039" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Wood System" 
+            ChoiceCode_="WOODSYS" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Remote Control" 
+            Choice_="Somfy Telis 16 RTS White" 
+            ChoiceCode_="SOM076" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Charger" 
+            Choice_="Sonesse 28 and 40 Wirefree Charging Cable and Plug" 
+            ChoiceCode_="SOM043" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="1620" Drop_="2550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 2" WidthDisplay_="1620" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Sonesse 28 Wirefree" 
+            ChoiceCode_="SOM039" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Wood System" 
+            ChoiceCode_="WOODSYS" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Charger" 
+            Choice_="Sonesse 28 and 40 Wirefree Charging Cable and Plug" 
+            ChoiceCode_="SOM043" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="1710" Drop_="2550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 3" WidthDisplay_="1710" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Sonesse 28 Wirefree" 
+            ChoiceCode_="SOM039" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Wood System" 
+            ChoiceCode_="WOODSYS" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="3040" Drop_="2550" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 4" WidthDisplay_="3040" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Wood System" 
+            ChoiceCode_="WOODSYS" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Sonesse 28 Wirefree" 
+            ChoiceCode_="SOM039" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="2100" Drop_="2830" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dining Room - 5" WidthDisplay_="2100" DropDisplay_="2830" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System" 
+            Choice_="Wood System" 
+            ChoiceCode_="WOODSYS" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Motor Type" 
+            Choice_="Sonesse 28 Wirefree" 
+            ChoiceCode_="SOM039" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel Bone" Width_="400" Drop_="2965" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dummy curtains dining area - 1" WidthDisplay_="400" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="400" Drop_="2965" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dummy curtains dining area - 2" WidthDisplay_="400" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel Bone" Width_="400" Drop_="2965" InstallHeight_="0" MeasureName_="Recess Deduction" Quantity_="1" Location_="Dummy curtains dining area - 3" WidthDisplay_="400" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="400" Drop_="2965" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dummy curtains dining area - 4" WidthDisplay_="400" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel Bone" Width_="400" Drop_="2965" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dummy curtains dining area - 5" WidthDisplay_="400" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="400" Drop_="2965" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dummy curtains dining area - 6" WidthDisplay_="400" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel Bone" Width_="400" Drop_="2965" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dummy curtains dining area - 7" WidthDisplay_="400" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="400" Drop_="2965" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dummy curtains dining area - 8" WidthDisplay_="400" DropDisplay_="2965" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel Bone" Width_="400" Drop_="2830" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dummy curtains dining area - 9" WidthDisplay_="400" DropDisplay_="2830" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Type" 
+            Choice_="Single Curtain" 
+            ChoiceCode_="STY084" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="400" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dummy curtains dining area - 10" WidthDisplay_="400" DropDisplay_="1" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Left Bunch" 
+            ChoiceCode_="SPE007" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="16" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel Bone" Width_="400" Drop_="2830" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Dummy curtains dining area - 11" WidthDisplay_="400" DropDisplay_="2830" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Headers Make Up" 
+            Choice_="Double Pinch Pleat" 
+            ChoiceCode_="STY094" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="17" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="System White" Width_="400" Drop_="1" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Dummy curtains dining area - 12" WidthDisplay_="400" DropDisplay_="1" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Brackets" 
+            Choice_="Smart Click Top fix" 
+            ChoiceCode_="CCM111" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Opening Direction" 
+            Choice_="Right Bunch" 
+            ChoiceCode_="SPE008" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Operation Type" 
+            Choice_="By Hand" 
+            ChoiceCode_="SPE223" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="18" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="710" Drop_="2830" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Tv area - 1" WidthDisplay_="710" DropDisplay_="2830" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="19" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="720" Drop_="2830" InstallHeight_="0" MeasureName_="Recess" Quantity_="1" Location_="Tv area - 2" WidthDisplay_="720" DropDisplay_="2830" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="20" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="770" Drop_="2820" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Tv area - 3" WidthDisplay_="770" DropDisplay_="2820" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="21" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="750" Drop_="2820" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Tv area - 4" WidthDisplay_="750" DropDisplay_="2820" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain" 
+            Choice_="Nickel Chain" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Stacking Type" 
+            Choice_="Standard Stacking" 
+            ChoiceCode_="SPE036" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="22" BlindTypeCode_="ROM-ON-01" BlindTypeDescription_="Roman " MetricMeasurement_="0" FabricCode_="30700" FabricDescription_="Jewel_Bone" Width_="900" Drop_="2330" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Tv area - 6" WidthDisplay_="900" DropDisplay_="2330" CustomerOrderReference_="" OrderID_="BLI0903160-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="maria.blindtex@gmail.com" DelPhone_="0505513395" DelFirstName_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine1_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine1_=" Dummy order OA/Costing purposes Ms Fuzi" DelLine2_=" Dummy order OA/Costing purposes Ms Fuzi" CustomerAddressLine2_=" Dummy order OA/Costing purposes Ms Fuzi" Salesperson_="Maria Blindtex">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Lining" 
+            Choice_="Without Lining" 
+            ChoiceCode_="SPE073" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

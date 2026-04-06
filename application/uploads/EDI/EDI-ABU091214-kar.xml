@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abudhabi Blinds" FileTransfName_="ABU091214-kar.xml" CreateDate_="09/12/2025" CreateTime_="16:36:05">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="091214" CustomerReference_="ABU091214-kar" OrderDate_="09/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ORC001" FabricDescription_="Basix ORC001 (white)" Width_="1620" Drop_="2300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room1" WidthDisplay_="1620" DropDisplay_="2300" CustomerOrderReference_="" OrderID_="ABU091214-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="pviolenta@gmail.com" DelPhone_="0564082956" DelFirstName_="Paul Irvin Violenta" DelLine1_="Paul Irvin Violenta" CustomerAddressLine1_="Paul Irvin Violenta" DelLine2_="Paul Irvin Violenta" CustomerAddressLine2_="Paul Irvin Violenta" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ORC001" FabricDescription_="Basix ORC001 (white)" Width_="1620" Drop_="2300" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room2" WidthDisplay_="1620" DropDisplay_="2300" CustomerOrderReference_="" OrderID_="ABU091214-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="pviolenta@gmail.com" DelPhone_="0564082956" DelFirstName_="Paul Irvin Violenta" DelLine1_="Paul Irvin Violenta" CustomerAddressLine1_="Paul Irvin Violenta" DelLine2_="Paul Irvin Violenta" CustomerAddressLine2_="Paul Irvin Violenta" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ORC001" FabricDescription_="Basix ORC001 (white)" Width_="1150" Drop_="1500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room3" WidthDisplay_="1150" DropDisplay_="1500" CustomerOrderReference_="" OrderID_="ABU091214-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="pviolenta@gmail.com" DelPhone_="0564082956" DelFirstName_="Paul Irvin Violenta" DelLine1_="Paul Irvin Violenta" CustomerAddressLine1_="Paul Irvin Violenta" DelLine2_="Paul Irvin Violenta" CustomerAddressLine2_="Paul Irvin Violenta" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ORC001" FabricDescription_="Basix ORC001 (white)" Width_="1150" Drop_="1500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Storage Room1" WidthDisplay_="1150" DropDisplay_="1500" CustomerOrderReference_="" OrderID_="ABU091214-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="pviolenta@gmail.com" DelPhone_="0564082956" DelFirstName_="Paul Irvin Violenta" DelLine1_="Paul Irvin Violenta" CustomerAddressLine1_="Paul Irvin Violenta" DelLine2_="Paul Irvin Violenta" CustomerAddressLine2_="Paul Irvin Violenta" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ORC001" FabricDescription_="Basix ORC001 (white)" Width_="1030" Drop_="1500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="lobby area1" WidthDisplay_="1030" DropDisplay_="1500" CustomerOrderReference_="" OrderID_="ABU091214-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="pviolenta@gmail.com" DelPhone_="0564082956" DelFirstName_="Paul Irvin Violenta" DelLine1_="Paul Irvin Violenta" CustomerAddressLine1_="Paul Irvin Violenta" DelLine2_="Paul Irvin Violenta" CustomerAddressLine2_="Paul Irvin Violenta" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="Basix BIC001 (white)" Width_="2050" Drop_="1500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom1" WidthDisplay_="2050" DropDisplay_="1500" CustomerOrderReference_="" OrderID_="ABU091214-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="pviolenta@gmail.com" DelPhone_="0564082956" DelFirstName_="Paul Irvin Violenta" DelLine1_="Paul Irvin Violenta" CustomerAddressLine1_="Paul Irvin Violenta" DelLine2_="Paul Irvin Violenta" CustomerAddressLine2_="Paul Irvin Violenta" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="Basix BIC001 (white)" Width_="2050" Drop_="1500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom2" WidthDisplay_="2050" DropDisplay_="1500" CustomerOrderReference_="" OrderID_="ABU091214-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="pviolenta@gmail.com" DelPhone_="0564082956" DelFirstName_="Paul Irvin Violenta" DelLine1_="Paul Irvin Violenta" CustomerAddressLine1_="Paul Irvin Violenta" DelLine2_="Paul Irvin Violenta" CustomerAddressLine2_="Paul Irvin Violenta" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BIC001" FabricDescription_="Basix BIC001 (white)" Width_="2050" Drop_="1500" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Bedroom3" WidthDisplay_="2050" DropDisplay_="1500" CustomerOrderReference_="" OrderID_="ABU091214-kar" IsDirectDeliveryBySupplier_="True" DelEmail_="pviolenta@gmail.com" DelPhone_="0564082956" DelFirstName_="Paul Irvin Violenta" DelLine1_="Paul Irvin Violenta" CustomerAddressLine1_="Paul Irvin Violenta" DelLine2_="Paul Irvin Violenta" CustomerAddressLine2_="Paul Irvin Violenta" Salesperson_="Karun">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Face" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="BDM001" CompanyName_="Blindtex DMCC" FileTransfName_="BLI270389-ber.xml" CreateDate_="27/03/2026" CreateTime_="19:48:50">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="270389" CustomerReference_="BLI270389-ber" OrderDate_="27/03/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller Basix" MetricMeasurement_="0" FabricCode_="SHA013" FabricDescription_="SHA013 (Taupe)" Width_="575" Drop_="1320" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Powder room - 1" WidthDisplay_="575" DropDisplay_="1320" CustomerOrderReference_="" OrderID_="BLI270389-ber" IsDirectDeliveryBySupplier_="True" DelEmail_="njbisman@gmail.com" DelPhone_="0504597644" DelFirstName_="Jonathan Bisman" DelLine1_="Jonathan Bisman" CustomerAddressLine1_="Jonathan Bisman" DelLine2_="Jonathan Bisman" CustomerAddressLine2_="Jonathan Bisman" Salesperson_="Bernard">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

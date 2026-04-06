@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Abu Dhabi Blinds" FileTransfName_="ABU270256-man.xml" CreateDate_="27/02/2026" CreateTime_="10:57:52">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="270256" CustomerReference_="ABU270256-man" OrderDate_="27/02/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="430" Drop_="2600" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Training Room - 1" WidthDisplay_="430" DropDisplay_="2600" CustomerOrderReference_="" OrderID_="ABU270256-man" IsDirectDeliveryBySupplier_="True" DelEmail_="secretary@alliance360.ae" DelPhone_="0569917003" DelFirstName_=" Talent Training Institute L.L.C" DelLine1_=" Talent Training Institute L.L.C" CustomerAddressLine1_=" Talent Training Institute L.L.C" DelLine2_=" Talent Training Institute L.L.C" CustomerAddressLine2_=" Talent Training Institute L.L.C" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="1355" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Training Room - 2" WidthDisplay_="1355" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU270256-man" IsDirectDeliveryBySupplier_="True" DelEmail_="secretary@alliance360.ae" DelPhone_="0569917003" DelFirstName_=" Talent Training Institute L.L.C" DelLine1_=" Talent Training Institute L.L.C" CustomerAddressLine1_=" Talent Training Institute L.L.C" DelLine2_=" Talent Training Institute L.L.C" CustomerAddressLine2_=" Talent Training Institute L.L.C" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="1785" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Training Room - 3" WidthDisplay_="1785" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU270256-man" IsDirectDeliveryBySupplier_="True" DelEmail_="secretary@alliance360.ae" DelPhone_="0569917003" DelFirstName_=" Talent Training Institute L.L.C" DelLine1_=" Talent Training Institute L.L.C" CustomerAddressLine1_=" Talent Training Institute L.L.C" DelLine2_=" Talent Training Institute L.L.C" CustomerAddressLine2_=" Talent Training Institute L.L.C" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Left" 
+            ChoiceCode_="SPE001" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="1620" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Training Room - 4" WidthDisplay_="1620" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU270256-man" IsDirectDeliveryBySupplier_="True" DelEmail_="secretary@alliance360.ae" DelPhone_="0569917003" DelFirstName_=" Talent Training Institute L.L.C" DelLine1_=" Talent Training Institute L.L.C" CustomerAddressLine1_=" Talent Training Institute L.L.C" DelLine2_=" Talent Training Institute L.L.C" CustomerAddressLine2_=" Talent Training Institute L.L.C" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="1700" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Training Room - 5" WidthDisplay_="1700" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU270256-man" IsDirectDeliveryBySupplier_="True" DelEmail_="secretary@alliance360.ae" DelPhone_="0569917003" DelFirstName_=" Talent Training Institute L.L.C" DelLine1_=" Talent Training Institute L.L.C" CustomerAddressLine1_=" Talent Training Institute L.L.C" DelLine2_=" Talent Training Institute L.L.C" CustomerAddressLine2_=" Talent Training Institute L.L.C" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="1835" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Training Room - 6" WidthDisplay_="1835" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU270256-man" IsDirectDeliveryBySupplier_="True" DelEmail_="secretary@alliance360.ae" DelPhone_="0569917003" DelFirstName_=" Talent Training Institute L.L.C" DelLine1_=" Talent Training Institute L.L.C" CustomerAddressLine1_=" Talent Training Institute L.L.C" DelLine2_=" Talent Training Institute L.L.C" CustomerAddressLine2_=" Talent Training Institute L.L.C" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="ESS003" FabricDescription_="ESS003 (ivory)" Width_="1870" Drop_="2800" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Training Room - 7" WidthDisplay_="1870" DropDisplay_="2800" CustomerOrderReference_="" OrderID_="ABU270256-man" IsDirectDeliveryBySupplier_="True" DelEmail_="secretary@alliance360.ae" DelPhone_="0569917003" DelFirstName_=" Talent Training Institute L.L.C" DelLine1_=" Talent Training Institute L.L.C" CustomerAddressLine1_=" Talent Training Institute L.L.C" DelLine2_=" Talent Training Institute L.L.C" CustomerAddressLine2_=" Talent Training Institute L.L.C" Salesperson_="Manoj">
+        <TEDIOptionList_Details 
+            OptionName_="Control Side" 
+            Choice_="Right" 
+            ChoiceCode_="SPE002" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Roll Direction" 
+            Choice_="Back" 
+            ChoiceCode_="SPE143" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Fixing" 
+            Choice_="Top" 
+            ChoiceCode_="test" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Aces Colour" 
+            Choice_="White - Accessories" 
+            ChoiceCode_="ACCWHI" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Bottom Bar" 
+            Choice_="Covered" 
+            ChoiceCode_="BBARMCF" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="Chain Colour" 
+            Choice_="Nickel  Steel" 
+            ChoiceCode_="RCM018" 
+            Quantity_="1" />
+        <TEDIOptionList_Details 
+            OptionName_="System Size" 
+            Choice_="Large" 
+            ChoiceCode_="ROLSYS45" 
+            Quantity_="1" />
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB18018-nei.xml" CreateDate_="19/01/2026" CreateTime_="15:11:46">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="18018" CustomerReference_="DUB18018-nei" OrderDate_="19/01/2026" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="FLY SCREEN" BlindTypeDescription_="Fly Screen" MetricMeasurement_="0" FabricCode_="FLY001" FabricDescription_="Fly Screen,Grey" Width_="630" Drop_="993" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="window - 1" WidthDisplay_="630" DropDisplay_="993" CustomerOrderReference_="" OrderID_="DUB18018-nei" IsDirectDeliveryBySupplier_="True" DelEmail_="neil@riminiblinds.com" DelPhone_="0509826330" DelFirstName_="joon" DelLine1_="joon" CustomerAddressLine1_="joon" DelLine2_="joon" CustomerAddressLine2_="joon" Salesperson_="Neil">
+        <TEDIOptionList_Details OptionName_="Aces Colour" Choice_="Black" ChoiceCode_="ACCGRPB"/>
+        <TEDIOptionList_Details OptionName_="Configuration" Choice_="Single Way - Left Lock" ChoiceCode_="1Ea"/>
+        <TEDIOptionList_Details OptionName_="Frame Colour" Choice_="Black" ChoiceCode_="FC2"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

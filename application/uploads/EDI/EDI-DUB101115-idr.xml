@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB101115-idr.xml" CreateDate_="13/11/2025" CreateTime_="15:31:05">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="101115" CustomerReference_="DUB101115-idr" OrderDate_="13/11/2025" OrderNote_="If the both blinds has the cassette box on top, it cost 1600 AED after discounts including tax and installation.">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BRE002" FabricDescription_="Basix BRE002 (off ivory)" Width_="2185" Drop_="2450" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master Bedroom1" WidthDisplay_="2185" DropDisplay_="2450" CustomerOrderReference_="" OrderID_="DUB101115-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="ljenice@gmail.com" DelPhone_="0568295860" DelFirstName_="Lorraine S" DelLine1_="Lorraine S" CustomerAddressLine1_="Lorraine S" DelLine2_="Lorraine S" CustomerAddressLine2_="Lorraine S" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="BRE002" FabricDescription_="Basix BRE002 (off ivory)" Width_="2400" Drop_="2400" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Son Room1" WidthDisplay_="2400" DropDisplay_="2400" CustomerOrderReference_="" OrderID_="DUB101115-idr" IsDirectDeliveryBySupplier_="True" DelEmail_="ljenice@gmail.com" DelPhone_="0568295860" DelFirstName_="Lorraine S" DelLine1_="Lorraine S" CustomerAddressLine1_="Lorraine S" DelLine2_="Lorraine S" CustomerAddressLine2_="Lorraine S" Salesperson_="Idris">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Face Fix" ChoiceCode_="SPE182"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Left" ChoiceCode_="SPE001"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Large" ChoiceCode_="ROLSYS45"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transfer>
+  <TEDISenderInformation_Details CompAccCode_="DUB001" CompanyName_="Dubai Blinds" FileTransfName_="DUB121210-mar.xml" CreateDate_="12/12/2025" CreateTime_="17:43:51">
+    <TEDIOrderHeader_Details PurchaseOrderNumber_="121210" CustomerReference_="DUB121210-mar" OrderDate_="12/12/2025" OrderNote_="from Blindex app By Athira Blindtex">
+      <TEDIOrderDetails_Details OrderDetailID_="1" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="210368" FabricDescription_="Passion 23" Width_="5940" Drop_="3095" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room1" WidthDisplay_="5940" DropDisplay_="3095" CustomerOrderReference_="all measure  type blind size" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Standard Cream" ChoiceCode_="LIN001"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="2" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex ELF" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="5740" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room2" WidthDisplay_="5740" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="3" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NIA001" FabricDescription_="Sheer NIA001" Width_="5740" Drop_="3095" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Living Room3" WidthDisplay_="5740" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="4" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="5740" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Living Room4" WidthDisplay_="5740" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="5" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="210368" FabricDescription_="Passion 23" Width_="3440" Drop_="3085" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="guestroom down 1" WidthDisplay_="3440" DropDisplay_="3085" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout Cream" ChoiceCode_="LIN006"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="6" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex ELF" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3240" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="guestroom down 2" WidthDisplay_="3240" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="7" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NIA001" FabricDescription_="Sheer NIA001" Width_="3240" Drop_="3085" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="guestroom down 3" WidthDisplay_="3240" DropDisplay_="3085" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="8" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3240" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="guestroom down 4" WidthDisplay_="3240" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="9" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="210368" FabricDescription_="Passion 23" Width_="3310" Drop_="3095" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="bedroom 2" WidthDisplay_="3310" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout Cream" ChoiceCode_="LIN006"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="10" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex ELF" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3110" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="bedroom 2" WidthDisplay_="3110" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="11" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NIA001" FabricDescription_="Sheer NIA001" Width_="3110" Drop_="3095" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="bedroom 2" WidthDisplay_="3110" DropDisplay_="3095" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="12" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3110" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="bedroom 2" WidthDisplay_="3110" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="13" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="210368" FabricDescription_="Passion 23" Width_="1700" Drop_="2550" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="bedroom 2" WidthDisplay_="1700" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout Cream" ChoiceCode_="LIN006"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="14" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex ELF" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="1500" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="bedroom 2" WidthDisplay_="1500" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="15" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NIA001" FabricDescription_="Sheer NIA001" Width_="1500" Drop_="2550" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="bedroom 2" WidthDisplay_="1500" DropDisplay_="2550" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="16" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="1500" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="bedroom 2" WidthDisplay_="1500" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Wall Bracket -Double 150mm White" ChoiceCode_="CCM129"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="17" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="210368" FabricDescription_="Passion 23" Width_="3430" Drop_="3090" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="kids room1" WidthDisplay_="3430" DropDisplay_="3090" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout Cream" ChoiceCode_="LIN006"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="18" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex ELF" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3230" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room2" WidthDisplay_="3230" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="19" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NIA001" FabricDescription_="Sheer NIA001" Width_="3230" Drop_="3090" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="kids room3" WidthDisplay_="3230" DropDisplay_="3090" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="20" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3230" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="kids room4" WidthDisplay_="3230" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="21" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="210368" FabricDescription_="Passion 23" Width_="1550" Drop_="2600" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master bedroom 1" WidthDisplay_="1550" DropDisplay_="2600" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout Cream" ChoiceCode_="LIN006"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="22" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex ELF" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="1350" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master bedroom 2" WidthDisplay_="1350" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="23" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NIA001" FabricDescription_="Sheer NIA001" Width_="1350" Drop_="2600" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master bedroom 3" WidthDisplay_="1350" DropDisplay_="2600" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="24" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="1350" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master bedroom 4" WidthDisplay_="1350" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="KS SK Alu Wall bracket 15cm Alumi" ChoiceCode_="CCM126"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="25" BlindTypeCode_="CUR-ON-01" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="210368" FabricDescription_="Passion 23" Width_="3720" Drop_="3090" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master bedroom 5" WidthDisplay_="3720" DropDisplay_="3090" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Blackout Cream" ChoiceCode_="LIN006"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Single" Choice_="Plain A" ChoiceCode_="STY044a"/>
+        <TEDIOptionList_Details OptionName_="Tie Back Hooks Single" Choice_="Tie Back Hook Brushed nickel (pair)" ChoiceCode_="CCM022"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="26" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex ELF" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3520" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master bedroom 6" WidthDisplay_="3520" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="27" BlindTypeCode_="CUR-0N-06" BlindTypeDescription_="Curtains Double Fullness" MetricMeasurement_="0" FabricCode_="NIA001" FabricDescription_="Sheer NIA001" Width_="3520" Drop_="3090" InstallHeight_="0" MeasureName_="Hem to Hem" Quantity_="1" Location_="Master bedroom 7" WidthDisplay_="3520" DropDisplay_="3090" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Headers Make Up" Choice_="Double Pinch Pleat" ChoiceCode_="STY094"/>
+        <TEDIOptionList_Details OptionName_="Lining" Choice_="Without Lining" ChoiceCode_="SPE073"/>
+        <TEDIOptionList_Details OptionName_="Opening Type" Choice_="Pair of Curtains" ChoiceCode_="STY085"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="28" BlindTypeCode_="CUTRACK-02" BlindTypeDescription_="Curtain Track Blindtex" MetricMeasurement_="0" FabricCode_="BS" FabricDescription_="Basix System White" Width_="3520" Drop_="0" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Master bedroom 8" WidthDisplay_="3520" DropDisplay_="0" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Smart Click Top fix" ChoiceCode_="CCM111"/>
+        <TEDIOptionList_Details OptionName_="Opening Direction" Choice_="Split" ChoiceCode_="SPE009"/>
+        <TEDIOptionList_Details OptionName_="Operation Type" Choice_="By Hand" ChoiceCode_="SPE223"/>
+        <TEDIOptionList_Details OptionName_="Track Joining Plate" Choice_="Joiner Plate" ChoiceCode_="CCM114"/>
+      </TEDIOrderDetails_Details>
+      <TEDIOrderDetails_Details OrderDetailID_="29" BlindTypeCode_="ROL-ON-02" BlindTypeDescription_="Roller-Basix" MetricMeasurement_="0" FabricCode_="NOV016" FabricDescription_="Basix NOV016 (brown)" Width_="770" Drop_="1350" InstallHeight_="0" MeasureName_="Blind Size" Quantity_="1" Location_="Kitchen1" WidthDisplay_="770" DropDisplay_="1350" CustomerOrderReference_="" OrderID_="DUB121210-mar" IsDirectDeliveryBySupplier_="True" DelEmail_="leycastro@ymail.com" DelPhone_="0545839233" DelFirstName_="dummy order / for costing only /Vijay Philips" DelLine1_="dummy order / for costing only /Vijay Philips" CustomerAddressLine1_="dummy order / for costing only /Vijay Philips" DelLine2_="dummy order / for costing only /Vijay Philips" CustomerAddressLine2_="dummy order / for costing only /Vijay Philips" Salesperson_="Maria ">
+        <TEDIOptionList_Details OptionName_="Bottom Bar" Choice_="Alu B/Bar White" ChoiceCode_="RCM023A"/>
+        <TEDIOptionList_Details OptionName_="Brackets" Choice_="Regular Top Fix" ChoiceCode_="SPE183"/>
+        <TEDIOptionList_Details OptionName_="Control Side" Choice_="Right default," ChoiceCode_="SPE002"/>
+        <TEDIOptionList_Details OptionName_="Roll Direction" Choice_="Back" ChoiceCode_="SPE143"/>
+        <TEDIOptionList_Details OptionName_="Fixing" Choice_="Top" ChoiceCode_="test"/>
+        <TEDIOptionList_Details OptionName_="System Size" Choice_="Medium" ChoiceCode_="ROLSYS38"/>
+        <TEDIOptionList_Details OptionName_="Chain Colour" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Chain" Choice_="Nickel Chain" ChoiceCode_="RCM018"/>
+        <TEDIOptionList_Details OptionName_="Cassette Option" Choice_="Matching fabric on Cassette" ChoiceCode_="EVOMCF"/>
+      </TEDIOrderDetails_Details>
+    </TEDIOrderHeader_Details>
+  </TEDISenderInformation_Details>
+</Transfer>
