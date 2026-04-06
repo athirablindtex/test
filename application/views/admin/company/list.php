@@ -154,6 +154,41 @@
                                        </div>
                                     </div>
 
+                                    <!-- 🌍 LOCATION & FINANCE -->
+<div class="col-md-12 mt-3">
+   <h6 style="font-weight:600;">Location & Finance</h6>
+</div>
+
+<!-- COUNTRY -->
+<div class="col-md-4">
+   <div class="form-group form-group-default">
+      <label>Country</label>
+      <select class="form-control" name="country" id="country" required>
+         <option value="">Select</option>
+         <option value="AE" <?= (@$res->country == 'AE') ? 'selected' : '' ?>>🇦🇪 UAE</option>
+         <option value="UK" <?= (@$res->country == 'UK') ? 'selected' : '' ?>>🇬🇧 UK</option>
+      </select>
+   </div>
+</div>
+
+<!-- CURRENCY -->
+<div class="col-md-4">
+   <div class="form-group form-group-default">
+      <label>Currency</label>
+      <input type="text" class="form-control bg-light" name="currency" id="currency"
+         value="<?= @$res->currency ?? '' ?>" readonly>
+   </div>
+</div>
+
+<!-- VAT -->
+<div class="col-md-4">
+   <div class="form-group form-group-default">
+      <label>VAT (%)</label>
+      <input type="number" class="form-control" name="vat"
+         value="<?= @$res->vat ?? '' ?>">
+   </div>
+</div>
+
                               </div>
                               <input type="hidden" name="id" value="<?php echo @$res->$module_id ? $res->$module_id : 0; ?>">
 
