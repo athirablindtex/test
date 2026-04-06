@@ -296,10 +296,10 @@ class Pricebandmodel extends CI_Model
 
 
 
-	function insert_check_data($name = "", $type = "", $product_type = "")
+	function insert_check_data($name = "", $type = "", $product_type = "",$company_id)
 	{
 		try {
-			if ($row = $this->check_data_name($name, $type,$product_type)) {
+			if ($row = $this->check_data_name($name, $type,$product_type,$company_id)) {
 				return $row['id'];
 			} else {
 				$save_data = [
@@ -313,6 +313,7 @@ class Pricebandmodel extends CI_Model
 					'product_type'=>$product_type,
 					'is_enabled' => 1,
 					'created_date' => date('Y-m-d'),
+					'company_id'=>$company_id,
 					'version' => 1
 				];
 				return $this->save($save_data);
@@ -325,7 +326,7 @@ class Pricebandmodel extends CI_Model
 	function check_data_name($name = "", $type = "",$product_type = "")
 	{
 		try {
-			$this->db->where(array('name' => @$name, 'type' => $type,'product_type' => $product_type));
+			$this->db->where(array('name' => @$name, 'type' => $type,'product_type' => $product_type,'company_id' => $company_id));
 			return $this->db->get($this->table_name)->row_array();
 		} catch (Exception $e) {
 		}

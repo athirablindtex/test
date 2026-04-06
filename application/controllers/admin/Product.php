@@ -337,44 +337,69 @@ $this->check_user_privillages($permission);
         } catch (Exception $e) {
         }
     }
-    public function insert_import_row($row = [])
-    {
-        try {
-            $product_type = $this->producttypemodel->insert_check_product_type(trim(@$row[1]), 0); // Check the first coloumn for the product type
-            $vendor = $this->producttypemodel->insert_check_product_type(trim(@$row[2]), $product_type); // Check the second coloumn for product type vendors (like books etc)
-            //$vendor = $this->vendormodel->insert_check_data(trim(@$row[2]));
-            $save_data = [
-                'product_type' => $product_type ?: 0,
-                'sub_product_type' => $vendor ?: 0,
-                'vendor' => 0,
-                'fabric_code' => trim(@$row[3]),
-                'name' => trim(@$row[4]), // check thrid coloumn for name
-                'price_band_type' => trim(@$row[5]), // check fourth coloumn for priceband type
-                'price_band' => @$this->pricebandmodel->insert_check_data(trim(@$row[6]), trim(@$row[5]), $product_type), // check fifth  coloumn for priceband type
-                'min_width' => trim(@$row[7]) ?: 0,
-                'max_width' => trim(@$row[8]) ?: 0,
-                'min_drop' => trim(@$row[9]),
-                'max_drop' => trim(@$row[10]),
-                'turnable' => trim(@$row[11]),
-                'is_enabled' => 1,
-                'created_date' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s'),
-                'version' => 1
+   public function insert_import_row($row = [], $company_id = 0)
+{
+    try {
+
+        $company_id = get_company_id_or_null($company_id);
+
+        $product_type = $this->producttypemodel
+            ->insert_check_product_type(trim(@$row[1]), 0, $company_id);
+
+        $vendor = $this->producttypemodel
+            ->insert_check_product_type(trim(@$row[2]), $product_type, $company_id);
+
+        $price_band = $this->pricebandmodel
+            ->insert_check_data(
+                trim(@$row[6]),
+                trim(@$row[5]),
+                $product_type,
+                $company_id
+            );
+
+        $save_data = [
+            'company_id' => $company_id,
+            'product_type' => $product_type ?: 0,
+            'sub_product_type' => $vendor ?: 0,
+            'vendor' => 0,
+            'fabric_code' => trim(@$row[3]),
+            'name' => trim(@$row[4]),
+            'price_band_type' => trim(@$row[5]),
+            'price_band' => $price_band,
+            'min_width' => trim(@$row[7]) ?: 0,
+            'max_width' => trim(@$row[8]) ?: 0,
+            'min_drop' => trim(@$row[9]),
+            'max_drop' => trim(@$row[10]),
+            'turnable' => trim(@$row[11]),
+            'is_enabled' => 1,
+            'created_date' => date('Y-m-d H:i:s'),
+            'updated_at' => date('Y-m-d H:i:s'),
+            'version' => 1
+        ];
+
+        $id = $this->productmodel->save($save_data);
+
+        // TAGS
+        $tag_expl = explode(',', @$row[12]);
+        $insert_tag = [];
+
+        foreach ($tag_expl as $t) {
+            $clean_tag = preg_replace('/[^A-Za-z0-9\- ]/', '', $t);
+            $insert_tag[] = [
+                'tag' => trim($clean_tag),
+                'product' => $id,
+    
             ];
-            $id = $this->productmodel->save($save_data);
-            $tag_expl = explode(',', @$row[12]);
-            $insert_tag = array();
-            foreach ($tag_expl as $t) {
-                $clean_tag = preg_replace('/[^A-Za-z0-9\- ]/', '', $t);
-                $insert_tag[] = array('tag' => trim($clean_tag), 'product' => $id);
-            }
-            if (count($insert_tag) > 0) {
-                $this->productmodel->save_tags_batch($insert_tag);
-                audit_log('product', $id, 'INSERT', $old_data = null, $save_data, 1);
-            }
-        } catch (Exception $e) {
         }
+
+        if (!empty($insert_tag)) {
+            $this->productmodel->save_tags_batch($insert_tag);
+            audit_log('product', $id, 'INSERT', null, $save_data, 1);
+        }
+
+    } catch (Exception $e) {
     }
+}
     /* ======  To Add Margin for Each product and Product Type : START ==== */
     public function productmargin($type = "list", $id = "")
     {

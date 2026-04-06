@@ -387,15 +387,16 @@ class Producttypemodel extends CI_Model{
 
 
 
-	function insert_check_product_type($name="",$parent=0){
+	function insert_check_product_type($name="",$parent=0,$company_id){
 			try{
-					if($row=$this->check_product_name($name,$parent)){
+					if($row=$this->check_product_name($name,$parent,$company_id)){
 							return $row['id'];
 						}
 					else{
 							$save_data=[
 											'parent'=>$parent, 
 											'name'=>$name, 
+											'company_id'=>$company_id,
 											'is_enabled'=>1, 
 											'created_date'=>date('Y-m-d'), 
 											'version'=>1
@@ -408,9 +409,9 @@ class Producttypemodel extends CI_Model{
 		}
 
 
-	function check_product_name($name="",$parent=0){
+	function check_product_name($name="",$parent=0,$company_id){
 			try{
-					$this->db->where(array('name'=>@$name,'parent'=>$parent));
+					$this->db->where(array('name'=>@$name,'parent'=>$parent,'company_id'=>$company_id));
 					return $this->db->get($this->table_name)->row_array();
 				}
 			catch(Exception $e){}
