@@ -1,13 +1,12 @@
 <?php $margin_type = array("Percentage", "Value"); ?>
 <div class="main-panel">
    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
    <style>
-.modal-dialog.custom-modal {
-    max-width: 700px;
-}
-      
+      .modal-dialog.custom-modal {
+         max-width: 700px;
+      }
    </style>
    <div class="content">
       <div class="page-inner">
@@ -83,13 +82,13 @@
                                              <input id="addOffice" type="email" class="form-control" name="company_email" value="<?php echo @$res->company_email != '' ? @$res->company_email : $this->input->post('company_email'); ?>" required>
                                           </div>
                                        </div>
-                                        <div class="col-md-6">
+                                       <div class="col-md-6">
                                           <div class="form-group form-group-default">
                                              <label>Receiving Mail</label>
                                              <input id="addOffice" type="email" class="form-control" name="email" value="<?php echo @$res->email != '' ? @$res->email : $this->input->post('email'); ?>" required>
                                           </div>
                                        </div>
-                                         <div class="col-md-6">
+                                       <div class="col-md-6">
                                           <div class="form-group form-group-default">
                                              <label>Reply mail</label>
                                              <input id="addOffice" type="email" class="form-control" name="reply_mail" value="<?php echo @$res->reply_mail != '' ? @$res->reply_mail : $this->input->post('reply_mail'); ?>" required>
@@ -152,43 +151,45 @@
                                              <input id="cp2" type="text" name="branding_colour_code_secondry" class="form-control input-lg" value="<?php echo @$res->branding_colour_code_secondry != '' ? @$res->branding_colour_code_secondry : $this->input->post('branding_colour_code_secondry'); ?>" required />
                                           </div>
                                        </div>
+
+
+                                        <div class="col-md-12 mt-3">
+                                       <h6 style="font-weight:600;">Location & Finance</h6>
+                                    </div>
+
+                                    <!-- COUNTRY -->
+                                    <div class="col-md-4">
+                                       <div class="form-group form-group-default">
+                                          <label>Country</label>
+                                          <select class="form-control" name="country" id="country" required>
+                                             <option value="">Select</option>
+                                             <option value="AE" <?= (@$res->country == 'AE') ? 'selected' : '' ?>>🇦🇪 UAE</option>
+                                             <option value="UK" <?= (@$res->country == 'UK') ? 'selected' : '' ?>>🇬🇧 UK</option>
+                                          </select>
+                                       </div>
+                                    </div>
+
+                                    <!-- CURRENCY -->
+                                    <div class="col-md-4">
+                                       <div class="form-group form-group-default">
+                                          <label>Currency</label>
+                                          <input type="text" class="form-control bg-light" name="currency" id="currency"
+                                             value="<?= @$res->currency ?? '' ?>" readonly>
+                                       </div>
+                                    </div>
+
+                                    <!-- VAT -->
+                                    <div class="col-md-4">
+                                       <div class="form-group form-group-default">
+                                          <label>VAT (%)</label>
+                                          <input type="number" class="form-control" name="vat_percentage"
+                                             value="<?= @$res->vat_percentage ?? '' ?>">
+                                       </div>
+                                    </div>
                                     </div>
 
                                     <!-- 🌍 LOCATION & FINANCE -->
-<div class="col-md-12 mt-3">
-   <h6 style="font-weight:600;">Location & Finance</h6>
-</div>
-         <div class="col-md-12">
-<!-- COUNTRY -->
-<div class="col-md-4">
-   <div class="form-group form-group-default">
-      <label>Country</label>
-      <select class="form-control" name="country" id="country" required>
-         <option value="">Select</option>
-         <option value="AE" <?= (@$res->country == 'AE') ? 'selected' : '' ?>>🇦🇪 UAE</option>
-         <option value="UK" <?= (@$res->country == 'UK') ? 'selected' : '' ?>>🇬🇧 UK</option>
-      </select>
-   </div>
-</div>
-
-<!-- CURRENCY -->
-<div class="col-md-4">
-   <div class="form-group form-group-default">
-      <label>Currency</label>
-      <input type="text" class="form-control bg-light" name="currency" id="currency"
-         value="<?= @$res->currency ?? '' ?>" readonly>
-   </div>
-</div>
-
-<!-- VAT -->
-<div class="col-md-4">
-   <div class="form-group form-group-default">
-      <label>VAT (%)</label>
-      <input type="number" class="form-control" name="vat"
-         value="<?= @$res->vat ?? '' ?>">
-   </div>
-</div>
-</div>
+                                   
 
                               </div>
                               <input type="hidden" name="id" value="<?php echo @$res->$module_id ? $res->$module_id : 0; ?>">
@@ -234,7 +235,7 @@
                                              data-id="<?= @$product->id; ?>"
                                              data-toggle="modal"
                                              data-target="#bankModal">
-                                             <i class="fa fa-edit"></i>  View/Update
+                                             <i class="fa fa-edit"></i> View/Update
                                           </a>
                                        </td>
 
@@ -283,47 +284,47 @@
 
 <!-- Bank Info Modal -->
 <div class="modal fade" id="bankModal" tabindex="-1" role="dialog" aria-labelledby="bankModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <form id="bankForm" method="post" action="<?= base_url('admin/company/update_bank_info') ?>">
-      <input type="hidden" name="product_id" id="product_id">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Update Bank Details</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
-        </div>
-        <div class="modal-body">
-          <div class="form-group">
-            <label>Bank</label>
-            <input type="text" class="form-control" name="bank" required>
-          </div>
-          <div class="form-group">
-            <label>Account Name</label>
-            <input type="text" class="form-control" name="account_name" required>
-          </div>
-          <div class="form-group">
-            <label>Account No</label>
-            <input type="text" class="form-control" name="account_no" required>
-          </div>
-          <div class="form-group">
-            <label>IBAN</label>
-            <input type="text" class="form-control" name="iban" required>
-          </div>
-          <div class="form-group">
-            <label>Branch</label>
-            <input type="text" class="form-control" name="branch" required>
-          </div>
-          <div class="form-group">
-            <label>Swift Code</label>
-            <input type="text" class="form-control" name="swift" required>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-success">Save</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        </div>
-      </div>
-    </form>
-  </div>
+   <div class="modal-dialog" role="document">
+      <form id="bankForm" method="post" action="<?= base_url('admin/company/update_bank_info') ?>">
+         <input type="hidden" name="product_id" id="product_id">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Update Bank Details</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            <div class="modal-body">
+               <div class="form-group">
+                  <label>Bank</label>
+                  <input type="text" class="form-control" name="bank" required>
+               </div>
+               <div class="form-group">
+                  <label>Account Name</label>
+                  <input type="text" class="form-control" name="account_name" required>
+               </div>
+               <div class="form-group">
+                  <label>Account No</label>
+                  <input type="text" class="form-control" name="account_no" required>
+               </div>
+               <div class="form-group">
+                  <label>IBAN</label>
+                  <input type="text" class="form-control" name="iban" required>
+               </div>
+               <div class="form-group">
+                  <label>Branch</label>
+                  <input type="text" class="form-control" name="branch" required>
+               </div>
+               <div class="form-group">
+                  <label>Swift Code</label>
+                  <input type="text" class="form-control" name="swift" required>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <button type="submit" class="btn btn-success">Save</button>
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            </div>
+         </div>
+      </form>
+   </div>
 </div>
 
 
@@ -332,15 +333,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.4.0/css/bootstrap-colorpicker.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.4.0/js/bootstrap-colorpicker.min.js"></script>
 <script>
-
-    $('#address').summernote({
-        height: 150,
-        toolbar: [
-            ['style', ['bold', 'italic', 'underline']],
-            ['para', ['ul', 'ol']],
-            ['view', ['codeview']]
-        ]
-    });
+   $('#address').summernote({
+      height: 150,
+      toolbar: [
+         ['style', ['bold', 'italic', 'underline']],
+         ['para', ['ul', 'ol']],
+         ['view', ['codeview']]
+      ]
+   });
 
    $(function() {
       $('#cp1,#cp2').colorpicker({
@@ -468,32 +468,32 @@
       }
    }
 
-  $(document).on('click', '.open-bank-modal', function () {
-    let productId = $(this).data('id');
-    $('#product_id').val(productId);
-     $('#bankForm')[0].reset();
+   $(document).on('click', '.open-bank-modal', function() {
+      let productId = $(this).data('id');
+      $('#product_id').val(productId);
+      $('#bankForm')[0].reset();
 
-    $.ajax({
-      url: '<?= base_url("admin/company/get_bank_info") ?>',
-      type: 'POST',
-      data: { id: productId },
-      dataType: 'json',
-      success: function (response) {
-        if (response.success) {
-          $('[name="bank"]').val(response.data.bank);
-          $('[name="account_name"]').val(response.data.account_name);
-          $('[name="account_no"]').val(response.data.account_no);
-          $('[name="iban"]').val(response.data.iban);
-          $('[name="branch"]').val(response.data.branch);
-          $('[name="swift"]').val(response.data.swift);
-        }
-      }
-    });
-
-    
-    
-    // set hidden input in modal
-  });
+      $.ajax({
+         url: '<?= base_url("admin/company/get_bank_info") ?>',
+         type: 'POST',
+         data: {
+            id: productId
+         },
+         dataType: 'json',
+         success: function(response) {
+            if (response.success) {
+               $('[name="bank"]').val(response.data.bank);
+               $('[name="account_name"]').val(response.data.account_name);
+               $('[name="account_no"]').val(response.data.account_no);
+               $('[name="iban"]').val(response.data.iban);
+               $('[name="branch"]').val(response.data.branch);
+               $('[name="swift"]').val(response.data.swift);
+            }
+         }
+      });
 
 
+
+      // set hidden input in modal
+   });
 </script>
