@@ -323,7 +323,7 @@ class Pricebandmodel extends CI_Model
 	}
 
 
-	function check_data_name($name = "", $type = "",$product_type = "")
+	function check_data_name($name = "", $type = "",$product_type = "",$company_id)
 	{
 		try {
 			$this->db->where(array('name' => @$name, 'type' => $type,'product_type' => $product_type,'company_id' => $company_id));

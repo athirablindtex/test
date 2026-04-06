@@ -342,6 +342,9 @@ $this->check_user_privillages($permission);
     try {
 
         $company_id = get_company_id_or_null($company_id);
+        echo "Company ID for row: " . ($company_id ?? 'NULL') . "\n";
+        exit;
+
 
         $product_type = $this->producttypemodel
             ->insert_check_product_type(trim(@$row[1]), 0, $company_id);
