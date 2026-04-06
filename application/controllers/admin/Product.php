@@ -75,6 +75,7 @@ $this->check_user_privillages($permission);
             $data['active_sub_sub'] = $this->module_active_sub . '_list';
             $data['content'] = 'admin/' . $view_folder . '/list';
             $data['redirect'] = site_url() . $this->redirect;
+            $data['companies'] = $this->usersmodel->gets_company_all()->result();
             $data['edit'] = 0;
             if ($type == "edit") {
                 $this->check_user_privillages($this->permission . '_add');
@@ -314,17 +315,12 @@ $this->check_user_privillages($permission);
         } else {
             $name = $this->upload->data();
             $file = $name['file_name'];
-            // ini_set('display_errors', 1);
-            // ini_set('display_startup_errors', 1);
-            // error_reporting(E_ALL);
-            //	$path = FCPATH.'/uploads/import/' . $file;
-            //$path = APPPATH . '../uploads/import/' . $file;
+
             $path = 'uploads/import/' . $file;
             @$this->load->library('excel_reader');
-            // Read the spreadsheet via a relative path to the document
-            // for example $this->excel_reader->read('./uploads/file.xls');
+
             @$this->excel_reader->read($path);
-            // print_r(@$this->excel_reader->sheets);
+
             $this->excel_import_set(@$this->excel_reader->sheets[0]['cells']);
             unlink($path);
             $this->session->set_flashdata('success', "Excel Uploaded Successfully");

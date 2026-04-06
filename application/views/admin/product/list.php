@@ -14,6 +14,26 @@
          <form id="" action="<?php echo site_url('admin/product/excel_import'); ?>" method="POST" enctype="multipart/form-data">
             <div class="modal-body">
                <div class="row">
+
+                  <!-- COMPANY SELECT -->
+         <div class="col-md-12">
+            <div class="form-group form-group-default">
+               <label>Select Company</label>
+               <select name="company_id" class="form-control" required>
+                  <option value="">Select Company</option>
+
+       
+
+                  <!-- Other companies -->
+                  <?php foreach($companies as $c){ ?>
+                     <option value="<?= $c->id ?>">
+                        <?= $c->name ?>
+                     </option>
+                  <?php } ?>
+
+               </select>
+            </div>
+         </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
                      <div class="form-group form-group-default">
                         <strong>Upload Excel/CSV File:</strong>
