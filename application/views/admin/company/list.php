@@ -496,4 +496,18 @@
 
       // set hidden input in modal
    });
+
+   $('#country').on('change', function () {
+    let country = $(this).val();
+
+    let data = {
+        'AE': { currency: 'AED', vat: 5 },
+        'UK': { currency: 'GBP', vat: 20 }
+    };
+
+    if (data[country]) {
+        $('#currency').val(data[country].currency);
+        $('[name="vat"]').val(data[country].vat);
+    }
+});
 </script>
