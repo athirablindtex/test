@@ -303,6 +303,7 @@ $this->check_user_privillages($permission);
     public function excel_import()
     {
         $config['upload_path'] = APPPATH . '../uploads/import/';
+        $company_id = $this->input->post('company_id');
         $config['allowed_types'] = 'xls|xlsx';
         $this->load->library('upload', $config);
         if ($_FILES['excel_file']['name'] == "") {
@@ -321,7 +322,7 @@ $this->check_user_privillages($permission);
 
             @$this->excel_reader->read($path);
 
-            $this->excel_import_set(@$this->excel_reader->sheets[0]['cells']);
+            $this->excel_import_set(@$this->excel_reader->sheets[0]['cells'],$company_id );
             unlink($path);
             $this->session->set_flashdata('success', "Excel Uploaded Successfully");
             redirect($this->redirect);
@@ -340,6 +341,7 @@ $this->check_user_privillages($permission);
    public function insert_import_row($row = [], $company_id = 0)
 {
     try {
+        
 
         $company_id = get_company_id_or_null($company_id);
         echo "Company ID for row: " . ($company_id ?? 'NULL') . "\n";
