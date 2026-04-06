@@ -4,8 +4,8 @@
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
    <style>
-.custom-modal .modal-dialog {
-   max-width: 800px;
+.modal-dialog.custom-modal {
+    max-width: 700px;
 }
       
    </style>
