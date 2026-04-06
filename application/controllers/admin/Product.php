@@ -347,8 +347,7 @@ $this->check_user_privillages($permission);
 
         $company_id = get_company_id_or_null($company_id);
 
-        echo "Company ID for row: " . ($company_id ?? 'NULL') . "\n";
-        exit;
+   
 
 
         $product_type = $this->producttypemodel
