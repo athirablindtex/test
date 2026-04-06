@@ -4,7 +4,39 @@
    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
    <style>
+/* LABEL */
+label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6c757d;
+    margin-bottom: 4px;
+}
 
+/* INPUTS */
+.form-control {
+    height: 42px;
+    border-radius: 10px;
+    border: 1px solid #e3e6f0;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* TEXTAREA */
+textarea.form-control {
+    height: auto;
+    border-radius: 10px;
+}
+
+/* FOCUS EFFECT */
+.form-control:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 0 2px rgba(108,99,255,0.1);
+}
+
+/* SELECT */
+select.form-control {
+    height: 42px;
+}
 
    </style>
    <div class="content">
