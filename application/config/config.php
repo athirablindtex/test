@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://localhost:8888/cookie/blindtex/';
-$config['base_url'] = 'https://staging.tradeblindsdirect.com/blindtex-app/';
+$config['base_url'] = 'https://staging.tradeblindsdirect.com/blindtex-app-test/';
 
 /*
 |--------------------------------------------------------------------------
