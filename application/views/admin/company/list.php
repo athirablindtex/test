@@ -182,8 +182,8 @@
                                     <div class="col-md-4">
                                        <div class="form-group form-group-default">
                                           <label>VAT (%)</label>
-                                          <input type="number" class="form-control" name="vat_percentage"
-                                             value="<?= @$res->vat_percentage ?? '' ?>">
+                                          <input type="number" class="form-control" name="vat"
+                                             value="<?= @$res->vat ?? '' ?>">
                                        </div>
                                     </div>
                                     </div>
