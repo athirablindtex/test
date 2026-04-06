@@ -304,6 +304,9 @@ $this->check_user_privillages($permission);
     {
         $config['upload_path'] = APPPATH . '../uploads/import/';
         $company_id = $this->input->post('company_id');
+        echo    $company_id;
+        exit;
+
         $config['allowed_types'] = 'xls|xlsx';
         $this->load->library('upload', $config);
         if ($_FILES['excel_file']['name'] == "") {
