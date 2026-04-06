@@ -11,7 +11,7 @@ class Company extends MY_Controller
 		var $controller='company';
 		var $permission='company'; 
 		var $user_type="";
-		var $valid_fields=array('name', 'email', 'password', 'image', 'phone', 'address', 'margin_type','reply_mail','company_email', 'margin_value', 'exchange_margin_permission','branding_colour_code','branding_colour_code_secondry');
+		var $valid_fields=array('name', 'email', 'password', 'image', 'phone', 'address', 'country','currency','vat','margin_type','reply_mail','company_email', 'margin_value', 'exchange_margin_permission','branding_colour_code','branding_colour_code_secondry');
 		public function __construct(){
 				parent::__construct();
 				$this->check_user_privillages($this->permission.'_list');
