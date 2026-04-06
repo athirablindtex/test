@@ -31,96 +31,106 @@
 
          <!-- HEADER -->
          <div class="modal-header border-0 pb-0">
-            <h5 class="modal-title fw-bold">New Company</h5>
-            <button type="button" class="btn-close close-model"></button>
+            <h5 class="modal-title font-weight-bold">New Company</h5>
+
+            <button type="button" class="close close-model">
+               <span>&times;</span>
+            </button>
          </div>
 
          <!-- BODY -->
          <div class="modal-body pt-2">
             <form action="" method="post" enctype="multipart/form-data" id="fm_form_data">
 
-               <div class="row g-3">
+               <div class="row">
 
                   <!-- LOGO -->
-                  <div class="col-md-12 text-center mb-3">
+                  <div class="col-md-12 text-center mb-4">
                      <div class="position-relative d-inline-block">
+
                         <img class="rounded-circle shadow-sm"
-                           width="110" height="110" id="image-label"
+                           width="110" height="110"
                            style="object-fit:cover; border:3px solid #f1f3f5;"
+                           id="image-label"
                            src="<?= is_file('uploads/users/' . @$res->image) ? base_url().'uploads/users/'.@$res->image : base_url().'uploads/placeholder/image1.png'; ?>">
 
                         <input type="file" class="d-none" id="uploadImg1" name="image">
 
                         <label for="uploadImg1"
-                           class="btn btn-sm btn-light shadow position-absolute"
-                           style="bottom:0; right:0; border-radius:50%;">
+                           class="btn btn-light shadow-sm"
+                           style="position:absolute; bottom:0; right:0; border-radius:50%;">
                            <i class="fa fa-pencil"></i>
                         </label>
+
                      </div>
                   </div>
 
-                  <!-- BASIC INFO -->
-                  <div class="col-md-6">
-                     <label class="form-label">Name</label>
+                  <!-- NAME -->
+                  <div class="col-md-6 mb-3">
+                     <label>Name</label>
                      <input type="text" class="form-control"
                         name="name"
                         value="<?= @$res->name ?? $this->input->post('name'); ?>" required>
                   </div>
 
-                  <div class="col-md-6">
-                     <label class="form-label">Phone</label>
+                  <!-- PHONE -->
+                  <div class="col-md-6 mb-3">
+                     <label>Phone</label>
                      <input type="text" class="form-control"
                         name="phone"
                         value="<?= @$res->phone ?? $this->input->post('phone'); ?>" required>
                   </div>
 
-                  <!-- EMAILS -->
-                  <div class="col-md-6">
-                     <label class="form-label">Company Email</label>
+                  <!-- COMPANY EMAIL -->
+                  <div class="col-md-6 mb-3">
+                     <label>Company Email</label>
                      <input type="email" class="form-control"
                         name="company_email"
                         value="<?= @$res->company_email ?? $this->input->post('company_email'); ?>" required>
                   </div>
 
-                  <div class="col-md-6">
-                     <label class="form-label">Receiving Mail</label>
+                  <!-- RECEIVING -->
+                  <div class="col-md-6 mb-3">
+                     <label>Receiving Mail</label>
                      <input type="email" class="form-control"
                         name="email"
                         value="<?= @$res->email ?? $this->input->post('email'); ?>" required>
                   </div>
 
-                  <div class="col-md-6">
-                     <label class="form-label">Reply Mail</label>
+                  <!-- REPLY -->
+                  <div class="col-md-6 mb-3">
+                     <label>Reply Mail</label>
                      <input type="email" class="form-control"
                         name="reply_mail"
                         value="<?= @$res->reply_mail ?? $this->input->post('reply_mail'); ?>" required>
                   </div>
 
-                  <div class="col-md-6">
-                     <label class="form-label">Password</label>
+                  <!-- PASSWORD -->
+                  <div class="col-md-6 mb-3">
+                     <label>Password</label>
                      <input type="password" class="form-control"
                         name="password"
                         <?= @$res->id > 0 ? '' : 'required'; ?>>
                   </div>
 
                   <!-- ADDRESS -->
-                  <div class="col-md-12">
-                     <label class="form-label">Address</label>
+                  <div class="col-md-12 mb-3">
+                     <label>Address</label>
                      <textarea class="form-control" rows="3"
                         name="address"><?= @$res->address ?? $this->input->post('address'); ?></textarea>
                   </div>
 
                   <!-- SECTION -->
-                  <div class="col-md-12 mt-4">
-                     <h6 class="fw-bold border-start ps-2" style="border-color:#6c63ff;">
+                  <div class="col-md-12 mt-3 mb-2">
+                     <h6 style="font-weight:600; border-left:4px solid #6c63ff; padding-left:8px;">
                         Location & Finance
                      </h6>
                   </div>
 
                   <!-- COUNTRY -->
-                  <div class="col-md-4">
-                     <label class="form-label">Country</label>
-                     <select class="form-select" name="country" id="country" required>
+                  <div class="col-md-4 mb-3">
+                     <label>Country</label>
+                     <select class="form-control" name="country" id="country" required>
                         <option value="">Select</option>
                         <option value="AE" <?= (@$res->country == 'AE') ? 'selected' : '' ?>>🇦🇪 UAE</option>
                         <option value="UK" <?= (@$res->country == 'UK') ? 'selected' : '' ?>>🇬🇧 UK</option>
@@ -128,25 +138,25 @@
                   </div>
 
                   <!-- CURRENCY -->
-                  <div class="col-md-4">
-                     <label class="form-label">Currency</label>
+                  <div class="col-md-4 mb-3">
+                     <label>Currency</label>
                      <input type="text" class="form-control bg-light"
                         name="currency" id="currency"
                         value="<?= @$res->currency ?? '' ?>" readonly>
                   </div>
 
                   <!-- VAT -->
-                  <div class="col-md-4">
-                     <label class="form-label">VAT (%)</label>
+                  <div class="col-md-4 mb-3">
+                     <label>VAT (%)</label>
                      <input type="number" class="form-control"
                         name="vat_percentage"
                         value="<?= @$res->vat_percentage ?? '' ?>">
                   </div>
 
-                  <!-- MARGIN -->
-                  <div class="col-md-6">
-                     <label class="form-label">Margin Type</label>
-                     <select class="form-select" name="margin_type" required>
+                  <!-- MARGIN TYPE -->
+                  <div class="col-md-6 mb-3">
+                     <label>Margin Type</label>
+                     <select class="form-control" name="margin_type" required>
                         <?php foreach ($margin_type as $p) { ?>
                            <option value="<?= $p ?>" <?= ($p == @$res->margin_type) ? 'selected' : '' ?>>
                               <?= $p ?>
@@ -155,36 +165,40 @@
                      </select>
                   </div>
 
-                  <div class="col-md-6">
-                     <label class="form-label">Margin Value</label>
+                  <!-- MARGIN VALUE -->
+                  <div class="col-md-6 mb-3">
+                     <label>Margin Value</label>
                      <input type="number" class="form-control"
                         name="margin_value"
                         value="<?= @$res->margin_value ?? '' ?>" required>
                   </div>
 
-                  <!-- PERMISSION -->
-                  <div class="col-md-12 mt-2">
-                     <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox"
+                  <!-- SWITCH -->
+                  <div class="col-md-12 mb-3">
+                     <div class="custom-control custom-switch">
+                        <input type="checkbox"
+                           class="custom-control-input"
+                           id="marginSwitch"
                            name="exchange_margin_permission"
                            value="1"
                            <?= @$res->exchange_margin_permission == 1 ? 'checked' : '' ?>>
-                        <label class="form-check-label">
+
+                        <label class="custom-control-label" for="marginSwitch">
                            Allow margin exchange
                         </label>
                      </div>
                   </div>
 
                   <!-- COLORS -->
-                  <div class="col-md-6">
-                     <label class="form-label">Primary Colour</label>
+                  <div class="col-md-6 mb-3">
+                     <label>Primary Colour</label>
                      <input type="text" class="form-control"
                         name="branding_colour_code"
                         value="<?= @$res->branding_colour_code ?? '' ?>">
                   </div>
 
-                  <div class="col-md-6">
-                     <label class="form-label">Secondary Colour</label>
+                  <div class="col-md-6 mb-3">
+                     <label>Secondary Colour</label>
                      <input type="text" class="form-control"
                         name="branding_colour_code_secondry"
                         value="<?= @$res->branding_colour_code_secondry ?? '' ?>">
@@ -202,7 +216,7 @@
             <button type="submit" form="fm_form_data" class="btn btn-primary px-4">
                Save
             </button>
-            <button type="button" class="btn btn-light close-model">
+            <button type="button" class="btn btn-secondary close-model">
                Cancel
             </button>
          </div>
