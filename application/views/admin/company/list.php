@@ -190,7 +190,7 @@ select.form-control {
                      <label>VAT (%)</label>
                      <input type="number" class="form-control"
                         name="vat"
-                        value="<?= @$res->vat_percentage ?? '' ?>">
+                        value="<?= @$res->vat ?? '' ?>">
                   </div>
 
                   <!-- MARGIN TYPE -->
