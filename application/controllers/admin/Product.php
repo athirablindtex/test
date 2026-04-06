@@ -343,8 +343,7 @@ $this->check_user_privillages($permission);
    public function insert_import_row($row = [], $company_id)
 {
     try {
-        echo $company_id;
-        exit;
+   
 
         $company_id = get_company_id_or_null($company_id);
 
