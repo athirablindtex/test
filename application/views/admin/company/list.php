@@ -1,51 +1,11 @@
 <?php $margin_type = array("Percentage", "Value"); ?>
 <div class="main-panel">
    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
-   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
    <style>
-/* LABEL */
-label {
-    font-size: 12px;
-    font-weight: 500;
-    color: #6c757d;
-    margin-bottom: 4px;
-}
 
-/* INPUTS */
-.form-control {
-    height: 42px;
-    border-radius: 10px;
-    border: 1px solid #e3e6f0;
-    font-size: 14px;
-    transition: 0.3s;
-}
-
-/* TEXTAREA */
-textarea.form-control {
-    height: auto;
-    border-radius: 10px;
-}
-/* Make modal wider than Bootstrap default */
-.custom-modal-xl {
-    max-width: 1200px;   /* increase to 1300px if you want more */
-}
-
-/* Full height feel */
-.modal-dialog {
-    margin: 20px auto;
-}
-/* FOCUS EFFECT */
-.form-control:focus {
-    border-color: #6c63ff;
-    box-shadow: 0 0 0 2px rgba(108,99,255,0.1);
-}
-
-/* SELECT */
-select.form-control {
-    height: 42px;
-}
-
+      
    </style>
    <div class="content">
       <div class="page-inner">
@@ -65,205 +25,145 @@ select.form-control {
                   </div>
                   <div class="card-body">
                      <!-- Modal -->
-                   <div class="modal fade" id="addRowModal" tabindex="-1">
-   <div class="modal-dialog modal-xl modal-dialog-centered custom-modal-xl" role="document">
-      <div class="modal-content">
+                     <div class="modal fade" id="addRowModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header no-bd">
+                                 <h5 class="modal-title">
+                                    <span class="fw-mediumbold">
+                                       New</span>
+                                    <span class="fw-light">
+                                       Company
+                                    </span>
+                                 </h5>
+                                 <button type="button" class="close close-model" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                 </button>
+                              </div>
+                              <div class="modal-body">
+                                 <form action="" method="post" enctype="multipart/form-data" id="fm_form_data" onsubmit="return(validate_form());">
+                                    <div class="row">
+                                       <?php if (@validation_errors()) { ?>
+                                          <div class="col-md-12">
+                                             <div class="alert alert-danger" role="alert">
+                                                <strong>Form Insert Failed</strong> <?php echo @validation_errors(); ?>
+                                             </div>
+                                          </div>
+                                       <?php } ?>
+                                       <div class="col-md-12 text-center mb-4">
+                                          <div class="input-file input-file-image mx-auto">
+                                             <img class="img-upload-preview img-circle mx-auto" width="100" height="100" id="image-label" src="<?php echo is_file('uploads/users/' . @$res->image) ? base_url() . 'uploads/users/' . @$res->image : base_url() . 'uploads/placeholder/image1.png'; ?>" alt="preview">
+                                             <input type="file" class="form-control form-control-file" id="uploadImg1" name="image" accept="image/*">
+                                             <label for="uploadImg1" class="  label-input-file btn btn-round border text-dark" style="color: #333 !important">
+                                                <span class="btn-label">
+                                                   <i class="fa fa-file-image"></i>
+                                                </span>
+                                                Upload company logo
+                                             </label>
+                                          </div>
+                                       </div>
 
-         <!-- HEADER -->
-         <div class="modal-header border-0 pb-0">
-            <h5 class="modal-title font-weight-bold">New Company</h5>
+                                       <div class="col-sm-6">
+                                          <div class="form-group form-group-default">
+                                             <label>Name</label>
+                                             <input id="addName" type="text" class="form-control" name="name" value="<?php echo @$res->name != '' ? @$res->name : $this->input->post('name'); ?>" required>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-6 ">
+                                          <div class="form-group form-group-default">
+                                             <label>Phone</label>
+                                             <input id="addPosition" type="text" class="form-control" name="phone" placeholder="Phone" value="<?php echo @$res->phone != '' ? @$res->phone : $this->input->post('phone'); ?>" required>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-6">
+                                          <div class="form-group form-group-default">
+                                             <label>Company Email [office mail]</label>
+                                             <input id="addOffice" type="email" class="form-control" name="company_email" value="<?php echo @$res->company_email != '' ? @$res->company_email : $this->input->post('company_email'); ?>" required>
+                                          </div>
+                                       </div>
+                                        <div class="col-md-6">
+                                          <div class="form-group form-group-default">
+                                             <label>Receiving Mail</label>
+                                             <input id="addOffice" type="email" class="form-control" name="email" value="<?php echo @$res->email != '' ? @$res->email : $this->input->post('email'); ?>" required>
+                                          </div>
+                                       </div>
+                                         <div class="col-md-6">
+                                          <div class="form-group form-group-default">
+                                             <label>Reply mail</label>
+                                             <input id="addOffice" type="email" class="form-control" name="reply_mail" value="<?php echo @$res->reply_mail != '' ? @$res->reply_mail : $this->input->post('reply_mail'); ?>" required>
+                                          </div>
+                                       </div>
+                                       <div class="col-sm-6 ">
+                                          <div class="form-group form-group-default">
+                                             <label>Password</label>
+                                             <input id="password" type="password" class="form-control" name="password" maxlength="100" onkeyup="return passwordChanged();" <?= @$res->id > 0 ? '' : 'required'; ?>>
+                                             <span id="strength"></span>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="form-group form-group-default">
+                                             <label>Address</label>
+                                             <textarea id="address" class="form-control" name="address" rows="4"><?php echo @$res->address != '' ? @$res->address : $this->input->post('address'); ?></textarea>
+                                          </div>
+                                       </div>
 
-            <button type="button" class="close close-model">
-               <span>&times;</span>
-            </button>
-         </div>
+                                       <div class="col-md-6">
+                                          <div class="form-group form-group-default">
+                                             <label>Margin</label>
+                                             <select class="form-control" id="margin_type" name="margin_type" required>
 
-         <!-- BODY -->
-         <div class="modal-body pt-2">
-            <form action="" method="post" enctype="multipart/form-data" id="fm_form_data">
+                                                <?php foreach ($margin_type as $p) { ?>
+                                                   <option value="<?php echo $p; ?>" <?php if ($p == @$res->margin_type) {
+                                                                                          echo "selected";
+                                                                                       } else if ($this->input->post('margin_type') == $p) {
+                                                                                          echo "selected";
+                                                                                       } ?>><?php echo $p; ?></option>
+                                                <?php } ?>
+                                             </select>
+                                          </div>
+                                       </div>
 
-               <div class="row">
+                                       <div class="col-sm-6">
+                                          <div class="form-group form-group-default">
+                                             <label>Margin</label>
+                                             <input id="addName" type="number" class="form-control" name="margin_value" value="<?php echo @$res->margin_value != '' ? @$res->margin_value : $this->input->post('margin_value'); ?>" required>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="form-check pl-0">
+                                             <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="1" name="exchange_margin_permission" <?php echo @$res->exchange_margin_permission == 1 ? 'checked' : ''; ?>>
+                                                <span class="form-check-sign">Permission to exchange margin</span>
+                                             </label>
+                                             </label>
+                                          </div>
+                                       </div>
+                                       <div class="col-sm-6">
+                                          <div class="form-group form-group-default">
+                                             <label>Primary Colour</label>
+                                             <input id="cp1" type="text" name="branding_colour_code" class="form-control input-lg" value="<?php echo @$res->branding_colour_code != '' ? @$res->branding_colour_code : $this->input->post('branding_colour_code'); ?>" required />
+                                          </div>
+                                       </div>
+                                       <div class="col-sm-6">
+                                          <div class="form-group form-group-default">
+                                             <label>Secondary Colour</label>
+                                             <input id="cp2" type="text" name="branding_colour_code_secondry" class="form-control input-lg" value="<?php echo @$res->branding_colour_code_secondry != '' ? @$res->branding_colour_code_secondry : $this->input->post('branding_colour_code_secondry'); ?>" required />
+                                          </div>
+                                       </div>
+                                    </div>
 
-                  <!-- LOGO -->
-                  <div class="col-md-12 text-center mb-4">
-                     <div class="position-relative d-inline-block">
+                              </div>
+                              <input type="hidden" name="id" value="<?php echo @$res->$module_id ? $res->$module_id : 0; ?>">
 
-                        <img class="rounded-circle shadow-sm"
-                           width="110" height="110"
-                           style="object-fit:cover; border:3px solid #f1f3f5;"
-                           id="image-label"
-                           src="<?= is_file('uploads/users/' . @$res->image) ? base_url().'uploads/users/'.@$res->image : base_url().'uploads/placeholder/image1.png'; ?>">
-
-                        <input type="file" class="d-none" id="uploadImg1" name="image">
-
-                        <label for="uploadImg1"
-                           class="btn btn-light shadow-sm"
-                           style="position:absolute; bottom:0; right:0; border-radius:50%;">
-                           <i class="fa fa-pencil"></i>
-                        </label>
+                              <div class="modal-footer no-bd">
+                                 <button type="submit" class="btn btn-primary">Add</button>
+                                 <button type="button" class="btn close-model">Close</button>
+                              </div>
+                           </div>
+                           </form>
+                        </div>
 
                      </div>
-                  </div>
-
-                  <!-- NAME -->
-                  <div class="col-md-6 mb-3">
-                     <label>Name</label>
-                     <input type="text" class="form-control"
-                        name="name"
-                        value="<?= @$res->name ?? $this->input->post('name'); ?>" required>
-                  </div>
-
-                  <!-- PHONE -->
-                  <div class="col-md-6 mb-3">
-                     <label>Phone</label>
-                     <input type="text" class="form-control"
-                        name="phone"
-                        value="<?= @$res->phone ?? $this->input->post('phone'); ?>" required>
-                  </div>
-
-                  <!-- COMPANY EMAIL -->
-                  <div class="col-md-6 mb-3">
-                     <label>Company Email</label>
-                     <input type="email" class="form-control"
-                        name="company_email"
-                        value="<?= @$res->company_email ?? $this->input->post('company_email'); ?>" required>
-                  </div>
-
-                  <!-- RECEIVING -->
-                  <div class="col-md-6 mb-3">
-                     <label>Receiving Mail</label>
-                     <input type="email" class="form-control"
-                        name="email"
-                        value="<?= @$res->email ?? $this->input->post('email'); ?>" required>
-                  </div>
-
-                  <!-- REPLY -->
-                  <div class="col-md-6 mb-3">
-                     <label>Reply Mail</label>
-                     <input type="email" class="form-control"
-                        name="reply_mail"
-                        value="<?= @$res->reply_mail ?? $this->input->post('reply_mail'); ?>" required>
-                  </div>
-
-                  <!-- PASSWORD -->
-                  <div class="col-md-6 mb-3">
-                     <label>Password</label>
-                     <input type="password" class="form-control"
-                        name="password"
-                        <?= @$res->id > 0 ? '' : 'required'; ?>>
-                  </div>
-
-                  <!-- ADDRESS -->
-                  <div class="col-md-12 mb-3">
-                     <label>Address</label>
-                     <textarea class="form-control" rows="3"
-                        name="address" id="address"><?= @$res->address ?? $this->input->post('address'); ?></textarea>
-                  </div>
-
-                  <!-- SECTION -->
-                  <div class="col-md-12 mt-3 mb-2">
-                     <h6 style="font-weight:600; border-left:4px solid #6c63ff; padding-left:8px;">
-                        Location & Finance
-                     </h6>
-                  </div>
-
-                  <!-- COUNTRY -->
-                  <div class="col-md-4 mb-3">
-                     <label>Country</label>
-                     <select class="form-control" name="country" id="country" required>
-                        <option value="">Select</option>
-                        <option value="AE" <?= (@$res->country == 'AE') ? 'selected' : '' ?>>🇦🇪 UAE</option>
-                        <option value="UK" <?= (@$res->country == 'UK') ? 'selected' : '' ?>>🇬🇧 UK</option>
-                     </select>
-                  </div>
-
-                  <!-- CURRENCY -->
-                  <div class="col-md-4 mb-3">
-                     <label>Currency</label>
-                     <input type="text" class="form-control bg-light"
-                        name="currency" id="currency"
-                        value="<?= @$res->currency ?? '' ?>" readonly>
-                  </div>
-
-                  <!-- VAT -->
-                  <div class="col-md-4 mb-3">
-                     <label>VAT (%)</label>
-                     <input type="number" class="form-control"
-                        name="vat"
-                        value="<?= @$res->vat ?? '' ?>">
-                  </div>
-
-                  <!-- MARGIN TYPE -->
-                  <div class="col-md-6 mb-3">
-                     <label>Margin Type</label>
-                     <select class="form-control" name="margin_type" required>
-                        <?php foreach ($margin_type as $p) { ?>
-                           <option value="<?= $p ?>" <?= ($p == @$res->margin_type) ? 'selected' : '' ?>>
-                              <?= $p ?>
-                           </option>
-                        <?php } ?>
-                     </select>
-                  </div>
-
-                  <!-- MARGIN VALUE -->
-                  <div class="col-md-6 mb-3">
-                     <label>Margin Value</label>
-                     <input type="number" class="form-control"
-                        name="margin_value"
-                        value="<?= @$res->margin_value ?? '' ?>" required>
-                  </div>
-
-                  <!-- SWITCH -->
-                  <div class="col-md-12 mb-3">
-                     <div class="custom-control custom-switch">
-                        <input type="checkbox"
-                           class="custom-control-input"
-                           id="marginSwitch"
-                           name="exchange_margin_permission"
-                           value="1"
-                           <?= @$res->exchange_margin_permission == 1 ? 'checked' : '' ?>>
-
-                        <label class="custom-control-label" for="marginSwitch">
-                           Allow margin exchange
-                        </label>
-                     </div>
-                  </div>
-
-                  <!-- COLORS -->
-                  <div class="col-md-6 mb-3">
-                     <label>Primary Colour</label>
-                     <input type="text" class="form-control"
-                        name="branding_colour_code"
-                        value="<?= @$res->branding_colour_code ?? '' ?>">
-                  </div>
-
-                  <div class="col-md-6 mb-3">
-                     <label>Secondary Colour</label>
-                     <input type="text" class="form-control"
-                        name="branding_colour_code_secondry"
-                        value="<?= @$res->branding_colour_code_secondry ?? '' ?>">
-                  </div>
-
-               </div>
-
-               <input type="hidden" name="id" value="<?= @$res->$module_id ?? 0; ?>">
-
-            </form>
-         </div>
-
-         <!-- FOOTER -->
-         <div class="modal-footer border-0">
-            <button type="submit" form="fm_form_data" class="btn btn-primary px-4">
-               Save
-            </button>
-            <button type="button" class="btn btn-secondary close-model">
-               Cancel
-            </button>
-         </div>
-
-      </div>
-   </div>
-</div>
                      <?php if (@$tabledata) { ?>
                         <div class="table-responsive">
                            <table id="multi-filter-select" class="display table table-striped table-hover">
@@ -296,7 +196,7 @@ select.form-control {
                                              data-id="<?= @$product->id; ?>"
                                              data-toggle="modal"
                                              data-target="#bankModal">
-                                             <i class="fa fa-edit"></i> View/Update
+                                             <i class="fa fa-edit"></i>  View/Update
                                           </a>
                                        </td>
 
@@ -345,47 +245,47 @@ select.form-control {
 
 <!-- Bank Info Modal -->
 <div class="modal fade" id="bankModal" tabindex="-1" role="dialog" aria-labelledby="bankModalLabel" aria-hidden="true">
-   <div class="modal-dialog" role="document">
-      <form id="bankForm" method="post" action="<?= base_url('admin/company/update_bank_info') ?>">
-         <input type="hidden" name="product_id" id="product_id">
-         <div class="modal-content">
-            <div class="modal-header">
-               <h5 class="modal-title">Update Bank Details</h5>
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
-            </div>
-            <div class="modal-body">
-               <div class="form-group">
-                  <label>Bank</label>
-                  <input type="text" class="form-control" name="bank" required>
-               </div>
-               <div class="form-group">
-                  <label>Account Name</label>
-                  <input type="text" class="form-control" name="account_name" required>
-               </div>
-               <div class="form-group">
-                  <label>Account No</label>
-                  <input type="text" class="form-control" name="account_no" required>
-               </div>
-               <div class="form-group">
-                  <label>IBAN</label>
-                  <input type="text" class="form-control" name="iban" required>
-               </div>
-               <div class="form-group">
-                  <label>Branch</label>
-                  <input type="text" class="form-control" name="branch" required>
-               </div>
-               <div class="form-group">
-                  <label>Swift Code</label>
-                  <input type="text" class="form-control" name="swift" required>
-               </div>
-            </div>
-            <div class="modal-footer">
-               <button type="submit" class="btn btn-success">Save</button>
-               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-            </div>
-         </div>
-      </form>
-   </div>
+  <div class="modal-dialog" role="document">
+    <form id="bankForm" method="post" action="<?= base_url('admin/company/update_bank_info') ?>">
+      <input type="hidden" name="product_id" id="product_id">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Update Bank Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label>Bank</label>
+            <input type="text" class="form-control" name="bank" required>
+          </div>
+          <div class="form-group">
+            <label>Account Name</label>
+            <input type="text" class="form-control" name="account_name" required>
+          </div>
+          <div class="form-group">
+            <label>Account No</label>
+            <input type="text" class="form-control" name="account_no" required>
+          </div>
+          <div class="form-group">
+            <label>IBAN</label>
+            <input type="text" class="form-control" name="iban" required>
+          </div>
+          <div class="form-group">
+            <label>Branch</label>
+            <input type="text" class="form-control" name="branch" required>
+          </div>
+          <div class="form-group">
+            <label>Swift Code</label>
+            <input type="text" class="form-control" name="swift" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success">Save</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </form>
+  </div>
 </div>
 
 
@@ -394,14 +294,15 @@ select.form-control {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.4.0/css/bootstrap-colorpicker.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/3.4.0/js/bootstrap-colorpicker.min.js"></script>
 <script>
-   $('#address').summernote({
-      height: 150,
-      toolbar: [
-         ['style', ['bold', 'italic', 'underline']],
-         ['para', ['ul', 'ol']],
-         ['view', ['codeview']]
-      ]
-   });
+
+    $('#address').summernote({
+        height: 150,
+        toolbar: [
+            ['style', ['bold', 'italic', 'underline']],
+            ['para', ['ul', 'ol']],
+            ['view', ['codeview']]
+        ]
+    });
 
    $(function() {
       $('#cp1,#cp2').colorpicker({
@@ -529,52 +430,32 @@ select.form-control {
       }
    }
 
-   $(document).on('click', '.open-bank-modal', function() {
-      let productId = $(this).data('id');
-      $('#product_id').val(productId);
-      $('#bankForm')[0].reset();
+  $(document).on('click', '.open-bank-modal', function () {
+    let productId = $(this).data('id');
+    $('#product_id').val(productId);
+     $('#bankForm')[0].reset();
 
-      $.ajax({
-         url: '<?= base_url("admin/company/get_bank_info") ?>',
-         type: 'POST',
-         data: {
-            id: productId
-         },
-         dataType: 'json',
-         success: function(response) {
-            if (response.success) {
-               $('[name="bank"]').val(response.data.bank);
-               $('[name="account_name"]').val(response.data.account_name);
-               $('[name="account_no"]').val(response.data.account_no);
-               $('[name="iban"]').val(response.data.iban);
-               $('[name="branch"]').val(response.data.branch);
-               $('[name="swift"]').val(response.data.swift);
-            }
-         }
-      });
-
-
-
-      // set hidden input in modal
-   });
-
-   $('#country').on('change', function() {
-      let country = $(this).val();
-
-      let config = {
-         'AE': {
-            currency: 'AED',
-            vat: 5
-         },
-         'UK': {
-            currency: 'GBP',
-            vat: 20
-         }
-      };
-
-      if (config[country]) {
-         $('#currency').val(config[country].currency);
-         $('[name="vat_percentage"]').val(config[country].vat);
+    $.ajax({
+      url: '<?= base_url("admin/company/get_bank_info") ?>',
+      type: 'POST',
+      data: { id: productId },
+      dataType: 'json',
+      success: function (response) {
+        if (response.success) {
+          $('[name="bank"]').val(response.data.bank);
+          $('[name="account_name"]').val(response.data.account_name);
+          $('[name="account_no"]').val(response.data.account_no);
+          $('[name="iban"]').val(response.data.iban);
+          $('[name="branch"]').val(response.data.branch);
+          $('[name="swift"]').val(response.data.swift);
+        }
       }
-   });
+    });
+
+    
+    
+    // set hidden input in modal
+  });
+
+
 </script>
