@@ -329,7 +329,7 @@ $this->check_user_privillages($permission);
         }
         exit;
     }
-    public function excel_import_set($data = [])
+    public function excel_import_set($data = [], $company_id = 0)
     {
         try {
             for ($i = 2; $i <= count($data); $i++) {
@@ -338,12 +338,14 @@ $this->check_user_privillages($permission);
         } catch (Exception $e) {
         }
     }
-   public function insert_import_row($row = [], $company_id = 0)
+   public function insert_import_row($row = [], $company_id)
 {
     try {
-        
+        echo $company_id;
+        exit;
 
         $company_id = get_company_id_or_null($company_id);
+
         echo "Company ID for row: " . ($company_id ?? 'NULL') . "\n";
         exit;
 
