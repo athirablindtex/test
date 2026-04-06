@@ -5,7 +5,35 @@
 
    <style>
 
+.form-group-default {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 8px 12px;
+    background: #fff;
+    transition: 0.2s;
+}
 
+.form-group-default:hover {
+    border-color: #6c63ff;
+}
+
+.form-group-default label {
+    font-size: 11px;
+    color: #9ca3af;
+    margin-bottom: 2px;
+}
+
+.form-group-default input,
+.form-group-default select,
+.form-group-default textarea {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.row.g-3 > div {
+    margin-bottom: 12px;
+}
    </style>
    <div class="content">
       <div class="page-inner">
