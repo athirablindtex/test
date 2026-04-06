@@ -158,7 +158,7 @@
 <div class="col-md-12 mt-3">
    <h6 style="font-weight:600;">Location & Finance</h6>
 </div>
-
+         <div class="col-md-12">
 <!-- COUNTRY -->
 <div class="col-md-4">
    <div class="form-group form-group-default">
@@ -187,6 +187,7 @@
       <input type="number" class="form-control" name="vat"
          value="<?= @$res->vat ?? '' ?>">
    </div>
+</div>
 </div>
 
                               </div>
