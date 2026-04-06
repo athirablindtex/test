@@ -304,8 +304,7 @@ $this->check_user_privillages($permission);
     {
         $config['upload_path'] = APPPATH . '../uploads/import/';
         $company_id = $this->input->post('company_id');
-        echo    $company_id;
-        exit;
+    
 
         $config['allowed_types'] = 'xls|xlsx';
         $this->load->library('upload', $config);
@@ -336,7 +335,7 @@ $this->check_user_privillages($permission);
     {
         try {
             for ($i = 2; $i <= count($data); $i++) {
-                $this->insert_import_row($data[$i]);
+                $this->insert_import_row($data[$i], $company_id);
             }
         } catch (Exception $e) {
         }
