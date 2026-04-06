@@ -4,53 +4,97 @@
    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
    <style>
-      /* Improve modal look */
-      .modal-content {
-         border-radius: 12px;
-         padding: 10px 5px;
-      }
+    /* Modal */
+.modal-content {
+    border-radius: 14px;
+    padding: 20px 15px;
+}
 
-      /* Section title */
-      .section-title {
-         font-weight: 600;
-         font-size: 14px;
-         margin: 15px 0 10px;
-         color: #444;
-         border-left: 3px solid #6c5ce7;
-         padding-left: 8px;
-      }
+/* Section title */
+.section-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #555;
+    margin: 20px 0 10px;
+    display: flex;
+    align-items: center;
+}
+.section-title::before {
+    content: "";
+    width: 4px;
+    height: 14px;
+    background: #6c5ce7;
+    margin-right: 8px;
+    border-radius: 2px;
+}
 
-      /* Inputs */
-      .form-group-default {
-         border-radius: 8px !important;
-         border: 1px solid #e5e7eb !important;
-         padding: 10px !important;
-         background: #fafafa;
-      }
+/* Input box style */
+.form-group-default {
+    border: 1px solid #e3e6ea !important;
+    border-radius: 10px !important;
+    padding: 8px 12px !important;
+    background: #fff;
+    transition: 0.2s;
+}
 
-      .form-group-default input,
-      .form-group-default select,
-      .form-group-default textarea {
-         border: none !important;
-         background: transparent !important;
-         height: 40px;
-         font-size: 14px;
-      }
+.form-group-default:hover {
+    border-color: #6c5ce7 !important;
+}
 
-      textarea.form-control {
-         height: auto !important;
-      }
+.form-group-default label {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 2px;
+}
 
-      /* spacing */
-      .row>div {
-         margin-bottom: 10px;
-      }
+.form-group-default input,
+.form-group-default select,
+.form-group-default textarea {
+    border: none !important;
+    background: transparent !important;
+    height: 34px;
+    font-size: 13px;
+    padding: 0;
+}
 
-      /* logo center */
-      .img-upload-preview {
-         border: 2px solid #eee;
-         padding: 5px;
-      }
+/* Fix textarea */
+textarea.form-control {
+    height: auto !important;
+}
+
+/* Reduce spacing */
+.row > div {
+    margin-bottom: 12px;
+}
+
+/* Logo */
+.img-upload-preview {
+    border: 2px solid #eee;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+/* Custom upload button */
+.custom-upload {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: #f1f3f5;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+/* Buttons */
+.modal-footer .btn-primary {
+    background: #6c5ce7;
+    border: none;
+    border-radius: 8px;
+}
+
+.modal-footer .btn-secondary {
+    border-radius: 8px;
+}
    </style>
    <div class="content">
       <div class="page-inner">
