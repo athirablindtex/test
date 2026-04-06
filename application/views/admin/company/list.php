@@ -26,7 +26,15 @@ textarea.form-control {
     height: auto;
     border-radius: 10px;
 }
+/* Make modal wider than Bootstrap default */
+.custom-modal-xl {
+    max-width: 1200px;   /* increase to 1300px if you want more */
+}
 
+/* Full height feel */
+.modal-dialog {
+    margin: 20px auto;
+}
 /* FOCUS EFFECT */
 .form-control:focus {
     border-color: #6c63ff;
@@ -58,7 +66,7 @@ select.form-control {
                   <div class="card-body">
                      <!-- Modal -->
                    <div class="modal fade" id="addRowModal" tabindex="-1">
-   <div class="modal-dialog modal-xl modal-dialog-centered">
+   <div class="modal-dialog modal-xl modal-dialog-centered custom-modal-xl" role="document">
       <div class="modal-content">
 
          <!-- HEADER -->
@@ -149,7 +157,7 @@ select.form-control {
                   <div class="col-md-12 mb-3">
                      <label>Address</label>
                      <textarea class="form-control" rows="3"
-                        name="address"><?= @$res->address ?? $this->input->post('address'); ?></textarea>
+                        name="address" id="address"><?= @$res->address ?? $this->input->post('address'); ?></textarea>
                   </div>
 
                   <!-- SECTION -->
