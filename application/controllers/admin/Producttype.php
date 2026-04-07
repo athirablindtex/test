@@ -2,6 +2,9 @@
 	exit('No direct script allowed');
 }
 
+ini_set(('display_errors'), 1);
+error_reporting(E_ALL);
+
 class Producttype extends MY_Controller
 {
 	var $module_id = 'id';
