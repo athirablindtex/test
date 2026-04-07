@@ -699,6 +699,7 @@ $('.filter').on('input', function () {
     $('form').submit();
 });
 $('#company_id').on('change', function () {
+   alert1('Company filter changed');
     let company_id = $(this).val();
 
     $.ajax({
