@@ -464,49 +464,36 @@ if ($mode === 'add') {
 </div>
 </div>
 <script>
-   let isInitializing = true;
-$(document).ready(function() {
+   $(document).ready(function() {
 
-    let productType = '<?= $this->input->get('product_type') ?>';
-    let subProductType = '<?= $this->input->get('sub_product_type') ?>';
-    let priceBandType = '<?= $this->input->get('price_band_type') ?>';
-    let priceBand = '<?= $this->input->get('price_band') ?>';
+      let productType = '<?= $this->input->get('product_type') ?>';
+      let subProductType = '<?= $this->input->get('sub_product_type') ?>';
+      let priceBandType = '<?= $this->input->get('price_band_type') ?>';
+      let priceBand = '<?= $this->input->get('price_band') ?>';
     let name = '<?= $this->input->get('search') ?>';
-
     if(name){
         $('#searchInput').val(name);
-    }
+}
 
-    if (productType) {
-        $('#product_type1').val(productType);
-    }
 
-    if (priceBandType) {
-        $('#price_band_type1').val(priceBandType);
-    }
+      if (productType) {
+         $('#product_type1').val(productType).trigger('change');
+      }
 
-    // manually trigger AFTER setting values
-    if (productType) {
-        $('#product_type1').trigger('change');
-    }
-
-    if (priceBandType) {
-        $('#price_band_type1').trigger('change');
-    }
-
-    // delay setting dependent values
-    setTimeout(function() {
-        if (subProductType) {
+      $(document).ajaxComplete(function() {
+         if (subProductType) {
             $('#sub_product_type1').val(subProductType);
-        }
-        if (priceBand) {
+         }
+         if (priceBand) {
             $('#price_band1').val(priceBand);
-        }
+         }
+      });
 
-        isInitializing = false; // ✅ done init
-    }, 500);
-
-});
+      if (priceBandType) {
+         $('#price_band_type1').val(priceBandType).trigger('change');
+      }
+ 
+   });
    $('#product_type').change(function() {
 
       $.ajax({
@@ -522,21 +509,18 @@ $(document).ready(function() {
          }
       });
    });
-$('#product_type1').change(function() {
-
-    if (isInitializing) return; 
-
-    $.ajax({
-        type: 'POST',
-        data: {
-            category: $(this).val()
-        },
-        url: '<?php echo site_url('admin/product/change_product_type'); ?>',
-        success: function(data) {
+   $('#product_type1').change(function() {
+      $.ajax({
+         'type': 'POST',
+         'data': {
+            category: $('#product_type1').val()
+         },
+         'url': '<?php echo site_url('admin/product/change_product_type'); ?>',
+         'success': function(data) {
             $('#sub_product_type1').html(data);
-        }
-    });
-});
+         }
+      });
+   });
 <?php
 $editPriceBandType = @$res->price_band_type;
 $editPriceBand     = @$res->price_band;
@@ -573,25 +557,21 @@ $(document).ready(function () {
 <?php endif; ?>
 
 
-$('#price_band_type1').change(function() {
-
-    if (isInitializing) return;
-
-    let price_band_type = $(this).val();
-    let product_type = $('#product_type1').val();
-
-    $.ajax({
-        type: 'POST',
-        data: {
+   $('#price_band_type1').change(function() {
+      let price_band_type = $(this).val();
+      let product_type = $('#product_type1').val();
+      $.ajax({
+         'type': 'POST',
+         'data': {
             product_type: product_type,
             category: price_band_type
-        },
-        url: '<?php echo site_url('admin/product/change_product_band_type'); ?>',
-        success: function(data) {
+         },
+         'url': '<?php echo site_url('admin/product/change_product_band_type'); ?>',
+         'success': function(data) {
             $('#price_band1').html(data);
-        }
-    });
-});
+         }
+      });
+   });
 
    // $('#search').on('keyup', function() {
    //    var name = $(this).val().toLowerCase();
