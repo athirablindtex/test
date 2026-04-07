@@ -20,7 +20,10 @@ class Productmodel extends CI_Model
 	{
 		return $query = $this->db->get($this->table_name . ' a');
 	}
-
+private function base_query()
+{
+    $this->db->from($this->table_name . ' a');
+}
 	function get_parent()
 	{
 		$this->db->where('parent', 0);
@@ -346,7 +349,7 @@ class Productmodel extends CI_Model
 {
     $this->db->reset_query(); 
 
-    $this->db->from($this->table_name . ' a'); // 
+      $this->base_query(); 
 
     $this->apply_product_filters($search);
 
