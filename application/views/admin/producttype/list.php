@@ -336,7 +336,7 @@ let product_type = <?= !empty($res->module_id) ? (int)$res->module_id : 0 ?>;
 
 $('#company_id').on('change', function () {
    let company_id = $(this).val();
-   window.location.href = "<?= site_url('admin/product/list') ?>?company_id=" + company_id;
+   window.location.href = "<?= site_url('admin/producttype/list') ?>?company_id=" + company_id;
 
 });
 </script>
