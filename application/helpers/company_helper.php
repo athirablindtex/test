@@ -22,3 +22,13 @@ if (!function_exists('get_company_id_or_null')) {
     }
 }
 
+if (!function_exists('get_salesperson_company')) {
+    function get_salesperson_company($user_id)
+    {
+        $CI =& get_instance();
+
+        $salesperson_row = $CI->salespersonmodel->get_row($user_id);
+
+        return $salesperson_row->company ?? null;
+    }
+}
