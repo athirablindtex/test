@@ -312,7 +312,7 @@ $this->check_user_privillages($permission);
     public function excel_import()
     {
         $config['upload_path'] = APPPATH . '../uploads/import/';
-        $company_id = $this->input->post('company_id');
+        $company_id = $this->input->post('company_ide');
     
 
         $config['allowed_types'] = 'xls|xlsx';

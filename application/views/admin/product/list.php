@@ -19,7 +19,7 @@
                   <div class="col-md-12">
                      <div class="form-group form-group-default">
                         <label>Select Company</label>
-                        <select name="companyid" class="form-control" id="companyid" required>
+                        <select name="company_ide" class="form-control" required>
                            <option value="">Select Company</option>
 
 
@@ -125,7 +125,7 @@ if ($mode === 'add') {
                             <div class="col-md-6">
                               <div class="form-group form-group-default">
                                  <label>Select Company</label>
-                                 <select class="form-control" name="company">
+                                 <select class="form-control" name="company" id="companyid" required>
                                     <option value="">Company</option>
                                     <?php foreach ($companies as $c) { ?>
                                        <option value="<?= $c->id; ?>">
