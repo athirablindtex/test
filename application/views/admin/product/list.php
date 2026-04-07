@@ -16,24 +16,24 @@
                <div class="row">
 
                   <!-- COMPANY SELECT -->
-         <div class="col-md-12">
-            <div class="form-group form-group-default">
-               <label>Select Company</label>
-               <select name="company_id" class="form-control" required>
-                  <option value="">Select Company</option>
+                  <div class="col-md-12">
+                     <div class="form-group form-group-default">
+                        <label>Select Company</label>
+                        <select name="company_id" class="form-control" required>
+                           <option value="">Select Company</option>
 
-       
 
-                  <!-- Other companies -->
-                  <?php foreach($companies as $c){ ?>
-                     <option value="<?= $c->id ?>">
-                        <?= $c->name ?>
-                     </option>
-                  <?php } ?>
 
-               </select>
-            </div>
-         </div>
+                           <!-- Other companies -->
+                           <?php foreach ($companies as $c) { ?>
+                              <option value="<?= $c->id ?>">
+                                 <?= $c->name ?>
+                              </option>
+                           <?php } ?>
+
+                        </select>
+                     </div>
+                  </div>
                   <div class="col-xs-12 col-sm-12 col-md-12">
                      <div class="form-group form-group-default">
                         <strong>Upload Excel/CSV File:</strong>
@@ -52,16 +52,16 @@
    </div>
 </div>
 <!-- Modal Import -->
- <style>
-input[type="checkbox"] {
-    visibility: visible !important;
-}
-.card-body.add-product-form {
-  
-    background-color: #f5f7fa;
-}
+<style>
+   input[type="checkbox"] {
+      visibility: visible !important;
+   }
 
- </style>
+   .card-body.add-product-form {
+
+      background-color: #f5f7fa;
+   }
+</style>
 <?php
 $mode = $this->input->get('mode'); // add | edit | null
 
@@ -91,20 +91,19 @@ if ($mode === 'add') {
          </div>
          <div class="row">
             <div class="col-md-12">
-     <div class="col-md-12 text-right mb-3">
-    <button
-        type="button"
-        class="btn btn-outline-secondary mb-3"
-        data-toggle="collapse"
-        data-target="#collapseExample"
-        aria-controls="collapseExample"
-        data-toggle="tooltip"
-        data-placement="left"
-        title="Show / Hide section"
-    >Show / Hide Form
-        <i class="fa fa-eye-slash"></i>
-    </button>
-     </div>
+               <div class="col-md-12 text-right mb-3">
+                  <button
+                     type="button"
+                     class="btn btn-outline-secondary mb-3"
+                     data-toggle="collapse"
+                     data-target="#collapseExample"
+                     aria-controls="collapseExample"
+                     data-toggle="tooltip"
+                     data-placement="left"
+                     title="Show / Hide section">Show / Hide Form
+                     <i class="fa fa-eye-slash"></i>
+                  </button>
+               </div>
 
 
 
@@ -254,116 +253,118 @@ if ($mode === 'add') {
                      </div>
                      </div> -->
                   <div class="card-body">
-                 <form method="get" action="">
-    <div class="row">
+                     <form method="get" action="">
+                        <div class="row">
 
-        <!-- COMPANY -->
-        <div class="col-md-4">
-            <div class="form-group form-group-default">
-                <label>Select Company</label>
-                <select class="form-control" name="company_id" id="company_id">
-                    <option value="">Company</option>
-                    <?php foreach ($companies as $c) { ?>
-                        <option value="<?= $c->id; ?>" <?= $c->id == $this->input->get('company_id') ? 'selected' : ''; ?>>
-                            <?= $c->name; ?>
-                        </option>
-                    <?php } ?>
-                </select>
-            </div>
-        </div>
+                           <!-- COMPANY -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Select Company</label>
+                                 <select class="form-control" name="company_id" id="company_id">
+                                    <option value="">Company</option>
+                                    <?php foreach ($companies as $c) { ?>
+                                       <option value="<?= $c->id; ?>" <?= $c->id == $this->input->get('company_id') ? 'selected' : ''; ?>>
+                                          <?= $c->name; ?>
+                                       </option>
+                                    <?php } ?>
+                                 </select>
+                              </div>
+                           </div>
 
-        <!-- PRODUCT TYPE -->
-        <div class="col-md-4">
-            <div class="form-group form-group-default">
-                <label>Product Type</label>
-                <select class="form-control" name="product_type" id="product_type1">
-                    <option value="">Product Type</option>
-                    <?php foreach ($product_types as $p) { ?>
-                        <option value="<?= $p->id; ?>" <?= $p->id == $this->input->get('product_type') ? 'selected' : ''; ?>>
-                            <?= $p->name; ?>
-                        </option>
-                    <?php } ?>
-                </select>
-            </div>
-        </div>
+                           <!-- PRODUCT TYPE -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Product Type</label>
+                                 <select class="form-control" name="product_type" id="product_type1">
+                                    <option value="">Product Type</option>
+                                    <?php foreach ($product_types as $p) { ?>
+                                       <option value="<?= $p->id; ?>" <?= $p->id == $this->input->get('product_type') ? 'selected' : ''; ?>>
+                                          <?= $p->name; ?>
+                                       </option>
+                                    <?php } ?>
+                                 </select>
+                              </div>
+                           </div>
 
-        <!-- VENDOR -->
-        <div class="col-md-4">
-            <div class="form-group form-group-default">
-                <label>Vendor</label>
-                <select class="form-control" name="sub_product_type" id="sub_product_type1">
-                </select>
-            </div>
-        </div>
+                           <!-- VENDOR -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Vendor</label>
+                                 <select class="form-control" name="sub_product_type" id="sub_product_type1">
+                                 </select>
+                              </div>
+                           </div>
 
-    </div>
+                        </div>
 
-    <div class="row">
+                        <div class="row">
 
-        <!-- PRICE BAND TYPE -->
-        <div class="col-md-4">
-            <div class="form-group form-group-default">
-                <label>Price Band Type</label>
-                <select class="form-control" id="price_band_type1" name="price_band_type">
-                    <option value="">Price Band Type</option>
-                    <?php foreach ($band_type as $b) { ?>
-                        <option value="<?= $b; ?>"><?= $b; ?></option>
-                    <?php } ?>
-                </select>
-            </div>
-        </div>
+                           <!-- PRICE BAND TYPE -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Price Band Type</label>
+                                 <select class="form-control" id="price_band_type1" name="price_band_type">
+                                    <option value="">Price Band Type</option>
+                                    <?php foreach ($band_type as $b) { ?>
+                                       <option value="<?= $b; ?>"><?= $b; ?></option>
+                                    <?php } ?>
+                                 </select>
+                              </div>
+                           </div>
 
-        <!-- PRICE BAND -->
-        <div class="col-md-4">
-            <div class="form-group form-group-default">
-                <label>Price Band</label>
-                <select class="form-control" id="price_band1" name="price_band">
-                </select>
-            </div>
-        </div>
+                           <!-- PRICE BAND -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Price Band</label>
+                                 <select class="form-control" id="price_band1" name="price_band">
+                                 </select>
+                              </div>
+                           </div>
 
-        <!-- SEARCH INPUT -->
-        <div class="col-md-4">
-            <div class="form-group form-group-default">
-                <label>Search</label>
-                <input type="text" 
-                       name="search" 
-                       class="form-control" 
-                       id="searchInput"
-                       placeholder="Search by name"
-                       value="<?= $this->input->get('search'); ?>">
-            </div>
-        </div>
+                           <!-- SEARCH INPUT -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Search</label>
+                                 <input type="text"
+                                    name="search"
+                                    class="form-control"
+                                    id="searchInput"
+                                    placeholder="Search by name"
+                                    value="<?= $this->input->get('search'); ?>">
+                              </div>
+                           </div>
 
-    </div>
+                        </div>
 
-    <!-- BUTTONS -->
-    <div class="row mt-3">
-        <div class="col-md-12 text-center">
+                        <!-- BUTTONS -->
+                        <div class="row mt-3">
+                           <div class="col-md-12 text-center">
 
-            <button type="submit" class="btn btn-primary mr-2">
-                <i class="fa fa-search"></i> Search
-            </button>
+                              <button type="submit" class="btn btn-primary mr-2">
+                                 <i class="fa fa-search"></i> Search
+                              </button>
 
-            <a href="<?= site_url('admin/product/list') ?>" class="btn btn-secondary">
-                Reset
-            </a>
+                              <a href="<?= site_url('admin/product/list') ?>" class="btn btn-secondary">
+                                 Reset
+                              </a>
 
-        </div>
-    </div>
-</form>
+                           </div>
+                        </div>
+                     </form>
 
                   </div>
                   <?php if (@$tabledata) { ?>
-                   <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="d-flex align-items-center mb-3">
 
-    <!-- LEFT SIDE -->
-    <span class="badge badge-secondary">
-        Total: <?= $total_rows ?>
-    </span>
-
-    <!-- RIGHT SIDE -->
+    <!-- LEFT -->
     <div>
+        <span class="badge badge-secondary">
+            Total: <?= $total_rows ?>
+        </span>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="ml-auto">
         <?php if (@$permissions['delete']) { ?>
             <button id="bulkDeleteBtn" class="btn btn-danger btn-sm mr-2" disabled>
                 <i class="fa fa-trash"></i> Bulk Delete
@@ -378,90 +379,90 @@ if ($mode === 'add') {
 </div>
 
 
-                        <!-- <button id="downloadPdfBtn" class="btn btn-secondary btn-sm">
+                     <!-- <button id="downloadPdfBtn" class="btn btn-secondary btn-sm">
                            <i class="fa fa-file-pdf"></i> Download PDF
                         </button> -->
-                     </div>
-
-                     <div class="table-responsive">
-                        <table id="basic-datatables" class="display table table-striped table-hover">
-                           <thead>
-                              <tr>
-                              <th>
-                              <input type="checkbox" id="selectAll">
-                              </th>
-                                 <th>ID</th>
-                                 <th>Name</th>
-                                 <th>Type</th>
-
-                                 <th>Vendor</th>
-                                 <th>Price Band Type</th>
-                                 <th>Price Band</th>
-                                 <th>Turnable</th>
-                                 <th style="width: 10%">Action</th>
-                              </tr>
-                           </thead>
-                           <tbody id="tabledata">
-                              <?php $i = $offset; ?>
-                              <?php foreach ($tabledata as $product) {
-                                 $i++; ?>
-                                 <tr>
-                                       <td>
-                                       <input type="checkbox"
-                                       class="product-checkbox
-                                       "
-                                       value="<?= @$product['id']; ?>">
-                                       </td>
-
-                                    <td><?= $i ?></td>
-                                    <td><?= @$product['name']; ?></td>
-                                    <td><?= @$product['product_type_name']; ?></td>
-                                    <td><?= @$product['sub_product_type_name']; ?></td>
-                                    <td><?= @$product['price_band_type']; ?></td>
-                                    <td><?= @$product['priceband_name']; ?></td>
-                                    <td><?= @$product['turnable']; ?></td>
-                                    <td>
-                                       <div class="form-button-action">
-                                          <?php if (@$permissions['add']) { ?>
-                                             <a href="<?php echo site_url('admin/' . $controller . '/list/edit/' . @$product[$module_id] . ''); ?>" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                                                <i class="fa fa-edit"></i>
-                                             </a>
-                                                <button
-                                                class="btn btn-link btn-secondary btn-sm copyBtn"
-                                                data-id="<?= @$product[$module_id]; ?>" data-toggle="tooltip" title=""
-                                                data-original-title="Duplicate">
-                                                <i class="fa fa-copy"></i>
-                                                </button>
-                                          <?php } ?>
-                                          <?php if (@$permissions['delete']) { ?>
-                                             <a href="<?php echo site_url('admin/' . $controller . '/delete/' . @$product[$module_id] . ''); ?>" onclick="return confirm('<?php echo $this->lang->line('common_confirm_delete'); ?>');" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
-                                                <i class="fa fa-times"></i>
-                                             </a>
-                                          <?php } ?>
-                                       </div>
-                                    </td>
-                                 </tr>
-                              <?php } ?>
-
-
-                           </tbody>
-                        </table>
-                        <div id="pagination">
-                           <?= $pagination_links ?>
-                        </div>
-                     </div>
-                  <?php } else { ?>
-                     <div class="alert alert-danger" role="alert">
-                        <strong></strong> <?php echo $this->lang->line('common_no_data'); ?>
-                     </div>
-                  <?php } ?>
-                  <hr />
-
                </div>
+
+               <div class="table-responsive">
+                  <table id="basic-datatables" class="display table table-striped table-hover">
+                     <thead>
+                        <tr>
+                           <th>
+                              <input type="checkbox" id="selectAll">
+                           </th>
+                           <th>ID</th>
+                           <th>Name</th>
+                           <th>Type</th>
+
+                           <th>Vendor</th>
+                           <th>Price Band Type</th>
+                           <th>Price Band</th>
+                           <th>Turnable</th>
+                           <th style="width: 10%">Action</th>
+                        </tr>
+                     </thead>
+                     <tbody id="tabledata">
+                        <?php $i = $offset; ?>
+                        <?php foreach ($tabledata as $product) {
+                           $i++; ?>
+                           <tr>
+                              <td>
+                                 <input type="checkbox"
+                                    class="product-checkbox
+                                       "
+                                    value="<?= @$product['id']; ?>">
+                              </td>
+
+                              <td><?= $i ?></td>
+                              <td><?= @$product['name']; ?></td>
+                              <td><?= @$product['product_type_name']; ?></td>
+                              <td><?= @$product['sub_product_type_name']; ?></td>
+                              <td><?= @$product['price_band_type']; ?></td>
+                              <td><?= @$product['priceband_name']; ?></td>
+                              <td><?= @$product['turnable']; ?></td>
+                              <td>
+                                 <div class="form-button-action">
+                                    <?php if (@$permissions['add']) { ?>
+                                       <a href="<?php echo site_url('admin/' . $controller . '/list/edit/' . @$product[$module_id] . ''); ?>" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                          <i class="fa fa-edit"></i>
+                                       </a>
+                                       <button
+                                          class="btn btn-link btn-secondary btn-sm copyBtn"
+                                          data-id="<?= @$product[$module_id]; ?>" data-toggle="tooltip" title=""
+                                          data-original-title="Duplicate">
+                                          <i class="fa fa-copy"></i>
+                                       </button>
+                                    <?php } ?>
+                                    <?php if (@$permissions['delete']) { ?>
+                                       <a href="<?php echo site_url('admin/' . $controller . '/delete/' . @$product[$module_id] . ''); ?>" onclick="return confirm('<?php echo $this->lang->line('common_confirm_delete'); ?>');" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
+                                          <i class="fa fa-times"></i>
+                                       </a>
+                                    <?php } ?>
+                                 </div>
+                              </td>
+                           </tr>
+                        <?php } ?>
+
+
+                     </tbody>
+                  </table>
+                  <div id="pagination">
+                     <?= $pagination_links ?>
+                  </div>
+               </div>
+            <?php } else { ?>
+               <div class="alert alert-danger" role="alert">
+                  <strong></strong> <?php echo $this->lang->line('common_no_data'); ?>
+               </div>
+            <?php } ?>
+            <hr />
+
             </div>
          </div>
       </div>
    </div>
+</div>
 </div>
 </div>
 <script>
@@ -471,10 +472,10 @@ if ($mode === 'add') {
       let subProductType = '<?= $this->input->get('sub_product_type') ?>';
       let priceBandType = '<?= $this->input->get('price_band_type') ?>';
       let priceBand = '<?= $this->input->get('price_band') ?>';
-    let name = '<?= $this->input->get('search') ?>';
-    if(name){
-        $('#searchInput').val(name);
-}
+      let name = '<?= $this->input->get('search') ?>';
+      if (name) {
+         $('#searchInput').val(name);
+      }
 
 
       if (productType) {
@@ -493,7 +494,7 @@ if ($mode === 'add') {
       if (priceBandType) {
          $('#price_band_type1').val(priceBandType).trigger('change');
       }
- 
+
    });
    $('#product_type').change(function() {
 
@@ -522,40 +523,40 @@ if ($mode === 'add') {
          }
       });
    });
-<?php
-$editPriceBandType = @$res->price_band_type;
-$editPriceBand     = @$res->price_band;
-$editProductType   = @$res->product_type;
-?>
+   <?php
+   $editPriceBandType = @$res->price_band_type;
+   $editPriceBand     = @$res->price_band;
+   $editProductType   = @$res->product_type;
+   ?>
 
    function loadPriceBand() {
-    let product_type = $('#product_type').val();
+      let product_type = $('#product_type').val();
 
-    $.ajax({
-        type: 'POST',
-        url: '<?= site_url("admin/product/change_product_band_type") ?>',
-        data: {
+      $.ajax({
+         type: 'POST',
+         url: '<?= site_url("admin/product/change_product_band_type") ?>',
+         data: {
             category: $('#price_band_type').val(),
             product_type: product_type
-        },
-        success: function (data) {
+         },
+         success: function(data) {
             $('#price_band').html(data);
 
             <?php if ($edit == 1): ?>
-            $('#price_band').val('<?= @$res->price_band ?>');
+               $('#price_band').val('<?= @$res->price_band ?>');
             <?php endif; ?>
-        }
-    });
-}
+         }
+      });
+   }
 
- $('#price_band_type').on('change', function () {
-    loadPriceBand();
-});
-<?php if ($edit == 1 && !empty($res->price_band_type)): ?>
-$(document).ready(function () {
-    loadPriceBand();
-});
-<?php endif; ?>
+   $('#price_band_type').on('change', function() {
+      loadPriceBand();
+   });
+   <?php if ($edit == 1 && !empty($res->price_band_type)): ?>
+      $(document).ready(function() {
+         loadPriceBand();
+      });
+   <?php endif; ?>
 
 
    $('#price_band_type1').change(function() {
@@ -636,119 +637,121 @@ $(document).ready(function () {
    //       location.reload();
    //    }
    // });
-   $('#exportCsvBtn').on('click', function () {
-    let params = window.location.search; // keep filters
-    window.location.href = '<?= site_url("admin/product/export_csv") ?>' + params;
-});
+   $('#exportCsvBtn').on('click', function() {
+      let params = window.location.search; // keep filters
+      window.location.href = '<?= site_url("admin/product/export_csv") ?>' + params;
+   });
 
-$('#downloadPdfBtn').on('click', function () {
-    let params = window.location.search; // keep filters
-    window.location.href = '<?= site_url("admin/product/download_pdf") ?>' + params;
-});
-$(document).on('change', '.product-checkbox', function () {
-    $('#bulkDeleteBtn').prop(
-        'disabled',
-        $('.product-checkbox:checked').length === 0
-    );
-});
+   $('#downloadPdfBtn').on('click', function() {
+      let params = window.location.search; // keep filters
+      window.location.href = '<?= site_url("admin/product/download_pdf") ?>' + params;
+   });
+   $(document).on('change', '.product-checkbox', function() {
+      $('#bulkDeleteBtn').prop(
+         'disabled',
+         $('.product-checkbox:checked').length === 0
+      );
+   });
 
-$('#selectAll').on('change', function () {
-    $('.product-checkbox').prop('checked', this.checked).trigger('change');
-});
+   $('#selectAll').on('change', function() {
+      $('.product-checkbox').prop('checked', this.checked).trigger('change');
+   });
 
-$('#bulkDeleteBtn').on('click', function () {
+   $('#bulkDeleteBtn').on('click', function() {
 
-    Swal.fire({
-        title: 'Are you sure?',
-        html: `This will delete <b>ALL</b> products matching current filters.<br><br>This action cannot be undone.`,
-        icon: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#d33',
-        confirmButtonText: 'Yes, delete all'
-    }).then((result) => {
+      Swal.fire({
+         title: 'Are you sure?',
+         html: `This will delete <b>ALL</b> products matching current filters.<br><br>This action cannot be undone.`,
+         icon: 'warning',
+         showCancelButton: true,
+         confirmButtonColor: '#d33',
+         confirmButtonText: 'Yes, delete all'
+      }).then((result) => {
 
-        if (!result.isConfirmed) return;
+         if (!result.isConfirmed) return;
 
-        $.ajax({
+         $.ajax({
             url: '<?= site_url("admin/product/bulk_delete") ?>',
             type: 'POST',
             dataType: 'json',
             data: {
-                product_type: $('#product_type1').val(),
-                sub_product_type: $('#sub_product_type1').val(),
-                price_band_type: $('#price_band_type1').val(),
-                price_band: $('#price_band1').val(),
-                search: $('#searchInput').val()
+               product_type: $('#product_type1').val(),
+               sub_product_type: $('#sub_product_type1').val(),
+               price_band_type: $('#price_band_type1').val(),
+               price_band: $('#price_band1').val(),
+               search: $('#searchInput').val()
             },
-            success: function (res) {
-                Swal.fire('Deleted!', res.deleted + ' products deleted', 'success')
-                    .then(() => location.reload());
+            success: function(res) {
+               Swal.fire('Deleted!', res.deleted + ' products deleted', 'success')
+                  .then(() => location.reload());
             }
-        });
-    });
-});
-$(document).on('click', '.copyBtn', function () {
+         });
+      });
+   });
+   $(document).on('click', '.copyBtn', function() {
 
-    let productId = $(this).data('id');
-    alert(productId);
+      let productId = $(this).data('id');
+      alert(productId);
 
-    Swal.fire({
-        title: 'Copy Product?',
-        text: 'This will create a duplicate of this product.',
-        icon: 'question',
-        showCancelButton: true,
-        confirmButtonText: 'Yes, copy it',
-        confirmButtonColor: '#3085d6'
-    }).then((result) => {
+      Swal.fire({
+         title: 'Copy Product?',
+         text: 'This will create a duplicate of this product.',
+         icon: 'question',
+         showCancelButton: true,
+         confirmButtonText: 'Yes, copy it',
+         confirmButtonColor: '#3085d6'
+      }).then((result) => {
 
-        if (!result.isConfirmed) return;
+         if (!result.isConfirmed) return;
 
-        $.ajax({
+         $.ajax({
             url: '<?= site_url("admin/product/copy_product") ?>',
             type: 'POST',
             dataType: 'json',
-            data: { id: productId },
-            success: function (res) {
-                if (res.status === 'success') {
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Copied!',
-                        text: 'Product copied successfully',
-                        timer: 1200,
-                        showConfirmButton: false
-                    }).then(() => location.reload());
-                } else {
-                    Swal.fire('Error', 'Copy failed', 'error');
-                }
+            data: {
+               id: productId
+            },
+            success: function(res) {
+               if (res.status === 'success') {
+                  Swal.fire({
+                     icon: 'success',
+                     title: 'Copied!',
+                     text: 'Product copied successfully',
+                     timer: 1200,
+                     showConfirmButton: false
+                  }).then(() => location.reload());
+               } else {
+                  Swal.fire('Error', 'Copy failed', 'error');
+               }
             }
-        });
-    });
-});
+         });
+      });
+   });
 
 
 
 
-$('#company_id').on('change', function () {
+   $('#company_id').on('change', function() {
 
-    let company_id = $(this).val();
+      let company_id = $(this).val();
 
-    $.ajax({
-        url: "<?= base_url('admin/product/get_product_types_by_company') ?>",
-        type: "GET",
-        data: { company_id: company_id },
-        success: function (res) {
+      $.ajax({
+         url: "<?= base_url('admin/product/get_product_types_by_company') ?>",
+         type: "GET",
+         data: {
+            company_id: company_id
+         },
+         success: function(res) {
             let data = JSON.parse(res);
 
             let html = '<option value="">Product Type</option>';
 
-            data.forEach(function (item) {
-                html += `<option value="${item.id}">${item.name}</option>`;
+            data.forEach(function(item) {
+               html += `<option value="${item.id}">${item.name}</option>`;
             });
 
             $('#product_type1').html(html);
-        }
-    });
-});
-
-
+         }
+      });
+   });
 </script>
