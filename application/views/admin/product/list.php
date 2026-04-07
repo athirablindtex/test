@@ -254,73 +254,104 @@ if ($mode === 'add') {
                      </div>
                      </div> -->
                   <div class="card-body">
-                     <form>
-                        <div class="row">
-                           
-                             <div class="col-md-6">
-                                 <div class="form-group form-group-default">
-                                    <label>Select company</label>
-                                    <select class="form-control filter" name="company_id" id="company_id" required>
-                                       <option value="">Company</option>
-                                       <?php foreach ($companies as $c) { ?>
-                                          <option value="<?= @$c->id; ?>" <?= @$c->id == @$this->input->get('company_id')  ? 'selected' : ''; ?>><?= @$c->name; ?></option>
-                                       <?php } ?>
-                                    </select>
-                                 </div>
-                              </div>
-                           <div class="col-md-6">
-                              <div class="form-group form-group-default">
-                                 <label>Product Type</label>
-                                 <select class="form-control filter" name="product_type" id="product_type1">
-                                    <option value="">Product Type</option>
-                                    <?php foreach ($product_types as $p) { ?>
-                                       <option value="<?= @$p->id; ?>" <?= @$p->id == @$this->input->get('product_type') ? 'selected' : ''; ?>><?= @$p->name; ?></option>
-                                    <?php } ?>
-                                 </select>
-                              </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="form-group form-group-default">
-                                 <label>Vendor</label>
-                                 <select class="form-control filter" name="sub_product_type" id="sub_product_type1">
+                 <form method="get" action="">
+    <div class="row">
 
-                                 </select>
-                              </div>
-                           </div>
+        <!-- COMPANY -->
+        <div class="col-md-4">
+            <div class="form-group form-group-default">
+                <label>Select Company</label>
+                <select class="form-control" name="company_id" id="company_id">
+                    <option value="">Company</option>
+                    <?php foreach ($companies as $c) { ?>
+                        <option value="<?= $c->id; ?>" <?= $c->id == $this->input->get('company_id') ? 'selected' : ''; ?>>
+                            <?= $c->name; ?>
+                        </option>
+                    <?php } ?>
+                </select>
+            </div>
+        </div>
 
-                        </div>
-                        <div class="row">
+        <!-- PRODUCT TYPE -->
+        <div class="col-md-4">
+            <div class="form-group form-group-default">
+                <label>Product Type</label>
+                <select class="form-control" name="product_type" id="product_type1">
+                    <option value="">Product Type</option>
+                    <?php foreach ($product_types as $p) { ?>
+                        <option value="<?= $p->id; ?>" <?= $p->id == $this->input->get('product_type') ? 'selected' : ''; ?>>
+                            <?= $p->name; ?>
+                        </option>
+                    <?php } ?>
+                </select>
+            </div>
+        </div>
 
-                           <div class="col-md-6">
-                              <div class="form-group form-group-default ">
-                                 <label>Price Band Type</label>
-                                 <select class="form-control filter" id="price_band_type1" name="price_band_type">
-                                    <option value="">Price Band Type</option>
-                                    <?php foreach ($band_type as $b) { ?>
-                                       <option value="<?= $b; ?>"><?= $b; ?></option>
-                                    <?php } ?>
-                                 </select>
-                              </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="form-group form-group-default">
-                                 <label>Price Band</label>
-                                 <select class="form-control filter" id="price_band1" name="price_band">
+        <!-- VENDOR -->
+        <div class="col-md-4">
+            <div class="form-group form-group-default">
+                <label>Vendor</label>
+                <select class="form-control" name="sub_product_type" id="sub_product_type1">
+                </select>
+            </div>
+        </div>
 
-                                 </select>
-                              </div>
-                           </div>
-                           <div class="col-md-12">
-                              <div class="input-group mb-3">
-                                 <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon1"> <i class="fa fa-search search-icon"></i></span>
-                                 </div>
-                                 <input type="text" name="search"  class="form-control rounded-0 filter " id="searchInput" placeholder="Search by name" aria-label="Username" aria-describedby="basic-addon1">
-                                 <!-- <button class="btn btn-primary rounded-0">Search</button> -->
-                              </div>
-                              <div class="clearfix"></div>
-                              <hr class="mt-4 mb-4 d-block" />                           </div>
-                     </form>
+    </div>
+
+    <div class="row">
+
+        <!-- PRICE BAND TYPE -->
+        <div class="col-md-4">
+            <div class="form-group form-group-default">
+                <label>Price Band Type</label>
+                <select class="form-control" id="price_band_type1" name="price_band_type">
+                    <option value="">Price Band Type</option>
+                    <?php foreach ($band_type as $b) { ?>
+                        <option value="<?= $b; ?>"><?= $b; ?></option>
+                    <?php } ?>
+                </select>
+            </div>
+        </div>
+
+        <!-- PRICE BAND -->
+        <div class="col-md-4">
+            <div class="form-group form-group-default">
+                <label>Price Band</label>
+                <select class="form-control" id="price_band1" name="price_band">
+                </select>
+            </div>
+        </div>
+
+        <!-- SEARCH INPUT -->
+        <div class="col-md-4">
+            <div class="form-group form-group-default">
+                <label>Search</label>
+                <input type="text" 
+                       name="search" 
+                       class="form-control" 
+                       id="searchInput"
+                       placeholder="Search by name"
+                       value="<?= $this->input->get('search'); ?>">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- BUTTONS -->
+    <div class="row mt-3">
+        <div class="col-md-12 text-center">
+
+            <button type="submit" class="btn btn-primary mr-2">
+                <i class="fa fa-search"></i> Search
+            </button>
+
+            <a href="<?= site_url('admin/product/list') ?>" class="btn btn-secondary">
+                Reset
+            </a>
+
+        </div>
+    </div>
+</form>
 
                   </div>
                   <?php if (@$tabledata) { ?>
