@@ -354,29 +354,29 @@ if ($mode === 'add') {
 
                   </div>
                   <?php if (@$tabledata) { ?>
-                    <div class="d-flex align-items-center mb-3">
+                     <div class="d-flex align-items-center mb-3">
 
-    <!-- LEFT -->
-    <div>
-        <span class="badge badge-secondary">
-            Total: <?= $total_rows ?>
-        </span>
-    </div>
+                        <!-- LEFT -->
+                        <div>
+                           <span class="badge badge-secondary">
+                              Total: <?= $total_rows ?>
+                           </span>
+                        </div>
 
-    <!-- RIGHT -->
-    <div class="ml-auto">
-        <?php if (@$permissions['delete']) { ?>
-            <button id="bulkDeleteBtn" class="btn btn-danger btn-sm mr-2" disabled>
-                <i class="fa fa-trash"></i> Bulk Delete
-            </button>
-        <?php } ?>
+                        <!-- RIGHT -->
+                        <div class="ml-auto">
+                           <?php if (@$permissions['delete']) { ?>
+                              <button id="bulkDeleteBtn" class="btn btn-danger btn-sm mr-2" disabled>
+                                 <i class="fa fa-trash"></i> Bulk Delete
+                              </button>
+                           <?php } ?>
 
-        <button id="exportCsvBtn" class="btn btn-info btn-sm">
-            <i class="fa fa-file-csv"></i> Export CSV
-        </button>
-    </div>
+                           <button id="exportCsvBtn" class="btn btn-info btn-sm">
+                              <i class="fa fa-file-csv"></i> Export CSV
+                           </button>
+                        </div>
 
-</div>
+                     </div>
 
 
                      <!-- <button id="downloadPdfBtn" class="btn btn-secondary btn-sm">
