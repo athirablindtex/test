@@ -35,6 +35,10 @@ class Producttype extends MY_Controller
 			 if($company_id){
 				$company_id=get_company_id_or_null($company_id);
 			 }
+		echo "<pre>";
+		echo $company_id;
+		exit;
+
 		if ($this->form_validation->run() == FALSE) {
 			$data['page'] = $this->module_caption;
 			$data['module'] = $this->module_caption;
