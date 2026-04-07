@@ -128,7 +128,7 @@ if ($mode === 'add') {
                                  <select class="form-control" name="company" id="companyid" required>
                                     <option value="">Company</option>
                                     <?php foreach ($companies as $c) { ?>
-                                       <option value="<?= $c->id; ?>">
+                                       <option value="<?= $c->id; ?>" <?= @$c->id == @$res->company_id ? 'selected' : ''; ?>>
                                           <?= $c->name; ?>
                                        </option>
                                     <?php } ?>

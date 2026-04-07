@@ -147,6 +147,22 @@
                         </div>
                      </div>
                   <?php } ?>
+                               <div class="col-md-12">
+                  <div class="form-group form-group-default">
+                  <label>Select Company</label>
+                  <select name="company" class="form-control" id="company" required>
+                  <option value="">Select Company</option>
+
+                  <?php foreach ($companies as $c) { ?>
+                  <option value="<?= $c->id ?>"
+                  <?= $c->id == $res->id ? 'selected' : '' ?>>
+                  <?= $c->name ?>
+                  </option>
+                  <?php } ?>
+
+                  </select>
+                  </div>
+                  </div>
                   <div class="col-md-12">
                      <div class="form-group form-group-default">
                         <label>Names</label>
