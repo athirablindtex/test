@@ -110,190 +110,348 @@ if ($mode === 'add') {
                <div class="collapse <?= ($mode === 'add' || $edit == 1) ? 'show' : '' ?>" id="collapseExample">
 
 
-          <div class="card">
-   <div class="card-body">
+                  <div class="card">
+                     <div class="card-header">
+                        <div class="card-title">
+                           <?= ($edit == 1) ? 'Edit ' . $page : 'Add New ' . $page ?>
+                        </div>
 
-      <!-- FILTER FORM -->
-      <form method="get" action="">
-         <div class="row">
+                     </div>
+                     <div class="card-body add-product-form">
 
-            <div class="col-md-4">
-               <div class="form-group form-group-default">
-                  <label>Select Company</label>
-                  <select class="form-control" name="company_id" id="company_id">
-                     <option value="">Company</option>
-                     <?php foreach ($companies as $c) { ?>
-                        <option value="<?= $c->id; ?>" <?= $c->id == $this->input->get('company_id') ? 'selected' : ''; ?>>
-                           <?= $c->name; ?>
-                        </option>
-                     <?php } ?>
-                  </select>
-               </div>
-            </div>
+                        <form method="post">
+                           <div class="row">
 
-            <div class="col-md-4">
-               <div class="form-group form-group-default">
-                  <label>Product Type</label>
-                  <select class="form-control" name="product_type" id="product_type1">
-                     <option value="">Product Type</option>
-                     <?php foreach ($product_types as $p) { ?>
-                        <option value="<?= $p->id; ?>" <?= $p->id == $this->input->get('product_type') ? 'selected' : ''; ?>>
-                           <?= $p->name; ?>
-                        </option>
-                     <?php } ?>
-                  </select>
-               </div>
-            </div>
+                              <div class="col-md-6">
+                                 <div class="form-group form-group-default">
+                                    <label>Product Type</label>
+                                    <select class="form-control" name="product_type" id="product_type" required>
+                                       <option value="">Product Type</option>
+                                       <?php foreach ($product_types as $p) { ?>
+                                          <option value="<?= @$p->id; ?>" <?= @$p->id == @$res->product_type ? 'selected' : ''; ?>><?= @$p->name; ?></option>
+                                       <?php } ?>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <div class="form-group form-group-default">
+                                    <label>Vendor</label>
+                                    <select class="form-control" name="sub_product_type" id="sub_product_type" required>
+                                       <option value=""> Vendor</option>
+                                       <?php
+                                       if (@$sub_product_types) {
+                                          foreach (@$sub_product_types as $p) { ?>
+                                             <option value="<?= @$p->id; ?>" <?= @$p->id == @$res->sub_product_type ? 'selected' : ''; ?>><?= @$p->name; ?></option>
+                                       <?php }
+                                       } ?>
 
-            <div class="col-md-4">
-               <div class="form-group form-group-default">
-                  <label>Vendor</label>
-                  <select class="form-control" name="sub_product_type" id="sub_product_type1"></select>
-               </div>
-            </div>
+                                    </select>
+                                 </div>
+                              </div>
 
-         </div>
-
-         <div class="row">
-
-            <div class="col-md-4">
-               <div class="form-group form-group-default">
-                  <label>Price Band Type</label>
-                  <select class="form-control" id="price_band_type1" name="price_band_type">
-                     <option value="">Price Band Type</option>
-                     <?php foreach ($band_type as $b) { ?>
-                        <option value="<?= $b; ?>"><?= $b; ?></option>
-                     <?php } ?>
-                  </select>
-               </div>
-            </div>
-
-            <div class="col-md-4">
-               <div class="form-group form-group-default">
-                  <label>Price Band</label>
-                  <select class="form-control" id="price_band1" name="price_band"></select>
-               </div>
-            </div>
-
-            <div class="col-md-4">
-               <div class="form-group form-group-default">
-                  <label>Search</label>
-                  <input type="text"
-                     name="search"
-                     class="form-control"
-                     id="searchInput"
-                     placeholder="Search by name"
-                     value="<?= $this->input->get('search'); ?>">
-               </div>
-            </div>
-
-         </div>
-
-         <div class="row mt-3">
-            <div class="col-md-12 text-center">
-               <button type="submit" class="btn btn-primary mr-2">
-                  <i class="fa fa-search"></i> Search
-               </button>
-
-               <a href="<?= site_url('admin/product/list') ?>" class="btn btn-secondary">
-                  Reset
-               </a>
-            </div>
-         </div>
-      </form>
-
-      <!-- DATA SECTION -->
-      <?php if (@$tabledata) { ?>
-
-         <!-- TOP BAR -->
-         <div class="d-flex flex-wrap align-items-center mb-3">
-
-            <span class="badge badge-secondary mb-2">
-               Total: <?= $total_rows ?>
-            </span>
-
-            <div class="ml-auto d-flex flex-wrap">
-               <?php if (@$permissions['delete']) { ?>
-                  <button id="bulkDeleteBtn" class="btn btn-danger btn-sm mr-2 mb-2" disabled>
-                     <i class="fa fa-trash"></i> Bulk Delete
-                  </button>
-               <?php } ?>
-
-               <button id="exportCsvBtn" class="btn btn-info btn-sm mb-2">
-                  <i class="fa fa-file-csv"></i> Export CSV
-               </button>
-            </div>
-
-         </div>
-
-         <!-- TABLE -->
-         <div class="table-responsive">
-            <table id="basic-datatables" class="display table table-striped table-hover">
-               <thead>
-                  <tr>
-                     <th><input type="checkbox" id="selectAll"></th>
-                     <th>ID</th>
-                     <th>Name</th>
-                     <th>Type</th>
-                     <th>Vendor</th>
-                     <th>Price Band Type</th>
-                     <th>Price Band</th>
-                     <th>Turnable</th>
-                     <th style="width: 10%">Action</th>
-                  </tr>
-               </thead>
-               <tbody id="tabledata">
-                  <?php $i = $offset; ?>
-                  <?php foreach ($tabledata as $product) { $i++; ?>
-                     <tr>
-                        <td>
-                           <input type="checkbox" class="product-checkbox" value="<?= $product['id']; ?>">
-                        </td>
-                        <td><?= $i ?></td>
-                        <td><?= $product['name']; ?></td>
-                        <td><?= $product['product_type_name']; ?></td>
-                        <td><?= $product['sub_product_type_name']; ?></td>
-                        <td><?= $product['price_band_type']; ?></td>
-                        <td><?= $product['priceband_name']; ?></td>
-                        <td><?= $product['turnable']; ?></td>
-                        <td>
-                           <div class="form-button-action">
-                              <?php if (@$permissions['add']) { ?>
-                                 <a href="<?= site_url('admin/' . $controller . '/list/edit/' . $product[$module_id]); ?>" class="btn btn-link btn-primary btn-lg">
-                                    <i class="fa fa-edit"></i>
-                                 </a>
-                                 <button class="btn btn-link btn-secondary btn-sm copyBtn" data-id="<?= $product[$module_id]; ?>">
-                                    <i class="fa fa-copy"></i>
-                                 </button>
-                              <?php } ?>
-                              <?php if (@$permissions['delete']) { ?>
-                                 <a href="<?= site_url('admin/' . $controller . '/delete/' . $product[$module_id]); ?>" class="btn btn-link btn-danger">
-                                    <i class="fa fa-times"></i>
-                                 </a>
-                              <?php } ?>
                            </div>
-                        </td>
-                     </tr>
-                  <?php } ?>
-               </tbody>
-            </table>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <div class="form-group form-group-default">
+                                    <label>Name</label>
+                                    <input id="Name" type="text" class="form-control" placeholder="Fill Name" value="<?php echo @$res->name != '' ? @$res->name : $this->input->post('name'); ?>" name="name" required>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group form-group-default">
+                                    <label>Price Band Type</label>
+                                    <select class="form-control" id="price_band_type" name="price_band_type" required>
+                                       <option value="">Type</option>
+                                       <?php foreach ($band_type as $b) { ?>
+                                          <option value="<?= $b; ?>" <?php if ($b == @$res->price_band_type) {
+                                                                        echo "selected";
+                                                                     } ?>><?= $b; ?></option>
+                                       <?php } ?>
 
-            <div id="pagination">
-               <?= $pagination_links ?>
+                                    </select>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group form-group-default">
+                                    <label>Price Band</label>
+                                    <select class="form-control" id="price_band" name="price_band" required>
+                                       <option value="">Price Band Type</option>
+                                       <?php
+                                       if (@$pricebands) {
+                                          foreach ($pricebands as $p) { ?>
+                                             <option value="<?= @$p->id; ?>" <?= @$p->id == @$res->price_band ? 'selected' : ''; ?>><?= @$p->name; ?></option>
+                                       <?php    }
+                                       } ?>
+
+                                    </select>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-4">
+                                 <div class="form-group form-group-default">
+                                    <label>Fabric Code</label>
+                                    <input id="fabric_code" type="text" step="any" placeholder="fab-01" class="form-control" name="fabric_code" value="<?php echo @$res->fabric_code != '' ? @$res->fabric_code  : $this->input->post('fabric_code'); ?>">
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group form-group-default">
+                                    <label>Blind code</label>
+                                    <input id="blind_code" type="text" step="any" placeholder=" " class="form-control" name="blind_code" value="<?php echo @$res->blind_code != '' ? @$res->blind_code  : $this->input->post('blind_code'); ?>">
+                                 </div>
+                              </div>
+                              <div class="col-md-3">
+                                 <div class="form-group form-group-default">
+                                    <label>Minimum Drop (mm)</label>
+                                    <input id="Name" type="number" step="any" placeholder="0 mm" class="form-control" name="min_drop" value="<?php echo @$res->min_drop != '' ? @$res->min_drop : $this->input->post('min_drop'); ?>" required>
+                                 </div>
+                              </div>
+                              <div class="col-md-3">
+                                 <div class="form-group form-group-default">
+                                    <label>Minimum Width (mm)</label>
+                                    <input id="Name" type="number" step="any" placeholder="0 mm" class="form-control" name="min_width" value="<?php echo @$res->min_width != '' ? @$res->min_width : $this->input->post('min_width'); ?>" required>
+                                 </div>
+                              </div>
+                              <div class="col-md-3">
+                                 <div class="form-group form-group-default">
+                                    <label>Maximum Drop (mm)</label>
+                                    <input id="Name" type="number" step="any" placeholder="0 mm" class="form-control" name="max_drop" value="<?php echo @$res->max_drop != '' ? @$res->max_drop : $this->input->post('max_drop'); ?>" required>
+                                 </div>
+                              </div>
+                              <div class="col-md-3">
+                                 <div class="form-group form-group-default">
+                                    <label>Maximum Width (mm)</label>
+                                    <input id="Name" type="number" step="any" placeholder="0 mm" class="form-control" name="max_width" value="<?php echo @$res->max_width != '' ? @$res->max_width : $this->input->post('max_width'); ?>" required>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-12">
+                                 <div class="form-group tagsinput form-group-default pb-2">
+                                    <label for="tagsinput" class="d-block mb-2">Tags</label>
+                                    <input type="text" value="<?= @$tags; ?>" name="tags" data-role="tagsinput" class="form-control mt-3 " style="height: auto !important" />
+                                 </div>
+                              </div>
+                              <input type="hidden" name="id" value="<?php echo @$res->$module_id ? $res->$module_id : 0; ?>">
+                              <div class="col-md-12 clearfix mt-3 mb-3  d-flex align-items-center justify-content-center justify-content-lg-center">
+                                 <button type="submit" class="btn btn-success btn-rounded">
+                                    <?= ($edit == 1) ? 'Update Product' : 'Add Product' ?>
+                                 </button>
+
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="card">
+                  
+                  <div class="card-body">
+                     <form method="get" action="">
+                        <div class="row">
+
+                           <!-- COMPANY -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Select Company</label>
+                                 <select class="form-control" name="company_id" id="company_id">
+                                    <option value="">Company</option>
+                                    <?php foreach ($companies as $c) { ?>
+                                       <option value="<?= $c->id; ?>" <?= $c->id == $this->input->get('company_id') ? 'selected' : ''; ?>>
+                                          <?= $c->name; ?>
+                                       </option>
+                                    <?php } ?>
+                                 </select>
+                              </div>
+                           </div>
+
+                           <!-- PRODUCT TYPE -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Product Type</label>
+                                 <select class="form-control" name="product_type" id="product_type1">
+                                    <option value="">Product Type</option>
+                                    <?php foreach ($product_types as $p) { ?>
+                                       <option value="<?= $p->id; ?>" <?= $p->id == $this->input->get('product_type') ? 'selected' : ''; ?>>
+                                          <?= $p->name; ?>
+                                       </option>
+                                    <?php } ?>
+                                 </select>
+                              </div>
+                           </div>
+
+                           <!-- VENDOR -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Vendor</label>
+                                 <select class="form-control" name="sub_product_type" id="sub_product_type1">
+                                 </select>
+                              </div>
+                           </div>
+
+                        </div>
+
+                        <div class="row">
+
+                           <!-- PRICE BAND TYPE -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Price Band Type</label>
+                                 <select class="form-control" id="price_band_type1" name="price_band_type">
+                                    <option value="">Price Band Type</option>
+                                    <?php foreach ($band_type as $b) { ?>
+                                       <option value="<?= $b; ?>"><?= $b; ?></option>
+                                    <?php } ?>
+                                 </select>
+                              </div>
+                           </div>
+
+                           <!-- PRICE BAND -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Price Band</label>
+                                 <select class="form-control" id="price_band1" name="price_band">
+                                 </select>
+                              </div>
+                           </div>
+
+                           <!-- SEARCH INPUT -->
+                           <div class="col-md-4">
+                              <div class="form-group form-group-default">
+                                 <label>Search</label>
+                                 <input type="text"
+                                    name="search"
+                                    class="form-control"
+                                    id="searchInput"
+                                    placeholder="Search by name"
+                                    value="<?= $this->input->get('search'); ?>">
+                              </div>
+                           </div>
+
+                        </div>
+
+                        <!-- BUTTONS -->
+                        <div class="row mt-3">
+                           <div class="col-md-12 text-center">
+
+                              <button type="submit" class="btn btn-primary mr-2">
+                                 <i class="fa fa-search"></i> Search
+                              </button>
+
+                              <a href="<?= site_url('admin/product/list') ?>" class="btn btn-secondary">
+                                 Reset
+                              </a>
+
+                           </div>
+                        </div>
+                     </form>
+
+                  </div>
+                  <?php if (@$tabledata) { ?>
+                     <div class="d-flex align-items-center mb-3">
+
+                        <!-- LEFT -->
+                        <div>
+                           <span class="badge badge-secondary">
+                              Total: <?= $total_rows ?>
+                           </span>
+                        </div>
+
+                        <!-- RIGHT -->
+                        <div class="ml-auto">
+                           <?php if (@$permissions['delete']) { ?>
+                              <button id="bulkDeleteBtn" class="btn btn-danger btn-sm mr-2" disabled>
+                                 <i class="fa fa-trash"></i> Bulk Delete
+                              </button>
+                           <?php } ?>
+
+                           <button id="exportCsvBtn" class="btn btn-info btn-sm">
+                              <i class="fa fa-file-csv"></i> Export CSV
+                           </button>
+                        </div>
+
+                     </div>
+
+
+                     <!-- <button id="downloadPdfBtn" class="btn btn-secondary btn-sm">
+                           <i class="fa fa-file-pdf"></i> Download PDF
+                        </button> -->
+               </div>
+
+               <div class="table-responsive">
+                  <table id="basic-datatables" class="display table table-striped table-hover">
+                     <thead>
+                        <tr>
+                           <th>
+                              <input type="checkbox" id="selectAll">
+                           </th>
+                           <th>ID</th>
+                           <th>Name</th>
+                           <th>Type</th>
+
+                           <th>Vendor</th>
+                           <th>Price Band Type</th>
+                           <th>Price Band</th>
+                           <th>Turnable</th>
+                           <th style="width: 10%">Action</th>
+                        </tr>
+                     </thead>
+                     <tbody id="tabledata">
+                        <?php $i = $offset; ?>
+                        <?php foreach ($tabledata as $product) {
+                           $i++; ?>
+                           <tr>
+                              <td>
+                                 <input type="checkbox"
+                                    class="product-checkbox
+                                       "
+                                    value="<?= @$product['id']; ?>">
+                              </td>
+
+                              <td><?= $i ?></td>
+                              <td><?= @$product['name']; ?></td>
+                              <td><?= @$product['product_type_name']; ?></td>
+                              <td><?= @$product['sub_product_type_name']; ?></td>
+                              <td><?= @$product['price_band_type']; ?></td>
+                              <td><?= @$product['priceband_name']; ?></td>
+                              <td><?= @$product['turnable']; ?></td>
+                              <td>
+                                 <div class="form-button-action">
+                                    <?php if (@$permissions['add']) { ?>
+                                       <a href="<?php echo site_url('admin/' . $controller . '/list/edit/' . @$product[$module_id] . ''); ?>" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                          <i class="fa fa-edit"></i>
+                                       </a>
+                                       <button
+                                          class="btn btn-link btn-secondary btn-sm copyBtn"
+                                          data-id="<?= @$product[$module_id]; ?>" data-toggle="tooltip" title=""
+                                          data-original-title="Duplicate">
+                                          <i class="fa fa-copy"></i>
+                                       </button>
+                                    <?php } ?>
+                                    <?php if (@$permissions['delete']) { ?>
+                                       <a href="<?php echo site_url('admin/' . $controller . '/delete/' . @$product[$module_id] . ''); ?>" onclick="return confirm('<?php echo $this->lang->line('common_confirm_delete'); ?>');" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
+                                          <i class="fa fa-times"></i>
+                                       </a>
+                                    <?php } ?>
+                                 </div>
+                              </td>
+                           </tr>
+                        <?php } ?>
+
+
+                     </tbody>
+                  </table>
+                  <div id="pagination">
+                     <?= $pagination_links ?>
+                  </div>
+               </div>
+            <?php } else { ?>
+               <div class="alert alert-danger" role="alert">
+                  <strong></strong> <?php echo $this->lang->line('common_no_data'); ?>
+               </div>
+            <?php } ?>
+            <hr />
+
             </div>
          </div>
-
-      <?php } else { ?>
-
-         <div class="alert alert-danger">
-            <?= $this->lang->line('common_no_data'); ?>
-         </div>
-
-      <?php } ?>
-
-   </div> <!-- ✅ card-body closed correctly -->
-
-</div>
       </div>
    </div>
 </div>
