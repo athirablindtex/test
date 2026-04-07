@@ -353,7 +353,9 @@ private function base_query()
 
     $this->apply_product_filters($search);
 
-    return $this->db->count_all_results();
+  $this->db->count_all_results();
+  print_r($this->db->last_query()); // Debugging line to check the generated SQL query
+	return $this->db->count_all_results();
 }
 
 
