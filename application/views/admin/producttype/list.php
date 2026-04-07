@@ -24,6 +24,22 @@
                   <div class="card-header">
                      <div class="d-flex align-items-center">
                         <h4 class="card-title">Master - <?= @$page; ?></h4>
+                              <div class="col-md-12">
+                              <div class="form-group form-group-default">
+                              <label>Select Company</label>
+                              <select name="company_id" class="form-control" required>
+                              <option value="">Select Company</option>
+
+                              <?php foreach ($companies as $c) { ?>
+                              <option value="<?= $c->id ?>"
+                              <?= @$res->company_id == $c->id ? 'selected' : '' ?>>
+                              <?= $c->name ?>
+                              </option>
+                              <?php } ?>
+
+                              </select>
+                              </div>
+                              </div>
 
 
 

@@ -19,7 +19,7 @@ class Producttype extends MY_Controller
 		$this->controller = $this->single_name;
 		$this->permission = $this->single_name;
 		$this->check_user_privillages($this->permission . '_list');
-		$this->load->model(array($this->module_model, 'salespersonmodel', 'extrasmodel'));
+		$this->load->model(array($this->module_model, 'salespersonmodel', 'extrasmodel','usersmodel','usergroupsmodel'));
 	}
 	public function list($type = "list", $id = "")
 	{
@@ -33,6 +33,7 @@ class Producttype extends MY_Controller
 			$data['module'] = $this->module_caption;
 			$data['active'] = $this->module_active;
 			$data['active_sub'] = $this->module_active_sub;
+		 $data['companies'] = $this->usersmodel->gets_company_all()->result();
 			$data['active_sub_sub'] = $this->module_active_sub . '_list';
 			$data['content'] = 'admin/' . $view_folder . '/list';
 			$data['redirect'] = site_url() . $this->redirect;
