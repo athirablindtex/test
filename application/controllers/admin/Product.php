@@ -169,8 +169,7 @@ $this->check_user_privillages($permission);
                     }
                     
                     $company_id=$this->input->post('company');
-                    echo $company_id;
-                    exit;
+                  
                     if($company_id){
                     $company_id=get_company_id_or_null($company_id);
                     $data['company_id']=$company_id;
