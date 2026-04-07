@@ -178,12 +178,12 @@ class Profiledata extends CI_Controller
 		
 		}
 		$data['logo_base_url'] = base_url() . 'uploads/users/';
-		   $post['action'] = $post['action'] ?? 'synch';
+		$post['action'] = $post['action'] ?? 'synch';
 		   
 		   // Customer data
-		   $cdt = $this->customermodel->get_data_sync_all($this->user_id);
-		   		$this->update_user_track($this->user_id, 'customer',$post['action']);
-		$data = array_merge($data,  $cdt);
+			$cdt = $this->customermodel->get_data_sync_all($this->user_id);
+			$this->update_user_track($this->user_id, 'customer',$post['action']);
+			$data = array_merge($data,  $cdt);
 	
 		$exdt = $this->extrasmodel->get_data_sync_all($this->user_id);
 		$this->update_user_track($this->user_id, 'extras',$post['action']);

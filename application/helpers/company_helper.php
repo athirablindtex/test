@@ -21,3 +21,18 @@ if (!function_exists('get_company_id_or_null')) {
         return $company_id; // NORMAL COMPANY
     }
 }
+
+if (!function_exists('get_salesperson_company')) {
+    function get_salesperson_company($user_id)
+    {
+        $CI =& get_instance();
+
+        $row = $CI->db
+            ->select('company')
+            ->where('id', $user_id)
+            ->get('sales_person') // your table name
+            ->row();
+
+        return $row->company ?? null;
+    }
+}
