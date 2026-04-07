@@ -60,10 +60,10 @@ class Producttype extends MY_Controller
 			$data['tabledata'] = $this->$module_model->gets_all()->result();
 			$this->db->where('active', 1)->select('id,name');
 			$data['sales_person'] = $this->salespersonmodel->gets_data()->result_array();
-		
+		           $this->db->where('company_id', $company_id);
 			$data['extras'] = $this->get_extras_for_all();
 		
-			
+		            $this->db->where('company_id', $company_id);
 				$data['selected_extras'] =$this->get_selected_extras($id);
 			
 		
