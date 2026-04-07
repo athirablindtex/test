@@ -343,16 +343,15 @@ class Productmodel extends CI_Model
 		}
 	}
 	function get_total_count($search = '')
-	{
+{
+    $this->db->reset_query(); // ✅ VERY IMPORTANT
 
-		$this->db->from($this->table_name . ' a');
+    $this->db->from($this->table_name . ' a'); // ✅ alias defined
 
-		$this->apply_product_filters($search);
+    $this->apply_product_filters($search);
 
-
-		return $this->db->count_all_results();
-	}
-
+    return $this->db->count_all_results();
+}
 
 
 
