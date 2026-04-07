@@ -463,8 +463,7 @@ if ($mode === 'add') {
       </div>
    </div>
 </div>
-</div>
-</div>
+
 <script>
    $(document).ready(function() {
 
