@@ -5,6 +5,8 @@ if (!function_exists('get_company_id_or_null')) {
     function get_company_id_or_null($company_id)
     {
         $CI =& get_instance();
+                $CI->db->reset_query();
+
 
         if (!$company_id) return NULL;
 
@@ -26,6 +28,8 @@ if (!function_exists('get_salesperson_company')) {
     function get_salesperson_company($user_id)
     {
         $CI =& get_instance();
+                $CI->db->reset_query();
+
 
         $row = $CI->db
             ->select('company')
