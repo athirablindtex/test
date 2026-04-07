@@ -354,18 +354,17 @@ if ($mode === 'add') {
 </form>
 
                   </div>
-                 <div class="d-flex justify-content-between align-items-center mb-3">
+                <?php if (@$tabledata) { ?>
 
-    <!-- LEFT: TOTAL -->
-    <div>
-        <span class="badge badge-secondary px-3 py-2">
-            Total: <?= $total_rows ?>
-        </span>
-    </div>
+<div class="d-flex justify-content-between align-items-center mb-3">
 
-    <!-- RIGHT: ACTION BUTTONS -->
+    <!-- LEFT SIDE -->
+    <span class="badge badge-secondary px-3 py-2">
+        Total: <?= $total_rows ?>
+    </span>
+
+    <!-- RIGHT SIDE -->
     <div class="d-flex">
-
         <?php if (@$permissions['delete']) { ?>
             <button id="bulkDeleteBtn" class="btn btn-danger btn-sm mr-2" disabled>
                 <i class="fa fa-trash"></i> Bulk Delete
@@ -375,10 +374,15 @@ if ($mode === 'add') {
         <button id="exportCsvBtn" class="btn btn-info btn-sm">
             <i class="fa fa-file-csv"></i> Export CSV
         </button>
-
     </div>
 
 </div>
+
+<?php } ?>
+                        <!-- <button id="downloadPdfBtn" class="btn btn-secondary btn-sm">
+                           <i class="fa fa-file-pdf"></i> Download PDF
+                        </button> -->
+                     </div>
 
                      <div class="table-responsive">
                         <table id="basic-datatables" class="display table table-striped table-hover">
