@@ -64,7 +64,7 @@ class Producttype extends MY_Controller
 		           $this->db->where('company_id', $company_id);
 			$data['extras'] = $this->get_extras_for_all();
 		
-		            $this->db->where('company_id', $company_id);
+		    
 				$data['selected_extras'] =$this->get_selected_extras($id);
 			
 		
