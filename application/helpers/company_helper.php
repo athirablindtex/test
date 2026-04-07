@@ -27,8 +27,12 @@ if (!function_exists('get_salesperson_company')) {
     {
         $CI =& get_instance();
 
-        $salesperson_row = $CI->salespersonmodel->get_row($user_id);
+        $row = $CI->db
+            ->select('company')
+            ->where('id', $user_id)
+            ->get('sales_person') // your table name
+            ->row();
 
-        return $salesperson_row->company ?? null;
+        return $row->company ?? null;
     }
 }
