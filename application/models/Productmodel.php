@@ -407,20 +407,16 @@ private function base_query()
 
 		return $result;
 	}
-	private function apply_product_filters($search = '')
+	 function apply_product_filters($search = '')
 	{
 
 	 $select_company_id = $this->input->get('company_id');
 	
-	if(@$this->input->get('company_id')){
-			$select_company_id = $this->input->get('company_id');
-			  $company_id = get_company_id_or_null($select_company_id);
-		 
-	
-			$this->db->where('a.company_id', $company_id);
-		 }
-   
 
+   
+	if ($this->input->get('company_id')) {
+			$this->db->where('a.company_id', $this->input->get('company_id'));
+		}
         
 		if ($this->input->get('product_type')) {
 			$this->db->where('a.product_type', $this->input->get('product_type'));
