@@ -355,27 +355,28 @@ if ($mode === 'add') {
 
                   </div>
                   <?php if (@$tabledata) { ?>
-                     <span class="badge badge-secondary">
+                   <div class="d-flex justify-content-between align-items-center mb-3">
 
-                        Total: <?= $total_rows ?>
-                     </span>
+    <!-- LEFT SIDE -->
+    <span class="badge badge-secondary">
+        Total: <?= $total_rows ?>
+    </span>
 
-                     <div class="d-flex justify-content-end mb-3">
-                        <?php if (@$permissions['delete']) { ?>
-                           <button id="bulkDeleteBtn" class="btn btn-danger btn-sm mr-2" disabled>
-                              <i class="fa fa-trash"></i> Bulk Delete
-                           </button>
-                        <?php } ?>
+    <!-- RIGHT SIDE -->
+    <div>
+        <?php if (@$permissions['delete']) { ?>
+            <button id="bulkDeleteBtn" class="btn btn-danger btn-sm mr-2" disabled>
+                <i class="fa fa-trash"></i> Bulk Delete
+            </button>
+        <?php } ?>
 
-         
-            
-      
+        <button id="exportCsvBtn" class="btn btn-info btn-sm">
+            <i class="fa fa-file-csv"></i> Export CSV
+        </button>
+    </div>
 
-                    
+</div>
 
-                        <button id="exportCsvBtn" class="btn btn-info btn-sm mr-2">
-                           <i class="fa fa-file-csv"></i> Export CSV
-                        </button>
 
                         <!-- <button id="downloadPdfBtn" class="btn btn-secondary btn-sm">
                            <i class="fa fa-file-pdf"></i> Download PDF
