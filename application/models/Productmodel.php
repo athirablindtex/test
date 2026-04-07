@@ -20,7 +20,7 @@ class Productmodel extends CI_Model
 	{
 		return $query = $this->db->get($this->table_name . ' a');
 	}
-private function base_query()
+ function base_query()
 {
     $this->db->from($this->table_name . ' a');
 }
