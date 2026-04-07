@@ -35,9 +35,7 @@ class Producttype extends MY_Controller
 			 if($company_id){
 				$company_id=get_company_id_or_null($company_id);
 			 }
-		echo "<pre>";
-		echo $company_id;
-		exit;
+		
 
 		if ($this->form_validation->run() == FALSE) {
 			$data['page'] = $this->module_caption;
@@ -65,7 +63,7 @@ class Producttype extends MY_Controller
 			$data['tabledata'] = $this->$module_model->gets_all()->result();
 			$this->db->where('active', 1)->select('id,name');
 			$data['sales_person'] = $this->salespersonmodel->gets_data()->result_array();
-		           $this->db->where('company_id', $company_id);
+		     $this->db->where('company_id', $company_id);
 			$data['extras'] = $this->get_extras_for_all();
 		
 		    
@@ -111,7 +109,7 @@ class Producttype extends MY_Controller
 					$id = $this->$module_model->save($data, $this->input->post('id'));
 					if ($this->input->post('extras')) {
 					
-						$this->save_extras($this->input->post(), $id);
+						$this->save_extras($this->input->post(), $id,$company_id);
 					}
 					$this->session->set_flashdata('success', $this->lang->line('common_update_success'));
 				} else {
@@ -125,7 +123,7 @@ class Producttype extends MY_Controller
 		}
 	}
 
-	function save_extras($data = [], $ptype_id = 0)
+	function save_extras($data = [], $ptype_id = 0,$company_id = null)
 	{
 	
 		$module_model = $this->module_model;
@@ -153,7 +151,7 @@ class Producttype extends MY_Controller
 			if (@$data['id'] == 0) {
 		
 				foreach ($extras as $new) {
-					$insert_extras[] = array('extra' => $new['extra'],'mandatory' => $new['mandatory'], 'product_type' => $ptype_id, 'version' => 1,'updated_at'=>date('Y-m-d H:i:s'));
+					$insert_extras[] = array('extra' => $new['extra'],'mandatory' => $new['mandatory'], 'product_type' => $ptype_id, 'version' => 1,'company_id' => $company_id,'updated_at'=>date('Y-m-d H:i:s'));
 				}
 				       audit_log( 'Product type extras',Null,'INSERT', $old_data=null, $new,1);
 		
@@ -170,7 +168,7 @@ class Producttype extends MY_Controller
 				if ($new_extras) {
 					foreach ($extras as $new) {
 						if (in_array($new['extra'], $new_extras)) {
-							$insert_extras[] = array('extra' => $new['extra'], 'margin'=>$new['margin'], 'mandatory' => $new['mandatory'], 'product_type' => $ptype_id, 'version' => 1,'updated_at'=>date('Y-m-d H:i:s'));
+							$insert_extras[] = array('extra' => $new['extra'], 'margin'=>$new['margin'], 'mandatory' => $new['mandatory'], 'product_type' => $ptype_id, 'company_id' => $company_id, 'version' => 1,'updated_at'=>date('Y-m-d H:i:s'));
 						}
 					}
 					$this->$module_model->save_extras_batch($insert_extras);
