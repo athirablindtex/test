@@ -122,6 +122,7 @@ if ($mode === 'add') {
 
                         <form method="post">
                            <div class="row">
+
                               <div class="col-md-6">
                                  <div class="form-group form-group-default">
                                     <label>Product Type</label>
@@ -255,6 +256,18 @@ if ($mode === 'add') {
                   <div class="card-body">
                      <form>
                         <div class="row">
+                           
+                             <div class="col-md-6">
+                                 <div class="form-group form-group-default">
+                                    <label>Select company</label>
+                                    <select class="form-control filter" name="company_id" id="company_id" required>
+                                       <option value="">Company</option>
+                                       <?php foreach ($companies as $c) { ?>
+                                          <option value="<?= @$c->id; ?>" <?= @$c->id == @$res->company_id ? 'selected' : ''; ?>><?= @$c->name; ?></option>
+                                       <?php } ?>
+                                    </select>
+                                 </div>
+                              </div>
                            <div class="col-md-6">
                               <div class="form-group form-group-default">
                                  <label>Product Type</label>

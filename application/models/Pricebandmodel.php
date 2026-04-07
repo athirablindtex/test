@@ -171,9 +171,8 @@ class Pricebandmodel extends CI_Model
 		$this->db->select('*');
 		 $company_id = get_salesperson_company($user_id);
 		 $company_id = get_company_id_or_null($company_id)  ;
-		   if($company_id !== null){
-			$this->db->where('company_id', $company_id);
-		   }
+			$this->db->where('company_id', $company_id);   }
+
 		$dt = $this->gets_data()->result_array();
 		$i = 0;
 		foreach ($dt as $d) {
