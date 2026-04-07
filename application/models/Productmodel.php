@@ -416,7 +416,7 @@ class Productmodel extends CI_Model
 
    
 	if ($this->input->get('company_id')) {
-			$this->db->where('a.company_id', $this->input->get('company_id'));
+			$this->db->where('a.company_id',  $company_id );
 		}
         
 		if ($this->input->get('product_type')) {
