@@ -334,30 +334,9 @@ let product_type = <?= !empty($res->module_id) ? (int)$res->module_id : 0 ?>;
   
 });
 
-$('#company_id_modal').on('change', function () {
-
+$('#company_id').on('change', function () {
    let company_id = $(this).val();
+   window.location.href = "<?= site_url('admin/product/list') ?>?company_id=" + company_id;
 
-   if (!company_id) {
-      $('#product_type_modal').html('<option value="">Select Product Type</option>');
-      return;
-   }
-
-   $.ajax({
-      url: "<?= base_url('admin/product/get_product_types_by_company') ?>",
-      type: "GET",
-      data: { company_id: company_id },
-      success: function (res) {
-
-         let data = JSON.parse(res);
-         let html = '<option value="">Select Product Type</option>';
-
-         data.forEach(function (item) {
-            html += `<option value="${item.id}">${item.name}</option>`;
-         });
-
-         $('#product_type_modal').html(html);
-      }
-   });
 });
 </script>

@@ -34,6 +34,10 @@ class Producttype extends MY_Controller
 			$data['active'] = $this->module_active;
 			$data['active_sub'] = $this->module_active_sub;
 		 $data['companies'] = $this->usersmodel->gets_company_all()->result();
+		     $company_id = $this->input->get('company_id');
+			 if($company_id){
+				$company_id=get_company_id_or_null($company_id);
+			 }
 			$data['active_sub_sub'] = $this->module_active_sub . '_list';
 			$data['content'] = 'admin/' . $view_folder . '/list';
 			$data['redirect'] = site_url() . $this->redirect;
@@ -47,7 +51,9 @@ class Producttype extends MY_Controller
 			if (@$this->input->get('sales_person') > 0) {
 				$this->db->where('sales_person', $this->input->get('sales_person'));
 			}
+			$this->db->where('company_id', $company_id);
 			$this->db->where('parent', 0);
+			$this->db->where('deleted_at IS NULL', null, false);
 			$data['tabledata'] = $this->$module_model->gets_all()->result();
 			$this->db->where('active', 1)->select('id,name');
 			$data['sales_person'] = $this->salespersonmodel->gets_data()->result_array();

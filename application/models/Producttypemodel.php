@@ -10,6 +10,9 @@ class Producttypemodel extends CI_Model{
 		//$this->load->database();	
     }
 	 function gets_all() {
+		
+
+
 		$this->db->order_by($this->primary_key, 'desc');
         return $query = $this->db->get($this->table_name.' a');
     }
