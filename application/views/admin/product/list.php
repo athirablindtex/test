@@ -728,8 +728,7 @@ $(document).on('click', '.copyBtn', function () {
 
 
 $('#company_id').on('change', function () {
-   alert(1)
-   // alert1('Company filter changed');
+
     let company_id = $(this).val();
 
     $.ajax({
