@@ -31,16 +31,17 @@ class Producttype extends MY_Controller
 		$view_folder = $this->view_folder;
 		$data['selected_extras'] =[];
 		$this->form_validation->set_rules('name', 'Product Type Name', 'required');
+		  $company_id = $this->input->get('company_id');
+			 if($company_id){
+				$company_id=get_company_id_or_null($company_id);
+			 }
 		if ($this->form_validation->run() == FALSE) {
 			$data['page'] = $this->module_caption;
 			$data['module'] = $this->module_caption;
 			$data['active'] = $this->module_active;
 			$data['active_sub'] = $this->module_active_sub;
 		 $data['companies'] = $this->usersmodel->gets_company_all()->result();
-		     $company_id = $this->input->get('company_id');
-			 if($company_id){
-				$company_id=get_company_id_or_null($company_id);
-			 }
+		   
 			$data['active_sub_sub'] = $this->module_active_sub . '_list';
 			$data['content'] = 'admin/' . $view_folder . '/list';
 			$data['redirect'] = site_url() . $this->redirect;
@@ -102,6 +103,7 @@ class Producttype extends MY_Controller
 					
 						}
 					}
+					$data['company_id'] = $company_id;
 					$id = $this->$module_model->save($data, $this->input->post('id'));
 					if ($this->input->post('extras')) {
 					
