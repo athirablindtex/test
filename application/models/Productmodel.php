@@ -120,6 +120,13 @@ class Productmodel extends CI_Model
 	}
 	function get_data_admin_table_products()
 	{
+		if(@$this->input->get('company_id')){
+			$select_company_id = $this->input->get('company_id');
+			  $company_id = get_company_id_or_null($select_company_id);
+		 
+	
+			$this->db->where('company_id', $company_id);
+		 }
 		if (@$this->input->get('product_type')) {
 			$this->db->where('a.product_type', @$this->input->get('product_type'));
 		}
@@ -234,15 +241,15 @@ class Productmodel extends CI_Model
 		}
 
           $company_id = get_company_id_or_null($select_company_id);
-		
+		 
 	
-			$this->db->where('company_id', $company_id);   
-
+			$this->db->where('company_id', $company_id);
+		
 
 
 		$this->db->where('deleted_at', Null);
 		$dt = $this->gets_data()->result_array();
-	
+
 
 
 		$this->db->select('margin_type, margin_value');
@@ -281,7 +288,7 @@ class Productmodel extends CI_Model
 				if ($result) {
 				$margin_value = $result->value;
 				}
-                        }
+}
 
 
 			// 2. If not found, check sub_product_type
@@ -350,16 +357,15 @@ class Productmodel extends CI_Model
 
 
 	function get_data_admin_table_products_margin($limit = null, $offset = null, $search = '')
-	{ 
-
-			if (@$this->input->get('company_id')) {
-			$company_id = get_company_id_or_null(@$this->input->get('company_id'));
-
-			$this->db->where('a.company_id', $company_id);
-			}
-		
-			
+	{
+			if(@$this->input->get('company_id')){
+			$select_company_id = $this->input->get('company_id');
+			  $company_id = get_company_id_or_null($select_company_id);
+		 
 	
+			$this->db->where('a.company_id', $company_id);
+		 }
+        
 		if (@$this->input->get('product_type')) {
 			$this->db->where('a.product_type', @$this->input->get('product_type'));
 		}
@@ -401,13 +407,6 @@ class Productmodel extends CI_Model
 	}
 	private function apply_product_filters($search = '')
 	{
-				if(@$this->input->get('company_id')) {
-				$company_id = get_company_id_or_null(@$this->input->get('company_id'));
-
-				$this->db->where('a.company_id', $company_id);
-				}
-
-		
 		if ($this->input->get('product_type')) {
 			$this->db->where('a.product_type', $this->input->get('product_type'));
 		}
