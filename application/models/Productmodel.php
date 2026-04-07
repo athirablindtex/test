@@ -198,6 +198,8 @@ class Productmodel extends CI_Model
 		$salesperson_row = $this->salespersonmodel->get_row($user_id);
 
 		$select_company_id = $salesperson_row->company;
+		echo "Salesperson Company ID: " . $select_company_id . "\n"; //
+		exit;
 		$last_synch_data = get_last_sync_date($user_id, 'product');
 
 		$last_synch_date = null;
