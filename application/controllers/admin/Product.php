@@ -168,7 +168,7 @@ $this->check_user_privillages($permission);
                         }
                     }
                     
-                    $company_id=$this->input->post('companyid');
+                    $company_id=$this->input->post('company');
                     echo $company_id;
                     exit;
                     if($company_id){
