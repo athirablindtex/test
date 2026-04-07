@@ -374,7 +374,7 @@ if ($mode === 'add') {
                      <!-- <button id="downloadPdfBtn" class="btn btn-secondary btn-sm">
                            <i class="fa fa-file-pdf"></i> Download PDF
                         </button> -->
-               </div>
+            
 
                <div class="table-responsive">
                   <table id="basic-datatables" class="display table table-striped table-hover">
@@ -449,7 +449,7 @@ if ($mode === 'add') {
                </div>
             <?php } ?>
             <hr />
-
+   </div>
             </div>
          </div>
       </div>
