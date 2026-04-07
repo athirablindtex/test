@@ -263,7 +263,7 @@ if ($mode === 'add') {
                                     <select class="form-control filter" name="company_id" id="company_id" required>
                                        <option value="">Company</option>
                                        <?php foreach ($companies as $c) { ?>
-                                          <option value="<?= @$c->id; ?>" <?= @$c->id == @$res->company_id ? 'selected' : ''; ?>><?= @$c->name; ?></option>
+                                          <option value="<?= @$c->id; ?>" <?= @$c->id == @$this->input->get('company_id')  ? 'selected' : ''; ?>><?= @$c->name; ?></option>
                                        <?php } ?>
                                     </select>
                                  </div>
