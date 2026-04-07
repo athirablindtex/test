@@ -698,6 +698,26 @@ $(document).on('click', '.copyBtn', function () {
 $('.filter').on('input', function () {
     $('form').submit();
 });
+$('#company_id').on('change', function () {
+    let company_id = $(this).val();
+
+    $.ajax({
+        url: "<?= base_url('admin/product/get_product_types_by_company') ?>",
+        type: "GET",
+        data: { company_id: company_id },
+        success: function (res) {
+            let data = JSON.parse(res);
+
+            let html = '<option value="">Product Type</option>';
+
+            data.forEach(function (item) {
+                html += `<option value="${item.id}">${item.name}</option>`;
+            });
+
+            $('#product_type1').html(html);
+        }
+    });
+});
 
 
 </script>

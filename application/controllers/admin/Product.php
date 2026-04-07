@@ -1497,4 +1497,26 @@ $margin = (!empty($margin_row['value'])) ? $margin_row['value'] : $companyMargin
         }
         return $affectedCompanies;
     }
+
+    public function get_product_types_by_company()
+{
+    $company_id = $this->input->get('company_id');
+
+    $company_id = get_company_id_or_null($company_id);
+
+    $this->db->select('id, name');
+    $this->db->from('product_type');
+
+    if ($company_id === NULL) {
+        $this->db->where('company_id IS NULL', null, false);
+    } else {
+        $this->db->where('company_id', $company_id);
+    }
+
+    $this->db->where('is_enabled', 1);
+
+    $result = $this->db->get()->result();
+
+    echo json_encode($result);
+}
 }
