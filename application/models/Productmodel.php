@@ -198,8 +198,7 @@ class Productmodel extends CI_Model
 		$salesperson_row = $this->salespersonmodel->get_row($user_id);
 
 		$select_company_id = $salesperson_row->company;
-		echo "Salesperson Company ID: " . $select_company_id . "\n"; //
-		exit;
+	
 		$last_synch_data = get_last_sync_date($user_id, 'product');
 
 		$last_synch_date = null;
@@ -218,7 +217,7 @@ class Productmodel extends CI_Model
 
 			$updated_product_types = array_column($query->result_array(), 'product_type');
 		}
-		$this->db->select('id,`product_type`, `sub_product_type`, `vendor`, `name`, `price_band_type`, `price_band`, `min_width`, `max_width`, `min_drop`, `max_drop`,turnable,version,company_config');
+		$this->db->select('id,`product_type`, `sub_product_type`, `vendor`, `name`, `price_band_type`, `price_band`, `min_width`, `max_width`, `min_drop`, `max_drop`,turnable,version,company_config,company_id');
 		// $this->db->where('deleted_at',NULL)
 		if ($last_synch_date !== null) {
 			$this->db->group_start();
