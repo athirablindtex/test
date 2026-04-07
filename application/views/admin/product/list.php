@@ -19,7 +19,7 @@
                   <div class="col-md-12">
                      <div class="form-group form-group-default">
                         <label>Select Company</label>
-                        <select name="company_id" class="form-control" required>
+                        <select name="companyid" class="form-control" id="companyid" required>
                            <option value="">Select Company</option>
 
 
@@ -580,68 +580,7 @@ if ($mode === 'add') {
       });
    });
 
-   // $('#search').on('keyup', function() {
-   //    var name = $(this).val().toLowerCase();
-   //    if (name.length > 0) {
-   //       $('#pagination').hide();
-   //       $.ajax({
-   //          url: '<?= base_url('admin/product/search') ?>',
-   //          type: 'POST',
-   //          data: {
-   //             search: name
-   //          },
-   //          dataType: 'json',
-   //          success: function(data) {
 
-
-   //             let html = '';
-   //             let i = 1;
-
-   //             if (data.length > 0) {
-   //                let html = '';
-   //                let i = 1;
-
-   //                $.each(data, function(index, pro) {
-   //                   html += `<tr>
-   //          <td>${i++}</td>
-   //          <td>${pro.name}</td>
-   //          <td>${pro.product_id}</td>
-   //          <td>${pro.product_name}</td>
-   //          <td>${pro.product_type_name}</td>
-   //          <td>${pro.sub_product_type_name}</td>
-   //          <td>${pro.price_band_type}</td>
-   //          <td>${pro.priceband_name}</td>
-   //          <td>${pro.turnable}</td>
-   //          <td>`;
-
-   //                   <?php if (@$permissions['add']) { ?>
-   //                      html += `<a href="<?= site_url('admin/' . $controller . '/list/edit/') ?>${pro.id}" class="text-muted d-inline-block bg-white mr-1" data-toggle="tooltip" title="Edit">
-   //          <i class="fa fa-edit"></i>
-   //      </a>`;
-   //                   <?php } ?>
-
-   //                   <?php if (@$permissions['delete']) { ?>
-   //                      html += `<a href="<?= site_url('admin/' . $controller . '/delete/') ?>${pro.id}" onclick="return confirm('<?= $this->lang->line('common_confirm_delete') ?>');" class="text-muted d-inline-block bg-white" data-toggle="tooltip" title="Remove">
-   //          <i class="far fa-trash-alt"></i>
-   //      </a>`;
-   //                   <?php } ?>
-
-   //                   html += `</td></tr>`;
-   //                });
-
-   //                $('#tabledata').html(html);
-   //             } else {
-   //                html = `<tr><td colspan="3">No matching results found.</td></tr>`;
-   //             }
-
-   //             $('#tabledata').html(html);
-   //          }
-
-   //       });
-   //    } else {
-   //       location.reload();
-   //    }
-   // });
    $('#exportCsvBtn').on('click', function() {
       let params = window.location.search; // keep filters
       window.location.href = '<?= site_url("admin/product/export_csv") ?>' + params;
@@ -756,6 +695,29 @@ if ($mode === 'add') {
             });
 
             $('#product_type1').html(html);
+         }
+      });
+   });
+     $('#companyid').on('change', function() {
+
+      let company_id = $(this).val();
+
+      $.ajax({
+         url: "<?= base_url('admin/product/get_product_types_by_company') ?>",
+         type: "GET",
+         data: {
+            company_id: company_id
+         },
+         success: function(res) {
+            let data = JSON.parse(res);
+
+            let html = '<option value="">Product Type</option>';
+
+            data.forEach(function(item) {
+               html += `<option value="${item.id}">${item.name}</option>`;
+            });
+
+            $('#product_type').html(html);
          }
       });
    });
