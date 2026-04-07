@@ -1506,6 +1506,7 @@ $margin = (!empty($margin_row['value'])) ? $margin_row['value'] : $companyMargin
 
     $this->db->select('id, name');
     $this->db->from('product_type');
+    $this->db->where('parent', 0);
 
     if ($company_id === NULL) {
         $this->db->where('company_id IS NULL', null, false);
