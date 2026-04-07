@@ -240,6 +240,8 @@ class Productmodel extends CI_Model
 
 		$this->db->where('deleted_at', Null);
 		$dt = $this->gets_data()->result_array();
+		print_r($this->db->last_query());
+		exit; // Debugging line to check the generated SQL query
 
 
 
