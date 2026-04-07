@@ -695,9 +695,10 @@ $(document).on('click', '.copyBtn', function () {
 
 
 
-$('.filter').on('input', function () {
+$('.filter').not('#company_id').on('change', function () {
     $('form').submit();
 });
+
 $('#company_id').on('change', function () {
    alert1('Company filter changed');
     let company_id = $(this).val();
