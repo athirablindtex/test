@@ -35,7 +35,7 @@ class Extras extends MY_Controller
 			: [$companySession];
 			}
 			}
-		$this->load->model(array($this->module_model,'producttypemodel', 'vendormodel',));
+		$this->load->model(array($this->module_model,'producttypemodel', 'vendormodel','usersmodel','salespersonmodel','usergroupsmodel'));
 		$this->load->library("pagination");
 	}
 	public function list($type = "list", $id = "")
@@ -49,6 +49,7 @@ class Extras extends MY_Controller
 			$limit = 30;
 			$data['page'] = $this->module_caption;
 			$data['extras_parent'] = $this->$module_model->get_parents();
+			 $data['companies'] = $this->usersmodel->gets_company_all()->result();
 			$data['module'] = $this->module_caption;
 			$data['active'] = $this->module_active;
 			$data['active_sub'] = $this->module_active_sub;
@@ -446,6 +447,7 @@ public function get_margin_excel_data()
 	{
 		$config['upload_path'] = APPPATH . '../uploads/extras_import/';
 		$config['allowed_types'] = 'xls';
+		  $company_id = $this->input->post('company_id');
 		$this->load->library('upload', $config);
 		if ($_FILES['excel_file']['name'] == "") {
 			$this->session->set_flashdata('error', "No file selected!");
@@ -468,18 +470,18 @@ public function get_margin_excel_data()
 			// for example $this->excel_reader->read('./uploads/file.xls');
 			@$this->excel_reader->read($path);
 			// print_r(@$this->excel_reader->sheets);
-			$this->excel_import_set(@$this->excel_reader->sheets[0]['cells']);
+			$this->excel_import_set(@$this->excel_reader->sheets[0]['cells'], $company_id);
 			unlink($path);
 			$this->session->set_flashdata('success', "Excel Uploaded Successfully");
 			redirect($this->redirect);
 		}
 		exit;
 	}
-	public function excel_import_set($data = [])
+	public function excel_import_set($data = [], $company_id)
 	{
 		try {
 			for ($i = 2; $i <= count($data); $i++) {
-				$this->insert_import_row($data[$i]);
+				$this->insert_import_row($data[$i], $company_id);
 			}
 		} catch (Exception $e) {
 		}
@@ -487,9 +489,11 @@ public function get_margin_excel_data()
 		// print_r($data);
 		// exit;
 	}
-	public function insert_import_row($row = [])
+	public function insert_import_row($row = [], $company_id)
 	{
 		try {
+			
+        $company_id = get_company_id_or_null($company_id);
 			// Skip empty rows - adjust index to match 1-based keys
 			$main = trim($row[1] ?? '');
 			$sub = trim($row[2] ?? '');
@@ -503,7 +507,8 @@ public function get_margin_excel_data()
 			// Check and insert parent
 			$parent = $this->db->get_where('extras', [
 				'name'   => $main,
-				'parent' => 0
+				'parent' => 0,
+				'company_id' => $company_id
 			])->row();
 			if (!$parent) {
 				$this->db->insert('extras', [
@@ -512,6 +517,7 @@ public function get_margin_excel_data()
 					'is_enabled'   => 1,
 					'created_date' => date('Y-m-d H:i:s'),
 					'updated_at' => date('Y-m-d H:i:s'),
+					'company_id'   => $company_id,
 					'version'      => 1
 				]);
 				$parent_id = $this->db->insert_id();
@@ -521,7 +527,8 @@ public function get_margin_excel_data()
 			// Check and insert child
 			$child = $this->db->get_where('extras', [
 				'name'   => $sub,
-				'parent' => $parent_id
+				'parent' => $parent_id,
+				'company_id' => $company_id
 			])->row();
 			if (!$child) {
 				$this->db->insert('extras', [
@@ -530,6 +537,7 @@ public function get_margin_excel_data()
 					'extra_code'   => $extra_code,
 					'type'         => $type,
 					'value'        => $value,
+					'company_id'   => $company_id,
 					'is_enabled'   => 1,
 					'created_date' => date('Y-m-d H:i:s'),
 					'updated_at' => date('Y-m-d H:i:s'),

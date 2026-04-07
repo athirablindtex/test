@@ -234,18 +234,19 @@ class Productmodel extends CI_Model
 		}
 
           $company_id = get_company_id_or_null($select_company_id);
-		
+		  echo "Selected Company ID for Sync: " . ($company_id !== null ? $company_id : 'GLOBAL') . "\n";
+		  exit;
 		//    echo "Selected Company ID for Sync: " . ($company_id !== null ? $company_id : 'GLOBAL') . "\n"; 
 		//    exit;// Debugging line
-		   if($company_id !== null){
-			$this->db->where('company_id', $company_id);
-		   }
+		//    if($company_id !== null){
+		// 	$this->db->where('company_id', $company_id);
+		//    }
 
 
 		$this->db->where('deleted_at', Null);
 		$dt = $this->gets_data()->result_array();
-		// print_r($this->db->last_query());
-		// exit; // Debugging line to check the generated SQL query
+		print_r($this->db->last_query());
+		exit; // Debugging line to check the generated SQL query
 
 
 

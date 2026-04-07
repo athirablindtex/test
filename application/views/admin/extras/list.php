@@ -47,6 +47,24 @@ foreach ($type_ar as $t) {
                <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12">
                      <div class="form-group form-group-default">
+                        <label>Select Company</label>
+                        <select name="company_id" class="form-control" required>
+                           <option value="">Select Company</option>
+
+
+
+                           <!-- Other companies -->
+                           <?php foreach ($companies as $c) { ?>
+                              <option value="<?= $c->id ?>">
+                                 <?= $c->name ?>
+                              </option>
+                           <?php } ?>
+
+                        </select>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                     <div class="form-group form-group-default">
                         <strong>Upload Excel/CSV Files:</strong>
                         <input type="file" name="excel_file" id="excel_file" class="form-control" />
                      </div>
@@ -178,81 +196,81 @@ foreach ($type_ar as $t) {
             </div>
          </div>
       </div>
-  <div class="row">
-    <div class="col-md-12">
-        <div class="card">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="card">
 
-            <div class="card-header">
-                <div class="card-title">New extra item</div>
-            </div>
+               <div class="card-header">
+                  <div class="card-title">New extra item</div>
+               </div>
 
-            <div class="card-body">
+               <div class="card-body">
 
-                <!-- Search -->
-                <form method="get" action="<?= site_url('admin/extras/list'); ?>">
-                    <div class="d-flex justify-content-end mb-3">
+                  <!-- Search -->
+                  <form method="get" action="<?= site_url('admin/extras/list'); ?>">
+                     <div class="d-flex justify-content-end mb-3">
                         <input type="text"
-                               name="search"
-                               value="<?= $this->input->get('search'); ?>"
-                               class="form-control me-2"
-                               style="width:250px;"
-                               placeholder="Search name...">
+                           name="search"
+                           value="<?= $this->input->get('search'); ?>"
+                           class="form-control me-2"
+                           style="width:250px;"
+                           placeholder="Search name...">
 
                         <button class="btn btn-primary me-2">Search</button>
 
                         <a href="<?= site_url('admin/extras/list'); ?>"
                            class="btn btn-secondary">Reset</a>
-                    </div>
-                </form>
+                     </div>
+                  </form>
 
-                <!-- Table -->
-                <table class="table table-bordered table-striped" id="extrasTable">
-                    <thead>
+                  <!-- Table -->
+                  <table class="table table-bordered table-striped" id="extrasTable">
+                     <thead>
                         <tr>
-                            <th width="60">ID</th>
-                            <th>Name</th>
-                            <th width="120">Actions</th>
+                           <th width="60">ID</th>
+                           <th>Name</th>
+                           <th width="120">Actions</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                     </thead>
+                     <tbody>
                         <?php foreach ($tabledata as $pro) { ?>
-                            <tr>
-                                <td><?= $pro['id']; ?></td>
-                                <td>
-                                    <strong><?= $pro['name']; ?></strong>
-                                    <?php if (empty($pro['sub'])) { ?>
-                                        <br>
-                                        <small class="text-muted">
-                                            Value Type:
-                                            <strong><?= $pro['type']; ?></strong>
-                                            — <strong><?= $pro['value']; ?></strong>
-                                        </small>
-                                    <?php } ?>
-                                </td>
-                                <td>
-                                    <?php if (@$permissions['add']) { ?>
-                                        <a href="<?= site_url('admin/' . $controller . '/edit/' . $pro['id']); ?>"
-                                           class="btn btn-sm btn-primary">
-                                            <i class="fa fa-edit"></i>
-                                        </a>
-                                    <?php } ?>
-                                    <?php if (@$permissions['delete']) { ?>
-                                        <a href="<?= site_url('admin/' . $controller . '/delete/' . $pro['id']); ?>"
-                                           onclick="return confirm('<?= $this->lang->line('common_confirm_delete'); ?>');"
-                                           class="btn btn-sm btn-danger">
-                                            <i class="fa fa-trash"></i>
-                                        </a>
-                                    <?php } ?>
-                                </td>
-                            </tr>
+                           <tr>
+                              <td><?= $pro['id']; ?></td>
+                              <td>
+                                 <strong><?= $pro['name']; ?></strong>
+                                 <?php if (empty($pro['sub'])) { ?>
+                                    <br>
+                                    <small class="text-muted">
+                                       Value Type:
+                                       <strong><?= $pro['type']; ?></strong>
+                                       — <strong><?= $pro['value']; ?></strong>
+                                    </small>
+                                 <?php } ?>
+                              </td>
+                              <td>
+                                 <?php if (@$permissions['add']) { ?>
+                                    <a href="<?= site_url('admin/' . $controller . '/edit/' . $pro['id']); ?>"
+                                       class="btn btn-sm btn-primary">
+                                       <i class="fa fa-edit"></i>
+                                    </a>
+                                 <?php } ?>
+                                 <?php if (@$permissions['delete']) { ?>
+                                    <a href="<?= site_url('admin/' . $controller . '/delete/' . $pro['id']); ?>"
+                                       onclick="return confirm('<?= $this->lang->line('common_confirm_delete'); ?>');"
+                                       class="btn btn-sm btn-danger">
+                                       <i class="fa fa-trash"></i>
+                                    </a>
+                                 <?php } ?>
+                              </td>
+                           </tr>
                         <?php } ?>
-                    </tbody>
-                </table>
+                     </tbody>
+                  </table>
 
+               </div>
             </div>
-        </div>
-    </div>
-</div>
+         </div>
+      </div>
 
    </div>
    <div class="col-12  d-flex align-items-center justify-content-center">
