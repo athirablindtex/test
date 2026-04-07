@@ -9,7 +9,7 @@ class Producttype extends MY_Controller
 {
 	var $module_id = 'id';
 	var $single_name = "producttype";
-	var $valid_fields = array('name', 'parent');
+	var $valid_fields = array('name', 'parent','company_id');
 	public function __construct()
 	{
 		parent::__construct();
@@ -93,6 +93,7 @@ class Producttype extends MY_Controller
 					if (@$this->input->post('id') == 0) {
 						$data['is_enabled'] = 1;
 						$data['created_date'] = date('Y-m-d');
+						
 					
 						$data['version'] = 1;
 					} else {

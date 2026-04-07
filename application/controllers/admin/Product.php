@@ -76,6 +76,7 @@ $this->check_user_privillages($permission);
             $data['content'] = 'admin/' . $view_folder . '/list';
             $data['redirect'] = site_url() . $this->redirect;
             $data['companies'] = $this->usersmodel->gets_company_all()->result();
+         
             $data['edit'] = 0;
             if ($type == "edit") {
                 $this->check_user_privillages($this->permission . '_add');
@@ -154,15 +155,23 @@ $this->check_user_privillages($permission);
                         $data['is_enabled'] = 1;
                         $data['created_date'] = date('Y-m-d');
                         $data['updated_at'] = date('Y-m-d H:i:s');
+                  
+                    
                         audit_log('product', $id, 'INSERT', $old_data = null, $data, 1);
                         $data['version'] = 1;
                     } else {
                         if ($row = $this->$module_model->get_row($this->input->post('id'))) {
-                            $old_data = $this->db->get_where('product', ['id' => $this->input->post('id')])->row_array();
+                            $old_data = $this->db->get_where('product', ['id' => $this->input->post('id') ])->row_array();
                             $data['version'] = $row->version + 1;
                             audit_log('product', $id, 'UPDATE',  $old_data, $data, 1);
                             $data['updated_at'] = date('Y-m-d H:i:s');
                         }
+                    }
+                    
+                    $company_id=$this->input->post('companyid');
+                    if($company_id){
+                    $company_id=get_company_id_or_null($company_id);
+                    $data['company_id']=$company_id;
                     }
                     $id = $this->$module_model->save($data, $this->input->post('id'));
                     $this->db->where('product', $id);

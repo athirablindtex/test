@@ -122,6 +122,20 @@ if ($mode === 'add') {
                         <form method="post">
                            <div class="row">
 
+                            <div class="col-md-6">
+                              <div class="form-group form-group-default">
+                                 <label>Select Company</label>
+                                 <select class="form-control" name="company">
+                                    <option value="">Company</option>
+                                    <?php foreach ($companies as $c) { ?>
+                                       <option value="<?= $c->id; ?>">
+                                          <?= $c->name; ?>
+                                       </option>
+                                    <?php } ?>
+                                 </select>
+                              </div>
+                           </div>
+
                               <div class="col-md-6">
                                  <div class="form-group form-group-default">
                                     <label>Product Type</label>
