@@ -242,9 +242,7 @@ class Productmodel extends CI_Model
 
 		$this->db->where('deleted_at', Null);
 		$dt = $this->gets_data()->result_array();
-		print_r($this->db->last_query());
-		exit; // Debugging line to check the generated SQL query
-
+	
 
 
 		$this->db->select('margin_type, margin_value');
@@ -283,7 +281,7 @@ class Productmodel extends CI_Model
 				if ($result) {
 				$margin_value = $result->value;
 				}
-}
+                        }
 
 
 			// 2. If not found, check sub_product_type
@@ -403,13 +401,13 @@ class Productmodel extends CI_Model
 	}
 	private function apply_product_filters($search = '')
 	{
+				if(@$this->input->get('company_id')) {
+				$company_id = get_company_id_or_null(@$this->input->get('company_id'));
 
-	$company_id = get_company_id_or_null(@$this->input->get('company_id'));
-		if ($company_id !== null) {
-			$this->db->where('a.company_id', $company_id);
-		} else {
-			$this->db->where('a.company_id IS NULL', null, false);
-		}
+				$this->db->where('a.company_id', $company_id);
+				}
+
+		
 		if ($this->input->get('product_type')) {
 			$this->db->where('a.product_type', $this->input->get('product_type'));
 		}
