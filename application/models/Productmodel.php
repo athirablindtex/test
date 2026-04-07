@@ -411,6 +411,7 @@ private function base_query()
 	{
 
 	 $select_company_id = $this->input->get('company_id');
+	 echo $select_company_id;exit;
 
     // if (!empty($select_company_id)) {
     //     $company_id = get_company_id_or_null($select_company_id);
