@@ -411,7 +411,19 @@ class Productmodel extends CI_Model
 	{
 
 	 $select_company_id = $this->input->get('company_id') ?? null;
-	 $company_id =$select_company_id;
+	
+
+
+if (!empty($select_company_id)) {
+
+    $company_id = get_company_id_or_null($select_company_id);
+
+    if ($company_id === NULL) {
+        $this->db->where('a.company_id IS NULL', null, false);
+    } else {
+        $this->db->where('a.company_id', $company_id);
+    }
+}
 	
 
    
