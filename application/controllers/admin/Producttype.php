@@ -2,8 +2,8 @@
 	exit('No direct script allowed');
 }
 
-ini_set(('display_errors'), 1);
-error_reporting(E_ALL);
+// ini_set(('display_errors'), 1);
+// error_reporting(E_ALL);
 
 class Producttype extends MY_Controller
 {
@@ -56,7 +56,7 @@ class Producttype extends MY_Controller
 			}
 			$this->db->where('company_id', $company_id);
 			$this->db->where('parent', 0);
-			$this->db->where('deleted_at IS NULL', null, false);
+			
 			$data['tabledata'] = $this->$module_model->gets_all()->result();
 			$this->db->where('active', 1)->select('id,name');
 			$data['sales_person'] = $this->salespersonmodel->gets_data()->result_array();
