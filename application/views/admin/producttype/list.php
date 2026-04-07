@@ -50,22 +50,22 @@
                   </div>
                   <div class="card-body">
 
-<div class="col-md-12">
-                              <div class="form-group form-group-default">
-                              <label>Select Company</label>
-                              <select name="company_id" class="form-control" required>
-                              <option value="">Select Company</option>
+                  <div class="col-md-12">
+                  <div class="form-group form-group-default">
+                  <label>Select Company</label>
+                  <select name="company_id" class="form-control" id="company_id" required>
+                  <option value="">Select Company</option>
 
-                              <?php foreach ($companies as $c) { ?>
-                              <option value="<?= $c->id ?>"
-                              <?= @$res->company_id == $c->id ? 'selected' : '' ?>>
-                              <?= $c->name ?>
-                              </option>
-                              <?php } ?>
+                  <?php foreach ($companies as $c) { ?>
+                  <option value="<?= $c->id ?>"
+                  <?= @$res->company_id == $c->id ? 'selected' : '' ?>>
+                  <?= $c->name ?>
+                  </option>
+                  <?php } ?>
 
-                              </select>
-                              </div>
-                              </div>
+                  </select>
+                  </div>
+                  </div>
 
                      <?php if (@$tabledata) { ?>
                         <div class="table-responsive mt-4">
@@ -328,8 +328,36 @@ let product_type = <?= !empty($res->module_id) ? (int)$res->module_id : 0 ?>;
             console.error('Error removing extra margin:', error);
         }
     });
+    
 
 
   
+});
+
+$('#company_id_modal').on('change', function () {
+
+   let company_id = $(this).val();
+
+   if (!company_id) {
+      $('#product_type_modal').html('<option value="">Select Product Type</option>');
+      return;
+   }
+
+   $.ajax({
+      url: "<?= base_url('admin/product/get_product_types_by_company') ?>",
+      type: "GET",
+      data: { company_id: company_id },
+      success: function (res) {
+
+         let data = JSON.parse(res);
+         let html = '<option value="">Select Product Type</option>';
+
+         data.forEach(function (item) {
+            html += `<option value="${item.id}">${item.name}</option>`;
+         });
+
+         $('#product_type_modal').html(html);
+      }
+   });
 });
 </script>
