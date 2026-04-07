@@ -700,7 +700,7 @@ $('.filter').not('#company_id').on('change', function () {
 });
 
 $('#company_id').on('change', function () {
-   alert1('Company filter changed');
+   // alert1('Company filter changed');
     let company_id = $(this).val();
 
     $.ajax({
