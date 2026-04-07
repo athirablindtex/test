@@ -8,7 +8,7 @@ class Product extends MY_Controller
 {
     var $module_id = 'id';
     var $single_name = "product";
-    var $valid_fields = array('name', 'product_type', 'blind_code', 'fabric_code', 'sub_product_type', 'vendor', 'price_band_type', 'price_band', 'min_width', 'max_width', 'min_drop', 'max_drop');
+    var $valid_fields = array('name', 'product_type', 'blind_code', 'fabric_code', 'sub_product_type', 'vendor', 'price_band_type', 'price_band', 'min_width', 'max_width', 'min_drop', 'max_drop','company_id', 'turnable');
     public function __construct()
     {
         parent::__construct();
