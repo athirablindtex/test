@@ -212,10 +212,10 @@ foreach ($type_ar as $t) {
 
         <!-- Company -->
         <div class="col-md-3">
-            <select name="company_id" class="form-control">
+            <select name="company" class="form-control">
                 <option value="">All Companies</option>
                 <?php 
-                $selected_company = $this->input->get('company_id');
+                $selected_company = $this->input->get('company');
                 foreach ($companies as $c) { ?>
                     <option value="<?= $c->id; ?>"
                         <?= ($c->id == $selected_company) ? 'selected' : ''; ?>>

@@ -44,6 +44,8 @@ class Extras extends MY_Controller
 		// print_r($_POST);exit;
 		$module_model = $this->module_model;
 		$view_folder = $this->view_folder;
+		$company_id = $this->input->get('company');
+		$company_id = get_company_id_or_null($company_id);
 		$this->form_validation->set_rules('name', 'Product Name', 'required|trim|min_length[3]|max_length[200]');
 		if ($this->form_validation->run() == FALSE) {
 			$limit = 30;
@@ -84,6 +86,8 @@ class Extras extends MY_Controller
 			$this->pagination->initialize($config);
 			$page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
 			$data["links"] = $this->pagination->create_links();
+			                  $this->db->where('company_id', $company_id);
+			                   
 			$data['tabledata'] = $this->$module_model->gets_data_admin_table_subs($limit, $page);
 			$data['module_id'] = $this->module_id;
 			$data['controller'] = $this->controller;
