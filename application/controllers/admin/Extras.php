@@ -106,6 +106,7 @@ class Extras extends MY_Controller
 		$module_model = $this->module_model;
 		$data = [];
 		$data['content'] = 'admin/extras/edit';
+		$data['companies'] = $this->usersmodel->gets_company_all()->result();
 		$data['tree'] = $this->getExtraTree($id);
 		$data['edit'] = 1;
 		$this->load->view('admin/include/template', $data);
