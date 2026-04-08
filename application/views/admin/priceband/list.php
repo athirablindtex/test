@@ -87,7 +87,7 @@
                               <div class="col-md-12">
                                  <div class="form-group form-group-default">
                                     <label>Select Company</label>
-                                    <select name="company" class="form-control" id="company_id" required>
+                                    <select name="company" class="form-control company_id" id="company_id" required>
                                        <option value="">Select Company</option>
 
                                        <?php foreach ($companies as $c) { ?>
@@ -701,4 +701,9 @@
          });
       });
    });
+   $('body').on('change', '.company_id', function() {
+      var company_id = $(this).val();
+      window.location.href = '<?php echo base_url("admin/priceband/list"); ?>?company_id=' + company_id;
+   });
+
 </script>

@@ -48,6 +48,7 @@ class Priceband extends MY_Controller
 			$data['edit'] = 0;
 			$data['product_type'] = $this->input->post('ptype');
 		   $data['companies'] = get_companies_list();
+		   $company_id = $this->input->get('company_id');
 			
 			$data['prices'] = array();
 			$this->db->select('id, name');
@@ -75,6 +76,9 @@ class Priceband extends MY_Controller
 			}
 			if ($this->input->get('from')) {
 				$this->db->where('a.created_date >=', date('Y-m-d', strtotime($this->input->get('from'))));
+			}
+			if ($company_id) {
+				$this->db->where('a.company_id', $company_id);
 			}
 			if ($this->input->get('to')) {
 				$this->db->where('a.created_date <=', date('Y-m-d', strtotime($this->input->get('to'))));
