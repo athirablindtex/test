@@ -66,8 +66,8 @@ class Producttype extends MY_Controller
 			$data['tabledata'] = $this->$module_model->gets_all()->result();
 			$this->db->where('active', 1)->select('id,name');
 			$data['sales_person'] = $this->salespersonmodel->gets_data()->result_array();
-		     $this->db->where('company_id', $company_id);
-			$data['extras'] = $this->get_extras_for_all();
+		 
+			$data['extras'] = $this->get_extras_for_all($company_id);
 		
 		    
 				$data['selected_extras'] =$this->get_selected_extras($id);
@@ -339,12 +339,12 @@ public function get_selected_extras($product_type_id)
 
 
 
-	public function get_extras_for_all()
+	public function get_extras_for_all($company_id = null)
 	{
 		$data = array();
 	
 		// Fetch all available extras that are enabled and have no parent
-		$this->db->where(array('parent' => 0, 'is_enabled' => 1))
+		$this->db->where(array('parent' => 0, 'is_enabled' => 1,'company_id' => $company_id))
 			->select('id, name, 0 as selected, 0 as mandatory,0 as margin');
 	
 		// Get the extras

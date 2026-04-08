@@ -154,7 +154,7 @@
                    <div class="col-md-12">
                   <div class="form-group form-group-default">
                   <label>Select Company</label>
-                  <select name="company" class="form-control"  required>
+                  <select name="company" class="form-control"  id="company" required>
                   <option value="">Select Company</option>
 
                   <?php foreach ($companies as $c) { ?>

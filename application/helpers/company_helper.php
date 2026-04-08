@@ -41,3 +41,49 @@ if (!function_exists('get_salesperson_company')) {
         return $row->company ?? null;
     }
 }
+if (!function_exists('get_companies_list')) {
+
+    function get_companies_list()
+    {
+        $CI =& get_instance();
+        $CI->db->reset_query();
+
+        $result = $CI->db
+            ->select('id, name, company_code, is_global')
+            ->from('admin_users')
+            ->where('company_code IS NOT NULL', null, false)
+            ->get()
+            ->result_array();
+
+        $companies = [];
+        $globalNames = [];
+        $globalIds = [];
+
+        foreach ($result as $row) {
+
+            if ($row['is_global'] == 1) {
+                $globalNames[] = $row['name'];
+                $globalIds[] = $row['id'];
+            } else {
+                $companies[] = $row;
+            }
+        }
+
+        // ✅ Combine global companies
+        if (!empty($globalNames)) {
+
+            $label = implode(', ', $globalNames);
+
+            // 👉 add bracket only once (last label style)
+            $label .= ' (Blindtex)';
+
+            $companies[] = [
+                'id' => implode(',', $globalIds),
+                'name' => $label,
+                'is_global' => 1
+            ];
+        }
+
+        return $companies;
+    }
+}
