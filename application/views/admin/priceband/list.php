@@ -10,7 +10,7 @@
       overflow: auto;
    }
 </style>
-
+<?php $company_id = $this->input->get('company_id') ? $this->input->get('company_id') : NULL; ?>
 <div class="main-panel">
    <div class="content">
       <div class="page-inner">
