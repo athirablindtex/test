@@ -171,6 +171,23 @@
                                 </div>
                                 <div class="col-sm-12">
                                     <div class="row">
+                                          <div class="col-md-12">
+                                 <div class="form-group form-group-default">
+                                    <label>Select Company</label>
+                                    <select name="company" class="form-control company_id" id="company_id" required>
+                                       <option value="">Select Company</option>
+
+                                       <?php foreach ($companies as $c) { ?>
+                                          <option value="<?= $c->id ?>"
+                                             <?= $res->company_id == $c->id ? 'selected' : '' ?>>
+                                             <?= $c->name ?>
+                                          </option>
+                                       <?php } ?>
+
+                                    </select>
+                                 </div>
+                              </div>
+                                        
                                         <!-- Product Type Dropdown -->
                                         <div class="form-group col-md-6">
                                             <label for="product_type">Select Product Type</label>

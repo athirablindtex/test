@@ -791,7 +791,7 @@ public function get_margin_excel_data()
          if (!empty($company_ids)) {
         $this->db->where_in('id', $company_ids);
     }
-        $data['company'] = $this->usersmodel->gets_company_all()->result();
+        $data['companies'] = get_companies_list();
         // $this->db->where('parent', 0)->select('id,name');
         // $data['product_types'] = $this->producttypemodel->gets_data()->result();
         $module_model = $this->module_model;
