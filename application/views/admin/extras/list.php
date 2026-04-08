@@ -208,11 +208,11 @@ foreach ($type_ar as $t) {
 
             <form method="get" action="<?= site_url('admin/extras/list'); ?>">
 
-    <div class="row">
-        
-        <!-- Company Dropdown -->
+    <div class="row align-items-end">
+
+        <!-- Company -->
         <div class="col-md-4">
-            <div class="form-group form-group-default">
+            <div class="form-group">
                 <label>Select Company</label>
                 <select class="form-control" name="company" id="companyid">
                     <option value="">All Companies</option>
@@ -228,7 +228,7 @@ foreach ($type_ar as $t) {
             </div>
         </div>
 
-        <!-- Search Input -->
+        <!-- Search -->
         <div class="col-md-4">
             <div class="form-group">
                 <label>Search</label>
@@ -241,11 +241,13 @@ foreach ($type_ar as $t) {
         </div>
 
         <!-- Buttons -->
-        <div class="col-md-4 d-flex align-items-end">
-            <button type="submit" class="btn btn-primary me-2">Search</button>
+        <div class="col-md-4">
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Search</button>
 
-            <a href="<?= site_url('admin/extras/list'); ?>"
-               class="btn btn-secondary">Reset</a>
+                <a href="<?= site_url('admin/extras/list'); ?>"
+                   class="btn btn-secondary">Reset</a>
+            </div>
         </div>
 
     </div>
