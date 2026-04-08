@@ -51,9 +51,10 @@ if (!function_exists('get_companies_list')) {
         $result = $CI->db
             ->select('id, name, company_code, is_global')
             ->from('admin_users')
-              ->where('company_code !=', '')
+            ->where('company_code IS NOT NULL', null, false)
+            ->where('company_code !=', '')
             ->get()
-            ->result_array();
+            ->result();
 
         $companies = [];
         $globalNames = [];
@@ -61,26 +62,22 @@ if (!function_exists('get_companies_list')) {
 
         foreach ($result as $row) {
 
-            if ($row['is_global'] == 1) {
-                $globalNames[] = $row['name'];
-                $globalIds[] = $row['id'];
+            if ($row->is_global == 1) {
+                $globalNames[] = $row->name;
+                $globalIds[] = $row->id;
             } else {
-                $companies[] = $row;
+                $companies[] = $row; // keep object (important for your view)
             }
         }
 
+        // ✅ Combine global companies into ONE option
         if (!empty($globalNames)) {
 
-            $label = implode(', ', $globalNames);
+            $obj = new stdClass();
+            $obj->id = implode(',', $globalIds); // multiple IDs
+            $obj->name = implode(', ', $globalNames) . ' (Blindtex)';
 
-        
-            $label .= ' (Blindtex)';
-
-            $companies[] = [
-                'id' => implode(',', $globalIds),
-                'name' => $label,
-                'is_global' => 1
-            ];
+            $companies[] = $obj;
         }
 
         return $companies;
