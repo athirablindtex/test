@@ -147,13 +147,6 @@ foreach ($type_ar as $t) {
                                        border-radius: 6px;
                                     }
 
-                                    .form-control,
-                                    .form-select {
-                                       flex: 1;
-                                       min-width: 150px;
-                                       max-width: 220px;
-                                    }
-
                                     .btn-sm {
                                        padding: 5px 10px;
                                     }
