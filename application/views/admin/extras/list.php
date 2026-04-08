@@ -208,6 +208,20 @@ foreach ($type_ar as $t) {
 
                   <!-- Search -->
                   <form method="get" action="<?= site_url('admin/extras/list'); ?>">
+
+                      <div class="col-md-6">
+                              <div class="form-group form-group-default">
+                                 <label>Select Company</label>
+                                 <select class="form-control" name="company" id="companyid" required>
+                                    <option value="">Company</option>
+                                    <?php foreach ($companies as $c) { ?>
+                                       <option value="<?= $c->id; ?>" <?= @$c->id == @$res->company_id ? 'selected' : ''; ?>>
+                                          <?= $c->name; ?>
+                                       </option>
+                                    <?php } ?>
+                                 </select>
+                              </div>
+                           </div>
                      <div class="d-flex justify-content-end mb-3">
                         <input type="text"
                            name="search"
@@ -286,18 +300,7 @@ foreach ($type_ar as $t) {
 </div>
 <script>
    $(document).ready(function() {
-      // $('#extrasTable').DataTable({
-      //     pageLength: 20,
-      //     lengthChange: true,
-      //     searching: true,
-      //     ordering: true,
-      //     info: true,
-      //     order: [[0, 'desc']],   // ID DESC
-      //     columnDefs: [
-      //         { targets: 0, type: 'num' },   // 👈 FORCE numeric sort
-      //         { targets: 2, orderable: false }
-      //     ]
-      // });
+    
       $(document).on('click', '.add-child', function() {
          const parent = $(this).closest('.tree-item');
          const parentHeader = parent.children('.item-header'); // ensure targeting only this header
