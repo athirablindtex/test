@@ -206,42 +206,51 @@ foreach ($type_ar as $t) {
 
                <div class="card-body">
 
-                  <!-- Search -->
-                  <form method="get" action="<?= site_url('admin/extras/list'); ?>">
-                     <div class="row mb-3">
-                        <div class="col-md-3">
-                           <select name="company_id" class="form-control" required>
-                              <option value="">Select Company</option>
+               <form method="get" action="<?= site_url('admin/extras/list'); ?>">
 
+    <div class="row mb-3 align-items-center">
 
+        <!-- Company -->
+        <div class="col-md-3">
+            <select name="company_id" class="form-control">
+                <option value="">All Companies</option>
+                <?php 
+                $selected_company = $this->input->get('company_id');
+                foreach ($companies as $c) { ?>
+                    <option value="<?= $c->id; ?>"
+                        <?= ($c->id == $selected_company) ? 'selected' : ''; ?>>
+                        <?= $c->name; ?>
+                    </option>
+                <?php } ?>
+            </select>
+        </div>
 
-                              <!-- Other companies -->
-                              <?php foreach ($companies as $c) { ?>
-                                 <option value="<?= $c->id ?>">
-                                    <?= $c->name ?>
-                                 </option>
-                              <?php } ?>
+        <!-- Search -->
+        <div class="col-md-4">
+            <input type="text"
+                name="search"
+                value="<?= $this->input->get('search'); ?>"
+                class="form-control"
+                placeholder="Search name...">
+        </div>
 
-                           </select>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="d-flex justify-content-end mb-3">
-                              <input type="text"
-                                 name="search"
-                                 value="<?= $this->input->get('search'); ?>"
-                                 class="form-control me-2"
-                                 style="width:250px;"
-                                 placeholder="Search name...">
-                           </div>
-                           <div class="col-md-6">
-                              <button class="btn btn-primary me-2">Search</button>
+        <!-- Buttons -->
+        <div class="col-md-5">
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                    Search
+                </button>
 
-                              <a href="<?= site_url('admin/extras/list'); ?>"
-                                 class="btn btn-secondary">Reset</a>
-                           </div>
-                        </div>
-                     </div>
-                  </form>
+                <a href="<?= site_url('admin/extras/list'); ?>"
+                   class="btn btn-secondary">
+                    Reset
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</form>
 
                   <!-- Table -->
                   <table class="table table-bordered table-striped" id="extrasTable">
