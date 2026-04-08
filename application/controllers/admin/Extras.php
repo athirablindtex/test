@@ -633,9 +633,11 @@ public function get_margin_excel_data()
 	public function save_extras()
 	{
 		$extras = $this->input->post('extras');
+		$company = $this->input->post('company_extra');
+		$company_id = get_company_id_or_null($company);
 		$main_id = $this->input->post('id');
 		foreach ($extras as $extra) {
-			$this->save_extra_recursive($extra, $main_id, 0, 0); // level 0 for root
+			$this->save_extra_recursive($extra, $main_id, 0, 0,$company_id); // level 0 for root
 		}
 		 audit_log('extras', null, 'INSERT', [],$new_details=null, 1);
 		redirect($this->redirect);
@@ -643,7 +645,7 @@ public function get_margin_excel_data()
 	/**
 	 * Recursively save extras and their children/options
 	 */
-	private function save_extra_recursive($extra, $main_id, $parent_id = 0, $level = 0)
+	private function save_extra_recursive($extra, $main_id, $parent_id = 0, $level = 0,$company_id)
 	{
 		$hasOptions  = isset($extra['options']) && count($extra['options']) > 0;
 		$hasChildren = isset($extra['children']) && count($extra['children']) > 0;
@@ -662,6 +664,8 @@ public function get_margin_excel_data()
 			'updated_at'  => date('Y-m-d H:i:s'),
 			'is_enabled'  => 1,
 			'version'     => 1,
+			'company_id'  => $company_id,
+
 		];
 		// Insert into main extras table
 		$this->db->insert('extras', $data);

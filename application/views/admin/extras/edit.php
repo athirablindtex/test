@@ -54,6 +54,19 @@ foreach ($type_ar as $t) {
                      </div>
                      <div class="card-body">
                         <form method="post" action="<?= base_url('admin/extras/update_extras') ?>">
+                                    <select name="company_extra" class="form-control" required>
+                           <option value="">Select Company</option>
+
+
+
+                           <!-- Other companies -->
+                           <?php foreach ($companies as $c) { ?>
+                              <option value="<?= $c->id ?>">
+                                 <?= $c->name ?>
+                              </option>
+                           <?php } ?>
+
+                        </select>
                            <div class="tree-container" id="extrasTree"></div>
                            <input type="hidden" name="id" value="<?= $tree['id'] ?? 0 ?>">
                            <div class="text-center mt-3">
