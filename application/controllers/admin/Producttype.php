@@ -32,12 +32,7 @@ class Producttype extends MY_Controller
 		$data['selected_extras'] =[];
 		$this->form_validation->set_rules('name', 'Product Type Name', 'required');
 		  $company_id = $this->input->get('company_id');
-			 if($company_id){
-				$company_id=get_company_id_or_null($company_id);
-			 }
-			 if(!$company_id){
-				$company_id=null;
-				}
+			
 		
 
 		if ($this->form_validation->run() == FALSE) {
@@ -111,8 +106,8 @@ class Producttype extends MY_Controller
 					
 						}
 					}
-					$data['company_id'] = $this->input->post('company');
-					$company_id = get_company_id_or_null($data['company_id']);
+					$data['company_id'] = $company_id;
+				
 					$id = $this->$module_model->save($data, $this->input->post('id'));
 					if ($this->input->post('extras')) {
 					
