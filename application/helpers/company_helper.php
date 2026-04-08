@@ -75,7 +75,9 @@ if (!function_exists('get_companies_list')) {
 
             $obj = new stdClass();
             $obj->id = Null; // multiple IDs
-            $obj->name = implode(', ', $globalNames) . ' (Blindtex)';
+          //  $obj->name = implode(', ', $globalNames) . ' (Blindtex)';
+          
+            $obj->name = 'Blindtex'; // 👈 fixed name
 
             $companies[] = $obj;
         }
