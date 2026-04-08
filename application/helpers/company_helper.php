@@ -66,15 +66,15 @@ if (!function_exists('get_companies_list')) {
                 $globalNames[] = $row->name;
                 $globalIds[] = $row->id;
             } else {
-                $companies[] = $row; // keep object (important for your view)
+                $companies[] = $row; 
             }
         }
 
-        // ✅ Combine global companies into ONE option
+
         if (!empty($globalNames)) {
 
             $obj = new stdClass();
-            $obj->id = implode(',', $globalIds); // multiple IDs
+            $obj->id = Null; // multiple IDs
             $obj->name = implode(', ', $globalNames) . ' (Blindtex)';
 
             $companies[] = $obj;
