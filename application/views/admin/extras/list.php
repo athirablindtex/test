@@ -237,7 +237,7 @@ foreach ($type_ar as $t) {
         <!-- Buttons -->
         <div class="col-md-5">
             <div class="d-flex mr-2 justify-content-end">
-                <button type="submit" class="btn btn-primary">
+                <button type="submit" class="btn btn-primary mr-2 ">
                     Search
                 </button>
 
