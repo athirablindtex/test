@@ -788,6 +788,9 @@ public function get_margin_excel_data()
         $data['redirect'] = site_url() . $data['content'];
         $data['edit'] = 0;
 		$company_id = $this->input->get('company_id');
+		if(!$company_id){
+			$company_id = null;
+		}
 		$company_ids = $this->companies ?? [];
          if (!empty($company_ids)) {
         $this->db->where_in('id', $company_ids);
@@ -798,7 +801,7 @@ public function get_margin_excel_data()
         $module_model = $this->module_model;
         $this->db->where('parent', 0)->select('id,name');
 		$this->db->where('company_id', $company_id);
-		
+
         $data['product_types'] = $this->producttypemodel->gets_data()->result();
         $this->db->where('parent', 0)->select('id,name')->from('extras');
         $data['extras_type'] = $this->db->get()->result();
