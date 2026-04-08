@@ -51,7 +51,7 @@ if (!function_exists('get_companies_list')) {
         $result = $CI->db
             ->select('id, name, company_code, is_global')
             ->from('admin_users')
-            ->where('company_code IS NOT NULL', null, false)
+              ->where('company_code !=', '')
             ->get()
             ->result_array();
 
