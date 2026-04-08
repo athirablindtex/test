@@ -206,37 +206,51 @@ foreach ($type_ar as $t) {
 
                <div class="card-body">
 
-                  <!-- Search -->
-                  <form method="get" action="<?= site_url('admin/extras/list'); ?>">
+            <form method="get" action="<?= site_url('admin/extras/list'); ?>">
 
-                      <div class="col-md-6">
-                              <div class="form-group form-group-default">
-                                 <label>Select Company</label>
-                                 <select class="form-control" name="company" id="companyid" required>
-                                    <option value="">Company</option>
-                                    <?php foreach ($companies as $c) { ?>
-                                       <option value="<?= $c->id; ?>" <?= @$c->id == @$res->company_id ? 'selected' : ''; ?>>
-                                          <?= $c->name; ?>
-                                       </option>
-                                    <?php } ?>
-                                 </select>
-                              </div>
-                           </div>
-                     <div class="d-flex justify-content-end mb-3">
-                        <input type="text"
-                           name="search"
-                           value="<?= $this->input->get('search'); ?>"
-                           class="form-control me-2"
-                           style="width:250px;"
-                           placeholder="Search name...">
+    <div class="row">
+        
+        <!-- Company Dropdown -->
+        <div class="col-md-4">
+            <div class="form-group form-group-default">
+                <label>Select Company</label>
+                <select class="form-control" name="company" id="companyid">
+                    <option value="">All Companies</option>
+                    <?php 
+                    $selected_company = $this->input->get('company');
+                    foreach ($companies as $c) { ?>
+                        <option value="<?= $c->id; ?>"
+                            <?= ($c->id == $selected_company) ? 'selected' : ''; ?>>
+                            <?= $c->name; ?>
+                        </option>
+                    <?php } ?>
+                </select>
+            </div>
+        </div>
 
-                        <button class="btn btn-primary me-2">Search</button>
+        <!-- Search Input -->
+        <div class="col-md-4">
+            <div class="form-group">
+                <label>Search</label>
+                <input type="text"
+                    name="search"
+                    value="<?= $this->input->get('search'); ?>"
+                    class="form-control"
+                    placeholder="Search name...">
+            </div>
+        </div>
 
-                        <a href="<?= site_url('admin/extras/list'); ?>"
-                           class="btn btn-secondary">Reset</a>
-                     </div>
-                  </form>
+        <!-- Buttons -->
+        <div class="col-md-4 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary me-2">Search</button>
 
+            <a href="<?= site_url('admin/extras/list'); ?>"
+               class="btn btn-secondary">Reset</a>
+        </div>
+
+    </div>
+
+</form>
                   <!-- Table -->
                   <table class="table table-bordered table-striped" id="extrasTable">
                      <thead>
