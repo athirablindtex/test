@@ -35,68 +35,27 @@ foreach ($type_ar as $t) {
     margin-bottom: 6px;
 }
 
-.form-control {
-    height: 42px;
-    border-radius: 8px;
-}
-
-.btn {
-    height: 42px;
-    border-radius: 8px;
-}
-
-.shadow-sm {
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
-}
-.filter-card {
-    background: #fff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+.filter-bar {
+    padding: 15px 0;
 }
 
 .filter-label {
+    font-size: 13px;
     font-weight: 600;
-    margin-bottom: 6px;
-    display: block;
-    color: #333;
+    margin-bottom: 5px;
 }
 
-.custom-input {
-    height: 44px;
-    border-radius: 8px;
+.custom-control {
+    height: 38px;
+    border-radius: 6px;
     border: 1px solid #ddd;
-    transition: all 0.2s ease;
+    min-width: 220px;
 }
 
-.custom-input:focus {
-    border-color: #6c63ff;
-    box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.1);
-}
-
-/* Search icon inside input */
-.search-wrapper {
-    position: relative;
-}
-
-.search-input {
-    padding-left: 38px;
-}
-
-.search-icon {
-    position: absolute;
-    top: 50%;
-    left: 12px;
-    transform: translateY(-50%);
-    color: #999;
-}
-
-/* Buttons */
 .custom-btn {
-    height: 44px;
-    padding: 0 20px;
-    border-radius: 8px;
-    font-weight: 500;
+    height: 38px;
+    padding: 0 18px;
+    border-radius: 6px;
 }
 </style>
 <!-- Modal Import -->
@@ -274,11 +233,11 @@ foreach ($type_ar as $t) {
                <div class="card-body">
 <form method="get" action="<?= site_url('admin/extras/list'); ?>" class="filter-bar">
 
-    <div class="d-flex align-items-end gap-3 flex-wrap">
+    <div class="d-flex align-items-center gap-3 flex-wrap">
 
         <!-- Company -->
-        <div class="filter-group">
-            <label>Select Company</label>
+        <div class="d-flex flex-column">
+            <label class="filter-label">Select Company</label>
             <select class="form-control custom-control" name="company">
                 <option value="">All Companies</option>
                 <?php 
@@ -293,20 +252,17 @@ foreach ($type_ar as $t) {
         </div>
 
         <!-- Search -->
-        <div class="filter-group">
-            <label>Search</label>
-            <div class="search-box">
-                <i class="fa fa-search"></i>
-                <input type="text"
-                    name="search"
-                    value="<?= $this->input->get('search'); ?>"
-                    class="form-control custom-control search-input"
-                    placeholder="Search name...">
-            </div>
+        <div class="d-flex flex-column">
+            <label class="filter-label">Search</label>
+            <input type="text"
+                name="search"
+                value="<?= $this->input->get('search'); ?>"
+                class="form-control custom-control"
+                placeholder="Search name...">
         </div>
 
         <!-- Buttons -->
-        <div class="filter-group d-flex align-items-end gap-2">
+        <div class="d-flex align-items-end gap-2" style="margin-top: 22px;">
             <button type="submit" class="btn btn-primary custom-btn">
                 Search
             </button>
