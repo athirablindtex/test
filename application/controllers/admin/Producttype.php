@@ -35,6 +35,9 @@ class Producttype extends MY_Controller
 			 if($company_id){
 				$company_id=get_company_id_or_null($company_id);
 			 }
+			 if(!$company_id){
+				$company_id=null;
+				}
 		
 
 		if ($this->form_validation->run() == FALSE) {
@@ -42,7 +45,7 @@ class Producttype extends MY_Controller
 			$data['module'] = $this->module_caption;
 			$data['active'] = $this->module_active;
 			$data['active_sub'] = $this->module_active_sub;
-		 $data['companies'] = $this->usersmodel->gets_company_all()->result();
+		     $data['companies'] = $this->usersmodel->gets_company_all()->result();
 		   
 			$data['active_sub_sub'] = $this->module_active_sub . '_list';
 			$data['content'] = 'admin/' . $view_folder . '/list';
@@ -105,7 +108,8 @@ class Producttype extends MY_Controller
 					
 						}
 					}
-					$data['company_id'] = $company_id;
+					$data['company_id'] = $this->input->post('company');
+					$company_id = get_company_id_or_null($data['company_id']);
 					$id = $this->$module_model->save($data, $this->input->post('id'));
 					if ($this->input->post('extras')) {
 					
