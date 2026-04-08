@@ -31,32 +31,6 @@ foreach ($type_ar as $t) {
    .form-field {
       margin-right: 10px;
    }
-   .form-label {
-    margin-bottom: 6px;
-}
-
-.filter-bar {
-    padding: 15px 0;
-}
-
-.filter-label {
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.custom-control {
-    height: 38px;
-    border-radius: 6px;
-    border: 1px solid #ddd;
-    min-width: 220px;
-}
-
-.custom-btn {
-    height: 38px;
-    padding: 0 18px;
-    border-radius: 6px;
-}
 </style>
 <!-- Modal Import -->
 <div class="modal fade" id="importModal" aria-labelledby="importModalLabel" aria-hidden="true">
@@ -231,50 +205,24 @@ foreach ($type_ar as $t) {
                </div>
 
                <div class="card-body">
-<form method="get" action="<?= site_url('admin/extras/list'); ?>" class="filter-bar">
 
-    <div class="d-flex align-items-center gap-3 flex-wrap">
+                  <!-- Search -->
+                  <form method="get" action="<?= site_url('admin/extras/list'); ?>">
+                     <div class="d-flex justify-content-end mb-3">
+                        <input type="text"
+                           name="search"
+                           value="<?= $this->input->get('search'); ?>"
+                           class="form-control me-2"
+                           style="width:250px;"
+                           placeholder="Search name...">
 
-        <!-- Company -->
-        <div class="d-flex flex-column">
-            <label class="filter-label">Select Company</label>
-            <select class="form-control custom-control" name="company">
-                <option value="">All Companies</option>
-                <?php 
-                $selected_company = $this->input->get('company');
-                foreach ($companies as $c) { ?>
-                    <option value="<?= $c->id; ?>"
-                        <?= ($c->id == $selected_company) ? 'selected' : ''; ?>>
-                        <?= $c->name; ?>
-                    </option>
-                <?php } ?>
-            </select>
-        </div>
+                        <button class="btn btn-primary me-2">Search</button>
 
-        <!-- Search -->
-        <div class="d-flex flex-column">
-            <label class="filter-label">Search</label>
-            <input type="text"
-                name="search"
-                value="<?= $this->input->get('search'); ?>"
-                class="form-control custom-control"
-                placeholder="Search name...">
-        </div>
+                        <a href="<?= site_url('admin/extras/list'); ?>"
+                           class="btn btn-secondary">Reset</a>
+                     </div>
+                  </form>
 
-        <!-- Buttons -->
-        <div class="d-flex align-items-end gap-2" style="margin-top: 22px;">
-            <button type="submit" class="btn btn-primary custom-btn">
-                Search
-            </button>
-
-            <a href="<?= site_url('admin/extras/list'); ?>" class="btn btn-light custom-btn">
-                Reset
-            </a>
-        </div>
-
-    </div>
-
-</form>
                   <!-- Table -->
                   <table class="table table-bordered table-striped" id="extrasTable">
                      <thead>
@@ -338,7 +286,18 @@ foreach ($type_ar as $t) {
 </div>
 <script>
    $(document).ready(function() {
-    
+      // $('#extrasTable').DataTable({
+      //     pageLength: 20,
+      //     lengthChange: true,
+      //     searching: true,
+      //     ordering: true,
+      //     info: true,
+      //     order: [[0, 'desc']],   // ID DESC
+      //     columnDefs: [
+      //         { targets: 0, type: 'num' },   // 👈 FORCE numeric sort
+      //         { targets: 2, orderable: false }
+      //     ]
+      // });
       $(document).on('click', '.add-child', function() {
          const parent = $(this).closest('.tree-item');
          const parentHeader = parent.children('.item-header'); // ensure targeting only this header
