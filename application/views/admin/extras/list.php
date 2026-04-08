@@ -208,18 +208,38 @@ foreach ($type_ar as $t) {
 
                   <!-- Search -->
                   <form method="get" action="<?= site_url('admin/extras/list'); ?>">
-                     <div class="d-flex justify-content-end mb-3">
-                        <input type="text"
-                           name="search"
-                           value="<?= $this->input->get('search'); ?>"
-                           class="form-control me-2"
-                           style="width:250px;"
-                           placeholder="Search name...">
+                     <div class="row mb-3">
+                        <div class="col-md-3">
+                           <select name="company_id" class="form-control" required>
+                              <option value="">Select Company</option>
 
-                        <button class="btn btn-primary me-2">Search</button>
 
-                        <a href="<?= site_url('admin/extras/list'); ?>"
-                           class="btn btn-secondary">Reset</a>
+
+                              <!-- Other companies -->
+                              <?php foreach ($companies as $c) { ?>
+                                 <option value="<?= $c->id ?>">
+                                    <?= $c->name ?>
+                                 </option>
+                              <?php } ?>
+
+                           </select>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="d-flex justify-content-end mb-3">
+                              <input type="text"
+                                 name="search"
+                                 value="<?= $this->input->get('search'); ?>"
+                                 class="form-control me-2"
+                                 style="width:250px;"
+                                 placeholder="Search name...">
+                           </div>
+                           <div class="col-md-6">
+                              <button class="btn btn-primary me-2">Search</button>
+
+                              <a href="<?= site_url('admin/extras/list'); ?>"
+                                 class="btn btn-secondary">Reset</a>
+                           </div>
+                        </div>
                      </div>
                   </form>
 
