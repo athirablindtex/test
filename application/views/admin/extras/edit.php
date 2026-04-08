@@ -50,7 +50,7 @@ foreach ($type_ar as $t) {
                <div class="collapse <?= @$edit == 0 ? (@validation_errors() ? 'show' : '') : 'show'; ?>" id="collapseExample" style="">
                   <div class="card">
                      <div class="card-header">
-                        <div class="card-title">Edit extra item</div>
+                        <div class="card-title">Edit extra iteqm</div>
                      </div>
                      <div class="card-body">
                         <form method="post" action="<?= base_url('admin/extras/update_extras') ?>">
