@@ -84,22 +84,22 @@
                                  </div>
                               <?php } ?>
 
-                                <div class="col-md-4">
-                  <div class="form-group form-group-default">
-                  <label>Select Company</label>
-                  <select name="company" class="form-control"  id="company" required>
-                  <option value="">Select Company</option>
+                              <div class="col-md-12">
+                                 <div class="form-group form-group-default">
+                                    <label>Select Company</label>
+                                    <select name="company" class="form-control" id="company_id" required>
+                                       <option value="">Select Company</option>
 
-                  <?php foreach ($companies as $c) { ?>
-                  <option value="<?= $c->id ?>"
-                  <?= @$this->input->get('company_id') == $c->id ? 'selected' : '' ?>>
-                  <?= $c->name ?>
-                  </option>
-                  <?php } ?>
+                                       <?php foreach ($companies as $c) { ?>
+                                          <option value="<?= $c->id ?>"
+                                             <?= @$this->input->get('company_id') == $c->id ? 'selected' : '' ?>>
+                                             <?= $c->name ?>
+                                          </option>
+                                       <?php } ?>
 
-                  </select>
-                  </div>
-                  </div>
+                                    </select>
+                                 </div>
+                              </div>
                               <div class="col-md-3">
                                  <div class="form-group form-group-default">
                                     <label>Version </label>
@@ -194,23 +194,23 @@
                   <form>
                      <div class="row">
 
-                     
-                                <div class="col-md-6">
-                  <div class="form-group form-group-default">
-                  <label>Select Company</label>
-                  <select name="company" class="form-control"  id="company" required>
-                  <option value="">Select Company</option>
 
-                  <?php foreach ($companies as $c) { ?>
-                  <option value="<?= $c->id ?>"
-                  <?= @$this->input->get('company_id') == $c->id ? 'selected' : '' ?>>
-                  <?= $c->name ?>
-                  </option>
-                  <?php } ?>
+                        <div class="col-md-12">
+                           <div class="form-group form-group-default">
+                              <label>Select Company</label>
+                              <select name="company" class="form-control" id="company" required>
+                                 <option value="">Select Company</option>
 
-                  </select>
-                  </div>
-                  </div>
+                                 <?php foreach ($companies as $c) { ?>
+                                    <option value="<?= $c->id ?>"
+                                       <?= @$this->input->get('company_id') == $c->id ? 'selected' : '' ?>>
+                                       <?= $c->name ?>
+                                    </option>
+                                 <?php } ?>
+
+                              </select>
+                           </div>
+                        </div>
                         <div class="col-md-6">
                            <div class="form-group form-group-default">
                               <label>Version</label>
