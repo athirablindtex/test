@@ -371,4 +371,11 @@ $('#company').on('change', function () {
    // keep modal open after reload
    window.location.href = "<?= site_url('admin/producttype/list') ?>?company_id=" + company_id + "&open_modal=1";
 });
+<?php if ($this->input->get('open_modal')) { ?>
+<script>
+   $(document).ready(function() {
+      $('#productTypeModal').modal('show');
+   });
+</script>
+<?php } ?>
 </script>
