@@ -289,12 +289,12 @@
                                     <td>
                                        <div class="form-button-action">
                                           <?php if (@$permissions['add']) { ?>
-                                             <a href="<?php echo site_url('admin/' . $controller . '/list/edit/' . @$product->$module_id . ''); ?>" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
+                                             <a href="<?php echo site_url('admin/' . $controller . '/list/edit/' . @$product->$module_id . '?company_id=' . $company_id); ?>" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
                                                 <i class="fa fa-edit"></i>
                                              </a>
                                           <?php } ?>
                                           <?php if (@$permissions['delete']) { ?>
-                                             <a href="<?php echo site_url('admin/' . $controller . '/delete/' . @$product->$module_id . ''); ?>" onclick="return confirm('<?php echo $this->lang->line('common_confirm_delete'); ?>');" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
+                                             <a href="<?php echo site_url('admin/' . $controller . '/delete/' . @$product->$module_id . '?company_id=' . $company_id); ?>" onclick="return confirm('<?php echo $this->lang->line('common_confirm_delete'); ?>');" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
                                                 <i class="fa fa-times"></i>
                                              </a>
                                           <?php } ?>
