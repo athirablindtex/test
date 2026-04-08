@@ -47,6 +47,8 @@ class Priceband extends MY_Controller
 			$data['redirect'] = site_url() . $this->redirect;
 			$data['edit'] = 0;
 			$data['product_type'] = $this->input->post('ptype');
+		   $data['companies'] = get_companies_list();
+			
 			$data['prices'] = array();
 			$this->db->select('id, name');
 			$this->db->where('parent', 0);
