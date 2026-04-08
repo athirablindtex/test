@@ -32,6 +32,9 @@ class Producttype extends MY_Controller
 		$data['selected_extras'] =[];
 		$this->form_validation->set_rules('name', 'Product Type Name', 'required');
 		  $company_id = $this->input->get('company_id');
+		  if ($company_id) {
+			  $company_id = Null;
+		  }
 			
 		
 
