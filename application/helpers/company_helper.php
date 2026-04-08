@@ -69,12 +69,11 @@ if (!function_exists('get_companies_list')) {
             }
         }
 
-        // ✅ Combine global companies
         if (!empty($globalNames)) {
 
             $label = implode(', ', $globalNames);
 
-            // 👉 add bracket only once (last label style)
+        
             $label .= ' (Blindtex)';
 
             $companies[] = [
