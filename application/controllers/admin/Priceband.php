@@ -62,8 +62,7 @@ class Priceband extends MY_Controller
 				foreach ($data['product_types'] as $pt) {
 				$productTypeMap[$pt->id] = $pt->name;
 				}
-				echo "<pre>";
-				print_r($data['product_types']);
+	
 			$data['priceBandnames'] = $this->$module_model->getAllPriceBandNames();
 
 			if (@$type == "edit") {
@@ -73,8 +72,7 @@ class Priceband extends MY_Controller
 					if ($data['res']->type == "Matrix") {
 					}
 				}
-				print_r($data['res']);
-				exit;
+			
 			}
 			if (@$this->input->get('priceband_version') > 0) {
 				$this->db->where('a.priceband_version', $this->input->get('priceband_version'));
