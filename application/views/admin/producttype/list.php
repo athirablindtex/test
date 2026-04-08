@@ -7,6 +7,11 @@
    }
 </style>
 <?php $company_id = $this->input->get('company_id'); ?>
+<?php
+$selected = false;
+$margin = 0;
+$mandatory = 0;
+?>
 <div class="main-panel">
    <div class="content">
       <div class="page-inner">
@@ -359,5 +364,11 @@ $('#company_id').on('change', function () {
    let company_id = $(this).val();
    window.location.href = "<?= site_url('admin/producttype/list') ?>?company_id=" + company_id;
 
+});
+$('#company').on('change', function () {
+   let company_id = $(this).val();
+
+   // keep modal open after reload
+   window.location.href = "<?= site_url('admin/producttype/list') ?>?company_id=" + company_id + "&open_modal=1";
 });
 </script>
