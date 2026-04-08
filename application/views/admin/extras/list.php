@@ -31,6 +31,23 @@ foreach ($type_ar as $t) {
    .form-field {
       margin-right: 10px;
    }
+   .form-label {
+    margin-bottom: 6px;
+}
+
+.form-control {
+    height: 42px;
+    border-radius: 8px;
+}
+
+.btn {
+    height: 42px;
+    border-radius: 8px;
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+}
 </style>
 <!-- Modal Import -->
 <div class="modal fade" id="importModal" aria-labelledby="importModalLabel" aria-hidden="true">
@@ -205,48 +222,47 @@ foreach ($type_ar as $t) {
                </div>
 
                <div class="card-body">
+<form method="get" action="<?= site_url('admin/extras/list'); ?>" class="p-3 bg-white shadow-sm rounded">
 
-            <form method="get" action="<?= site_url('admin/extras/list'); ?>">
-
-    <div class="row align-items-end">
+    <div class="row align-items-end g-3">
 
         <!-- Company -->
         <div class="col-md-4">
-            <div class="form-group">
-                <label>Select Company</label>
-                <select class="form-control" name="company" id="companyid">
-                    <option value="">All Companies</option>
-                    <?php 
-                    $selected_company = $this->input->get('company');
-                    foreach ($companies as $c) { ?>
-                        <option value="<?= $c->id; ?>"
-                            <?= ($c->id == $selected_company) ? 'selected' : ''; ?>>
-                            <?= $c->name; ?>
-                        </option>
-                    <?php } ?>
-                </select>
-            </div>
+            <label class="form-label fw-semibold">Select Company</label>
+            <select class="form-control" name="company" id="companyid">
+                <option value="">All Companies</option>
+                <?php 
+                $selected_company = $this->input->get('company');
+                foreach ($companies as $c) { ?>
+                    <option value="<?= $c->id; ?>"
+                        <?= ($c->id == $selected_company) ? 'selected' : ''; ?>>
+                        <?= $c->name; ?>
+                    </option>
+                <?php } ?>
+            </select>
         </div>
 
         <!-- Search -->
         <div class="col-md-4">
-            <div class="form-group">
-                <label>Search</label>
-                <input type="text"
-                    name="search"
-                    value="<?= $this->input->get('search'); ?>"
-                    class="form-control"
-                    placeholder="Search name...">
-            </div>
+            <label class="form-label fw-semibold">Search</label>
+            <input type="text"
+                name="search"
+                value="<?= $this->input->get('search'); ?>"
+                class="form-control"
+                placeholder="Search name...">
         </div>
 
         <!-- Buttons -->
         <div class="col-md-4">
-            <div class="d-flex gap-2">
-                <button type="submit" class="btn btn-primary">Search</button>
+            <div class="d-flex justify-content-md-end gap-2">
+                <button type="submit" class="btn btn-primary px-4">
+                    🔍 Search
+                </button>
 
                 <a href="<?= site_url('admin/extras/list'); ?>"
-                   class="btn btn-secondary">Reset</a>
+                   class="btn btn-outline-secondary px-4">
+                    Reset
+                </a>
             </div>
         </div>
 
