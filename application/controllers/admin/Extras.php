@@ -61,6 +61,7 @@ class Extras extends MY_Controller
 			$data['edit'] = 0;
 			$config = array();
 			$config["base_url"] = site_url() . "admin/extras/list/";
+			                   $this->db->where('company_id', $company_id);
 			$config["total_rows"] = $this->$module_model->gets_data_admin_table_count();
 			$config["per_page"] = $limit;
 			$config["uri_segment"] = 4;
