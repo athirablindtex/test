@@ -61,7 +61,7 @@ foreach ($type_ar as $t) {
 
                            <!-- Other companies -->
                            <?php foreach ($companies as $c) { ?>
-                              <option value="<?= $c->id ?>">
+                              <option value="<?= $c->id ?>" <?= (isset($tree['company_id']) && $tree['company_id'] == $c->id) ? 'selected' : '' ?>>
                                  <?= $c->name ?>
                               </option>
                            <?php } ?>
