@@ -49,6 +49,9 @@ class Priceband extends MY_Controller
 			$data['product_type'] = $this->input->post('ptype');
 		   $data['companies'] = get_companies_list();
 		   $company_id = $this->input->get('company_id');
+		   if (!$company_id) {
+			   $company_id = NULL;
+		   }
 			
 			$data['prices'] = array();
 			$this->db->select('id, name');
