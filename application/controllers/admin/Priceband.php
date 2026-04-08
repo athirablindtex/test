@@ -53,6 +53,7 @@ class Priceband extends MY_Controller
 			$data['prices'] = array();
 			$this->db->select('id, name');
 			$this->db->where('parent', 0);
+			$this->db->where('company_id', $company_id);
 			$data['product_types'] = $this->producttypemodel->gets_all()->result();
 				$productTypeMap = [];
 				foreach ($data['product_types'] as $pt) {
@@ -85,6 +86,7 @@ class Priceband extends MY_Controller
 			}
 			$this->db->join('price_band_version p', 'p.id=a.priceband_version', 'left')
 				->select('a.*,p.name as version_name');
+
 			$data['tabledata'] = $this->$module_model->gets_all()->result();
 
 			$this->db->select('id,name');
