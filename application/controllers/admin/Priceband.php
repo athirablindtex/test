@@ -68,6 +68,8 @@ class Priceband extends MY_Controller
 					if ($data['res']->type == "Matrix") {
 					}
 				}
+				print_r($data['res']);
+				exit;
 			}
 			if (@$this->input->get('priceband_version') > 0) {
 				$this->db->where('a.priceband_version', $this->input->get('priceband_version'));
