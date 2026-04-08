@@ -132,6 +132,7 @@ class Priceband extends MY_Controller
 					$data['name'] = $this->input->post('name');
 					$data['version'] = $version;
 					$data['product_type'] = $this->input->post('ptype');
+					$data['company_id'] = $this->input->post('company') ? $this->input->post('company') : NULL;
 
 					$id = $this->$module_model->save($data, $this->input->post('id'));
 					$cur_price_ids = array();
