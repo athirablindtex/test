@@ -92,7 +92,7 @@
 
                                        <?php foreach ($companies as $c) { ?>
                                           <option value="<?= $c->id ?>"
-                                             <?= @$this->input->get('company_id') == $c->id ? 'selected' : '' ?>>
+                                             <?= $res->company_id == $c->id ? 'selected' : '' ?>>
                                              <?= $c->name ?>
                                           </option>
                                        <?php } ?>
