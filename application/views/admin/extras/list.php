@@ -48,6 +48,56 @@ foreach ($type_ar as $t) {
 .shadow-sm {
     box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
 }
+.filter-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.filter-label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+    color: #333;
+}
+
+.custom-input {
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: all 0.2s ease;
+}
+
+.custom-input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.1);
+}
+
+/* Search icon inside input */
+.search-wrapper {
+    position: relative;
+}
+
+.search-input {
+    padding-left: 38px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+/* Buttons */
+.custom-btn {
+    height: 44px;
+    padding: 0 20px;
+    border-radius: 8px;
+    font-weight: 500;
+}
 </style>
 <!-- Modal Import -->
 <div class="modal fade" id="importModal" aria-labelledby="importModalLabel" aria-hidden="true">
@@ -222,14 +272,14 @@ foreach ($type_ar as $t) {
                </div>
 
                <div class="card-body">
-<form method="get" action="<?= site_url('admin/extras/list'); ?>" class="p-3 bg-white shadow-sm rounded">
+<form method="get" action="<?= site_url('admin/extras/list'); ?>" class="filter-card">
 
     <div class="row align-items-end g-3">
 
         <!-- Company -->
         <div class="col-md-4">
-            <label class="form-label fw-semibold">Select Company</label>
-            <select class="form-control" name="company" id="companyid">
+            <label class="filter-label">Select Company</label>
+            <select class="form-control custom-input" name="company" id="companyid">
                 <option value="">All Companies</option>
                 <?php 
                 $selected_company = $this->input->get('company');
@@ -244,23 +294,26 @@ foreach ($type_ar as $t) {
 
         <!-- Search -->
         <div class="col-md-4">
-            <label class="form-label fw-semibold">Search</label>
-            <input type="text"
-                name="search"
-                value="<?= $this->input->get('search'); ?>"
-                class="form-control"
-                placeholder="Search name...">
+            <label class="filter-label">Search</label>
+            <div class="search-wrapper">
+                <i class="fa fa-search search-icon"></i>
+                <input type="text"
+                    name="search"
+                    value="<?= $this->input->get('search'); ?>"
+                    class="form-control custom-input search-input"
+                    placeholder="Search name...">
+            </div>
         </div>
 
         <!-- Buttons -->
         <div class="col-md-4">
-            <div class="d-flex justify-content-md-end gap-2">
-                <button type="submit" class="btn btn-primary px-4">
-                    🔍 Search
+            <div class="d-flex justify-content-md-end gap-2 w-100">
+                <button type="submit" class="btn btn-primary custom-btn">
+                    Search
                 </button>
 
                 <a href="<?= site_url('admin/extras/list'); ?>"
-                   class="btn btn-outline-secondary px-4">
+                   class="btn btn-light custom-btn">
                     Reset
                 </a>
             </div>
