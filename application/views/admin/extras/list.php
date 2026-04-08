@@ -69,55 +69,34 @@ foreach ($type_ar as $t) {
     transition: all 0.2s ease;
 }
 
-.filter-bar {
-    background: #fff;
-    padding: 15px 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+.custom-input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.1);
 }
 
-/* Group */
-.filter-group {
-    min-width: 220px;
-}
-
-/* Labels */
-.filter-group label {
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    display: block;
-}
-
-/* Inputs */
-.custom-control {
-    height: 40px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-}
-
-/* Search box */
-.search-box {
+/* Search icon inside input */
+.search-wrapper {
     position: relative;
 }
 
-.search-box i {
+.search-input {
+    padding-left: 38px;
+}
+
+.search-icon {
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 12px;
     transform: translateY(-50%);
     color: #999;
 }
 
-.search-input {
-    padding-left: 32px;
-}
-
 /* Buttons */
 .custom-btn {
-    height: 40px;
-    padding: 0 18px;
+    height: 44px;
+    padding: 0 20px;
     border-radius: 8px;
+    font-weight: 500;
 }
 </style>
 <!-- Modal Import -->
