@@ -466,7 +466,7 @@ $('#price_band').on('change', function () {
         }
     });
     $('#company_id').on('change', function() {
-        window.location.href = "<?= base_url('admin/extras/extras_margin') ?>?company_id=" + $(this).val();
+        window.location.href = "<?= base_url('admin/extras/extrasmargin') ?>?company_id=" + $(this).val();
         
     });
 </script>
