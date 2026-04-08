@@ -84,7 +84,7 @@
                                  </div>
                               <?php } ?>
 
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                   <div class="form-group form-group-default">
                   <label>Select Company</label>
                   <select name="company" class="form-control"  id="company" required>
@@ -193,6 +193,24 @@
                <div class="card-body">
                   <form>
                      <div class="row">
+
+                     
+                                <div class="col-md-6">
+                  <div class="form-group form-group-default">
+                  <label>Select Company</label>
+                  <select name="company" class="form-control"  id="company" required>
+                  <option value="">Select Company</option>
+
+                  <?php foreach ($companies as $c) { ?>
+                  <option value="<?= $c->id ?>"
+                  <?= @$this->input->get('company_id') == $c->id ? 'selected' : '' ?>>
+                  <?= $c->name ?>
+                  </option>
+                  <?php } ?>
+
+                  </select>
+                  </div>
+                  </div>
                         <div class="col-md-6">
                            <div class="form-group form-group-default">
                               <label>Version</label>
