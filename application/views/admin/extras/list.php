@@ -69,34 +69,55 @@ foreach ($type_ar as $t) {
     transition: all 0.2s ease;
 }
 
-.custom-input:focus {
-    border-color: #6c63ff;
-    box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.1);
+.filter-bar {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-/* Search icon inside input */
-.search-wrapper {
+/* Group */
+.filter-group {
+    min-width: 220px;
+}
+
+/* Labels */
+.filter-group label {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Inputs */
+.custom-control {
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Search box */
+.search-box {
     position: relative;
 }
 
-.search-input {
-    padding-left: 38px;
-}
-
-.search-icon {
+.search-box i {
     position: absolute;
     top: 50%;
-    left: 12px;
+    left: 10px;
     transform: translateY(-50%);
     color: #999;
 }
 
+.search-input {
+    padding-left: 32px;
+}
+
 /* Buttons */
 .custom-btn {
-    height: 44px;
-    padding: 0 20px;
+    height: 40px;
+    padding: 0 18px;
     border-radius: 8px;
-    font-weight: 500;
 }
 </style>
 <!-- Modal Import -->
@@ -272,14 +293,14 @@ foreach ($type_ar as $t) {
                </div>
 
                <div class="card-body">
-<form method="get" action="<?= site_url('admin/extras/list'); ?>" class="filter-card">
+<form method="get" action="<?= site_url('admin/extras/list'); ?>" class="filter-bar">
 
-    <div class="row align-items-end g-3">
+    <div class="d-flex align-items-end gap-3 flex-wrap">
 
         <!-- Company -->
-        <div class="col-md-4">
-            <label class="filter-label">Select Company</label>
-            <select class="form-control custom-input" name="company" id="companyid">
+        <div class="filter-group">
+            <label>Select Company</label>
+            <select class="form-control custom-control" name="company">
                 <option value="">All Companies</option>
                 <?php 
                 $selected_company = $this->input->get('company');
@@ -293,30 +314,27 @@ foreach ($type_ar as $t) {
         </div>
 
         <!-- Search -->
-        <div class="col-md-4">
-            <label class="filter-label">Search</label>
-            <div class="search-wrapper">
-                <i class="fa fa-search search-icon"></i>
+        <div class="filter-group">
+            <label>Search</label>
+            <div class="search-box">
+                <i class="fa fa-search"></i>
                 <input type="text"
                     name="search"
                     value="<?= $this->input->get('search'); ?>"
-                    class="form-control custom-input search-input"
+                    class="form-control custom-control search-input"
                     placeholder="Search name...">
             </div>
         </div>
 
         <!-- Buttons -->
-        <div class="col-md-4">
-            <div class="d-flex justify-content-md-end gap-2 w-100">
-                <button type="submit" class="btn btn-primary custom-btn">
-                    Search
-                </button>
+        <div class="filter-group d-flex align-items-end gap-2">
+            <button type="submit" class="btn btn-primary custom-btn">
+                Search
+            </button>
 
-                <a href="<?= site_url('admin/extras/list'); ?>"
-                   class="btn btn-light custom-btn">
-                    Reset
-                </a>
-            </div>
+            <a href="<?= site_url('admin/extras/list'); ?>" class="btn btn-light custom-btn">
+                Reset
+            </a>
         </div>
 
     </div>
