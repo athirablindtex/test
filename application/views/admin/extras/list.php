@@ -116,6 +116,20 @@ foreach ($type_ar as $t) {
                                  </div>
                               <?php } ?>
                               <div class="col-md-12 col-main">
+
+                                 <select name="company_extra" class="form-control" required>
+                           <option value="">Select Company</option>
+
+
+
+                           <!-- Other companies -->
+                           <?php foreach ($companies as $c) { ?>
+                              <option value="<?= $c->id ?>">
+                                 <?= $c->name ?>
+                              </option>
+                           <?php } ?>
+
+                        </select>
                                  <style>
                                     .tree-container {
                                        background: #fafafa;
