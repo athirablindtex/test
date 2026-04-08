@@ -46,9 +46,9 @@ class Producttype extends MY_Controller
 			$data['active'] = $this->module_active;
 			$data['active_sub'] = $this->module_active_sub;
 		     $data['companies'] = get_companies_list();
-			 echo "<pre>";
-			 print_r($data['companies']);
-			 exit;
+			//  echo "<pre>";
+			//  print_r($data['companies']);
+			//  exit;
 		   
 			$data['active_sub_sub'] = $this->module_active_sub . '_list';
 			$data['content'] = 'admin/' . $view_folder . '/list';
