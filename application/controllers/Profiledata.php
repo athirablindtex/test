@@ -149,8 +149,7 @@ class Profiledata extends CI_Controller
 	
 		$data['user'] = $this->salespersonmodel->get_current_user($this->user_id);
 		$data['vat_addtion'] = 0.0;
-		$this->db->order_by('id', 'desc')->select('vat_addition');
-		
+
 		
 	
 		$data['company_address'] = "";
