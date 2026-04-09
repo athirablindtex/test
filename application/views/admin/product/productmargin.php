@@ -164,15 +164,15 @@
                                 <div class="col-md-12">
                                     <div class="form-group form-group-default">
                                         <label>Company</label>
-                                      <?php $company_id = $this->input->get('company_id') ? $this->input->get('company_id') : 9; ?>
+                                        <?php $company_id = $this->input->get('company_id') ? $this->input->get('company_id') : 9; ?>
 
-<select class="form-control company_name" id="company_name" name="company_name">
-    <?php foreach ($company as $b) { ?>
-        <option value="<?= $b->id ?>" <?= $b->id == $company_id ? 'selected' : '' ?>>
-            <?= $b->name; ?>
-        </option>
-    <?php } ?>
-</select>
+                                        <select class="form-control company_name" id="company_name" name="company_name">
+                                            <?php foreach ($company as $b) { ?>
+                                                <option value="<?= $b->id ?>" <?= $b->id == $company_id ? 'selected' : '' ?>>
+                                                    <?= $b->name; ?>
+                                                </option>
+                                            <?php } ?>
+                                        </select>
 
                                     </div>
                                 </div>
@@ -187,20 +187,20 @@
 
                         </div>
                         <?php
-$selected_company_name = '';
-foreach ($company as $b) {
-    if ($b->id == $company_id) {
-        $selected_company_name = $b->name;
-        break;
-    }
-}
-?>
-                        
+                        $selected_company_name = '';
+                        foreach ($company as $b) {
+                            if ($b->id == $company_id) {
+                                $selected_company_name = $b->name;
+                                break;
+                            }
+                        }
+                        ?>
+
                         <div class="col-sm-12 bg-white shadow-sm rounded-3 p-4 r">
                             <!-- Header -->
-                        <h1 id="company_title" class="fw-bold text-center text-primary mb-4" style="letter-spacing: 1px;">
-    <?= $selected_company_name ?>
-</h1>
+                            <h1 id="company_title" class="fw-bold text-center text-primary mb-4" style="letter-spacing: 1px;">
+                                <?= $selected_company_name ?>
+                            </h1>
 
 
 
@@ -243,24 +243,24 @@ foreach ($company as $b) {
 
                                     if (@$tabledata) { ?>
                                         <div class="table-responsive">
-                                         <div class="card shadow-sm mb-3">
-    <div class="card-body py-2">
-        <div class="d-flex justify-content-between align-items-center">
-            
-            <h6 class="mb-0 text-muted">
-                <span class="text-primary font-weight-bold">
-                    Total Products: <?= $count ?>
-                </span>
-            </h6>
+                                            <div class="card shadow-sm mb-3">
+                                                <div class="card-body py-2">
+                                                    <div class="d-flex justify-content-between align-items-center">
 
-            <a href="<?= base_url('admin/product/productmargin_export?search=' . urlencode($this->input->get('search'))) ?>"
-               class="btn btn-success btn-sm" id="exportBtn">
-                Export CSV
-            </a>
+                                                        <h6 class="mb-0 text-muted">
+                                                            <span class="text-primary font-weight-bold">
+                                                                Total Products: <?= $count ?>
+                                                            </span>
+                                                        </h6>
 
-        </div>
-    </div>
-</div>
+                                                        <a href="<?= base_url('admin/product/productmargin_export?search=' . urlencode($this->input->get('search'))) ?>"
+                                                            class="btn btn-success btn-sm" id="exportBtn">
+                                                            Export CSV
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
 
 
 
@@ -414,15 +414,15 @@ foreach ($company as $b) {
         $('#marginTabs a:first').addClass('active');
         $('.tab-pane:first').addClass('show active');
     });
-$('#company_name').on('change', function () {
+    $('#company_name').on('change', function() {
 
-    let company_id = $(this).val();
-    let search = $('#searchInput').val();
+        let company_id = $(this).val();
+        let search = $('#searchInput').val();
 
-    window.location.href =
-        '<?= base_url("admin/product/productmargin") ?>?company_id='
-        + company_id + '&search=' + search;
-});
+        window.location.href =
+            '<?= base_url("admin/product/productmargin") ?>?company_id=' +
+            company_id + '&search=' + search;
+    });
 
     let company_id = $('#company_name').val();
     $('body').on('change', '.view-stype', function() {
@@ -557,21 +557,21 @@ $('#company_name').on('change', function () {
     });
 
     function updateExportUrl() {
-    var company_id = $('#company_name').val();
-    var search = $('input[name="search"]').val() || '';
+        var company_id = $('#company_name').val();
+        var search = $('input[name="search"]').val() || '';
 
-    var url = "<?= base_url('admin/product/productmargin_export') ?>?search=" + encodeURIComponent(search) + "&company_id=" + company_id;
+        var url = "<?= base_url('admin/product/productmargin_export') ?>?search=" + encodeURIComponent(search) + "&company_id=" + company_id;
 
-    $('#exportBtn').attr('href', url);
-}
+        $('#exportBtn').attr('href', url);
+    }
 
-/* run when dropdown changes */
-$('#company_name').change(function () {
-    updateExportUrl();
-});
+    /* run when dropdown changes */
+    $('#company_name').change(function() {
+        updateExportUrl();
+    });
 
-/* run on page load */
-$(document).ready(function () {
-    updateExportUrl();
-});
+    /* run on page load */
+    $(document).ready(function() {
+        updateExportUrl();
+    });
 </script>
