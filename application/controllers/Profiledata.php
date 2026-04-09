@@ -172,7 +172,7 @@ class Profiledata extends CI_Controller
 			$data['iban'] = $company->iban ?: "";
 			$data['branch'] = $company->branch ?: "";
 			$data['swift_code'] = $company->swift_code ?: "";
-			$data['vat_addtion'] = $company->vat ?: 0;
+			$data['vat_addtion'] =  intval($company->vat)  ?: 0;
 			$data['currency'] = $company->currency ?: "";
 
 			$data['branding_colour_code_secondary'] = @$company->branding_colour_code_secondry ?: "";
