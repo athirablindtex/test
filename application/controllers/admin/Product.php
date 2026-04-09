@@ -92,6 +92,7 @@ $this->check_user_privillages($permission);
                     $data['tags'] = implode(',', $tags_ar);
                 }
             }
+
             $this->db->where('parent', 0)->select('id,name');
             $data['product_types'] = $this->producttypemodel->gets_data()->result();
             $this->db->select('id,name');
@@ -434,6 +435,13 @@ $this->check_user_privillages($permission);
         if (!empty($company_ids)) {
             $this->db->where_in('id', $company_ids);
         }
+                $company_id = $this->input->get('company_id', TRUE);
+
+                if(!$company_id){
+                $company_id = Null;
+
+                }
+               
         $data['company'] = $this->usersmodel->gets_company_all()->result();
         // $this->db->where('parent', 0)->select('id,name');
         // $data['product_types'] = $this->producttypemodel->gets_data()->result();
@@ -446,6 +454,7 @@ $this->check_user_privillages($permission);
         $data['vendor'] = $this->vendormodel->gets_data()->result();
         $search = $this->input->get('search', TRUE);
         $config['base_url'] = base_url('admin/product/productmargin');
+                               $this->db->where('company_id', $company_id);
         $config['total_rows'] = $this->{$module_model}->get_total_count($search); // Fix: use curly braces for dynamic model
         $config['per_page'] = 50;
         $config['uri_segment'] = 4; // Important: tell CI which segment is the page number
@@ -470,6 +479,7 @@ $this->check_user_privillages($permission);
         $this->pagination->initialize($config);
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
         $data['count'] = $config['total_rows'];
+         $this->db->where('company_id', $company_id);
         // $data['tabledata'] = $this->$module_model->get_data_admin_table_products_margin($config['per_page'], $page);
         $products = $this->$module_model->get_data_admin_table_products_margin($config['per_page'], $page, $search); // Fetch all products for margin calculation
         $company_ids = $this->companies ?? [];
