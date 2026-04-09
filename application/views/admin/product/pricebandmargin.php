@@ -144,7 +144,7 @@ input[type="checkbox"] {
                                             <label>Company</label>
                                             <select class="form-control company_name" id="company_name" name="company_name">
                                                 <?php foreach ($company as $b) { ?>
-                                                    <option value="<?= $b->id ?>" <?= $b->id == 9 ? 'selected' : '' ?>><?= $b->name; ?></option>
+                                                    <option value="<?= $b->id ?>" <?= $b->id == $this->input->get('company_id') ? 'selected' : '' ?>><?= $b->name; ?></option>
                                                 <?php } ?>
                                             </select>
                                         </div>
