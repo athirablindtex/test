@@ -156,7 +156,7 @@ input[type="checkbox"] {
                                     <!-- Left side: Company name + How to use -->
                                     <div class="d-flex align-items-center">
                                         <h1 id="company_title" class="fw-bold  mb-0 me-2" style="letter-spacing:1px;">
-                                            Blindtex DMCC
+                                                <?= $company_name ? strtoupper($company_name) : 'SELECT A COMPANY'; ?>
                                         </h1>
                                         <button class="btn btn-outline-primary btn-sm" style="margin-left:20px" type="button"
                                             data-toggle="modal" data-target="#helpScreenshotModal">

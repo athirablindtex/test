@@ -983,6 +983,7 @@ $margin = (!empty($margin_row['value'])) ? $margin_row['value'] : $companyMargin
         $module_model = $this->module_model;
         $this->db->where('parent', 0)->select('id,name');
         $company_id = $this->input->get('company_id', TRUE);
+        $data['company_name'] = $this->db->get_where('admin_users', ['id' => $company_id])->row_array()['name'] ?? 'All Companies';
         if(!$company_id){
             $company_id = Null;
 
