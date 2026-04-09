@@ -242,8 +242,8 @@ margin-bottom:6px;
                 <th width="5%">#</th>
                 <th width="45%">Item Description</th>
                 <th width="10%">Qty.</th>
-                <th width="20%">Unit Price (AED)</th>
-                <th width="20%">Total (AED)</th>
+                <th width="20%">Unit Price (<?= @$company['currency'] ?>)</th>
+                <th width="20%">Total (<?= @$company['currency'] ?>)</th>
             </tr>
 
             <tbody>
@@ -344,7 +344,7 @@ margin-bottom:6px;
         <?php
 
         $net_amount = $quotation->total - $quotation->discount;
-        $vat_amount = round(($net_amount * 5) / 100, 2);
+        $vat_amount = round(($net_amount * @$company['vat']) / 100, 2);
         $total_payable = $net_amount + $vat_amount;
 
         $deposit = (float)$quotation->advance;
@@ -379,43 +379,43 @@ margin-bottom:6px;
 
                         <tr>
                             <td>Total :</td>
-                            <td class="right">AED <?= number_format($quotation->total, 2) ?></td>
+                            <td class="right"><?= @$company['currency'] ?> <?= number_format($quotation->total, 2) ?></td>
                         </tr>
 
                         <?php if ($quotation->discount > 0): ?>
 
                             <tr>
                                 <td>Discount (<?= round((@$quotation->discount / @$quotation->total) * 100, 2) ?>%) :</td>
-                                <td class="right">- AED <?= number_format($quotation->discount, 2) ?></td>
+                                <td class="right">- <?= @$company['currency'] ?> <?= number_format($quotation->discount, 2) ?></td>
                             </tr>
 
                         <?php endif; ?>
 
                         <tr>
                             <td>Net :</td>
-                            <td class="right">AED <?= number_format($net_amount, 2) ?></td>
+                            <td class="right"><?= @$company['currency'] ?> <?= number_format($net_amount, 2) ?></td>
                         </tr>
 
                         <tr>
-                            <td>VAT 5% :</td>
-                            <td class="right">AED <?= number_format($vat_amount, 2) ?></td>
+                            <td>VAT (<?= @$company['vat'] ?>%) :</td>
+                            <td class="right"><?= @$company['currency'] ?> <?= number_format($vat_amount, 2) ?></td>
                         </tr>
 
                         <tr class="total-payable">
                             <td>Total Payable :</td>
-                            <td class="right">AED <?= number_format($total_payable, 2) ?></td>
+                            <td class="right"><?= @$company['currency'] ?> <?= number_format($total_payable, 2) ?></td>
                         </tr>
 
                         <?php if ($quotation->confirm && $deposit > 0): ?>
 
                             <tr>
                                 <td>Deposit Paid (<?= @$quotation->payment_type ?>):</td>
-                                <td class="right">AED <?= number_format($deposit, 2) ?></td>
+                                <td class="right"><?= @$company['currency'] ?> <?= number_format($deposit, 2) ?></td>
                             </tr>
 
                             <tr>
                                 <td>Balance :</td>
-                                <td class="right">AED <?= number_format($balance, 2) ?></td>
+                                <td class="right"><?= @$company['currency'] ?> <?= number_format($balance, 2) ?></td>
                             </tr>
 
                         <?php endif; ?>
