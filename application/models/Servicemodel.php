@@ -42,6 +42,8 @@ class Servicemodel extends CI_Model
         u.image as company_image,
         u.address as company_address,
         u.phone as company_phone,
+        u.vat as vat,
+        u.currency as currency,
         u.trn_no as trn_no,
         u.company_email as company_email,
                 u.template_logo as template_logo,
@@ -312,6 +314,8 @@ class Servicemodel extends CI_Model
         u.reply_mail as reply_mail,
         u.name as company_name,
         u.image as company_image,
+              u.vat as vat,
+        u.currency as currency,
         u.address as company_address,
          u.trn_no as trn_no,
         
@@ -560,9 +564,9 @@ $content .= '<img src="'.$track_url.'" width="1" height="1" style="display:none;
             $data['footer'] = $this->load->view('pdf_templates/footer-terms-conditions', [], true);
             $data['footer_new'] = $this->load->view('pdf_templates/footer-terms-conditions-new', [], true);
 
-            // Main content should include a placeholder for the footer
+    
             $html = $this->load->view('pdf_templates/confirmed_order', $data, true);
-            // $html1 = $this->load->view('pdf_templates/confirmed_order_new', $data, true);
+           
             $real_path = base_url() . '/uploads/invoice/';
             // Save file
             $path = APPPATH . '../uploads/invoice/';
@@ -579,7 +583,7 @@ $content .= '<img src="'.$track_url.'" width="1" height="1" style="display:none;
                      $this->db->where('id', $data['quotation']->id);
             $this->db->update('quotation', ['pdfUrl' => $dbpath]);
 
-            // $pdf1 = $this->pdf->createPDF_mpdf($html1, $file_name1, $path);
+     
 
             return  'uploads/invoice/' . $pdf . '.pdf';
         } catch (Exception $e) {

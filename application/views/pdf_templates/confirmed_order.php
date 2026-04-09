@@ -249,7 +249,7 @@ Special Instructions: <?= @$window['note'] ?>
 
 <td align="right">
 
-AED <?= number_format(@$window['total'],2) ?>
+<?= @$company['currency'] ?> <?= number_format(@$window['total'],2) ?>
 
 </td>
 
@@ -293,7 +293,7 @@ $discount = floatval($quotation->discount);
 
 $net = $total - $discount;
 
-$vat = round(($net * 5)/100,2);
+$vat = round(($net * @$company['vat'])/100,2);
 
 $payable = $net + $vat;
 
@@ -311,7 +311,7 @@ $balance = $payable - $deposit;
 
 <td>Total :</td>
 
-<td>AED <?= number_format($total,2) ?></td>
+<td><?= @$company['currency'] ?> <?= number_format($total,2) ?></td>
 
 </tr>
 
@@ -324,7 +324,7 @@ $balance = $payable - $deposit;
 
 <td>   Discount (<?= round((@$quotation->discount/@$quotation->total)*100,2) ?>%):</td>
 
-<td>- AED <?= number_format($discount,2) ?></td>
+<td>- <?= @$company['currency'] ?> <?= number_format($discount,2) ?></td>
 
 </tr>
 
@@ -337,7 +337,7 @@ $balance = $payable - $deposit;
 
 <td>Net Amount :</td>
 
-<td>AED <?= number_format($net,2) ?></td>
+<td><?= @$company['currency'] ?> <?= number_format($net,2) ?></td>
 
 </tr>
 
@@ -346,9 +346,9 @@ $balance = $payable - $deposit;
 
 <td></td>
 
-<td>VAT (5%) :</td>
+<td>VAT (<?= @$company['vat'] ?>%) :</td>
 
-<td>AED <?= number_format($vat,2) ?></td>
+<td><?= @$company['currency'] ?> <?= number_format($vat,2) ?></td>
 
 </tr>
 
@@ -359,7 +359,7 @@ $balance = $payable - $deposit;
 
 <td>Total Payable :</td>
 
-<td>AED <?= number_format($payable,2) ?></td>
+<td><?= @$company['currency'] ?> <?= number_format($payable,2) ?></td>
 
 </tr>
 
@@ -372,7 +372,7 @@ $balance = $payable - $deposit;
 
 <td style="text-align:right;">Deposit Paid (<?= @$quotation->payment_type ?>):</td>
 
-<td>AED <?= number_format($deposit,2) ?></td>
+<td><?= @$company['currency'] ?> <?= number_format($deposit,2) ?></td>
 
 </tr>
 
@@ -382,7 +382,7 @@ $balance = $payable - $deposit;
 
 <td>Balance Due :</td>
 
-<td>AED <?= number_format($balance,2) ?></td>
+<td><?= @$company['currency'] ?> <?= number_format($balance,2) ?></td>
 
 </tr>
 

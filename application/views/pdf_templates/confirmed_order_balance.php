@@ -118,7 +118,7 @@
                     </div>
                 </td>
                 <td></td>
-                <td style="padding: 5px;">AED <?= @$window['total'] ?: '0' ?></td>
+                <td style="padding: 5px;"><?= @$company['currency'] ?> <?= @$window['total'] ?: '0' ?></td>
             </tr>
             <?php
                     $win_count++;
@@ -138,7 +138,7 @@
                 <td></td>
                 <td style="text-align: right; font-weight: bold; border-top: 2px solid #eee; padding: 5px;">Total:</td>
                 <td style="padding: 5px; font-weight: bold; border-top: 2px solid #eee;">
-                    AED <?= round(@$quotation->total + $quotation->vat, 2) ?: 0 ?>
+                    <?= @$company['currency'] ?> <?= round(@$quotation->total + $quotation->vat, 2) ?: 0 ?>
                 </td>
             </tr>
 
@@ -149,7 +149,7 @@
                     Less <?= round(((@$quotation->discount / @$quotation->total) * 100), 2) . '%' ?> discount:
                 </td>
                 <td style="padding: 5px; font-weight: bold; border-top: 2px solid #eee;">
-                    AED <?= @$quotation->discount ?: 0 ?>
+                    <?= @$company['currency'] ?> <?= @$quotation->discount ?: 0 ?>
                 </td>
             </tr>
             <?php } ?>
@@ -158,20 +158,20 @@
                 <td></td>
                 <td style="text-align: right; font-weight: bold; padding: 5px;">Total Payable:</td>
                 <td style="padding: 5px; font-weight: bold; border-top: 2px solid #eee;">
-                    AED <?= @$quotation->sub_total ?: 0 ?>
+                    <?= @$company['currency'] ?> <?= @$quotation->sub_total ?: 0 ?>
                 </td>
             </tr>
 
             <tr>
                 <td></td>
                 <td style="text-align: right; font-weight: bold; padding: 5px;">Deposit paid (<?= @$quotation->payment_type ?>):</td>
-                <td style="padding: 5px; font-weight: bold;">AED <?= @$quotation->advance ?: 0 ?></td>
+                <td style="padding: 5px; font-weight: bold;"><?= @$company['currency'] ?> <?= @$quotation->advance ?: 0 ?></td>
             </tr>
 
             <tr>
                 <td></td>
                 <td style="text-align: right; font-weight: bold; padding: 5px;">Balance Fully Paid (<?= @$quotation->balancePaymentType ?>):</td>
-                <td style="padding: 5px; font-weight: bold;">AED <?= @$quotation->sub_total ?: 0 ?></td>
+                <td style="padding: 5px; font-weight: bold;"><?= @$company['currency'] ?> <?= @$quotation->sub_total ?: 0 ?></td>
             </tr>
 
             <!-- VAT Details -->
@@ -180,8 +180,8 @@
                 <td colspan="3" style="padding-top: 20px;">
                     <b>
                         VAT <?= round((@$quotation->vat / (@$quotation->sub_total - @$quotation->vat)) * 100, 2) ?>%,
-                        Net AED <?= round((@$quotation->sub_total - @$quotation->vat), 2) ?>,
-                        Tax AED <?= round(@$quotation->vat, 2) ?>
+                        Net <?= @$company['currency'] ?> <?= round((@$quotation->sub_total - @$quotation->vat), 2) ?>,
+                        Tax <?= @$company['currency'] ?> <?= round(@$quotation->vat, 2) ?>
                     </b>
                 </td>
             </tr>

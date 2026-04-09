@@ -150,9 +150,9 @@ class Profiledata extends CI_Controller
 		$data['user'] = $this->salespersonmodel->get_current_user($this->user_id);
 		$data['vat_addtion'] = 0.0;
 		$this->db->order_by('id', 'desc')->select('vat_addition');
-		if ($vat = $this->configurationmodel->gets_data()->row_array()) {
-			$data['vat_addtion'] = (int)$vat['vat_addition'];
-		}
+		
+		
+	
 		$data['company_address'] = "";
 		$data['logo'] = "";
 		$data['branding_colour_code'] = "";
@@ -173,6 +173,8 @@ class Profiledata extends CI_Controller
 			$data['iban'] = $company->iban ?: "";
 			$data['branch'] = $company->branch ?: "";
 			$data['swift_code'] = $company->swift_code ?: "";
+			$data['vat_addtion'] = $company->vat ?: 0;
+			$data['currency'] = $company->currency ?: "";
 
 			$data['branding_colour_code_secondary'] = @$company->branding_colour_code_secondry ?: "";
 		
