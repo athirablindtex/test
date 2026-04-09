@@ -367,6 +367,7 @@ input[type="checkbox"] {
                 $('#company_title').text(selectedCompany);
                 $('#margin1, #product-type, #sub-type, #extra-type, #sub-extra, #margin2, #margin3').val('');
                 $('#loader').hide();
+                window.location.href = '<?= base_url("admin/product/priceband_margin") ?>?company_id=' + company_id;
             }, 1000);
         });
 

@@ -982,6 +982,12 @@ $margin = (!empty($margin_row['value'])) ? $margin_row['value'] : $companyMargin
         // $data['product_types'] = $this->producttypemodel->gets_data()->result();
         $module_model = $this->module_model;
         $this->db->where('parent', 0)->select('id,name');
+        $company_id = $this->input->get('company_id', TRUE);
+        if(!$company_id){
+            $company_id = Null;
+
+        }
+                                $this->db->where('company_id', $company_id);
         $data['product_types'] = $this->producttypemodel->gets_data()->result();
         $this->db->where('parent', 0)->select('id,name')->from('extras');
         $data['extras_type'] = $this->db->get()->result();
