@@ -143,6 +143,7 @@ input[type="checkbox"] {
                                         <div class="form-group form-group-default">
                                             <label>Company</label>
                                             <select class="form-control company_name" id="company_name" name="company_name">
+                                                <option value="">-- Select Company --</option>
                                                 <?php foreach ($company as $b) { ?>
                                                     <option value="<?= $b->id ?>" <?= $b->id == $this->input->get('company_id') ? 'selected' : '' ?>><?= $b->name; ?></option>
                                                 <?php } ?>
