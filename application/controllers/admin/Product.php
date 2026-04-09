@@ -2,8 +2,8 @@
 if (!defined('BASEPATH')) {
     exit('No direct script allowed');
 }
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
+// ini_set('display_errors', 1);
+// error_reporting(E_ALL);
 class Product extends MY_Controller
 {
     var $module_id = 'id';
