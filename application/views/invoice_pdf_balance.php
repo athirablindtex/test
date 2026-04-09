@@ -414,9 +414,11 @@ margin-bottom:6px;
                             </tr>
 
                             <tr>
-                                <td>Balance :</td>
-                                <td class="right">AED <?= number_format($balance, 2) ?></td>
+                                <td>Balance Fully Paid (<?= @$quotation->balancePaymentType ?>):</td>
+                                <td class="right">AED <?= @$quotation->sub_total ?: 0 ?></td>
                             </tr>
+
+           
 
                         <?php endif; ?>
 

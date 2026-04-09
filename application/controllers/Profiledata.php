@@ -217,7 +217,7 @@ class Profiledata extends CI_Controller
 		$data = array_merge($data, $pbpdt);
 		///product
 		$psddt = $this->productmodel->get_data_sync_all($this->user_id);
-							$this->update_user_track($this->user_id, 'product',$post['action']);
+		$this->update_user_track($this->user_id, 'product',$post['action']);
 		$data = array_merge($data, $psddt);
 		//Product
 		///Sales Person

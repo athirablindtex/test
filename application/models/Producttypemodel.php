@@ -157,6 +157,9 @@ class Producttypemodel extends CI_Model{
 		$this->db->select('id,name,parent,version,pdfUrl');
 		$company_id = get_salesperson_company($user_id);
 		 $company_id = get_company_id_or_null( $company_id)  ;
+		  if(!$company_id){
+				 $company_id = Null;
+			 }
 		$this->db->where('company_id', $company_id);   
 
 		$dt=$this->gets_data()->result_array();
@@ -236,90 +239,21 @@ class Producttypemodel extends CI_Model{
 			return $data;	
 		}	
 
-	///Send data from server to local
-	function get_data_sync_all_extras_old($user_id){
-		$data_update=array();
-		$data_delete=array();
-		$cur_items=array();
-		$this->db->select('id,product_type,extra,mandatory,version');
-		$dt=$this->gets_data_extras()->result_array();
-
-			     $salesperson_row = $this->salespersonmodel->get_row($user_id);
-                //print_r($salesperson_row);
-                $select_company_id = $salesperson_row->company;
-		$this->db->select('margin_type, margin_value');
-				$this->db->where('id', $select_company_id);
-				$existing_margin = $this->db->get('admin_users')->row();
-				$company_margin =$existing_margin->margin_value;
-		$i=0;
-		foreach($dt as $d){
-                	$id= $d['extra'];
-     
- 
-        $margin_value = null;
-
-        // 1. Check margin_config for product_id
-        $this->db->select('value');
-        $this->db->where(['extra_type' => $id, 'company_id' => $select_company_id]);
-        $result = $this->db->get('extras_margin_config')->row();
-        if ($result) {
-            $margin_value = $result->value;
-        }
-
-        // 2. If not found, check sub_product_type
-        if (is_null($margin_value)) {
-            $this->db->select('value');
-            $this->db->where(['extra_type' => $id, 'company_id' => $select_company_id]);
-            $result = $this->db->get('extras_margin_config')->row();
-            if ($result) {
-                $margin_value = $result->value;
-            }
-        }
-
-        // 3. If still not found, check product_type
-        if (is_null($margin_value)) {
-            $this->db->select('value');
-            $this->db->where(['extra_type' => $id, 'company_id' => $select_company_id]);
-            $result = $this->db->get('extras_margin_config')->row();
-            if ($result) {
-                $margin_value = $result->value;
-            }
-        }
-
-        // 4. Default to company margin
-        if (is_null($margin_value)) {
-            $margin_value = $company_margin;
-        }
-                              
-                        $d["margin_percent"] =  $margin_value ; //margin product;
-
-					
-				$this->db->where(array('row_id'=>@$d['id'],'user'=>$user_id));
-				if($cur_row=$this->db->get($this->table_name_sync_extras)->row_array()){
-						$cur_items[]=$cur_row['id'];
-						if($d['version']>$cur_row['version'] || true){ // ADDED true to bypass versioning now temprorly by Mujeeb on 22/12/2023
-								$data_update[]=$d;
-							}
-					}
-				else{
-						$data_update[]=$d;
-					}	
-			}
-		$this->db->where(array('user'=>$user_id))
-				->select('row_id');
-		if($cur_items){
-				$this->db->where_not_in('id',$cur_items);
-			}		
-		$cur_all=$this->db->get($this->table_name_sync_extras)->result_array();
-		$data['producttypeextras']=$data_update;
-		$data['producttypeextras_delete']=array_column($cur_all,'row_id');
-		return $data;	
-	}		
 
 	function get_data_sync_all_extras($user_id){
 		$data_update=array();
 		$data_delete=array();
 		$cur_items=array();
+		
+			$company_id = get_salesperson_company($user_id);
+			$select_company_id =$company_id;
+
+			 $company_id = get_company_id_or_null( $company_id)  ;
+			 if(!$company_id){
+				 $company_id = Null;
+			 }
+		    
+				
 			$last_synch_data = get_last_sync_date($user_id, 'product_type_extras');
 		$last_synch_date = null;
 		if ($last_synch_data && !empty($last_synch_data->last_synch_date)) {
@@ -329,13 +263,12 @@ class Producttypemodel extends CI_Model{
 		if ($last_synch_date !== null) {
 			$this->db->where('updated_at >', $last_synch_date);
 		}
+		$this->db->where('company_id', $company_id); 
 		$this->db->where('deleted_at ', Null);
 		$dt=$this->gets_data_extras()->result_array();
 
-			     $salesperson_row = $this->salespersonmodel->get_row($user_id);
-                //print_r($salesperson_row);
-                $select_company_id = $salesperson_row->company;
-		$this->db->select('margin_type, margin_value');
+	
+		        $this->db->select('margin_type, margin_value');
 				$this->db->where('id', $select_company_id);
 				$existing_margin = $this->db->get('admin_users')->row();
 				$company_margin =$existing_margin->margin_value;

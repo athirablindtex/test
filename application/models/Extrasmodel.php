@@ -284,6 +284,9 @@ public function delete($id)
 		if ($last_synch_date) {
 			$this->db->where('updated_at >', $last_synch_date);
 		}
+		$company_id = get_salesperson_company($user_id);
+		 $company_id = get_company_id_or_null( $company_id)  ;
+		$this->db->where('company_id', $company_id);  
 		$this->db->where('deleted_at', Null);
 		$dt = $this->gets_data()->result_array();
 		$salesperson_row = $this->salespersonmodel->get_row($user_id);
