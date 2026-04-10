@@ -295,6 +295,7 @@ class Quotationmodel extends CI_Model
 				'customer_name' => @$d['customer_name'] ?: "",
 				'customer_phone' => @$d['customer_phone'] ?: "",
 				'customerEmail' => @$d['customerEmail'] ?: "",
+				'deal_id' => @$d['deal_id'] ?: null,
 				'total' => @$d['total'] ?: 0,
 				'discount' => @$d['discount'] ?: 0,
 				'vat' => @$d['vat'] ?: 0,
@@ -311,6 +312,7 @@ class Quotationmodel extends CI_Model
 				'insToTime'   => @$d['insToTime'] ?: '',
 				'is_remarks' => ($d['is_remarks'] == "1") ? 1 : 0,
 				'token' => $token,
+				'source' => ($d['source'] ?? null),
 				
 
 				'confirm' => @$d['confirm'] ?: 0,
