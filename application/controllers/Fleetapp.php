@@ -160,8 +160,11 @@ $this->logFleet($input, 'success', '', $response);
 
     $payload = [
         "deal_zoho_id" => $row->deal_id,
-        "fitting_date" => $row->fitting_date,
-        "duration"     => 2
+          'invoice_number' => $row->invoice_number,
+          'quotation_id' => $row->quotation_id,
+          'amount' => $row->amount,
+       
+       
     ];
 
     // 🔥 Create log folder
@@ -183,11 +186,13 @@ $this->logFleet($input, 'success', '', $response);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+
 
     $response = curl_exec($ch);
     $error = curl_error($ch);
     $info = curl_getinfo($ch);
+    print_r($response);
+    exit;
 
     curl_close($ch);
 
