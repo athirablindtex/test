@@ -238,22 +238,17 @@ class Profiledata extends CI_Controller
 		//Pricebandversion	
 		$pbdt = $this->pricebandversionmodel->get_data_sync_all($this->user_id);
 		$data = array_merge($data, $pbdt);
-		//Measurement type
+	
 		$mtdt = $this->measurementtypemodel->get_data_sync_all($this->user_id);
 	   $this->update_user_track($this->user_id, 'measuring_type',$post['action']);
 		$data = array_merge($data, $mtdt);
 		// Customer data
-	
-	$qtdt=$this->quotationmodel->get_data_sync_all($this->user_id);
-	$this->update_user_track($this->user_id, 'quotation',$post['action']);
-	$data = array_merge($data, $qtdt);
+
+			$qtdt=$this->quotationmodel->get_data_sync_all($this->user_id);
+			$this->update_user_track($this->user_id, 'quotation',$post['action']);
+			$data = array_merge($data, $qtdt);
 		
 
-			/******
-			Meta Data
-		 ****/
-
-		//Customer
 		if (@$post['sync_customer']) {
 			$cdt = $this->customermodel->sync_data($this->user_id, $post['sync_customer']);
 			$data = array_merge($data, $cdt);
@@ -278,23 +273,14 @@ class Profiledata extends CI_Controller
 		$data['quotation_return_sync'] = $this->quotationmodel->api_get_quotation_sync_data_return($this->user_id);
 		//Quotation Transfer Status Change
 		$data['quotation_transfers_sync'] = $this->quotationtransfermodel->get_sync_transfers_subjects($this->user_id);
-		//Quotation Transferred Data
-		//$data['quotation_transferred_data']=$this->quotationmodel->api_get_quotation_transferred_data($this->user_id);
-		//Pricebandversion
-		//$data['customers']= $this->customermodel->gets_customers_api_sync($this->user_id);
-		//$data['sales_mans']=$this->salespersonmodel->get_other_users($this->user_id);
+
 		$data['status'] = true;
-		// Convert data to JSON and write to log file
-		//   $log_message = "[" . date("Y-m-d H:i:s") . "] " . json_encode($data, JSON_PRETTY_PRINT) . PHP_EOL;
-		//   file_put_contents($log_file, $log_message, FILE_APPEND);
+
 
 		echo json_encode($data);
-		//Priceband
-		//Priceband Prices
-			//Room type
+	
 
-		
-		//Room type
+	
 
 	
 	}
