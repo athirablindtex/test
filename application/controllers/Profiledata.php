@@ -1,10 +1,7 @@
 <?php
-
 defined('BASEPATH') or exit('No direct script access allowed');
 // error_reporting(E_ALL);
 // ini_set('display_errors', 1);
-
-
 class Profiledata extends CI_Controller
 {
 	var $token;
@@ -15,14 +12,11 @@ class Profiledata extends CI_Controller
 	var $access_token_key = '';
 	var $token_valid_key = '';
 	var $token_valid_value = "5UNF+;B62Jn[eNq+65bQ.T?#P7@:+@%?)>wr3yrt:YS!sp=jb>*Hvg<*<zA*@AuF>y3*!@-)#]f9C>+ug@[@y#f2UA>:ntNA7nmMqaXZr,b%7d)C@y@ga(25Jum)z{Peg{tFh#A!VW!&{a%ZR#z@!;d6AcbjXP2**<G;U:>fS}Zs!z4Le5@(M@%fUQ>GY<,N@;@#@dqGx5Gr#8fAka35Rev;7={T#;e&s=&`fzg}~CkHW7eBL)#UuzpH;vGgH=GB";
-
 	public function __construct()
 	{
 		parent::__construct();
-
 		$this->token_valid_key = $this->config->item('token_valid');
 		$this->access_token_key = $this->config->item('access_tokken');
-
 		$this->load->model(array('tokkenmodel', 'salespersonmodel', 'customermodel', 'vendormodel', 'producttypemodel', 'roomtypemodel', 'extrasmodel', 'pricebandversionmodel', 'pricebandmodel', 'productmodel', 'quotationmodel', 'configurationmodel', 'quotationtransfermodel', 'servicemodel', 'usersmodel', 'measurementtypemodel','customermodel'));
 		$headers = apache_request_headers();
 		$token = @$headers[$this->access_token_key] ?: @$headers[ucfirst($this->access_token_key)];
@@ -36,12 +30,8 @@ class Profiledata extends CI_Controller
 			exit;
 		} else {
 			$tokken_value = @$headers[$this->token_valid_key] ?: @$headers[ucfirst($this->token_valid_key)];
-
-
-
 			if ($this->token_valid_value == $tokken_value) {
 				if ($token != '') {
-
 					$chk = array('access_tokken' => $token, 'access_token_expire >=' => $cur);
 					$this->db->where($chk);
 					$cuser = $this->tokkenmodel->gets_data()->row();
@@ -85,9 +75,6 @@ class Profiledata extends CI_Controller
 			}
 		}
 	}
-
-
-
 	function check_login()
 	{
 		$data['user_id'] = $this->user_id;
@@ -96,8 +83,6 @@ class Profiledata extends CI_Controller
 		$data['action_status'] = true;
 		echo json_encode($data);
 	}
-
-
 	function quotation_sync()
 	{
 		$post = json_decode(file_get_contents('php://input'), true);
@@ -108,7 +93,6 @@ class Profiledata extends CI_Controller
 		$data['action_status'] = true;
 		echo json_encode($data);
 	}
-
 	function initial_sync_data()
 	{
 		//echo "DFDFDf";die();
@@ -116,8 +100,6 @@ class Profiledata extends CI_Controller
 		$this->delete_user_track($this->user_id);
 		//Customers
 		$data['customers'] = $this->customermodel->api_get_init_sync_data($this->user_id);
-
-
 		//Customers
 		//Quotations
 		$data['quotations'] = $this->quotationmodel->api_get_init_sync_data($this->user_id);
@@ -128,30 +110,16 @@ class Profiledata extends CI_Controller
 		$data['action_status'] = true;
 		echo json_encode($data);
 	}
-
-
-
-
-
-
 		function sync_data()
 	{
-
 		$post = json_decode(file_get_contents('php://input'), true);
 		$this->quotationmodel->create_quotation_request(json_encode($post));
 		$log_file = APPPATH  . 'application/logs/sync_log.txt';
 		log_message('info', json_encode($post));
-
-
 		$data = array();
 		$data['user_id'] = $this->user_id;
-
-	
 		$data['user'] = $this->salespersonmodel->get_current_user($this->user_id);
 		$data['vat_addtion'] = 0.0;
-
-		
-	
 		$data['company_address'] = "";
 		$data['logo'] = "";
 		$data['branding_colour_code'] = "";
@@ -162,8 +130,6 @@ class Profiledata extends CI_Controller
 				$data['company_address'] = $company->address
 				? trim(strip_tags(html_entity_decode($company->address)))
 				: '';
-
-
 			$data['company_email'] = $company->company_email ?: "";
 			$data['company_phone'] = $company->phone ?: "";
 			$data['bank_name'] = $company->bank_name ?: "";
@@ -174,25 +140,21 @@ class Profiledata extends CI_Controller
 			$data['swift_code'] = $company->swift_code ?: "";
 			$data['vat_addtion'] =  intval($company->vat)  ?: 0;
 			$data['currency'] = $company->currency ?: "";
-
+			$data['country'] = $company->country ?: "";
 			$data['branding_colour_code_secondary'] = @$company->branding_colour_code_secondry ?: "";
-		
 		}
 		$data['logo_base_url'] = base_url() . 'uploads/users/';
 		$post['action'] = $post['action'] ?? 'synch';
-		   
 		   // Customer data
 			$cdt = $this->customermodel->get_data_sync_all($this->user_id);
 			$this->update_user_track($this->user_id, 'customer',$post['action']);
 			$data = array_merge($data,  $cdt);
-	
 		$exdt = $this->extrasmodel->get_data_sync_all($this->user_id);
 		$this->update_user_track($this->user_id, 'extras',$post['action']);
 		$data = array_merge($data, $exdt);
 		$extdetails=$this->extrasmodel->get_data_sync_all_details($this->user_id);
 		$this->update_user_track($this->user_id, 'extras details price',$post['action']);
 		$data = array_merge($data, $extdetails);
-
 			//Extras
 		//Product type Extras
 		$ptdt = $this->producttypemodel->get_data_sync_all_extras($this->user_id);
@@ -214,7 +176,6 @@ class Profiledata extends CI_Controller
 			//Priceband Prices
 		$pbpdt = $this->pricebandmodel->get_data_sync_all_price($this->user_id);
 		$this->update_user_track($this->user_id, 'price_band_price',$post['action']);
-
 		$data = array_merge($data, $pbpdt);
 		///product
 		$psddt = $this->productmodel->get_data_sync_all($this->user_id);
@@ -225,12 +186,10 @@ class Profiledata extends CI_Controller
 		$spdt = $this->salespersonmodel->get_data_sync_all($this->user_id, $company->id);
 		$data = array_merge($data, $spdt);
 		//Sales Person
-
 		//Vendor	
 		$vdt = $this->vendormodel->get_data_sync_all($this->user_id);
 		$data = array_merge($data, $vdt);
 		//Vendor
-
 		//Product type ,sub type
 		$ptdt = $this->producttypemodel->get_data_sync_all($this->user_id);
 		$data = array_merge($data, $ptdt);
@@ -238,17 +197,13 @@ class Profiledata extends CI_Controller
 		//Pricebandversion	
 		$pbdt = $this->pricebandversionmodel->get_data_sync_all($this->user_id);
 		$data = array_merge($data, $pbdt);
-	
 		$mtdt = $this->measurementtypemodel->get_data_sync_all($this->user_id);
 	   $this->update_user_track($this->user_id, 'measuring_type',$post['action']);
 		$data = array_merge($data, $mtdt);
 		// Customer data
-
 			$qtdt=$this->quotationmodel->get_data_sync_all($this->user_id);
 			$this->update_user_track($this->user_id, 'quotation',$post['action']);
 			$data = array_merge($data, $qtdt);
-		
-
 		if (@$post['sync_customer']) {
 			$cdt = $this->customermodel->sync_data($this->user_id, $post['sync_customer']);
 			$data = array_merge($data, $cdt);
@@ -261,7 +216,6 @@ class Profiledata extends CI_Controller
 		$data['quotation_transfer'] = $this->quotationmodel->api_get_transfer_data($this->user_id);
 		//Quotations
 		if (@$post['sync_quotations']) {
-
 			$dt = $this->quotationmodel->sync_data($this->user_id, $post['sync_quotations']);
 			$data = array_merge($data, $dt);
 		}
@@ -273,20 +227,11 @@ class Profiledata extends CI_Controller
 		$data['quotation_return_sync'] = $this->quotationmodel->api_get_quotation_sync_data_return($this->user_id);
 		//Quotation Transfer Status Change
 		$data['quotation_transfers_sync'] = $this->quotationtransfermodel->get_sync_transfers_subjects($this->user_id);
-
 		$data['status'] = true;
-
-
 		echo json_encode($data);
-	
-
-	
-
-	
 	}
 	function transfer_request()
 	{
-
 		$post = json_decode(file_get_contents('php://input'), true);
 		//log_message('info', json_encode($post));
 		$data['transfer_status'] = false;
@@ -328,16 +273,12 @@ class Profiledata extends CI_Controller
 						}
 						$data['transfer_id'] = $this->quotationtransfermodel->save($insert);
 						$data['transfer_status'] = true;
-
 						// $data['from_user_id']=$this->user_id;
-
 						$data['sales_person_name'] = $user->name;
 					} else {
 						$data['message'] = "Sales person not active";
 					}
 				} else {
-
-
 					$data['message'] = "Sales person not found";
 				}
 			} else {
@@ -355,12 +296,6 @@ class Profiledata extends CI_Controller
 		log_message('info', json_encode($data));
 		echo json_encode($data);
 	}
-
-
-
-
-
-
 	function acknowledge_sync()
 	{
 		$post = json_decode(file_get_contents('php://input'), true);
@@ -378,7 +313,6 @@ class Profiledata extends CI_Controller
 			////Delete sync data
 			//$this->extrasmodel->delete_sync_data($this->user_id, @$post['sync_delete_extras']);
 		}
-
 		//Matrix Extra Prices
 		if (@$post['sync_acknowledge_extrasmatrix_price']) {
 			////Acknowledge vendor synced local to server
@@ -490,25 +424,13 @@ class Profiledata extends CI_Controller
 		$data['action_status'] = true;
 		echo json_encode($data);
 	}
-
-
 	function insert_quotation()
 	{
-
-
-
 		$post = json_decode(file_get_contents('php://input'), true);
-
 		// log_message('info', json_encode($post));
 		$this->quotationmodel->create_quotation_request(json_encode($post));
-
-
 		$quotation_id = $this->quotationmodel->api_save_quotation_row($this->user_id, $post);
-
-
-
 		if ($quotation_id > 0) {
-
 			$data['action_status'] = true;
 			$data['quotationId'] = $quotation_id;
 			$pdf_url = $this->quotationmodel->getQuotationPdfUrl($quotation_id);
@@ -526,7 +448,6 @@ class Profiledata extends CI_Controller
 				try {
 					// @$this->send_quotation_service($quotation_id);
 					if (@$post['quotation']['status'] == "Confirmed order") {
-					
 					$this->servicemodel->send_order_to_blindata(@$post["quotation"], $this->user_id);
 					}
 				} catch (Exception $e) {
@@ -539,7 +460,6 @@ class Profiledata extends CI_Controller
 		$data['status'] = true;
 		echo json_encode($data);
 	}
-
 	function send_email_user()
 	{
 		$post = $this->input->post();
@@ -557,8 +477,6 @@ class Profiledata extends CI_Controller
 		$data['status'] = true;
 		echo json_encode($data);
 	}
-
-
 	//logout user
 	function logout_user()
 	{
@@ -577,7 +495,6 @@ class Profiledata extends CI_Controller
 		$data['user_id'] = $this->user_id;
 		echo json_encode($data);
 	}
-
 	function send_notification_user($title, $message, $user_id, $colour, $store = 0)
 	{
 		$user = $this->usermodel->get_row($user_id);
@@ -615,12 +532,9 @@ class Profiledata extends CI_Controller
 			return $result;
 		}
 	}
-
 	function sendFirebaseNotification()
     {
-		
         $serverKey = "AAAARq7hXM0:APA91bFhK5GRhb2n5crw5ovlF2kFXGaWDJWEa2ohHceMW080aaCyPdLyQJqBUIeIDiUaHyO7OcBc6-MXj74FiRNYdG_qRfdOBx8VrMxqfNXJ23Z43J4aG4GGQZECMPai003bHZpISAcM"; // 🔥 from Firebase Console
-
         $data = [
             "to" => 'ct1ZC3d4QqONmssD-BnAhk:APA91bGcbViZfcKcn7NUZYmi4m_CyhWFHcttC-WjkLY3lqLX6nFMWDZGJ4omZF3y9AQguiU6clhHZpKExaeoqiA8W27DAZmEjxgCF7F6NZ16SGOKaw_AXMg',
             "notification" => [
@@ -628,29 +542,22 @@ class Profiledata extends CI_Controller
                 "body" => "this is a test notification",
                 "sound" => "default"
             ],
-           
         ];
-
         $headers = [
             "Authorization: key={$serverKey}",
             "Content-Type: application/json"
         ];
-
         $ch = curl_init();
      curl_setopt($ch, CURLOPT_URL, "https://fcm.googleapis.com/v1/projects/303581715661/messages:send");
-
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
-
         $response = curl_exec($ch);
         if ($response === FALSE) {
-    
         } else {
             log_message('info', 'FCM Response: ' . $response);
         }
-
         curl_close($ch);
         echo $response;
     }
@@ -660,9 +567,6 @@ class Profiledata extends CI_Controller
 			return crypt($this->config->item('user_salt'), hash('sha256', $pass));
 		}
 	}
-
-
-
 	/*
 				After send quotation
 			*/
@@ -670,8 +574,6 @@ class Profiledata extends CI_Controller
 	{
 		$this->servicemodel->send_quotation_notification_service($quotation_id);
 	}
-
-
 	/*
 				After send quotation
 			*/
@@ -679,9 +581,6 @@ class Profiledata extends CI_Controller
 	{
 		$this->servicemodel->send_quotation_notification_service_send_only($quotation_id);
 	}
-
-
-
 	/*
 				After send quotation
 			*/
@@ -689,34 +588,25 @@ class Profiledata extends CI_Controller
 	{
 		$this->servicemodel->send_quotation_balance_notification($quotation_id);
 	}
-
 	function quotation_set_balance()
 {
     $post = json_decode(file_get_contents('php://input'), true);
-
-
     $quotation = [
         'balancePaymentType' => $post['quotation']['balancePaymentType'] ?? '',
         'status'             =>"Balance Paid",
     ];
     $quotation_id = $post['quotation']['server_id'] ?? 0;
-	
-
     $data = [];
     $log_text = null;
-
     if ($quotation_id > 0) {
         // Update quotation
         $this->db->where('id', $quotation_id);
         $this->db->update('quotation', $quotation);
-
         try {
             $data['action_status'] = true;
 			    $data['quotationStatus'] = "Balance Paid";
-		
             $data['quotationId']   = $quotation_id;
 					$this->servicemodel->send_quotation_balance_notification($quotation_id);
-				
             try {
                //$this->send_quotation_balance_service($quotation_id);
             } catch (Exception $e) {
@@ -731,33 +621,24 @@ class Profiledata extends CI_Controller
         $data['action_status'] = false;
         $data['message']       = "Invalid Quotation ID";
     }
-
     $data['status'] = true;
-
   $logData = [
     'request'      => json_encode($post),
     'response'     => json_encode($data),
     'module'       => 'pay by balance -'.$post['quotation']['invoiceno'],
     'created_date' => date('Y-m-d H:i:s'),
-
-
     'updated_by'   => $this->user_id,
     'created_date' => date('Y-m-d H:i:s'),
 ];
-
 $this->db->insert('api_logs', $logData);
-
 // Check if insert failed
 if (!$this->db->affected_rows()) {
     $db_error = $this->db->error(); // Returns an array with 'code' and 'message'
     log_message('error', 'API Log Insert Failed: ' . print_r($db_error, true));
     $data['log_insert_error'] = $db_error; // optional: return error in response
 }
-
     echo json_encode($data);
 }
-
-
 	function quotation_edi_test()
 	{
 		$post = json_decode(file_get_contents('php://input'), true);
@@ -770,15 +651,11 @@ if (!$this->db->affected_rows()) {
 	{
 		$post = json_decode(file_get_contents('php://input'), true);
 		$server_id = @$post['server_id'] ?? null;
-
-
 		if (!$server_id) {
 			echo json_encode(['status' => false, 'message' => 'server_id is required']);
 			return;
 		}
-
 		$this->quotationmodel->delete_quotation_data($server_id);
-
 		echo json_encode([
 			'status' => $this->db->affected_rows() > 0,
 			'message' => $this->db->affected_rows() > 0 ? 'Quotation deleted successfully' : 'Quotation not found'
@@ -787,19 +664,16 @@ if (!$this->db->affected_rows()) {
 	function send_pending_mails()
 	{
 		$this->load->database();
-
 		$emails = $this->db->where('sent_status', 0)
 			->order_by('id', 'DESC')
 			->limit(10)
 			->get('mail_data_customer')
 			->result();
-
 		foreach ($emails as $email) {
 			if (!filter_var($email->to_mail, FILTER_VALIDATE_EMAIL)) {
 				echo "Invalid email: " . $email->to_mail . "<br>";
 				continue;
 			}
-
 			// Send email without attaching PDF link
 			$sent = $this->send_email_html_server(
 				$email->subject,
@@ -807,7 +681,6 @@ if (!$this->db->affected_rows()) {
 				$email->to_mail,
 				'Blindtex'
 			);
-
 			if ($sent) {
 				$this->db->where('id', $email->id)->update('mail_data_customer', [
 					'sent_status' => 1,
@@ -835,23 +708,18 @@ if (!$this->db->affected_rows()) {
 	}
 	function update_user_track($user_id, $table_name, $action )
 {
-	
     $data = [
         'user_id'            => $user_id,
         'table_name'      => $table_name,
         'last_synch_date' => date('Y-m-d H:i:s'),
-	
     ];
 	 if ($action === 'login') {
         $data['login_at'] = date('Y-m-d H:i:s');
     }
-
-
     $query = $this->db->get_where('user_sync_track', [
         'user_id'       => $user_id,
         'table_name' => $table_name
     ]);
-
     if ($query->num_rows() > 0) {
         // update
         $this->db->where('user_id', $user_id);
@@ -867,8 +735,4 @@ function delete_user_track($user_id)
 	$this->db->where('user_id', $user_id);
 	$this->db->delete('user_sync_track');
 }
-
-
-
     }
-
