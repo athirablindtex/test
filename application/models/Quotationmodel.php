@@ -295,6 +295,7 @@ class Quotationmodel extends CI_Model
 				'customer_name' => @$d['customer_name'] ?: "",
 				'customer_phone' => @$d['customer_phone'] ?: "",
 				'customerEmail' => @$d['customerEmail'] ?: "",
+				'customer_address' => @$d['customerAddress'] ?: "",
 				'deal_id' => @$d['deal_id'] ?: null,
 				'total' => @$d['total'] ?: 0,
 				'discount' => @$d['discount'] ?: 0,
@@ -1059,7 +1060,7 @@ if (!empty($customer_phone)) {
 	function api_get_transfer_data($user_id = 0)
 	{
 		$this->db->where(array('sales_person' => $user_id, 'transfer' => 1))
-			->select('id,customer,customer_name,customer_phone,customerEmail,invoiceno,total,discount,discountPercentage,advance,vat,sub_total,payment_type,created_date as created_time,updated_date as update_time,remarks,is_remarks,priority,confirm,insDate,insFromTime,insToTime');
+			->select('id,customer,customer_name,customer_phone,customerEmail,customer_address as customerAddress,invoiceno,total,discount,discountPercentage,advance,vat,sub_total,payment_type,created_date as created_time,updated_date as update_time,remarks,is_remarks,priority,confirm,insDate,insFromTime,insToTime,source,customerRef,customerTrn,deal_id');
 		$data = $this->gets_data()->result_array();
 		$i = 0;
 		foreach ($data as $d) {
@@ -1076,7 +1077,7 @@ if (!empty($customer_phone)) {
 		$this->load->driver('cache', ['adapter' => 'file']);
 		$exp = date("Y-m-d", strtotime("-12 month"));
 		$this->db->where(array('sales_person' => $user_id, 'created_date >=' => $exp, 'deleted_at' => NULL))
-			->select('id,customer,customer_name,customer_phone,invoiceno,pdfUrl,total,discount,discountPercentage,advance,vat,sub_total,payment_type,created_date as created_time,updated_date as update_time,remarks,is_remarks,priority,confirm,status,signature, (sub_total - advance) as balance,insDate,insFromTime,insToTime,balancePaymentType,customerRef,customerTrn');
+			->select('id,customer,customer_name,customer_phone,customer_address as customerAddress,source,deal_id,invoiceno,pdfUrl,total,discount,discountPercentage,advance,vat,sub_total,payment_type,created_date as created_time,updated_date as update_time,remarks,is_remarks,priority,confirm,status,signature, (sub_total - advance) as balance,insDate,insFromTime,insToTime,balancePaymentType,customerRef,customerTrn');
 		$data = $this->gets_data()->result_array();
 		$i = 0;
 		foreach ($data as $d) {

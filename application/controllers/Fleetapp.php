@@ -53,7 +53,7 @@ class FleetApp extends CI_Controller
             'customer_name'        => $input['customer_name'] ?? '',
             'customer_phone'       => $input['customer_phone'] ?? '',
             'customerEmail'        => $input['customerEmail'] ?? '',
-            'customerAddress'      => $input['customerAddress'] ?? '',
+            'customerAddress'      => $input['customer_address'] ?? '',
             'company_id'           => $result->company,
             'sales_person'         => $result->id,
             'sales_person_name'    => $result->name,
