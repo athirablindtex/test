@@ -341,22 +341,22 @@ class Quotationmodel extends CI_Model
 				'sales_person' => $user_id
 			]);
 			if ($customer = $this->customermodel->gets_data()->row()) {
-				
+
 				@$insert['customer'] = @$customer->id;
 
-                   $isFleetWithDeal = ($d['source'] ?? '') === 'Fleet' && !empty($d['deal_id']) && $d['deal_id'] > 0;
-					if (!$isFleetWithDeal) {
+				$isFleetWithDeal = ($d['source'] ?? '') === 'Fleet' && !empty($d['deal_id']) && $d['deal_id'] > 0;
+				if (!$isFleetWithDeal) {
 					$cust_insert_upd = array(
 
-					'name' => @$d['customer_name'] ?: "",
-					'email' => @$d['customerEmail'] ?: "",
-					'address' => @$d['customerAddress'] ?: "",
-					'updated_at' => date('Y-m-d H:i:s')
+						'name' => @$d['customer_name'] ?: "",
+						'email' => @$d['customerEmail'] ?: "",
+						'address' => @$d['customerAddress'] ?: "",
+						'updated_at' => date('Y-m-d H:i:s')
 
 					);
 
 					@$this->customermodel->save($cust_insert_upd, @$customer->id);
-					}
+				}
 			} else {
 				$cust_insert = array(
 					'phone' => @$d['customer_phone'] ?: "",
@@ -418,12 +418,57 @@ class Quotationmodel extends CI_Model
 			return 0;
 		}
 
+			$this->triggerDealSync($insert, $server_id, $d);
 
 
 		return $server_id;
 	}
 
 
+	function triggerDealSync($insert, $server_id, $d)
+	{
+		// check deal_id
+		if (empty($insert['deal_id']) || $insert['deal_id'] <= 0) {
+			return;
+		}
+
+		// check if external create/update
+		$shouldCallAPI = false;
+
+		if (isset($d['created_time']) && is_numeric($d['created_time'])) {
+			$shouldCallAPI = true;
+		}
+
+		if (isset($d['update_time']) && is_numeric($d['update_time'])) {
+			$shouldCallAPI = true;
+		}
+
+		if (!$shouldCallAPI) {
+			return;
+		}
+
+		// prepare queue data
+		$queueData = [
+			'deal_id'        => $insert['deal_id'],
+			'quotation_id'   => $server_id,
+			'invoice_number' => $insert['invoiceno'] ?? '',
+			'amount'         => $insert['total'] ?? 0,
+			'fitting_date'   => $insert['insFromTime'] ?? null,
+		
+			'duration'       => $insert['insToTime'] ?? null,
+				
+			'created_at'     => date('Y-m-d H:i:s'),
+			'synced'         => 0
+		];
+
+		// insert queue
+		$CI = &get_instance();
+		$CI->db->insert('api_sync_queue', $queueData);
+		$queue_id = $CI->db->insert_id();
+
+		// async background call
+		exec("php index.php fleetapp processSingleQueue {$queue_id} > /dev/null 2>&1 &");
+	}
 	public function log_app_quotation(
 		$quotation_server_id,
 		$quotation_app_id,
@@ -1539,456 +1584,5 @@ class Quotationmodel extends CI_Model
 			'activeItem' => $status
 		]);
 	}
-	/*	
-		function sync_data($user_id,$data=array()){
-			$ack_quotations=array();
-			$ack_rooms=array();
-			$ack_windows=array();
-			$ack_extras=array();
-			if(@$data){
-					foreach($data as $d){
-							$server_id=0;
-							if(@$d['confirm']){
-									$insert=array(	
-													'sales_person'=>$user_id,
-													'customer_name'=>@$d['customer_name']?:"",
-													'customer_phone'=>@$d['customer_phone']?:"",
-													'customerEmail'=>@$d['customerEmail']?:"",
-													'total'=>@$d['total']?:0,
-													'discount'=>@$d['discount']?:0,
-													'vat'=>@$d['vat']?:0,
-													'advance'=>@$d['advance']?:0,
-													'sub_total'=>@$d['sub_total']?:0,
-													'payment_type'=>@$d['payment_type']?:"",
-													'remarks'=>@$d['remarks']?:"",
-													'priority'=>@$d['priority']?:'',
-													'confirm'=>@$d['confirm']?:0,
-												);
-									if(@$d['created_time']>0){
-											$seconds = ceil((int)$d['created_time'] / 1000);
-											$insert['created_date']=@date('Y/m/d',$seconds);
-										}
-									if(@$d['update_time']>0){
-											$seconds = ceil((int)$d['update_time'] / 1000);
-											$insert['updated_date']=@date('Y/m/d',$seconds);
-										}	
-									$this->db->where(array('phone'=>@$d['customer_phone'],'sales_person'=>$user_id));
-									if($customer=$this->customermodel->gets_data()->row()){
-											@$insert['customer']=@$customer->id;
-										}
-									else{
-											@$insert['customer']=0;
-										}	
-									if($sign=@$this->user_signature_upload(@$d['signature'])){
-											if(@$sign!=""){
-													$insert['signature']=$sign;
-												}
-										}	
-									if($sp=$this->salespersonmodel->get_row($user_id)){
-											$insert['sales_person_name']=$sp->name;
-											$insert['sales_person_phone']=$sp->phone;
-										}				
-									if(@$d['server_id']>0){
-											$row=$this->gets_data()->row($d['server_id']);
-										}
-									if(@$row){
-											$server_id=$this->save($insert,$row->id);
-										}
-									else{
-											$server_id=$this->save($insert);
-											$ack_quotations[]=array('id'=>@$d['id'],'server_id'=>$server_id);
-										}
-								}			
-							if(@$server_id>0){
-									$room_insert_ids=array();	
-									///Rooms Insert
-									if(@$d['rooms']){
-											if(@count(@$d['rooms'])>0){
-													foreach(@$d['rooms'] as $room){
-															$room_insert=array('quotation'=>$server_id,
-																				'room_name'=>@$room["room_name"]?:"",
-																				'room_type'=>@$room["room_type"]?:""
-																	);
-															if(@$room["server_id"]>0){
-																	$this->db->where(array('id'=>@$room["server_id"]));
-																	$roomRow=$this->gets_data_room()->row();
-																}
-															if(@$roomRow){
-																	$room_id=$this->save_room($room_insert,$roomRow->id);
-																}
-															else{
-																	$room_id=$this->save_room($room_insert);
-																	$ack_rooms[]=array('id'=>@$room['id'],'server_id'=>$room_id);
-																}
-															$room_insert_ids[]=$room_id;	
-															////Windows
-															$window_insert_ids=array();
-															if(@$room['windows'] && $room_id>0){
-																	if(@count(@$room['windows'])>0){
-																			foreach(@$room['windows'] as $win){
-																					if(@$win["activeItem"]){
-																								$window_insert=array(
-																									'room'=>$room_id,
-																									'window_name'=>@$win['window_name']?:"",
-																									'product'=>@$win['product']?:0,
-																									'product_name'=>@$win['product_name']?:"",
-																									'product_price'=>@$win['product_price']?:0,
-																									'total'=>@$win['total']?:0,
-																									'remarks'=>@$win['remarks']?:"",
-																									'width'=>@$win['width']?:0,
-																									'height'=>@$win['height']?:0,
-																									'chain_drop'=>@$win['chain_drop']?:0,
-																									'unit'=>@$win['unit']?:"cm",
-																									'note'=>@$win['noteOnline']?(@$win['note']?:""):"",
-																									'discount'=>@$win['discount']?:""
-																								);
-																							if(@$win['server_id']>0){
-																									$this->db->where('id',@$win['server_id']);
-																									$windowRow=$this->gets_data_window()->row();
-																								}	
-																							if(@$windowRow){
-																									$window_id=$this->save_window($window_insert,$windowRow->id);
-																								}
-																							else{
-																									$window_id=$this->save_window($window_insert);
-																									$ack_windows[]=array('id'=>@$win['id'],'server_id'=>$window_id);
-																								}	
-																							$window_insert_ids[]=$window_id;	
-																							///extra insert	
-																							$extra_insert_ids=array();
-																							if(@$win["extras"] && $window_id>0){
-																									if(@count(@$win["extras"])>0){
-																											foreach($win["extras"] as $ext){
-																													$extra_insert=array(
-																																	'window'=>$window_id,
-																																	'extra'=>@$ext['extra'],
-																																	'sub_extra'=>@$ext['sub_extra'],
-																																	'sub_sub_extra'=>@$ext['sub_sub_extra'],
-																																	'sub_sub_sub_extra'=>@$ext['sub_sub_sub_extra'],
-																																	'extra_name'=>@$ext['extra_name'],
-																																	'sub_extra_name'=>@$ext['sub_extra_name'],
-																																	'sub_sub_extra_name'=>@$ext['sub_sub_extra_name'],
-																																	'sub_sub_sub_extra_name'=>@$ext['sub_sub_sub_extra_name'],
-																																	'price'=>@$ext['price']
-																																);
-																													if(@$ext['server_id']>0){
-																															$this->db->where('id',@$ext['server_id']);
-																															$extRow=$this->gets_data_extra()->row();
-																														}	
-																													if(@$extRow){
-																															$ext_id=$this->save_extra($extra_insert,$extRow->id);
-																														}
-																													else{
-																															$ext_id=$this->save_extra($extra_insert);
-																															$ack_extras[]=array('server_id'=>$ext_id,'id'=>@$ext['id']);
-																														}
-																													$extra_insert_ids[]=$ext_id;				
-																												}
-																										}
-																								}
-																							//delete old extras	
-																							$this->db->where('window',$window_id)->select('id');	
-																							$quotExts=$this->gets_data_extra()->result_array();	
-																							$existExtIds=array_column($quotExts,'id');
-																							if(count($existExtIds)>0){
-																									$deleteExtIds=array_diff($existExtIds,$extra_insert_ids);
-																									if(count($deleteExtIds)>0){
-																											$this->delete_extra($deleteExtIds);
-																										}
-																								}
-																							///	
-																						}
-																					
-																				}
-																		}
-																}
-															///delete old windows
-															$this->db->where('room',$room_id)->select('id');	
-															$quotWins=$this->gets_data_window()->result_array();	
-															$existWinIds=array_column($quotWins,'id');
-															if(count($existWinIds)>0){
-																	$deleteWinIds=array_diff($existWinIds,$window_insert_ids);
-																	if(count($deleteWinIds)>0){
-																			$this->delete_window($deleteWinIds);
-																		}
-																}
-															///	
-															///		
-														}
-												}
-										}
-									///	
-									//delete room ids old	
-									$this->db->where('quotation',$server_id)->select('id');	
-									$quotRooms=$this->gets_data_room()->result_array();	
-									$existRoomIds=array_column($quotRooms,'id');
-									if(count($existRoomIds)>0){
-											$deleteRoomIds=array_diff($existRoomIds,$room_insert_ids);
-											if(count($deleteRoomIds)>0){
-													$this->delete_room($deleteRoomIds);
-												}
-										}
-									////	
-								}		
-						}
-				}
-			$dt=array('ack_quotations'=>$ack_quotations,'ack_rooms'=>$ack_rooms,'ack_windows'=>$ack_windows,'ack_extras'=>$ack_extras);
-			return $dt;	
-		}	
-		function api_quotation_insert_row($user_id,$d=array()){
-				$server_id=0;
-				if(@$d){
-						$insert=array(	
-										'sales_person'=>$user_id,
-										'customer_name'=>@$d['customer_name'],
-										'customer_phone'=>@$d['customer_phone'],
-										'total'=>@$d['total'],
-										'discount'=>@$d['discount'],
-										'vat'=>@$d['vat'],
-										'advance'=>@$d['advance'],
-										'sub_total'=>@$d['sub_total'],
-										'payment_type'=>@$d['payment_type'],
-										'remarks'=>@$d['remarks'],
-										'priority'=>@$d['priority']?:'',
-										'confirm'=>@$d['confirmed']?:0,
-									);
-						if(@$d['created_time']>0){
-								$seconds = ceil((int)$d['created_time'] / 1000);
-								$insert['created_date']=@date('Y/m/d',$seconds);
-							}
-						if(@$d['update_time']>0){
-								$seconds = ceil((int)$d['update_time'] / 1000);
-								$insert['updated_date']=@date('Y/m/d',$seconds);
-							}	
-						if(@$d['customer']==0){
-								$this->db->where(array('phone'=>@$d['customer_phone'],'sales_person'=>$user_id));
-								if($customer=$this->customermodel->gets_data()->row()){
-										@$insert['customer']=$customer->id;
-									}	
-							}
-						else{
-								@$insert['customer']=@$d['customer'];
-							}		
-						if($sign=@$this->user_signature_upload(@$d['signature'])){
-								if(@$sign!=""){
-										$insert['signature']=$sign;
-									}
-							}	
-						if($sp=$this->salespersonmodel->get_row($user_id)){
-								$insert['sales_person_name']=$sp->name;
-								$insert['sales_person_phone']=$sp->phone;
-							}				
-						if(@$d['server_id']>0){
-								$row=$this->gets_data()->row($d['server_id']);
-							}
-						if(@$row){
-								$server_id=$this->save($insert,$row->id);
-							}
-						else{
-								$server_id=$this->save($insert);
-								$ack_quotations[]=array('id'=>@$d['id'],'server_id'=>$server_id);
-							}			
-						if($server_id>0){
-								$room_insert_ids=array();	
-								///Rooms Insert
-								if(@$d['rooms']){
-										if(@count(@$d['rooms'])>0){
-												foreach(@$d['rooms'] as $room){
-														$room_insert=array('quotation'=>$server_id,
-																			'room_name'=>@$room["room_name"],
-																			'room_type'=>@$room["room_type"]
-																);
-														if(@$room["server_id"]>0){
-																$this->db->where(array('id'=>@$room["server_id"]));
-																$roomRow=$this->gets_data_room()->row();
-															}
-														if(@$roomRow){
-																$room_id=$this->save_room($room_insert,$roomRow->id);
-															}
-														else{
-																$room_id=$this->save_room($room_insert);
-																$ack_rooms[]=array('id'=>@$room['id'],'server_id'=>$room_id);
-															}
-														$room_insert_ids[]=$room_id;	
-														////Windows
-														$window_insert_ids=array();
-														if(@$room['windows'] && $room_id>0){
-																if(@count(@$room['windows'])>0){
-																		foreach(@$room['windows'] as $win){
-																				$window_insert=array(
-																						'room'=>$room_id,
-																						'window_name'=>@$win['window_name'],
-																						'product'=>@$win['product'],
-																						'product_name'=>@$win['product_name'],
-																						'product_price'=>@$win['product_price'],
-																						'total'=>@$win['total'],
-																						'remarks'=>@$win['remarks'],
-																						'width'=>@$win['width'],
-																						'height'=>@$win['height'],
-																						'chain_drop'=>@$win['chain_drop'],
-																						'unit'=>@$win['unit']?:"cm",
-																						'note'=>@$win['note']?:"",
-																						'discount'=>@$win['discount']?:"",
-																						'customPrice'=>@$win['customPrice']?:0
-																					);
-																				if(@$win['server_id']>0){
-																						$this->db->where('id',@$win['server_id']);
-																						$windowRow=$this->gets_data_window()->row();
-																					}	
-																				if(@$windowRow){
-																						$window_id=$this->save_window($window_insert,$windowRow->id);
-																					}
-																				else{
-																						$window_id=$this->save_window($window_insert);
-																						$ack_windows[]=array('id'=>@$win['id'],'server_id'=>$window_id);
-																					}	
-																				$window_insert_ids[]=$window_id;	
-																				///extra insert	
-																				$extra_insert_ids=array();
-																				if(@$win["extras"] && $window_id>0){
-																						if(@count(@$win["extras"])>0){
-																								foreach($win["extras"] as $ext){
-																										$extra_insert=array(
-																														'window'=>$window_id,
-																														'extra'=>@$ext['extra'],
-																														'sub_extra'=>@$ext['sub_extra'],
-																														'sub_sub_extra'=>@$ext['sub_sub_extra'],
-																														'sub_sub_sub_extra'=>@$ext['sub_sub_sub_extra'],
-																														'extra_name'=>@$ext['extra_name'],
-																														'sub_extra_name'=>@$ext['sub_extra_name'],
-																														'sub_sub_extra_name'=>@$ext['sub_sub_extra_name'],
-																														'sub_sub_sub_extra_name'=>@$ext['sub_sub_sub_extra_name'],
-																														'price'=>@$ext['price'],
-																														'customPrice'=>@$ext['customPrice']?:0
-																													);
-																										if(@$ext['server_id']>0){
-																												$this->db->where('id',@$ext['server_id']);
-																												$extRow=$this->gets_data_extra()->row();
-																											}	
-																										if(@$extRow){
-																												$ext_id=$this->save_extra($extra_insert,$extRow->id);
-																											}
-																										else{
-																												$ext_id=$this->save_extra($extra_insert);
-																												$ack_extras[]=array('server_id'=>$ext_id,'id'=>@$ext['id']);
-																											}
-																										$extra_insert_ids[]=$ext_id;				
-																									}
-																							}
-																					}
-																				//delete old extras	
-																				$this->db->where('window',$window_id)->select('id');	
-																				$quotExts=$this->gets_data_extra()->result_array();	
-																				$existExtIds=array_column($quotExts,'id');
-																				if(count($existExtIds)>0){
-																						$deleteExtIds=array_diff($existExtIds,$extra_insert_ids);
-																						if(count($deleteExtIds)>0){
-																								$this->delete_extra($deleteExtIds);
-																							}
-																					}
-																				///	
-																			}
-																	}
-															}
-														///delete old windows
-														$this->db->where('room',$room_id)->select('id');	
-														$quotWins=$this->gets_data_window()->result_array();	
-														$existWinIds=array_column($quotWins,'id');
-														if(count($existWinIds)>0){
-																$deleteWinIds=array_diff($existWinIds,$window_insert_ids);
-																if(count($deleteWinIds)>0){
-																		$this->delete_window($deleteWinIds);
-																	}
-															}
-														///	
-														///		
-													}
-											}
-									}
-								///	
-								//delete room ids old	
-								$this->db->where('quotation',$server_id)->select('id');	
-								$quotRooms=$this->gets_data_room()->result_array();	
-								$existRoomIds=array_column($quotRooms,'id');
-								if(count($existRoomIds)>0){
-										$deleteRoomIds=array_diff($existRoomIds,$room_insert_ids);
-										if(count($deleteRoomIds)>0){
-												$this->delete_room($deleteRoomIds);
-											}
-									}
-								////	
-							}
-					}
-				return $server_id;	
-			}
-		function sync_data($user_id,$data=array()){
-				$ack_quotations=array();
-				$ack_rooms=array();
-				$ack_windows=array();
-				$ack_extras=array();
-				if(@$data){
-						foreach($data as $d){
-								$server_id=0;
-								if(@$d['confirm']){
-										$insert=array(	
-														'sales_person'=>$user_id,
-														'customer_name'=>@$d['customer_name']?:"",
-														'customer_phone'=>@$d['customer_phone']?:"",
-														'customerEmail'=>@$d['customerEmail']?:"",
-														'total'=>@$d['total']?:0,
-														'discount'=>@$d['discount']?:0,
-														'vat'=>@$d['vat']?:0,
-														'advance'=>@$d['advance']?:0,
-														'sub_total'=>@$d['sub_total']?:0,
-														'payment_type'=>@$d['payment_type']?:"",
-														'remarks'=>@$d['remarks']?:"",
-														'priority'=>@$d['priority']?:'',
-														'status'=>@$d['status']?:'',
-														'confirm'=>@$d['confirm']?:0,
-														'synched'=>1
-													);
-										if(@$d['created_time']>0){
-												$seconds = ceil((int)$d['created_time'] / 1000);
-												$insert['created_date']=@date('Y/m/d',$seconds);
-											}
-										if(@$d['update_time']>0){
-												$seconds = ceil((int)$d['update_time'] / 1000);
-												$insert['updated_date']=@date('Y/m/d',$seconds);
-											}	
-										$this->db->where(array('phone'=>@$d['customer_phone'],'sales_person'=>$user_id));
-										if($customer=$this->customermodel->gets_data()->row()){
-												@$insert['customer']=@$customer->id;
-											}
-										else{
-												@$insert['customer']=0;
-											}	
-										if($sign=@$this->user_signature_upload(@$d['signature'])){
-												if(@$sign!=""){
-														$insert['signature']=$sign;
-													}
-											}	
-										if($sp=$this->salespersonmodel->get_row($user_id)){
-												$insert['sales_person_name']=$sp->name;
-												$insert['sales_person_phone']=$sp->phone;
-											}				
-										if(@$d['server_id']>0){
-												$row=$this->get_row($d['server_id']);
-											}
-										if(@$row){
-												$server_id=$this->save($insert,$row->id);
-											}
-										else{
-												$server_id=$this->save($insert);
-												$ack_quotations[]=array('id'=>@$d['id'],'server_id'=>$server_id);
-											}
-										$this->insert_rooms_quotation(@$d['rooms'],$server_id);
-									}			
-								
-							}
-					}
-				$dt=array('ack_quotations'=>$ack_quotations,'ack_rooms'=>$ack_rooms,'ack_windows'=>$ack_windows,'ack_extras'=>$ack_extras);
-				return $dt;	
-			}
-		
-		*/
+	
 }

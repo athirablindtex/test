@@ -136,4 +136,54 @@ $this->logFleet($input, 'success', '', $response);
             'created_at' => date('Y-m-d H:i:s')
         ]);
     }
+
+     public function processSingleQueue($queue_id)
+    {
+        $row = $this->db
+            ->where('id', $queue_id)
+            ->where('synced', 0)
+            ->get('api_sync_queue')
+            ->row();
+
+        if (!$row) {
+            log_message('error', 'Queue not found: '.$queue_id);
+            return;
+        }
+
+        // 🔥 External API URL
+        $url = "http://192.168.16.179/api/external/integration";
+
+        $payload = [
+            "deal_zoho_id"   => $row->deal_id,
+            "quotation_id"   => $row->quotation_id,
+            "invoice_number" => $row->invoice_number,
+            "amount"         => $row->amount,
+            "fitting_date"   => $row->fitting_date,
+            "duration"       => $row->duration
+        ];
+
+        // ✅ CURL call
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+
+        $response = curl_exec($ch);
+        $error = curl_error($ch);
+        curl_close($ch);
+
+        if (!$error) {
+            $this->db->where('id', $queue_id)->update('api_sync_queue', [
+                'synced' => 1,
+                'response' => $response
+            ]);
+        } else {
+            $this->db->where('id', $queue_id)->update('api_sync_queue', [
+                'response' => $error
+            ]);
+        }
+
+        log_message('error', 'Queue processed: '.$queue_id);
+    }
 }
