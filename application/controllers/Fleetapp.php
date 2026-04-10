@@ -137,53 +137,68 @@ $this->logFleet($input, 'success', '', $response);
         ]);
     }
 
-     public function processSingleQueue($queue_id)
-    {
-        $row = $this->db
-            ->where('id', $queue_id)
-            ->where('synced', 0)
-            ->get('api_sync_queue')
-            ->row();
+    public function processSingleQueue($queue_id)
+{
+    $row = $this->db
+        ->where('id', $queue_id)
+        ->where('synced', 0)
+        ->get('api_sync_queue')
+        ->row();
 
-        if (!$row) {
-            log_message('error', 'Queue not found: '.$queue_id);
-            return;
-        }
-
-      
-        $url = "http://192.168.16.179/api/external/integration";
-
-        $payload = [
-            "deal_zoho_id"   => $row->deal_id,
-            "quotation_id"   => $row->quotation_id,
-            "invoice_number" => $row->invoice_number,
-            "amount"         => $row->amount,
-            "fitting_date"   => $row->fitting_date,
-            "duration"       => $row->duration
-        ];
-
-  
-        $ch = curl_init($url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
-        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-
-        $response = curl_exec($ch);
-        $error = curl_error($ch);
-        curl_close($ch);
-
-        if (!$error) {
-            $this->db->where('id', $queue_id)->update('api_sync_queue', [
-                'synced' => 1,
-                'response' => $response
-            ]);
-        } else {
-            $this->db->where('id', $queue_id)->update('api_sync_queue', [
-                'response' => $error
-            ]);
-        }
-
-        log_message('error', 'Queue processed: '.$queue_id);
+    if (!$row) {
+        log_message('error', 'Queue not found: '.$queue_id);
+        return;
     }
+
+    $url = "http://192.168.16.179/api/external/integration";
+
+    $payload = [
+        "deal_zoho_id"   => $row->deal_id,
+        "quotation_id"   => $row->quotation_id,
+        "invoice_number" => $row->invoice_number,
+        "amount"         => $row->amount,
+        "fitting_date"   => $row->fitting_date,
+        "duration"       => $row->duration
+    ];
+
+    // 🔥 Create log folder
+    $path = APPPATH . '../uploads/log/fleet-request-response/';
+    if (!is_dir($path)) {
+        mkdir($path, 0777, true);
+    }
+
+    // 🔥 Save REQUEST
+    $requestFile = $path . "request-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".json";
+    file_put_contents($requestFile, json_encode($payload, JSON_PRETTY_PRINT));
+
+    // 🔥 CURL CALL
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+
+    $response = curl_exec($ch);
+    $error = curl_error($ch);
+    curl_close($ch);
+
+    // 🔥 Save RESPONSE
+    $responseFile = $path . "response-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".txt";
+
+    if ($error) {
+        file_put_contents($responseFile, "ERROR:\n" . $error);
+        $this->db->where('id', $queue_id)->update('api_sync_queue', [
+            'response' => $error
+        ]);
+    } else {
+        file_put_contents($responseFile, "RESPONSE:\n" . $response);
+        $this->db->where('id', $queue_id)->update('api_sync_queue', [
+            'synced' => 1,
+            'response' => $response
+        ]);
+    }
+
+    log_message('error', 'Queue processed: '.$queue_id);
+}
 }
