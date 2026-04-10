@@ -139,11 +139,14 @@ $this->logFleet($input, 'success', '', $response);
 
    public function processSingleQueue($queue_id = null)
 {
+
     $row = $this->db
         ->where('id', $queue_id)
         ->where('synced', 0)
         ->get('api_sync_queue')
         ->row();
+        print_r($row); // DEBUGGING
+        exit;
 
     if (!$row) {
         log_message('error', 'Queue not found: '.$queue_id);
