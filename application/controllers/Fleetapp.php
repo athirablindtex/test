@@ -81,9 +81,11 @@ if (empty($result_data) || empty($result_data['quotation_id'])) {
     ]);
     return;
 }
+$quotation_id = $result_data['quotation_id'];
 $deal_id      = $result_data['deal_id'];
 $action       = $result_data['status']; // inserted / edited
-      $message_text = ($action == 'inserted')
+
+$message_text = ($action == 'inserted')
     ? 'Quotation inserted successfully'
     : 'Quotation updated successfully';
 
@@ -94,23 +96,33 @@ $response = [
     'deal_id' => $deal_id,
     'action' => $action
 ];
-        $tokenData = $this->db
-            ->select('push_token')
-            ->where('user_id', $result->id)
-            ->where('push_token IS NOT NULL', null, false)
-            ->order_by('id', 'DESC') // latest token
-            ->limit(1)
-            ->get('login_tokkens')
-            ->row();
-        $title   = "New Quotation Assigned";
-        $message = "A new quotation has been assigned to you.";
-        if ($tokenData && !empty($tokenData->push_token)) {
-            $token   = $tokenData->push_token;
-            $title   = "New Quotation Assigned";
-            $message = "A new quotation has been assigned to you.";
-            $this->firebase->sendNotification($token, $title, $message);
-        }
-        $this->logFleet($input, $status, '', $response);
+
+
+if ($action) {
+
+    $tokenData = $this->db
+        ->select('push_token')
+        ->where('user_id', $result->id)
+        ->where('push_token IS NOT NULL', null, false)
+        ->order_by('id', 'DESC')
+        ->limit(1)
+        ->get('login_tokkens')
+        ->row();
+
+    if ($tokenData && !empty($tokenData->push_token)) {
+
+        $token = $tokenData->push_token;
+
+        $title = "Quotation " . ($action == 'inserted' ? "Created" : "Updated");
+        $message = $message_text;
+
+        $this->firebase->sendNotification($token, $title, $message);
+    }
+}
+
+
+// ✅ Correct status
+$this->logFleet($input, 'success', '', $response);
         echo json_encode($response);
     }
     private function logFleet($input, $status, $reason = '', $response = [])
