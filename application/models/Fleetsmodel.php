@@ -55,6 +55,7 @@ class Fleetsmodel extends CI_Model
             $data = [
                 'sales_person_phone'  => $d['sales_person_phone'] ?? '',
                 'sales_person_name'   => $d['sales_person_name'] ?? '',
+                'customer_address'    => $d['customer_address'] ?? '',
                 'customer_name'       => $d['customer_name'] ?? '',
                 'customer_phone'      => $phone,
                 'customerEmail'       => $d['customerEmail'] ?? '',
@@ -75,6 +76,7 @@ class Fleetsmodel extends CI_Model
                 'sales_person_name'   => $d['sales_person_name'] ?? '',
                 'customer'            => $customer_id,
                 'customer_name'       => $d['customer_name'] ?? '',
+                'customer_address'    => $d['customer_address'] ?? '',
                 'customer_phone'      => $phone,
                 'customerEmail'       => $d['customerEmail'] ?? '',
                 'company'             => $d['company_id'] ?? 0,
