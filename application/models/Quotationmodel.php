@@ -425,64 +425,52 @@ class Quotationmodel extends CI_Model
 	}
 
 
-	function triggerDealSync($insert, $server_id, $d)
-	{
-		// check deal_id
-		if (empty($insert['deal_id']) || $insert['deal_id'] <= 0) {
-			return;
-		}
+function triggerDealSync($insert, $server_id, $d)
+{
+    if (empty($insert['deal_id']) || $insert['deal_id'] <= 0) {
+        return;
+    }
 
-		// check if external create/update
-		$shouldCallAPI = false;
+    // Only trigger once (on create)
+    if (empty($d['created_time'])) {
+        return;
+    }
 
-		if (isset($d['created_time']) && is_numeric($d['created_time'])) {
-			$shouldCallAPI = true;
-		}
+    // Prevent duplicate queue
+    $exists = $this->db
+        ->where('quotation_id', $server_id)
+        ->where('synced', 0)
+        ->get('api_sync_queue')
+        ->row();
 
-		if (isset($d['update_time']) && is_numeric($d['update_time'])) {
-			$shouldCallAPI = true;
-		}
+    if ($exists) {
+        return;
+    }
 
-		if (!$shouldCallAPI) {
-			return;
-		}
+    $queueData = [
+        'deal_id'        => $insert['deal_id'],
+        'quotation_id'   => $server_id,
+        'invoice_number' => $insert['invoiceno'] ?? '',
+        'amount'         => $insert['total'] ?? 0,
+        'fitting_date'   => $insert['insFromTime'] ?? null,
+        'duration'       => $insert['insToTime'] ?? null,
+        'created_at'     => date('Y-m-d H:i:s'),
+        'synced'         => 0
+    ];
 
-		// prepare queue data
-		$queueData = [
-			'deal_id'        => $insert['deal_id'],
-			'quotation_id'   => $server_id,
-			'invoice_number' => $insert['invoiceno'] ?? '',
-			'amount'         => $insert['total'] ?? 0,
-			'fitting_date'   => $insert['insFromTime'] ?? null,
-		
-			'duration'       => $insert['insToTime'] ?? null,
-				
-			'created_at'     => date('Y-m-d H:i:s'),
-			'synced'         => 0
-		];
+    $this->db->insert('api_sync_queue', $queueData);
+    $queue_id = $this->db->insert_id();
 
-		// insert queue
-		$CI = &get_instance();
-		$CI->db->insert('api_sync_queue', $queueData);
-		$queue_id = $CI->db->insert_id();
+    // async call
+    $url = site_url("fleetapp/processSingleQueue/" . $queue_id);
 
-$CI = &get_instance();
-$CI->db->insert('api_sync_queue', $queueData);
-$queue_id = $CI->db->insert_id();
-
-$url = site_url("fleetapp/processSingleQueue/" . $queue_id);
-
-$ch = curl_init($url);
-
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
-curl_setopt($ch, CURLOPT_HEADER, false);
-curl_setopt($ch, CURLOPT_NOBODY, true); // don't wait for body
-curl_setopt($ch, CURLOPT_TIMEOUT_MS, 200); // very short
-curl_setopt($ch, CURLOPT_CONNECTTIMEOUT_MS, 200);
-
-curl_exec($ch);
-curl_close($ch);
-	}
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
+    curl_setopt($ch, CURLOPT_NOBODY, true);
+    curl_setopt($ch, CURLOPT_TIMEOUT_MS, 200);
+    curl_exec($ch);
+    curl_close($ch);
+}
 	public function log_app_quotation(
 		$quotation_server_id,
 		$quotation_app_id,

@@ -150,7 +150,7 @@ $this->logFleet($input, 'success', '', $response);
             return;
         }
 
-        // 🔥 External API URL
+      
         $url = "http://192.168.16.179/api/external/integration";
 
         $payload = [
@@ -162,7 +162,7 @@ $this->logFleet($input, 'success', '', $response);
             "duration"       => $row->duration
         ];
 
-        // ✅ CURL call
+  
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, true);
