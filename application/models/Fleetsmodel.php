@@ -20,7 +20,7 @@ class Fleetsmodel extends CI_Model
         ]);
         $customer = $this->db->get('customer')->row();
         if ($customer) {
-            // $customer_id = $customer->id;
+         $customer_id = $customer->id;
             // $update_data = [
             //     'name'       => $d['customer_name'] ?? $customer->name,
             //     'email'      => $d['customerEmail'] ?? $customer->email,
