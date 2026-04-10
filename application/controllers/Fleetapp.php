@@ -137,7 +137,7 @@ $this->logFleet($input, 'success', '', $response);
         ]);
     }
 
-    public function processSingleQueue($queue_id)
+    public function processSingleQueue($queue_id = null)
 {
     $row = $this->db
         ->where('id', $queue_id)
@@ -150,7 +150,7 @@ $this->logFleet($input, 'success', '', $response);
         return;
     }
 
-    $url = "http://192.168.16.179/api/external/integration";
+    $url = "https://fleet.tradeblindsdirect.com/api/external/integration";
 
     $payload = [
         "deal_zoho_id"   => $row->deal_id,
