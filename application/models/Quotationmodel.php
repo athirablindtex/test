@@ -344,7 +344,7 @@ class Quotationmodel extends CI_Model
 				
 				@$insert['customer'] = @$customer->id;
 
-                   $isFleetWithDeal = ($d['source'] ?? '') === 'fleet' && !empty($d['deal_id']) && $d['deal_id'] > 0;
+                   $isFleetWithDeal = ($d['source'] ?? '') === 'Fleet' && !empty($d['deal_id']) && $d['deal_id'] > 0;
 					if (!$isFleetWithDeal) {
 					$cust_insert_upd = array(
 
