@@ -167,7 +167,7 @@ $this->logFleet($input, 'success', '', $response);
         mkdir($path, 0777, true);
     }
 
-    // 🔥 Save REQUEST
+
     $requestFile = $path . "request-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".json";
     file_put_contents($requestFile, json_encode($payload, JSON_PRETTY_PRINT));
 
