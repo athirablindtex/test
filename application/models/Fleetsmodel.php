@@ -58,7 +58,7 @@ class Fleetsmodel extends CI_Model
                 'customer_address'    => $d['customerAddress'] ?? '',
                 'customer_name'       => $d['customer_name'] ?? '',
                 'customer_phone'      => $phone,
-                'customerEmail'       => $d['customerEmail'] ?? '',
+            
                 'company'             => $d['company_id'] ?? 0,
                 'source'              => 'Fleet',
                 'deal_id'             => $deal_id ?: null,
