@@ -137,33 +137,35 @@ $this->logFleet($input, 'success', '', $response);
         ]);
     }
 
-   public function processSingleQueue($queue_id = null)
+ public function processSingleQueue($queue_id = null)
 {
+    if (!$queue_id) {
+        echo "Queue ID missing";
+        return;
+    }
 
     $row = $this->db
         ->where('id', $queue_id)
         ->where('synced', 0)
         ->get('api_sync_queue')
         ->row();
-        print_r($row); // DEBUGGING
-        exit;
 
     if (!$row) {
         log_message('error', 'Queue not found: '.$queue_id);
+        echo "Queue not found";
         return;
     }
 
     $url = "https://fleet.tradeblindsdirect.com/api/external/integration";
 
     $payload = [
-        "deal_zoho_id"   => $row->deal_id,
-        "fitting_date"   => $row->fitting_date,
-        "duration"       => 2
+        "deal_zoho_id" => $row->deal_id,
+        "fitting_date" => $row->fitting_date,
+        "duration"     => 2
     ];
 
     // 🔥 Create log folder
     $path = APPPATH . '../uploads/log/fleet-request-response/';
-
     if (!is_dir($path)) {
         mkdir($path, 0777, true);
     }
@@ -185,30 +187,32 @@ $this->logFleet($input, 'success', '', $response);
 
     $response = curl_exec($ch);
     $error = curl_error($ch);
-    $info = curl_getinfo($ch); // ✅ IMPORTANT
+    $info = curl_getinfo($ch);
 
+    curl_close($ch);
 
-  
+    // 🔥 Save response (FIXED)
+    file_put_contents(
         $path . "response-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".txt",
         print_r([
             'http_code' => $info['http_code'],
-            'error' => $error,
-            'response' => $response
+            'error'     => $error,
+            'response'  => $response
         ], true)
     );
 
     // ✅ CONDITION CHECK
     if (!$error && $info['http_code'] == 200) {
         $this->db->where('id', $queue_id)->update('api_sync_queue', [
-            'synced' => 1,
-            'response' => $response
+            'synced'  => 1,
+            'response'=> $response
         ]);
     } else {
         $this->db->where('id', $queue_id)->update('api_sync_queue', [
-            'response' => $error ?: $response
+            'response'=> $error ?: $response
         ]);
     }
 
-    log_message('error', 'Queue processed: '.$queue_id);
+    echo "Done"; // optional for testing
 }
 }
