@@ -167,6 +167,7 @@ $this->logFleet($input, 'success', '', $response);
 
 
     $requestFile = $path . "request-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".json";
+
     file_put_contents($requestFile, json_encode($payload, JSON_PRETTY_PRINT));
 
     // 🔥 CURL CALL
@@ -179,6 +180,17 @@ $this->logFleet($input, 'success', '', $response);
 
     $response = curl_exec($ch);
     $error = curl_error($ch);
+
+
+// 🔥 SHOW RESPONSE
+echo "<pre>";
+echo "HTTP CODE: " . $info['http_code'] . "\n\n";
+echo "ERROR:\n";
+print_r($error);
+echo "\n\nRESPONSE:\n";
+print_r($response);
+echo "</pre>";
+exit;
     curl_close($ch);
 
     // 🔥 Save RESPONSE
