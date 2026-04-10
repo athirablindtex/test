@@ -137,7 +137,7 @@ $this->logFleet($input, 'success', '', $response);
         ]);
     }
 
-    public function processSingleQueue($queue_id = null)
+   public function processSingleQueue($queue_id = null)
 {
     $row = $this->db
         ->where('id', $queue_id)
@@ -153,25 +153,27 @@ $this->logFleet($input, 'success', '', $response);
     $url = "https://fleet.tradeblindsdirect.com/api/external/integration";
 
     $payload = [
-        "deal_zoho_id"   => 4731408000155282037,
-      
-        "fitting_date"   => "2026-04-11 14:00:00",
+        "deal_zoho_id"   => $row->deal_id,
+        "fitting_date"   => $row->fitting_date,
         "duration"       => 2
     ];
 
     // 🔥 Create log folder
     $path = APPPATH . '../uploads/log/fleet-request-response/';
+    
     if (!is_dir($path)) {
         mkdir($path, 0777, true);
     }
 
-
-    $requestFile = $path . "request-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".json";
-
-    file_put_contents($requestFile, json_encode($payload, JSON_PRETTY_PRINT));
+    // 🔥 Save request
+    file_put_contents(
+        $path . "request-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".json",
+        json_encode($payload, JSON_PRETTY_PRINT)
+    );
 
     // 🔥 CURL CALL
     $ch = curl_init($url);
+
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
@@ -180,32 +182,27 @@ $this->logFleet($input, 'success', '', $response);
 
     $response = curl_exec($ch);
     $error = curl_error($ch);
+    $info = curl_getinfo($ch); // ✅ IMPORTANT
 
 
-// 🔥 SHOW RESPONSE
-echo "<pre>";
-echo "HTTP CODE: " . $info['http_code'] . "\n\n";
-echo "ERROR:\n";
-print_r($error);
-echo "\n\nRESPONSE:\n";
-print_r($response);
-echo "</pre>";
-exit;
-    curl_close($ch);
+  
+        $path . "response-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".txt",
+        print_r([
+            'http_code' => $info['http_code'],
+            'error' => $error,
+            'response' => $response
+        ], true)
+    );
 
-    // 🔥 Save RESPONSE
-    $responseFile = $path . "response-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".txt";
-
-    if ($error) {
-        file_put_contents($responseFile, "ERROR:\n" . $error);
-        $this->db->where('id', $queue_id)->update('api_sync_queue', [
-            'response' => $error
-        ]);
-    } else {
-        file_put_contents($responseFile, "RESPONSE:\n" . $response);
+    // ✅ CONDITION CHECK
+    if (!$error && $info['http_code'] == 200) {
         $this->db->where('id', $queue_id)->update('api_sync_queue', [
             'synced' => 1,
             'response' => $response
+        ]);
+    } else {
+        $this->db->where('id', $queue_id)->update('api_sync_queue', [
+            'response' => $error ?: $response
         ]);
     }
 
