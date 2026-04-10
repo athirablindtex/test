@@ -461,15 +461,34 @@ function triggerDealSync($insert, $server_id, $d)
     $this->db->insert('api_sync_queue', $queueData);
     $queue_id = $this->db->insert_id();
 
-    // async call
-    $url = site_url("fleetapp/processSingleQueue/" . $queue_id);
+    // ✅ CALL WITH RESPONSE (NOT async)
+    $url = site_url("index.php/fleetapp/processSingleQueue/" . $queue_id);
 
     $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
-    curl_setopt($ch, CURLOPT_NOBODY, true);
-    curl_setopt($ch, CURLOPT_TIMEOUT_MS, 200);
-    curl_exec($ch);
+
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // ✅ capture response
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+
+    $response = curl_exec($ch);
+    $error = curl_error($ch);
+    $info = curl_getinfo($ch);
+
     curl_close($ch);
+
+    // ✅ SAVE RESPONSE
+    $path = APPPATH . '../uploads/log/async-response/';
+    if (!is_dir($path)) {
+        mkdir($path, 0777, true);
+    }
+
+    $file = $path . "queue-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".txt";
+
+    file_put_contents($file, print_r([
+        'url' => $url,
+        'response' => $response,
+        'error' => $error,
+        'http_code' => $info['http_code']
+    ], true));
 }
 	public function log_app_quotation(
 		$quotation_server_id,
