@@ -272,23 +272,22 @@ class Quotationmodel extends CI_Model
 		if (@$d) {
 			// ✅ TOKEN LOGIC (SERVER SIDE ONLY)
 
-					if (!empty($d['server_id'])) {
+			if (!empty($d['server_id'])) {
 
 
-					$existingRow = $this->get_row($d['server_id']);
+				$existingRow = $this->get_row($d['server_id']);
 
-					if (!empty($existingRow) && !empty($existingRow->token)) {
+				if (!empty($existingRow) && !empty($existingRow->token)) {
 					$token = $existingRow->token;
-					} else {
+				} else {
 
 					$token = 'QTN-' . strtoupper(substr(md5(uniqid(mt_rand(), true)), 0, 12));
-					}
+				}
+			} else {
 
-					} else {
 
-
-					$token = 'QTN-' . strtoupper(substr(md5(uniqid(mt_rand(), true)), 0, 12));
-					}
+				$token = 'QTN-' . strtoupper(substr(md5(uniqid(mt_rand(), true)), 0, 12));
+			}
 			$insert = array(
 				'sales_person' => $user_id,
 				'invoiceno' => @$d['invoiceno'] ?: "",
@@ -314,7 +313,7 @@ class Quotationmodel extends CI_Model
 				'is_remarks' => ($d['is_remarks'] == "1") ? 1 : 0,
 				'token' => $token,
 				'source' => ($d['source'] ?? null),
-				
+
 
 				'confirm' => @$d['confirm'] ?: 0,
 				'synched' => 1,
@@ -342,17 +341,22 @@ class Quotationmodel extends CI_Model
 				'sales_person' => $user_id
 			]);
 			if ($customer = $this->customermodel->gets_data()->row()) {
+				
 				@$insert['customer'] = @$customer->id;
-				$cust_insert_upd = array(
+
+                   $isFleetWithDeal = ($d['source'] ?? '') === 'fleet' && !empty($d['deal_id']) && $d['deal_id'] > 0;
+					if (!$isFleetWithDeal) {
+					$cust_insert_upd = array(
 
 					'name' => @$d['customer_name'] ?: "",
 					'email' => @$d['customerEmail'] ?: "",
 					'address' => @$d['customerAddress'] ?: "",
 					'updated_at' => date('Y-m-d H:i:s')
 
-				);
+					);
 
-				@$this->customermodel->save($cust_insert_upd, @$customer->id);
+					@$this->customermodel->save($cust_insert_upd, @$customer->id);
+					}
 			} else {
 				$cust_insert = array(
 					'phone' => @$d['customer_phone'] ?: "",
@@ -477,9 +481,8 @@ class Quotationmodel extends CI_Model
 						if ($mail_send == true) {
 							$this->servicemodel->send_quotation_notification_service($server_id, false);
 						}
-									$pdf_url = $this->quotationmodel->getQuotationPdfUrl($server_id);
-			;
-						$ack_quotations[] = array('id' => @$d['id'], 'server_id' => $server_id,'pdfUrl' => $pdf_url);
+						$pdf_url = $this->quotationmodel->getQuotationPdfUrl($server_id);;
+						$ack_quotations[] = array('id' => @$d['id'], 'server_id' => $server_id, 'pdfUrl' => $pdf_url);
 					}
 				} catch (Exception $e) {
 				}
@@ -814,14 +817,14 @@ class Quotationmodel extends CI_Model
 			}
 
 			$customer_phone = substr($customer_phone, -9);
-if (!empty($customer_phone)) {
+			if (!empty($customer_phone)) {
 
-    $this->db->where(
-        "RIGHT(REPLACE(REPLACE(REPLACE(a.customer_phone,'+',''),' ',''),'-',''), 9) LIKE '%".$customer_phone."'",
-        NULL,
-        false
-    );
-}
+				$this->db->where(
+					"RIGHT(REPLACE(REPLACE(REPLACE(a.customer_phone,'+',''),' ',''),'-',''), 9) LIKE '%" . $customer_phone . "'",
+					NULL,
+					false
+				);
+			}
 		}
 		if (@$this->input->get('status') != "") {
 
@@ -845,10 +848,10 @@ if (!empty($customer_phone)) {
 			$this->db->where('a.created_date <=', $filter['to_date']);
 		}
 		if ($this->input->get('invoiceno')) {
-    $invoiceno = $this->input->get('invoiceno');
-    $this->db->like('a.invoiceno', $invoiceno);
-}
-			if ($this->input->get('customer_name')) {
+			$invoiceno = $this->input->get('invoiceno');
+			$this->db->like('a.invoiceno', $invoiceno);
+		}
+		if ($this->input->get('customer_name')) {
 			$customer_name = $this->input->get('customer_name');
 			$this->db->where('a.customer_name', $customer_name);
 		}
@@ -1000,17 +1003,17 @@ if (!empty($customer_phone)) {
 
 			$customer_phone = substr($customer_phone, -9);
 
-		if (!empty($customer_phone)) {
+			if (!empty($customer_phone)) {
 
-    $this->db->where(
-        "RIGHT(REPLACE(REPLACE(REPLACE(a.customer_phone,'+',''),' ',''),'-',''), 9) LIKE '%".$customer_phone."'",
-        NULL,
-        false
-    );
-}
+				$this->db->where(
+					"RIGHT(REPLACE(REPLACE(REPLACE(a.customer_phone,'+',''),' ',''),'-',''), 9) LIKE '%" . $customer_phone . "'",
+					NULL,
+					false
+				);
+			}
 		}
 
-			if ($this->input->get('customer_name')) {
+		if ($this->input->get('customer_name')) {
 			$customer_name = $this->input->get('customer_name');
 			$this->db->where('a.customer_name', $customer_name);
 		}
@@ -1038,10 +1041,10 @@ if (!empty($customer_phone)) {
 		if (!empty($filter['to_date'])) {
 			$this->db->where('a.created_date <=', $filter['to_date']);
 		}
-	if ($this->input->get('invoiceno')) {
-    $invoiceno = $this->input->get('invoiceno');
-    $this->db->like('a.invoiceno', $invoiceno);
-}
+		if ($this->input->get('invoiceno')) {
+			$invoiceno = $this->input->get('invoiceno');
+			$this->db->like('a.invoiceno', $invoiceno);
+		}
 
 
 		/* -------- Base joins -------- */
@@ -1513,29 +1516,29 @@ if (!empty($customer_phone)) {
 	}
 
 	public function getQuotationPdfUrl($quotation_id)
-{
-    $this->db->select('pdfUrl'); // change column name if different
-    $this->db->from('quotation'); // your table name
-    $this->db->where('id', $quotation_id);
+	{
+		$this->db->select('pdfUrl'); // change column name if different
+		$this->db->from('quotation'); // your table name
+		$this->db->where('id', $quotation_id);
 
-    $query = $this->db->get();
+		$query = $this->db->get();
 
-    if ($query->num_rows() > 0) {
-        return $query->row()->pdfUrl;
-    }
+		if ($query->num_rows() > 0) {
+			return $query->row()->pdfUrl;
+		}
 
-    return false;
-}
-public function updateWindowStatus($window_id, $room_id, $product, $status)
-{
-    $this->db->where('id', $window_id);
-    $this->db->where('room', $room_id);
-    $this->db->where('product', $product);
+		return false;
+	}
+	public function updateWindowStatus($window_id, $room_id, $product, $status)
+	{
+		$this->db->where('id', $window_id);
+		$this->db->where('room', $room_id);
+		$this->db->where('product', $product);
 
-    $this->db->update('quotation_rooms_windows', [
-        'activeItem' => $status
-    ]);
-}
+		$this->db->update('quotation_rooms_windows', [
+			'activeItem' => $status
+		]);
+	}
 	/*	
 		function sync_data($user_id,$data=array()){
 			$ack_quotations=array();
