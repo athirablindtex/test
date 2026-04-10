@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+// error_reporting(E_ALL);
+// ini_set('display_errors', 1);
 class FleetApp extends CI_Controller
 {
     public function __construct()
@@ -187,37 +187,46 @@ $this->logFleet($input, 'success', '', $response);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($payload));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
 
+$response = curl_exec($ch);
+$error = curl_error($ch);
+$info = curl_getinfo($ch);
 
-    $response = curl_exec($ch);
-    $error = curl_error($ch);
-    $info = curl_getinfo($ch);
-    print_r($response);
-    exit;
+curl_close($ch); // ✅ close before anything
 
-    curl_close($ch);
+// 🔥 Decode response
+$data = json_decode($response, true);
 
-    // 🔥 Save response (FIXED)
-    file_put_contents(
-        $path . "response-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".txt",
-        print_r([
-            'http_code' => $info['http_code'],
-            'error'     => $error,
-            'response'  => $response
-        ], true)
-    );
 
-    // ✅ CONDITION CHECK
-    if (!$error && $info['http_code'] == 200) {
-        $this->db->where('id', $queue_id)->update('api_sync_queue', [
-            'synced'  => 1,
-            'response'=> $response
-        ]);
-    } else {
-        $this->db->where('id', $queue_id)->update('api_sync_queue', [
-            'response'=> $error ?: $response
-        ]);
-    }
 
-    echo "Done"; // optional for testing
+// 🔥 Save response log
+file_put_contents(
+    $path . "response-" . $queue_id . "-" . date("Y-m-d-H-i-s") . ".txt",
+    print_r([
+        'http_code' => $info['http_code'],
+        'error'     => $error,
+        'response'  => $response
+    ], true)
+);
+
+
+if (
+    !$error &&
+    $info['http_code'] == 200 &&
+    isset($data['status']) &&
+    $data['status'] == 'ok'
+) {
+    // ✅ SUCCESS
+    $this->db->where('id', $queue_id)->update('api_sync_queue', [
+        'synced'  => 1,
+        'response'=> $response
+    ]);
+} else {
+    // ❌ FAILED
+    $this->db->where('id', $queue_id)->update('api_sync_queue', [
+        'response'=> $error ?: $response
+    ]);
+}
+
+  
 }
 }
