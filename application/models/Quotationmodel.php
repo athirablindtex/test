@@ -451,7 +451,7 @@ function triggerDealSync($insert, $server_id, $d)
         'deal_id'        => $insert['deal_id'],
         'quotation_id'   => $server_id,
         'invoice_number' => $insert['invoiceno'] ?? '',
-        'amount'         => $insert['total'] ?? 0,
+        'amount'         => $insert['sub_total'] ?? 0,
         'fitting_date'   => $insert['insFromTime'] ?? null,
         'duration'       => $insert['insToTime'] ?? null,
         'created_at'     => date('Y-m-d H:i:s'),
