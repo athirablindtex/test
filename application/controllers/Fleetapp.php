@@ -64,25 +64,36 @@ class FleetApp extends CI_Controller
             'status'               => 'Save for Later',
             'source'               => 'Fleet'
         ];
-        $quotation_id = $this->fleetmodel->insert_quotation(
-            $result->id,
-            $quotation_data
-        );
-        if (!$quotation_id) {
-            $reason = 'Insert failed';
-            $this->logFleet($input, 'failed', $reason, $response);
-            echo json_encode([
-                'status' => false,
-                'message' => $reason
-            ]);
-            return;
-        }
-        $status = 'success';
-        $response = [
-            'status' => true,
-            'message' => 'Quotation inserted successfully',
-            'quotation_id' => $quotation_id
-        ];
+       $result_data = $this->fleetmodel->insert_quotation(
+    $result->id,
+    $quotation_data
+);
+
+if (empty($result_data) || empty($result_data['quotation_id'])) {
+
+    $reason = 'Insert failed';
+
+    $this->logFleet($input, 'failed', $reason, []);
+
+    echo json_encode([
+        'status' => false,
+        'message' => $reason
+    ]);
+    return;
+}
+$deal_id      = $result_data['deal_id'];
+$action       = $result_data['status']; // inserted / edited
+      $message_text = ($action == 'inserted')
+    ? 'Quotation inserted successfully'
+    : 'Quotation updated successfully';
+
+$response = [
+    'status' => true,
+    'message' => $message_text,
+    'quotation_id' => $quotation_id,
+    'deal_id' => $deal_id,
+    'action' => $action
+];
         $tokenData = $this->db
             ->select('push_token')
             ->where('user_id', $result->id)

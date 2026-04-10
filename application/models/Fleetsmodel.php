@@ -65,10 +65,16 @@ class Fleetsmodel extends CI_Model
                 'synched'             => 1,
                 'updated_date'        => date('Y-m-d H:i:s')
             ];
-            foreach ($existing_list as $existing) {
+                $quotation_ids = [];
+
+                foreach ($existing_list as $existing) {
                 $this->db->where('id', $existing->id);
                 $this->db->update('quotation', $data);
-            }
+
+                $quotation_ids[] = $existing->id; // 
+                }
+                $quotation_id = implode(',', $quotation_ids);
+               $status="edited";
         } else {
             $data = [
                 'sales_person'        => $user_id,
@@ -105,11 +111,17 @@ class Fleetsmodel extends CI_Model
             $data['created_date'] = date('Y-m-d H:i:s');
             $this->db->insert('quotation', $data);
             $quotation_id = $this->db->insert_id();
+            $status="inserted";
         }
         $this->db->trans_complete();
         if ($this->db->trans_status() === FALSE) {
             return 0;
         }
-        return $quotation_id;
+        return [
+        'quotation_id' => $quotation_id ?? null,
+
+    'deal_id'      => $deal_id ?? null,
+    'status'       => $status ?? null
+];
     }
 }
