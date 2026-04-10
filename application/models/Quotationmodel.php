@@ -462,7 +462,7 @@ function triggerDealSync($insert, $server_id, $d)
     $queue_id = $this->db->insert_id();
 
     // ✅ CALL WITH RESPONSE (NOT async)
-    $url = site_url("index.php/fleetapp/processSingleQueue/" . $queue_id);
+    $url = site_url("fleetapp/processSingleQueue/" . $queue_id);
 
     $ch = curl_init($url);
 
