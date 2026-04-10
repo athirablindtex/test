@@ -153,12 +153,10 @@ $this->logFleet($input, 'success', '', $response);
     $url = "https://fleet.tradeblindsdirect.com/api/external/integration";
 
     $payload = [
-        "deal_zoho_id"   => $row->deal_id,
-        "quotation_id"   => $row->quotation_id,
-        "invoice_number" => $row->invoice_number,
-        "amount"         => $row->amount,
-        "fitting_date"   => $row->fitting_date,
-        "duration"       => $row->duration
+        "deal_zoho_id"   => 4731408000155282037,
+      
+        "fitting_date"   => "2026-04-11 14:00:00",
+        "duration"       => 2
     ];
 
     // 🔥 Create log folder
