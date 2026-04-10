@@ -466,8 +466,22 @@ class Quotationmodel extends CI_Model
 		$CI->db->insert('api_sync_queue', $queueData);
 		$queue_id = $CI->db->insert_id();
 
-		// async background call
-		exec("php index.php fleetapp processSingleQueue {$queue_id} > /dev/null 2>&1 &");
+$CI = &get_instance();
+$CI->db->insert('api_sync_queue', $queueData);
+$queue_id = $CI->db->insert_id();
+
+$url = site_url("fleetapp/processSingleQueue/" . $queue_id);
+
+$ch = curl_init($url);
+
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
+curl_setopt($ch, CURLOPT_HEADER, false);
+curl_setopt($ch, CURLOPT_NOBODY, true); // don't wait for body
+curl_setopt($ch, CURLOPT_TIMEOUT_MS, 200); // very short
+curl_setopt($ch, CURLOPT_CONNECTTIMEOUT_MS, 200);
+
+curl_exec($ch);
+curl_close($ch);
 	}
 	public function log_app_quotation(
 		$quotation_server_id,
