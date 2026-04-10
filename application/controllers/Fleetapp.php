@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-// error_reporting(E_ALL);
-// ini_set('display_errors', 1);
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 class FleetApp extends CI_Controller
 {
     public function __construct()
@@ -160,7 +160,7 @@ $this->logFleet($input, 'success', '', $response);
 
     // 🔥 Create log folder
     $path = APPPATH . '../uploads/log/fleet-request-response/';
-    
+
     if (!is_dir($path)) {
         mkdir($path, 0777, true);
     }
