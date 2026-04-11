@@ -161,8 +161,10 @@ $this->logFleet($input, 'success', '', $response);
     $payload = [
         "deal_zoho_id" => $row->deal_id,
           'invoice_number' => $row->invoice_number,
+          'fitting_date' => $row->fitting_date,
           'quotation_id' => $row->quotation_id,
           'amount' => $row->amount,
+          'duration' => $row->duration
        
        
     ];
