@@ -190,7 +190,7 @@ $discountPercent = 0;
             "addlNote3"    => "",
             "addlNote4"    => "",
 
-            "callBackUrl"  => "https://staging.tradeblindsdirect.com/blindtex-app/payment/webhook",
+            "callBackUrl"  => "https://staging.tradeblindsdirect.com/blindtex-app-test/payment/webhook",
             "requestId"    => date('YmdHis'),
             "linkValidity" => "20"
         ];
