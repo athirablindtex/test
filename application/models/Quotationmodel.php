@@ -375,13 +375,20 @@ class Quotationmodel extends CI_Model
 		if ($exists) {
 			return;
 		}
+		$duration = (int)$insert['insToTime'];
+
+if (strpos($insert['insToTime'], 'min') !== false) {
+    $duration += 1;
+}
 		$queueData = [
 			'deal_id'        => $insert['deal_id'],
 			'quotation_id'   => $server_id,
 			'invoice_number' => $insert['invoiceno'] ?? '',
 			'amount'         => $insert['sub_total'] ?? 0,
-			'fitting_date'   => $insert['insFromTime'] ?? null,
-			'duration'       => $insert['insToTime'] ?? null,
+			'fitting_date' => (!empty($insert['insDate']) && !empty($insert['insFromTime']))
+			? date('Y-m-d H:i:s', strtotime($insert['insDate'] . ' ' . $insert['insFromTime']))
+			: null,
+			'duration'       => $duration ?? 0,
 			'created_at'     => date('Y-m-d H:i:s'),
 			'synced'         => 0
 		];
