@@ -231,7 +231,7 @@ class Productmodel extends CI_Model
 		// $this->db->where('deleted_at',NULL)
 		if ($last_synch_date !== null) {
 			$this->db->group_start();
-			$this->db->where('updated_at >', $last_synch_date);
+			//$this->db->where('updated_at >', $last_synch_date);
 
 			if (!empty($updated_product_types)) {
 				$this->db->or_group_start()
