@@ -200,7 +200,7 @@ class Productmodel extends CI_Model
 		return $data;
 	}
 
-	unction get_data_sync_all($user_id)
+	function get_data_sync_all($user_id)
 	{
 		$data_update = array();
 		$data_delete = array();
@@ -231,7 +231,7 @@ class Productmodel extends CI_Model
 		// $this->db->where('deleted_at',NULL)
 		if ($last_synch_date !== null) {
 			$this->db->group_start();
-			$this->db->where('updated_at >', $last_synch_date);
+			//$this->db->where('updated_at >', $last_synch_date);
 
 			if (!empty($updated_product_types)) {
 				$this->db->or_group_start()
@@ -252,6 +252,7 @@ class Productmodel extends CI_Model
 
 		$this->db->where('deleted_at', Null);
 		$dt = $this->gets_data()->result_array();
+	print_r($this->db->last_query());exit;
 
 
 
@@ -335,7 +336,6 @@ class Productmodel extends CI_Model
 
 		return $data;
 	}
-
 
 
 	function delete_sync_data($user_id, $data = array())
