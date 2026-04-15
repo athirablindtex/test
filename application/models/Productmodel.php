@@ -200,7 +200,7 @@ class Productmodel extends CI_Model
 		return $data;
 	}
 
-	function get_data_sync_all2($user_id)
+	function get_data_sync_all($user_id)
 	{
 		$data_update = array();
 		$data_delete = array();
