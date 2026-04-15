@@ -243,16 +243,21 @@ class Productmodel extends CI_Model
 			$this->db->group_end();
 		}
 
-          $company_id = get_company_id_or_null($select_company_id);
+        		$company_id = get_salesperson_company($user_id);
+		 $company_id = get_company_id_or_null( $company_id)  ;
+		  if(!$company_id){
+				 $company_id = Null;
+			 }
+		$this->db->where('company_id', $company_id); 
 		 
 	
-			$this->db->where('company_id', $company_id);
+		
 		
 
 
 		$this->db->where('deleted_at', Null);
 		$dt = $this->gets_data()->result_array();
-		echo "<pre>";print_r($this->db->last_query());exit;
+	print_r($this->db->last_query());exit;
 
 
 
