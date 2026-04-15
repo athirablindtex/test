@@ -231,7 +231,7 @@ class Productmodel extends CI_Model
 		// $this->db->where('deleted_at',NULL)
 		if ($last_synch_date !== null) {
 			$this->db->group_start();
-	
+			$this->db->where('updated_at >', $last_synch_date);
 
 			if (!empty($updated_product_types)) {
 				$this->db->or_group_start()
@@ -243,21 +243,15 @@ class Productmodel extends CI_Model
 			$this->db->group_end();
 		}
 
-        		$company_id = get_salesperson_company($user_id);
-		 $company_id = get_company_id_or_null( $company_id)  ;
-		  if(!$company_id){
-				 $company_id = Null;
-			 }
-		$this->db->where('company_id', $company_id); 
+          $company_id = get_company_id_or_null($select_company_id);
 		 
 	
-		
+			$this->db->where('company_id', $company_id);
 		
 
 
 		$this->db->where('deleted_at', Null);
 		$dt = $this->gets_data()->result_array();
-	print_r($this->db->last_query());exit;
 
 
 
