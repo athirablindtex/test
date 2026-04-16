@@ -262,6 +262,8 @@ if ($company_id === null) {
 
 
 
+
+
 		$this->db->select('margin_type, margin_value');
 		$this->db->where('id', $select_company_id);
 		$existing_margin = $this->db->get('admin_users')->row();
