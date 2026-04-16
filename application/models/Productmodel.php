@@ -246,12 +246,11 @@ class Productmodel extends CI_Model
           $company_id = get_company_id_or_null($select_company_id);
 		 
 	
-	if ($company_id === null) {
+if ($company_id === null) {
     $this->db->where('company_id IS NULL', null, false);
 } else {
     $this->db->where('company_id', $company_id);
 }
-
 
 
 		$this->db->where('deleted_at', Null);
