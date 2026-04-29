@@ -430,40 +430,7 @@ margin-bottom:6px;
 
         <!-- SIGNATURE -->
 
-        <table class="signature-section" width="100%">
-
-            <tr>
-
-                <td width="50%"></td>
-
-                <td width="50%" align="center">
-
-                    <?php
-                    $signature = trim($quotation->signature);
-                    $signaturePath = FCPATH . 'uploads/quotation/' . $signature;
-                    $signatureUrl  = SITE_URL('uploads/quotation/' . $signature);
-
-                    if (!empty($signature) && file_exists($signaturePath)):
-                    ?>
-
-                        <img src="<?= $signatureUrl ?>" alt="signature" style="max-width:150px;height:auto;">
-
-                    <?php else: ?>
-
-                        <div class="signature-box"></div>
-
-                    <?php endif; ?>
-
-                    <div class="signature-label">
-                        Signature
-                    </div>
-
-                </td>
-
-            </tr>
-
-        </table>
-
+       
     </div>
 
 </body>
