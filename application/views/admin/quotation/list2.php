@@ -548,24 +548,49 @@
                   <td><?= $company; ?></td>
                   <td><?= $product['invoiceno']; ?></td>
                   <td class="customer-name"><?= $name; ?></td>
+                  <td>
+<?php
+$status = strtolower(trim($product['status'] ?? ''));
+
+// 🔹 Map DB values to proper display text
+$statusMap = [
+    'confirmed order' => 'Confirmed Order',
+    'send quotation'  => 'Quotation Sent',
+    'saved for later' => 'Saved for Later',
+];
+
+// 🔹 Get formatted text
+$text = $statusMap[$status] ?? ucwords($status);
+
+// 🔹 Badge color logic
+if ($status === 'balance paid') {
+    $badge = 'bg-success text-white';
+    $text  = 'Confirmed Order';
+} else {
+    $badge = 'bg-warning text-dark';
+}
+?>
+
+<span class="badge <?= $badge; ?>"><?= $text; ?></span>
+</td>
                   <!-- <td class="phone-cell"> $displayPhone; ?></td> -->
 
                   <!-- <td> //$product['sub_total']; ?></td> -->
 
                   <!-- Order Status -->
-                  <td>
+                  <!-- <td>
                     <?php
-                    $status = $product['status'] ?? '';
-                    if ($status === 'Balance Paid') {
-                      $badge = 'bg-success text-white';
-                      $text  = 'Confirmed Order';
-                    } else {
-                      $badge = 'bg-warning text-dark';
-                      $text  = $status;
-                    }
-                    ?>
+                    // $status = $product['status'] ?? '';
+                    // if ($status === 'Balance Paid') {
+                    //   $badge = 'bg-success text-white';
+                    //   $text  = 'Confirmed Order';
+                    // } else {
+                    //   $badge = 'bg-warning text-dark';
+                    //   $text  = $status;
+                    // }
+                    // ?>
                     <span class="badge <?= $badge; ?>"><?= $text; ?></span>
-                  </td>
+                  </td> -->
 
                   <td>
 

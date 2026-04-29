@@ -110,7 +110,7 @@ $config['menu'] = array(
 
 	),
 	'quotation' => array(
-		'name'		=>	'Quotations',
+		'name'		=>	'Quotations/Orders',
 		'active'	=> 'quotation',
 		'permission' =>	'quotation_list',
 		'icon'		=>	'fas fa-calendar-check',
