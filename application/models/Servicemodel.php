@@ -144,9 +144,9 @@ class Servicemodel extends CI_Model
                         'category' =>  $category,
 
                     );
-                    if (!empty($quotation->sales_person) && $quotation->sales_person != 12) {
+                  //  if (!empty($quotation->sales_person) && $quotation->sales_person != 12) {
                         $this->send_mail_invoice($inv_mail_params, $quotation,  $customer,  $company);
-                    }
+                  //  }
                 }
                 $worksheet_pdf = $this->generate_pdf_worksheet($invoice_data); ///MUJEEB  test
 
