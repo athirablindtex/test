@@ -84,6 +84,7 @@ class Customer extends MY_Controller
 										if(@$data['id']==0){
 												$data['active']=1;
 												$data['created_date']=date('Y-m-d');
+												$data['updated_at']   = date('Y-m-d H:i:s');
 												$data['version']=1;
 											}	
 										else{
