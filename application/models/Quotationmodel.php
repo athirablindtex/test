@@ -1352,4 +1352,23 @@ if (strpos($insert['insToTime'], 'min') !== false) {
 			'activeItem' => $status
 		]);
 	}
+
+	// =====================================================
+	// 🔷 Create Empty Quotation for New Customer
+	// =====================================================
+	function create_empty_quotation($customer_id, $sales_person, $company_id)
+	{
+		$data = [
+			'customer'           => $customer_id,
+			'sales_person'       => $sales_person,
+			'company'            => $company_id,
+			'status'             => 'Save for Later',
+			'source'             => 'Customer',
+			'created_date'       => date('Y-m-d H:i:s'),
+			'updated_date'       => date('Y-m-d H:i:s')
+		];
+		
+		$this->db->insert($this->table_name, $data);
+		return $this->db->insert_id();
+	}
 }

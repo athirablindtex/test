@@ -92,6 +92,17 @@ class Customer extends MY_Controller
 													}
 											}	
 										$id=$this->$module_model->save($data, $this->input->post('id'));
+										
+										// Create empty quotation for new customer
+										if ($id > 0 && $this->input->post('id') == 0) {
+											$this->load->model('quotationmodel');
+											$this->quotationmodel->create_empty_quotation(
+												$id,
+												$data['sales_person'] ?? 0,
+												$data['company'] ?? 0
+											);
+										}
+										
 										if($appoint_date!=""){
 												$appoint=array('customer'=>$id,'appointment_date'=>date('Y-m-d',strtotime($appoint_date)),'sales_person'=>$data['sales_person'],'company'=>$data['company'],'created_date'=>date('Y-m-d'),'remarks'=>$data['remarks']);
 												$appoint["customer_name"]=$data['name'];
