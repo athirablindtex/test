@@ -1356,10 +1356,14 @@ if (strpos($insert['insToTime'], 'min') !== false) {
 	// =====================================================
 	// 🔷 Create Empty Quotation for New Customer
 	// =====================================================
-	function create_empty_quotation($customer_id, $sales_person, $company_id)
+	function create_empty_quotation($customer_id, $sales_person, $company_id, $customer_data = array())
 	{
 		$data = [
 			'customer'           => $customer_id,
+			'customer_name'      => $customer_data['name'] ?? '',
+			'customer_phone'     => $customer_data['phone'] ?? '',
+			'customer_address'   => $customer_data['address'] ?? '',
+			'customerEmail'      => $customer_data['email'] ?? '',
 			'sales_person'       => $sales_person,
 			'company'            => $company_id,
 			'status'             => 'Save for Later',

@@ -96,11 +96,39 @@ class Customer extends MY_Controller
 										// Create empty quotation for new customer
 										if ($id > 0 && $this->input->post('id') == 0) {
 											$this->load->model('quotationmodel');
-											$this->quotationmodel->create_empty_quotation(
+											$this->load->library('Firebase');
+											
+											$customer_data = [
+												'name'    => $data['name'] ?? '',
+												'phone'   => $data['phone'] ?? '',
+												'address' => $data['address'] ?? '',
+												'email'   => $data['email'] ?? ''
+											];
+											
+											$quotation_id = $this->quotationmodel->create_empty_quotation(
 												$id,
 												$data['sales_person'] ?? 0,
-												$data['company'] ?? 0
+												$data['company'] ?? 0,
+												$customer_data
 											);
+											
+											// Send notification to sales person
+											if ($quotation_id > 0 && !empty($data['sales_person'])) {
+												$tokenData = $this->db
+													->select('push_token')
+													->where('user_id', $data['sales_person'])
+													->where('push_token IS NOT NULL', null, false)
+													->order_by('id', 'DESC')
+													->limit(1)
+													->get('login_tokkens')
+													->row();
+												
+												if ($tokenData && !empty($tokenData->push_token)) {
+													$title   = "New Quotation Created";
+													$message = "New quotation for customer " . ($data['name'] ?? '') . " has been created";
+													$this->firebase->sendNotification($tokenData->push_token, $title, $message);
+												}
+											}
 										}
 										
 										if($appoint_date!=""){
