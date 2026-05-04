@@ -205,7 +205,14 @@
 
 
 
-
+                                       <div class="col-md-12">
+                                          <div class="form-check">
+                                             <input class="form-check-input" type="checkbox" name="create_quotation" id="create_quotation" checked>
+                                             <label class="form-check-label" for="create_quotation">
+                                                Create Quotation
+                                             </label>
+                                          </div>
+                                       </div>
 
 
 

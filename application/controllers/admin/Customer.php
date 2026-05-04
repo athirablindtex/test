@@ -95,7 +95,7 @@ class Customer extends MY_Controller
 										$id=$this->$module_model->save($data, $this->input->post('id'));
 										
 										// Create empty quotation for new customer
-										if ($id > 0 && $this->input->post('id') == 0) {
+										if ($id > 0 && $this->input->post('id') == 0 && !empty($data['sales_person']) && $this->input->post('create_quotation')) {
 											$this->load->model('quotationmodel');
 											$this->load->library('Firebase');
 											
