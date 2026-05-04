@@ -217,8 +217,8 @@ class Customer extends MY_Controller
 		];
 		$quotation_id = $this->quotationmodel->create_empty_quotation(
 			$target_customer_id,
-			$data['sales_person'] ?? 0,
-			$data['company'] ?? 0,
+			$selected_sales_person ?? 0,
+			$customer->company ?? 0,
 			$customer_data
 		);
 
@@ -227,7 +227,7 @@ class Customer extends MY_Controller
 			$this->load->library('Firebase');
 			$tokenData = $this->db
 				->select('push_token')
-				->where('user_id', $sales_person_id)
+				->where('user_id', $selected_sales_person)
 				->where('push_token IS NOT NULL', null, false)
 				->order_by('id', 'DESC')
 				->limit(1)
@@ -236,10 +236,12 @@ class Customer extends MY_Controller
 
 			if ($tokenData && !empty($tokenData->push_token)) {
 				$title = "New Quotation Created";
-				$message = "New quotation for customer " . $customer->name. " has been created";
+				$message = "New quotation for customer " . $customer->name . " has been created";
 				$this->firebase->sendNotification($tokenData->push_token, $title, $message);
 			}
 		}
+		$this->session->set_flashdata('success', 'Quotation created successfully');
+		redirect($this->redirect);
 
 		// {
 		// 	if (empty($sales_person_id)) {

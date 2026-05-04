@@ -245,7 +245,7 @@
                                     <span class="fw-mediumbold">Create</span>
                                     <span class="fw-light">Quotation</span>
                                  </h5>
-                                 <button type="button" class="close close-model" aria-label="Close">
+                                 <button type="button" class="close" aria-label="Close" data-dismiss="modal">
                                     <span aria-hidden="true">×</span>
                                  </button>
                               </div>
@@ -283,7 +283,7 @@
                               </div>
                               <div class="modal-footer no-bd">
                                  <button type="submit" class="btn btn-primary">Create Quotation</button>
-                                 <button type="button" class="btn close-model">Close</button>
+                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                               </div>
                               </form>
                            </div>
