@@ -232,6 +232,64 @@
                         </div>
                      </div>
 
+                     </div>
+                     </div>
+                     </form>
+
+                     <!-- Create Quotation Modal -->
+                     <div class="modal fade" id="createQuotationModal" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header no-bd">
+                                 <h5 class="modal-title">
+                                    <span class="fw-mediumbold">Create</span>
+                                    <span class="fw-light">Quotation</span>
+                                 </h5>
+                                 <button type="button" class="close close-model" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                 </button>
+                              </div>
+                              <div class="modal-body">
+                                 <form action="<?= site_url('admin/' . $controller . '/create_quotation') ?>" method="post" id="createQuotationForm">
+                                    <input type="hidden" name="customer_id" id="quotation_customer_id" value="0">
+                                    <div class="row">
+                                       <div class="col-md-12">
+                                          <div class="form-group form-group-default">
+                                             <label>Customer</label>
+                                             <input type="text" class="form-control" id="quotation_customer_name" readonly>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="form-group form-group-default">
+                                             <label>Current Salesperson</label>
+                                             <input type="text" class="form-control" id="quotation_current_salesperson_name" readonly>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <div class="form-group form-group-default">
+                                             <label>Select Salesperson</label>
+                                             <select class="form-control" name="sales_person" id="quotation_sales_person" required>
+                                                <option value="">Select</option>
+                                                <?php foreach ($sales_person as $c) { ?>
+                                                   <option value="<?= $c->id; ?>"><?= $c->name; ?></option>
+                                                <?php } ?>
+                                             </select>
+                                          </div>
+                                       </div>
+                                       <div class="col-md-12">
+                                          <p class="text-muted">If the selected salesperson is different from the current one, a new customer record will be created for the quotation.</p>
+                                       </div>
+                                    </div>
+                              </div>
+                              <div class="modal-footer no-bd">
+                                 <button type="submit" class="btn btn-primary">Create Quotation</button>
+                                 <button type="button" class="btn close-model">Close</button>
+                              </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+
                      <form method="get">
                         <div class="row">
 
@@ -270,9 +328,8 @@
                                     <th>Email</th>
                                     <th>Address</th>
                                     <th>Sales Person</th>
-                                    <th> Company Name</th>
-                                 
-                                    <!-- <th style="width: 70px">Action</th> -->
+                                    <th>Company Name</th>
+                                    <th>Action</th>
                                  </tr>
                               </thead>
 
@@ -301,22 +358,18 @@
                                        </td>
                                        <td><?php echo @$product->sales_person_name; ?></td>
                                        <td><?php echo @$product->company_name; ?></td>
-                                
-
-                                       <!-- <td>
-                                          <div class="form-button-action">
-                                             <?php if (@$permissions['add']) { ?>
-                                                <a href="<?php echo site_url('admin/' . $controller . '/list/edit/' . @$product->$module_id . ''); ?>" data-toggle="tooltip" title="" class="btn btn-link btn-primary btn-lg" data-original-title="Edit Task">
-                                                   <i class="fa fa-edit"></i>
-                                                </a>
-                                             <?php } ?>
-                                             <?php if (@$permissions['delete']) { ?>
-                                                <a href="<?php echo site_url('admin/' . $controller . '/delete/' . @$product->$module_id . ''); ?>" onclick="return confirm('<?php echo $this->lang->line('common_confirm_delete'); ?>');" data-toggle="tooltip" title="" class="btn btn-link btn-danger" data-original-title="Remove">
-                                                   <i class="fa fa-times"></i>
-                                                </a>
-                                             <?php } ?>
-                                          </div>
-                                       </td> -->
+                                       <td>
+                                          <button
+                                             type="button"
+                                             class="btn btn-info btn-sm create-quotation-btn"
+                                             data-customer-id="<?= @$product->$module_id ?>"
+                                             data-customer-name="<?= htmlspecialchars(@$product->name, ENT_QUOTES) ?>"
+                                             data-current-salesperson="<?= @$product->sales_person ?>"
+                                             data-current-salesperson-name="<?= htmlspecialchars(@$product->sales_person_name ?: 'Not assigned', ENT_QUOTES) ?>"
+                                          >
+                                             Create Quotation
+                                          </button>
+                                       </td>
                                     </tr>
 
                                  <?php $i++;
@@ -394,6 +447,19 @@
       });
       $('#datetime3').datetimepicker({
          format: 'MM/DD/YYYY H:mm',
+      });
+
+      $(document).on('click', '.create-quotation-btn', function() {
+         var customerId = $(this).data('customer-id');
+         var customerName = $(this).data('customer-name');
+         var currentSalespersonName = $(this).data('current-salesperson-name');
+         var currentSalesperson = $(this).data('current-salesperson');
+
+         $('#quotation_customer_id').val(customerId);
+         $('#quotation_customer_name').val(customerName);
+         $('#quotation_current_salesperson_name').val(currentSalespersonName);
+         $('#quotation_sales_person').val(currentSalesperson);
+         $('#createQuotationModal').modal('show');
       });
 
    });
